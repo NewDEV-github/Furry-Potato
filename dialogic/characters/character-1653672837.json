@@ -1,0 +1,21 @@
+{
+	"color": "#ff003aff",
+	"description": "Lol",
+	"display_name": "DoS",
+	"display_name_bool": true,
+	"id": "character-1653672837.json",
+	"mirror_portraits": false,
+	"name": "DoS.json",
+	"nickname": "DoS",
+	"nickname_bool": true,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1653672213.cfg"
+}

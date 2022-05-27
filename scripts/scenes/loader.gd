@@ -22,4 +22,5 @@ func load_game():
 		get_tree().change_scene("res://scenes/main/menu.tscn")
 	else:
 		ProjectSettings.load_resource_pack(Globals.pck_data_path)
+		ProjectSettings.load_resource_pack(Globals.import_data_path)
 		get_tree().change_scene("res://scenes/main/menu.tscn")

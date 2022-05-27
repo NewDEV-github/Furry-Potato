@@ -1,5 +1,6 @@
 extends Node
 var pck_data_path = OS.get_executable_path().get_base_dir() + "/data/data.pck"
+var import_data_path = OS.get_executable_path().get_base_dir() + "/data/import_data.pck"
 var base_install_path = OS.get_executable_path().get_base_dir() + '/'
 var mode_run_from_godot = true
 var proto_tech_initialized = false

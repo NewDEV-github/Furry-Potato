@@ -1,0 +1,6 @@
+[gd_scene format=2]
+
+[node name="PartyRatingsMenu" type="WindowDialog"]
+margin_right = 48.0
+margin_bottom = 40.0
+window_title = "All party ratings"

@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"character": "character-1653672837.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "So.... Do You want to go on a little tutorial accross the whole game?"
+		},
+		{
+			"choice": "Yes, of course",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "run_tutorial",
+			"event_id": "dialogic_040"
+		},
+		{
+			"choice": "Nah, LET'S MAKE SOME NOISE",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "go_to_game",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1653674220.json",
+		"name": "tutorial2"
+	}
+}

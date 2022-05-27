@@ -32,6 +32,27 @@ func _export_begin(features, is_debug, path:String, flags):
 	
 	
 	
+	print("[%s ImportDataExport] => Exporting to path: %s" % [_generate_timestamp(), path.get_base_dir()])
+	print("[%s ImportDataExport] => Scanning & collecting data..." % _generate_timestamp())
+	var import_data_files = get_all_files('res://.import')
+	print("[%s ImportDataExport] => Preparing export directory..." % _generate_timestamp())
+	var import_data_pck = PCKPacker.new()
+	var import_data_dir = Directory.new()
+	var import_data_file = File.new()
+	if not import_data_dir.dir_exists(path.get_base_dir() + '/data/'):
+		import_data_dir.make_dir_recursive(path.get_base_dir() + '/data/')
+	if import_data_file.file_exists(path.get_base_dir()+ "/data/import_data.pck"):
+		import_data_dir.remove(path.get_base_dir()+ "/data/import_data.pck")
+	print("[%s ImportDataExport] => Adding files to data/import_data.pck..." % _generate_timestamp())
+	import_data_pck.pck_start(path.get_base_dir()+ "/data/import_data.pck")
+	for i in import_data_files:
+		import_data_pck.add_file(i, i)
+	print("[%s ImportDataExport] => Flushing data/import_data.pck..." % _generate_timestamp())
+	import_data_pck.flush()
+	print("[%s ImportDataExport] => Done exporting data/import_data.pck..." % _generate_timestamp())
+	
+	
+	
 	var data_files = get_all_files('res://misc/')
 	for i in data_files:
 		var splitted_path = str(i).split("/")

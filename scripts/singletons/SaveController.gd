@@ -46,7 +46,7 @@ func _ready():
 	print(_preload_game_state("test"))
 
 func save_game(save_name:String):
-	var data = {}
+	var data = {"DJ Name": GameController.data["DJName"]}
 	_save_game_state(data, save_name)
 
 func load_game(save_name:String):

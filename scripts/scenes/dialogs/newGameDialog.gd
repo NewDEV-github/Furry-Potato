@@ -21,8 +21,9 @@ func _on_Button_pressed():
 	if save_name_check($VBoxContainer/LineEdit.text) == true:
 		GameController.current_save_name = $VBoxContainer/LineEdit.text
 		SaveController.save_game(GameController.current_save_name)
+		get_tree().change_scene("res://scenes/game/game.tscn")
 	else:
-		$VBoxContainer/ErrorLabel.text = "\nError: Save name must only contain letters, numbers"
+		$VBoxContainer/ErrorLabel.text = "\nError: Save name must only contain letters and numbers"
 
 func save_name_check(save_name:String) -> bool:
 	var status = true

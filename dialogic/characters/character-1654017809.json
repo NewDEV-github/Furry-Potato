@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "Moon",
+	"display_name_bool": true,
+	"id": "character-1654017809.json",
+	"mirror_portraits": false,
+	"name": "ClubManager3.json",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

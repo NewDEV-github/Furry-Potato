@@ -12,5 +12,5 @@ func _ready():
 
 
 func run_tutorial():
-	pass
+	show()
 #	pass

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Fast_Five_-_Don_Omar_Ft._Lucenzo_-_Danza_Kuduro.mp4.mp3-ca92afd719f79f69fa36537f2ad71cdd.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/bg/Fast_Five_-_Don_Omar_Ft._Lucenzo_-_Danza_Kuduro.mp4.mp3"
+dest_files=[ "res://.import/Fast_Five_-_Don_Omar_Ft._Lucenzo_-_Danza_Kuduro.mp4.mp3-ca92afd719f79f69fa36537f2ad71cdd.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

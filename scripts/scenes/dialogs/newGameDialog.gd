@@ -22,6 +22,7 @@ func _on_Button_pressed():
 		GameController.current_save_name = $VBoxContainer/LineEdit.text
 		SaveController.save_game(GameController.current_save_name)
 		get_tree().change_scene("res://scenes/game/game.tscn")
+		MjPlayer.fade_out()
 	else:
 		$VBoxContainer/ErrorLabel.text = "\nError: Save name must only contain letters and numbers"
 

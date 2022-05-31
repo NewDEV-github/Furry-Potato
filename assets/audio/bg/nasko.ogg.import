@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/nasko.ogg-aa4a4795fba45decd6f5e672ecb7795e.oggstr"
+
+[deps]
+
+source_file="res://assets/audio/bg/nasko.ogg"
+dest_files=[ "res://.import/nasko.ogg-aa4a4795fba45decd6f5e672ecb7795e.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

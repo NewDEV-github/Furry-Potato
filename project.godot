@@ -110,13 +110,20 @@ config/icon="res://icon.png"
 
 [autoload]
 
+PartyController="*res://scenes/game/other/party.tscn"
+LoadingSavingDataIcon="*res://scenes/loading_saving_data_icon.tscn"
 Globals="*res://scripts/singletons/Globals.gd"
-Nicense="*res://addons/nicense/nicense.gd"
 OptionController="*res://scripts/singletons/OptionController.gd"
+Nicense="*res://addons/nicense/nicense.gd"
 SaveController="*res://scripts/singletons/SaveController.gd"
 DiscordSDK="*res://scripts/singletons/DiscordSDK.gd"
-LoadingSavingDataIcon="*res://scenes/loading_saving_data_icon.tscn"
 GameController="*res://scripts/singletons/GameController.gd"
+ClubController="*res://scripts/singletons/ClubController.gd"
+MjPlayer="*res://scenes/game/other/MJPlayer.tscn"
+
+[display]
+
+window/size/resizable=false
 
 [editor_plugins]
 
@@ -148,6 +155,14 @@ texture={
 "size_limit": 0,
 "stream": false,
 "svg/scale": 1.0
+}
+mp3={
+"loop": false,
+"loop_offset": 0
+}
+ogg_vorbis={
+"loop": false,
+"loop_offset": 0
 }
 
 [input]

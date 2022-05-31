@@ -17,6 +17,7 @@ bg_color = Color( 1, 1, 1, 0 )
 expand_margin_left = 10.0
 
 [node name="DialogNode" type="Control"]
+pause_mode = 1
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 6 )
@@ -81,13 +82,11 @@ samples = [ ExtResource( 9 ) ]
 random_strategy = 2
 
 [node name="Hovering" type="AudioStreamPlayer" parent="FX/Audio"]
-pitch_scale = 0.0001
 script = ExtResource( 8 )
 samples = [ ExtResource( 9 ) ]
 random_strategy = 2
 
 [node name="Selecting" type="AudioStreamPlayer" parent="FX/Audio"]
-pitch_scale = 0.0001
 script = ExtResource( 8 )
 samples = [ ExtResource( 9 ) ]
 random_strategy = 2

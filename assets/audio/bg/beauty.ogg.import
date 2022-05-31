@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/beauty.ogg-b3da08a890e81d1a05285d39e5e6ec04.oggstr"
+
+[deps]
+
+source_file="res://assets/audio/bg/beauty.ogg"
+dest_files=[ "res://.import/beauty.ogg-b3da08a890e81d1a05285d39e5e6ec04.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

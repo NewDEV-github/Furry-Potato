@@ -12,12 +12,12 @@ func _ready():
 
 
 func show_icon():
-	$AnimationPlayer.play("show_up")
+	$CanvasLayer/AnimationPlayer.play("show_up")
 
 func _process(delta):
 	if DiscordSDK.av_en == "True":
 		if DiscordSDK.discord_user_img != null:
-			$TextureRect.texture = DiscordSDK.discord_user_img
+			$CanvasLayer/TextureRect.texture = DiscordSDK.discord_user_img
 
 func hide_icon():
-	$AnimationPlayer.play("hide")
+	$CanvasLayer/AnimationPlayer.play("hide")

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/audio/bg/mj.ogg" type="AudioStream" id=1]
+[ext_resource path="res://scripts/scenes/game/other/MJPlayer.gd" type="Script" id=2]
+
+[node name="MJPlayer" type="AudioStreamPlayer"]
+pause_mode = 2
+stream = ExtResource( 1 )
+bus = "mJ"
+script = ExtResource( 2 )
+
+[node name="TweenFadeIn" type="Tween" parent="."]
+
+[node name="TweenFadeOut" type="Tween" parent="."]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/credits_gekagd.ogg-14b43f50c7285ac47dc1b94a4cadab48.oggstr"
+
+[deps]
+
+source_file="res://assets/audio/bg/credits_gekagd.ogg"
+dest_files=[ "res://.import/credits_gekagd.ogg-14b43f50c7285ac47dc1b94a4cadab48.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

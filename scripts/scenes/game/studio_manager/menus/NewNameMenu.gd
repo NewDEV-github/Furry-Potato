@@ -17,6 +17,7 @@ func _ready():
 
 
 func _on_Button_pressed():
-	GameController.data["DJName"] = $VBoxContainer/LineEdit.text
+	GameController.set_name($VBoxContainer/LineEdit.text)
 	hide()
+	Dialogic.set_variable('PlayerName', $VBoxContainer/LineEdit.text)
 	emit_signal("new_name_ready")

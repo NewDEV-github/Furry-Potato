@@ -52,7 +52,8 @@ func check_emails():
 		print(all_partys_data[i + "_req_experience"])
 		if current_experience == all_partys_data[i + "_req_experience"] or current_experience > all_partys_data[i + "_base_experience"]:
 			print("Found party!")
-			var party_club = "Club"
+			var club_id = all_partys_data[i+"_club_id"]
+			var party_club = ClubController.club_data[str(club_id)+"_name"]
 			addEmail("Party at: " + party_club, "Party is going on in " + party_club, "Hey, as I said, party is going on in " + party_club + "\n\nPrice is pretty, pretty nice, should I say to the club manager,\nthat You'll be DJ that night?", GameController.data["DJName"].to_lower() + "@furry.potato", "dos@furry.potato", "party_email")
 	_prerender_emails()
 func _on_EmailList_item_activated(index):

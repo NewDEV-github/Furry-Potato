@@ -31,6 +31,7 @@ func _ready():
 	fade_in()
 	start_dialog.connect("dialogic_signal", self, "dialog_listener")
 	$Manager/menus/NewNameMenu.connect("new_name_ready", self, "_start_2nd_dialog")
+	PartyController.connect("party_ended", self, "on_party_ended")
 	add_child(start_dialog)
 func play_random_song():
 	randomize()
@@ -46,6 +47,8 @@ func dialog_listener(string:String):
 			$Manager/menus/EmailMenu/EmailControl.check_emails()
 		"dialog1_closed":
 			$Manager/menus/NewNameMenu.popup_centered()
+		'after_first_party':
+			$PartyResults.popup_centered()
 
 func _start_2nd_dialog():
 	var new_dialog = Dialogic.start('tutorial2')
@@ -69,3 +72,18 @@ func _on_AudioStreamPlayer_finished():
 
 func _on_PauseMenu_visibility_changed():
 	fade_in()
+
+func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp):
+	var c_n = ClubController.club_data[str(PartyController.party_data[current_party_id+"_club_id"])+"_name"]
+	_render_party_results(c_n, party_rewards_money, party_rewards_exp)
+	if str(current_party_id) == '0':
+		var dialog = Dialogic.start('first_party_end')
+		dialog.connect("dialogic_signal", self, "dialog_listener")
+		add_child(dialog)
+	print("Recived %s money" % str(party_rewards_money))
+	print("Recived %s exp" % str(party_rewards_exp))
+
+
+func _render_party_results(club_name, new_money, new_exp):
+	var base_string = "Party at %s\n\nRecived money: %s\nRecived experience: %s" % [club_name, new_money, new_exp]
+	$PartyResults/RichTextLabel.text = base_string

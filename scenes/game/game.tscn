@@ -85,6 +85,20 @@ volume_db = -80.0
 
 [node name="TweenFadeOut" type="Tween" parent="."]
 
+[node name="PartyResults" type="WindowDialog" parent="."]
+visible = true
+margin_right = 683.0
+margin_bottom = 463.0
+window_title = "Party results"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="PartyResults"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -55.0
+
 [connection signal="visibility_changed" from="PauseMenu" to="." method="_on_PauseMenu_visibility_changed"]
 [connection signal="pressed" from="Tutorial/TutorialFinished" to="." method="_on_TutorialFinished_pressed"]
 [connection signal="finished" from="AudioStreamPlayer" to="." method="_on_AudioStreamPlayer_finished"]

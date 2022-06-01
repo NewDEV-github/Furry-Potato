@@ -36,12 +36,14 @@ func _ready():
 
 func _load_options_visually():
 	var cfg = ConfigFile.new()
+	print(option_file_path)
 	cfg.load(option_file_path)
 	for i in cfg.get_sections():
 		var _tmp_value
 		var _tmp_node_value
 		var _tmp_node
 		for sec_key in cfg.get_section_keys(i):
+			print(sec_key)
 			if str(sec_key).ends_with("_value") and not str(sec_key).ends_with("_node_value"):
 				_tmp_value = cfg.get_value(i, sec_key)
 			elif str(sec_key).ends_with("_node"):

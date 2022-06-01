@@ -29,49 +29,65 @@ margin_right = 371.0
 margin_bottom = 444.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 11
 alignment = 1
 
 [node name="discord_avatar" type="CheckButton" parent="splitter/left"]
-margin_top = 98.0
+margin_top = 23.0
 margin_right = 371.0
-margin_bottom = 138.0
-text = "Use Discord avatar as loading/saving icon"
+margin_bottom = 63.0
+text = "Use Discord avatar as loading/saving icon *"
 
 [node name="vsync" type="CheckButton" parent="splitter/left"]
-margin_top = 142.0
+margin_top = 74.0
 margin_right = 371.0
-margin_bottom = 182.0
+margin_bottom = 114.0
 text = "VSync"
 
 [node name="vsync_compositor" type="CheckButton" parent="splitter/left"]
-margin_top = 186.0
+margin_top = 125.0
 margin_right = 371.0
-margin_bottom = 226.0
+margin_bottom = 165.0
 text = "VSync via compositor"
 
 [node name="enableProtogenTechnology" type="CheckButton" parent="splitter/left"]
-margin_top = 230.0
+margin_top = 176.0
 margin_right = 371.0
-margin_bottom = 270.0
+margin_bottom = 216.0
 text = "Enable Protogen technology"
 
 [node name="UseDifferentCharacterSet" type="CheckButton" parent="splitter/left"]
-margin_top = 274.0
+margin_top = 227.0
 margin_right = 371.0
-margin_bottom = 314.0
-text = "Use different character set"
+margin_bottom = 267.0
+text = "Use different character set *"
 
 [node name="HSeparator" type="HSeparator" parent="splitter/left"]
-margin_top = 318.0
+margin_top = 278.0
 margin_right = 371.0
-margin_bottom = 322.0
+margin_bottom = 282.0
 
 [node name="NicenseButton" type="Button" parent="splitter/left"]
-margin_top = 326.0
+margin_top = 293.0
 margin_right = 371.0
-margin_bottom = 346.0
+margin_bottom = 313.0
 text = "Copyright & Licenses"
 script = ExtResource( 2 )
+
+[node name="HSeparator2" type="HSeparator" parent="splitter/left"]
+margin_top = 324.0
+margin_right = 371.0
+margin_bottom = 328.0
+
+[node name="Label" type="Label" parent="splitter/left"]
+margin_top = 339.0
+margin_right = 371.0
+margin_bottom = 421.0
+text = "
+WARNING!!!
+
+Options marked with star sign (\"*\") will require game restart to work!"
+autowrap = true
 
 [node name="right" type="VBoxContainer" parent="splitter"]
 margin_left = 375.0

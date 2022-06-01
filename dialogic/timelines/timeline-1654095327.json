@@ -1,0 +1,135 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654017618.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654017664.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1654017618.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, [PlayerName]. I'm Michael. Spin Masters Club manager"
+		},
+		{
+			"character": "character-1654017618.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks, that was, a pretty nice party. Thanks!"
+		},
+		{
+			"character": "character-1654017618.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "P. S. I hope, We will work toegether more times. That was just awesome!"
+		},
+		{
+			"character": "character-1654017664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks, Michael "
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1654017618.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1653672837.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1653672837.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So, [PlayerName]... That was Your first job. Well done ;3"
+		},
+		{
+			"character": "character-1653672837.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "P. S. I hope, that you know that better party = more money and growning up populatity. As more popular You are as more well-paid job offer You'll recive :D"
+		},
+		{
+			"character": "character-1653672837.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And... here are some results of Your work :D!"
+		},
+		{
+			"emit_signal": "after_first_party",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1654095327.json",
+		"name": "first_party_end"
+	}
+}

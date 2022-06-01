@@ -34,6 +34,9 @@ mouse_filter = 2
 [node name="DataMenu" parent="menus" instance=ExtResource( 16 )]
 
 [node name="EmailMenu" parent="menus" instance=ExtResource( 12 )]
+visible = true
+margin_right = 599.0
+margin_bottom = 474.0
 indicator = NodePath("../../menu/EmailMenu/UnReadEmailIndicator")
 
 [node name="PartyRatingsMenu" parent="menus" instance=ExtResource( 13 )]

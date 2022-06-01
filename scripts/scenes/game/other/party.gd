@@ -5,6 +5,9 @@ var party_ids = [
 	'0',
 	'1'
 ]
+
+var done_partys = []
+
 var party_data = {
 	"0_party_name": "",
 	"0_club_id": 0,
@@ -47,6 +50,11 @@ func compute_party_rewards(id:String):
 func _on_AnimationPlayer_animation_finished(anim_name):
 	$CanvasLayer/ColorRect.hide()
 	$CanvasLayer/Label.hide()
-	var party_rewards = compute_party_rewards(current_party_id)
 	if anim_name == 'party':
-		emit_signal("party_ended", current_party_id, party_rewards["money"], party_rewards["exp"])
+		end_party()
+
+func end_party():
+	var party_rewards = compute_party_rewards(current_party_id)
+	emit_signal("party_ended", current_party_id, party_rewards["money"], party_rewards["exp"])
+	done_partys.append(str(current_party_id))
+	party_ids.remove(party_ids.find(str(current_party_id)))

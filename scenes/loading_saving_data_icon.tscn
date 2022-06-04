@@ -3,6 +3,7 @@
 [ext_resource path="res://scripts/scenes/loading_saving_data_icon.gd" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
 [ext_resource path="res://assets/Graphics/Masks/circle.png" type="Texture" id=3]
+[ext_resource path="res://assets/loading_saving_data_icon.gdshader" type="Shader" id=4]
 
 [sub_resource type="Animation" id=3]
 length = 0.001
@@ -133,20 +134,8 @@ tracks/3/keys = {
 "times": PoolRealArray( 0, 1 )
 }
 
-[sub_resource type="Shader" id=1]
-code = "shader_type canvas_item;
-
-uniform sampler2D mask_texture;
-
-void fragment() {
-    vec4 colour = texture(TEXTURE, UV);
-    colour.a *= texture(mask_texture, UV).a;
-
-    COLOR = colour;
-}"
-
 [sub_resource type="ShaderMaterial" id=2]
-shader = SubResource( 1 )
+shader = ExtResource( 4 )
 shader_param/mask_texture = ExtResource( 3 )
 
 [node name="Control" type="Control"]

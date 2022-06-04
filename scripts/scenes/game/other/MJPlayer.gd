@@ -14,8 +14,11 @@ func fade_in():
 	tween_in.start()
 
 func fade_out():
-	tween_out.interpolate_property(self, "volume_db", 0, -80, transition_duration, transition_type, Tween.EASE_IN, 0)
+	tween_out.interpolate_property(self, "volume_db", volume_db, -80, transition_duration, transition_type, Tween.EASE_IN, 0)
 	tween_out.start()
 
 func start():
 	play()
+	is_playing = true
+
+var is_playing = false

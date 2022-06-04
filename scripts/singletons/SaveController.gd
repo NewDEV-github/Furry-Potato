@@ -42,8 +42,6 @@ func _ready():
 		save_file_base_path = "res://saves/"
 	else:
 		save_file_base_path = Globals.base_install_path + "saves/"
-	_save_game_state({"ol": "lo"}, "test")
-	print(_preload_game_state("test"))
 
 func save_game(save_name:String):
 	var data = {"DJ Name": GameController.data["DJName"]}

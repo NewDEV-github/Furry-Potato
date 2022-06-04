@@ -14,3 +14,15 @@ var data = {
 func set_name(new_name):
 	data["DJName"] = new_name
 	print("New name is: " + data["DJName"])
+
+func add_money(anmount):
+	data["money"] += anmount
+
+func add_experience(anmount):
+	data["experience"] += anmount
+
+func get_money():
+	return data['money']
+
+func get_experience():
+	return data['experience']

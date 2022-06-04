@@ -15,7 +15,7 @@ var shop_items = [
 		"item_name": "test item",
 		"item_price": 23,
 		"item_icon": "res://icon.png",
-		"item_description": "Best headphones ever",
+		"item_description": "Best headphones ever", 
 		"music_quality_multiplier": 0.1,
 		"experience_multiplier": 0.1,
 		"party_quality_multiplier": 0

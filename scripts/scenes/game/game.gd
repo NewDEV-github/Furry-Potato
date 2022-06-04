@@ -15,18 +15,41 @@ func fade_out():
 var start_dialog = Dialogic.start('tutorial1')
 var audio_files = [
 	"res://assets/audio/bg/1stage2.mp3",
-	"res://assets/audio/bg/1stage.ogg",
 	"res://assets/audio/bg/beauty.ogg",
 	"res://assets/audio/bg/credits_gekagd.ogg",
-	"res://assets/audio/bg/love.ogg",
-	"res://assets/audio/bg/music_gekagd.ogg",
 	"res://assets/audio/bg/nasko.ogg",
 	"res://assets/audio/bg/Alphaville - Forever Young _Official Video.ogg",
 	"res://assets/audio/bg/Fast_Five_-_Don_Omar_Ft._Lucenzo_-_Danza_Kuduro.mp4.mp3",
 	"res://assets/audio/bg/Queen - Radio Ga Ga (Official Video).ogg",
 ]
+var song_titles = {
+	"res://assets/audio/bg/Queen - Radio Ga Ga (Official Video).ogg": "Radio Ga Ga",
+	"res://assets/audio/bg/Fast_Five_-_Don_Omar_Ft._Lucenzo_-_Danza_Kuduro.mp4.mp3": "Danza Kuduro",
+	"res://assets/audio/bg/Alphaville - Forever Young _Official Video.ogg": "Forever Young",
+	"res://assets/audio/bg/nasko.ogg": "Nasko",
+	"res://assets/audio/bg/credits_gekagd.ogg": "Credits",
+	"res://assets/audio/bg/beauty.ogg": "Beauty",
+	"res://assets/audio/bg/1stage2.mp3": "1st time"
+}
+var song_authors = {
+	"res://assets/audio/bg/Queen - Radio Ga Ga (Official Video).ogg": "Queen",
+	"res://assets/audio/bg/Fast_Five_-_Don_Omar_Ft._Lucenzo_-_Danza_Kuduro.mp4.mp3": "Don Omar",
+	"res://assets/audio/bg/Alphaville - Forever Young _Official Video.ogg": "Alphaville",
+	"res://assets/audio/bg/nasko.ogg": "Gekon",
+	"res://assets/audio/bg/credits_gekagd.ogg": "Gekon",
+	"res://assets/audio/bg/beauty.ogg": "Gekon",
+	"res://assets/audio/bg/1stage2.mp3": "Gekon"
+}
+var dft_file = File.new()
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	Globals.connect("furry",self,  "on_warning")
+	dft_file.open("user://dft_setting", File.READ)
+	if str(dft_file.get_line()) == "True":
+		$AnimatedIcon.show()
+	elif str(dft_file.get_line()) == "False":
+		$AnimatedIcon.hide()
+	dft_file.close()
 	play_random_song()
 	fade_in()
 	start_dialog.connect("dialogic_signal", self, "dialog_listener")
@@ -38,6 +61,7 @@ func play_random_song():
 	var song_file = audio_files[randi()%audio_files.size()]
 	$AudioStreamPlayer.stream = load(song_file)
 	$AudioStreamPlayer.play()
+	Player.set_title(song_titles[song_file], song_authors[song_file])
 func dialog_listener(string:String):
 	match string:
 		"run_tutorial":
@@ -49,6 +73,9 @@ func dialog_listener(string:String):
 			$Manager/menus/NewNameMenu.popup_centered()
 		'after_first_party':
 			$PartyResults.popup_centered()
+		'game_finally_ended':
+			fade_out()
+			get_tree().change_scene("res://scenes/main/menu.tscn")
 
 func _start_2nd_dialog():
 	var new_dialog = Dialogic.start('tutorial2')
@@ -56,6 +83,7 @@ func _start_2nd_dialog():
 	add_child(new_dialog)
 
 func _process(delta):
+	$MoneyAndExperience.text="Money: " + str(GameController.get_money()) +"\n\nExperience: " + str(GameController.get_experience())
 	if Input.is_action_just_pressed("ui_cancel"):
 		if !$PauseMenu.visible:
 			fade_out()
@@ -74,16 +102,36 @@ func _on_PauseMenu_visibility_changed():
 	fade_in()
 
 func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp):
+	$Manager/menus/EmailMenu/EmailPreview.hide()
+	$Manager/menus/EmailMenu.hide()
 	var c_n = ClubController.club_data[str(PartyController.party_data[current_party_id+"_club_id"])+"_name"]
 	_render_party_results(c_n, party_rewards_money, party_rewards_exp)
 	if str(current_party_id) == '0':
 		var dialog = Dialogic.start('first_party_end')
 		dialog.connect("dialogic_signal", self, "dialog_listener")
 		add_child(dialog)
+	if str(current_party_id) == '4':
+		var dialog = Dialogic.start('end_game')
+		dialog.connect("dialogic_signal", self, "dialog_listener")
+		add_child(dialog)
+	else:
+		$PartyResults.popup_centered()
 	print("Recived %s money" % str(party_rewards_money))
+	GameController.add_money(party_rewards_money)
 	print("Recived %s exp" % str(party_rewards_exp))
-
+	GameController.add_experience(party_rewards_exp)
+	$Manager/menus/EmailMenu/EmailControl.check_emails()
 
 func _render_party_results(club_name, new_money, new_exp):
 	var base_string = "Party at %s\n\nRecived money: %s\nRecived experience: %s" % [club_name, new_money, new_exp]
 	$PartyResults/RichTextLabel.text = base_string
+
+func on_warning(enabled):
+	print(enabled)
+	dft_file.open("user://dft_setting", File.WRITE)
+	if enabled:
+		$AnimatedIcon.show()
+	else:
+		$AnimatedIcon.hide()
+	dft_file.store_line(str(enabled))
+	dft_file.close()

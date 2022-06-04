@@ -19,15 +19,26 @@ var readed_emails = []
 onready var e_i = $"../../../menu/EmailMenu/UnReadEmailIndicator"
 # Called when the node enters the scene tree for the first time.
 func addEmail(title:String, subject:String, text:String, to:String, from:String, email_type:String = "normal", email_party_id:String="0"):
-	all_emails += 1
-	email_list.append(title)
-	email_titles[title] = title
-	email_subjects[title] = subject
-	email_texts[title] = text
-	email_to[title] = to
-	email_from[title] = from
-	email_types[title] = email_type
-	email_party_ids[title] = email_party_id
+	if not email_list.has(title):
+		all_emails += 1
+		email_list.append(title)
+		email_titles[title] = title
+		email_subjects[title] = subject
+		email_texts[title] = text
+		email_to[title] = to
+		email_from[title] = from
+		email_types[title] = email_type
+		email_party_ids[title] = email_party_id
+func removeEmail(title:String):
+	all_emails -= 1
+	email_list.remove(email_list.find(title))
+	email_titles.erase(title)
+	email_subjects.erase(title)
+	email_texts.erase(title)
+	email_to.erase(title)
+	email_from.erase(title)
+	email_types.erase(title)
+	email_party_ids.erase(title)
 func _process(delta):
 	if read_emails == all_emails:
 		e_i.hide()
@@ -35,6 +46,7 @@ func _process(delta):
 		e_i.show()
 		
 func _prerender_emails():
+	$VBoxContainer/EmailList.clear()
 	for i in email_list:
 		print("Adding email: " + email_titles[i])
 		$VBoxContainer/EmailList.add_item(email_titles[i])
@@ -43,20 +55,22 @@ func _prerender_emails():
 
 
 func check_emails():
-	var current_experience = GameController.data['experience']
+	var current_experience = GameController.get_experience()
 	print("Current experience is: " + str(current_experience))
 	var all_partys = PartyController.party_ids
 	var all_partys_data = PartyController.party_data
 	for i in all_partys:
-		print(i)
-		print(all_partys_data[i + "_req_experience"])
-		if current_experience == all_partys_data[i + "_req_experience"] or current_experience > all_partys_data[i + "_base_experience"]:
+		print("party id: " + i)
+		print("minimum exp: " + str(all_partys_data[i + "_req_experience"]))
+		if current_experience >= all_partys_data[i + "_req_experience"]:
 			print("Found party!")
 			var club_id = all_partys_data[i+"_club_id"]
 			var party_club = ClubController.club_data[str(club_id)+"_name"]
-			addEmail("Party at: " + party_club, "Party is going on in " + party_club, "Hey, as I said, party is going on in " + party_club + "\n\nPrice is pretty, pretty nice, should I say to the club manager,\nthat You'll be DJ that night?", GameController.data["DJName"].to_lower() + "@furry.potato", "dos@furry.potato", "party_email")
+			if PartyController.check_if_party_was_done(i) == false:
+				addEmail("Party at: " + party_club, "Party is going on in " + party_club, "Hey, as I said, party is going on in " + party_club + "\n\nPrice is pretty, pretty nice, should I say to the club manager,\nthat You'll be DJ that night?", GameController.data["DJName"].to_lower() + "@furry.potato", "dos@furry.potato", "party_email", i)
 	_prerender_emails()
 func _on_EmailList_item_activated(index):
+	$"../EmailPreview/VBoxContainer/GoPartyButton".disconnect("pressed", self, "_on_GoPartyButton_pressed")
 	var tmp_party_id = ""
 	var item_text = $VBoxContainer/EmailList.get_item_text(index)
 	if not readed_emails.has(item_text):
@@ -67,8 +81,13 @@ func _on_EmailList_item_activated(index):
 		tmp_party_id = email_party_ids[item_text]
 		print(tmp_party_id)
 		print(email_party_ids[item_text])
+		
 		$"../EmailPreview/VBoxContainer/GoPartyButton".connect("pressed", self, "_on_GoPartyButton_pressed", [tmp_party_id])
-		$"../EmailPreview/VBoxContainer/GoPartyButton".show()
+		if PartyController.check_if_party_was_done(tmp_party_id) == false:
+			$"../EmailPreview/VBoxContainer/GoPartyButton".show()
+		else:
+			$"../EmailPreview/VBoxContainer/GoPartyButton".hide()
+			print("that party was done before")
 	else:
 		$"../EmailPreview/VBoxContainer/GoPartyButton".hide()
 	$"../EmailPreview/VBoxContainer/EmailTitle".text = "Title: " + email_titles[item_text]

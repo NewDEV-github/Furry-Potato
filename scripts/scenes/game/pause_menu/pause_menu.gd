@@ -48,11 +48,12 @@ func _on_Options_pressed():
 
 
 func _on_GoToMainMenu_pressed():
-	MjPlayer.fade_out()
+	get_tree().paused = false
 	go_to_main_menu()
 
 
 func _on_Quit_pressed():
+	get_tree().paused = false
 	quit_game()
 
 func _on_PauseMenu_popup_hide():
@@ -64,9 +65,11 @@ func _on_PauseMenu_popup_hide():
 
 
 func quit_game():
+	get_tree().paused = false
 	get_tree().quit()
 
 func go_to_main_menu():
+	get_tree().paused = false
 	get_tree().change_scene("res://scenes/main/menu.tscn")
 
 

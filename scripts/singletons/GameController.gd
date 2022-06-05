@@ -26,3 +26,14 @@ func get_money():
 
 func get_experience():
 	return data['experience']
+
+
+func start_new_game():
+	data = {
+		"DJName": "DJ",
+		"party_money_earnings_multiplier": 0,
+		"party_experience_earnings_multiplier": 0,
+		"party_music_quality_multiplier": 0,
+		"money": 0,
+		"experience": 0
+	}

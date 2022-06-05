@@ -13,4 +13,5 @@ func _ready():
 
 func run_tutorial():
 	show()
-#	pass
+	$"../Visualizer".hide()
+	$"../AnimatedIcon".hide()

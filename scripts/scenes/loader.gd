@@ -17,12 +17,3 @@ func load_game():
 		if str(ProtogenTechnologyCore.new().init_sdk(1)) == "init_d":
 			Globals.proto_tech_initialized = true
 	get_tree().change_scene("res://scenes/main/menu.tscn")
-#	else:
-#		ProjectSettings.load_resource_pack(Globals.import_data_path)
-#		ProjectSettings.load_resource_pack(Globals.scripts_data_path)
-#		ProjectSettings.load_resource_pack(Globals.audio_data_path)
-#		ProjectSettings.load_resource_pack(Globals.graphics_data_path)
-#		ProjectSettings.load_resource_pack(Globals.font_data_path)
-#		ProjectSettings.load_resource_pack(Globals.scenes_data_path)
-#		get_tree().change_scene("res://scenes/main/menu.tscn")
-		

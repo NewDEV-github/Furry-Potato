@@ -24,9 +24,11 @@ func _ready():
 	if str(dft_file.get_line()) == "True":
 		$CheckButton.pressed = true
 		Globals.set_use_furry_characters(true)
-	elif str(dft_file.get_line()) == "False":
+#		on_warning(true)
+	else:
 		$CheckButton.pressed = false
 		Globals.set_use_furry_characters(false)
+#		on_warning(false)
 	dft_file.close()
 
 
@@ -49,6 +51,7 @@ func _on_CheckButton_pressed():
 	Globals.set_use_furry_characters($CheckButton.pressed)
 
 func on_warning(enabled):
+	print(enabled)
 	dft_file.open("user://dft_setting", File.WRITE)
 	if enabled:
 		$VideoPlayer.show()
@@ -57,8 +60,11 @@ func on_warning(enabled):
 		$VideoPlayer.fade_in()
 		$TextureRect.hide()
 		$AnimatedIcon.show()
-	else:
+	elif enabled == false:
 		$VideoPlayer.hide()
+		if not MjPlayer.is_playing:
+			MjPlayer.stream = load("res://assets/audio/bg/mj.ogg")
+			MjPlayer.start()
 		MjPlayer.fade_in()
 		Player.set_title("We Are The World", "U.S.A For Africa")
 		$VideoPlayer.fade_out()

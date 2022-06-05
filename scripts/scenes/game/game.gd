@@ -43,6 +43,7 @@ var song_authors = {
 var dft_file = File.new()
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	GameController.start_new_game()
 	Globals.connect("furry",self,  "on_warning")
 	dft_file.open("user://dft_setting", File.READ)
 	if str(dft_file.get_line()) == "True":
@@ -76,6 +77,8 @@ func dialog_listener(string:String):
 		'game_finally_ended':
 			fade_out()
 			get_tree().change_scene("res://scenes/main/menu.tscn")
+		'after_fourth_party_finish':
+			pass
 
 func _start_2nd_dialog():
 	var new_dialog = Dialogic.start('tutorial2')
@@ -91,6 +94,13 @@ func _process(delta):
 			fade_in()
 
 func _on_TutorialFinished_pressed():
+	$Visualizer.show()
+	dft_file.open("user://dft_setting", File.READ)
+	if str(dft_file.get_line()) == "True":
+		$AnimatedIcon.show()
+	elif str(dft_file.get_line()) == "False":
+		$AnimatedIcon.hide()
+	dft_file.close()
 	dialog_listener("go_to_game")
 
 
@@ -108,6 +118,10 @@ func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp):
 	_render_party_results(c_n, party_rewards_money, party_rewards_exp)
 	if str(current_party_id) == '0':
 		var dialog = Dialogic.start('first_party_end')
+		dialog.connect("dialogic_signal", self, "dialog_listener")
+		add_child(dialog)
+	if str(current_party_id) == '3':
+		var dialog = Dialogic.start('after_fourth_party')
 		dialog.connect("dialogic_signal", self, "dialog_listener")
 		add_child(dialog)
 	if str(current_party_id) == '4':

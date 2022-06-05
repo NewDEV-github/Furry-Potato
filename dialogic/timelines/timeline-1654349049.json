@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"character": "character-1654017966.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So... Thanks, dude! Ya did awesome job!"
+		},
+		{
 			"character": "character-1653672837.json",
 			"event_id": "dialogic_001",
 			"portrait": "",

@@ -67,7 +67,8 @@ func check_emails():
 			var club_id = all_partys_data[i+"_club_id"]
 			var party_club = ClubController.club_data[str(club_id)+"_name"]
 			if PartyController.check_if_party_was_done(i) == false:
-				addEmail("Party at: " + party_club, "Party is going on in " + party_club, "Hey, as I said, party is going on in " + party_club + "\n\nPrice is pretty, pretty nice, should I say to the club manager,\nthat You'll be DJ that night?", GameController.data["DJName"].to_lower() + "@furry.potato", "dos@furry.potato", "party_email", i)
+				var p_email = str(GameController.data["DJName"]).to_lower().replace(' ', '_')
+				addEmail("Party at: " + party_club, "Party is going on in " + party_club, "Hey, as I said, party is going on in " + party_club + "\n\nPrice is pretty, pretty nice, should I say to the club manager,\nthat You'll be DJ that night?", p_email + "@furry.potato", "dos@furry.potato", "party_email", i)
 	_prerender_emails()
 func _on_EmailList_item_activated(index):
 	$"../EmailPreview/VBoxContainer/GoPartyButton".disconnect("pressed", self, "_on_GoPartyButton_pressed")

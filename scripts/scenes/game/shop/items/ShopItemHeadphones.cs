@@ -1,19 +1,17 @@
-using Godot;
-using System;
-
+/// <summary>
+/// Class for "Casual headphones" item
+/// </summary>
 public class ShopItemHeadphones : ShopItemBase
 {
-    // Declare member variables here. Examples:
-    // private int a = 2;
-    // private string b = "text";
 
-    // Called when the node enters the scene tree for the first time.
     public override void InitItem() {
         ItemName = "Casual Headphones";
         ItemDescription = "Brr";
         ItemCost = 100;
         ItemExperienceMultiplier = 1.1f;
         ItemIconPath = "res://icon.png";
+        ItemPartyQualityMultiplier = 1.0f;
+        ItemMusicQualityMultiplier = 1.05f;
     }
 
     public override string GetItemIconPath() {

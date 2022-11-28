@@ -119,7 +119,7 @@ audio_node = NodePath("../AudioStreamPlayer")
 
 [node name="AnimatedIcon" parent="." instance=ExtResource( 8 )]
 visible = false
-frame = 3
+frame = 1
 
 [connection signal="visibility_changed" from="PauseMenu" to="." method="_on_PauseMenu_visibility_changed"]
 [connection signal="pressed" from="Tutorial/TutorialFinished" to="." method="_on_TutorialFinished_pressed"]

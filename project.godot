@@ -122,6 +122,7 @@ ClubController="*res://scripts/singletons/ClubController.gd"
 MjPlayer="*res://scenes/game/other/MJPlayer.tscn"
 Player="*res://scenes/game/other/Player.tscn"
 OptionController="*res://scripts/singletons/OptionController.gd"
+SaveManager="*res://scenes/singletons/SaveManager.tscn"
 
 [debug]
 

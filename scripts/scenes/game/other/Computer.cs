@@ -1,6 +1,9 @@
 using Godot;
 using System;
 
+/// <summary>
+/// In-game computer core class
+/// </summary>
 public class Computer : Node
 {
     // Declare member variables here. Examples:

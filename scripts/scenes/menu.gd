@@ -8,6 +8,11 @@ var dft_file = File.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	print(SaveManager.GetSaveNamesArray())
+	if SaveManager.SaveCount >= 1:
+		$MenuButtons/LoadGame.disabled = false
+	else:
+		$MenuButtons/LoadGame.disabled = true
 	var stream = VideoStreamGDNative.new()
 	var file = "res://assets/Graphics/ProtogenThings/I GOT YOU.webm"
 	stream.set_file(file)
@@ -47,10 +52,10 @@ func _on_Options_pressed():
 
 
 func _on_NewGame_pressed():
-	get_tree().change_scene("res://scenes/game/game.tscn")
-	MjPlayer.fade_out()
-	$VideoPlayer.fade_out()
-	
+#	get_tree().change_scene("res://scenes/game/game.tscn")
+#	MjPlayer.fade_out()
+#	$VideoPlayer.fade_out()
+	$NewGameDialog.popup_centered()
 
 func _on_CheckButton_pressed():
 	Globals.set_use_furry_characters($CheckButton.pressed)
@@ -81,3 +86,7 @@ func on_warning(enabled):
 
 func _on_VideoPlayer_finished() -> void:
 	$VideoPlayer.play()
+
+
+func _on_LoadGame_pressed():
+	$SaveSelectMenuPopup.popup_centered()

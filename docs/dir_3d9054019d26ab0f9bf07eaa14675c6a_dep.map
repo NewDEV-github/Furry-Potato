@@ -1,4 +1,4 @@
-<map id="addons/dialogic/Editor" name="addons/dialogic/Editor">
+<map id="Editor" name="Editor">
 <area shape="rect" id="node2" href="dir_d4a3eeea76afb61e7fbc331fcada00d3.html" title="CharacterEditor" coords="945,95,1057,120"/>
 <area shape="rect" id="node3" href="dir_f741f2a37ebbf6cd5711e8c9cf959c71.html" title="Common" coords="847,95,921,120"/>
 <area shape="rect" id="node4" href="dir_0c23bb563075522fb49bdb37400e5031.html" title="DocumentationViewer" coords="674,95,822,120"/>

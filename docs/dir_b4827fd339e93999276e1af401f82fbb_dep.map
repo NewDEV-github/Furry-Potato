@@ -1,4 +1,4 @@
-<map id="addons/dialogic/Nodes/Anima/animations/entrances_and_exits" name="addons/dialogic/Nodes/Anima/animations/entrances_and_exits">
+<map id="entrances_and_exits" name="entrances_and_exits">
 <area shape="rect" id="node1" href="dir_b4827fd339e93999276e1af401f82fbb.html" title="entrances_and_exits" coords="27,52,170,77"/>
 <area shape="rect" id="clust1" href="dir_19162d5c7028733b05ad5977aa352008.html" title="animations" coords="16,16,181,88"/>
 </map>

@@ -7,5 +7,5 @@ var dir_6c69cb03c84b3eac49f5007795ee7870 =
     [ "Nodes", "dir_01b8b1a43208a12f6d53453c39137dbc.html", "dir_01b8b1a43208a12f6d53453c39137dbc" ],
     [ "Other", "dir_78fd425a84c5eadf62dec76e74324c95.html", "dir_78fd425a84c5eadf62dec76e74324c95" ],
     [ "Parser", "dir_db9a0c842f0cee9b14691a7ca952dad1.html", "dir_db9a0c842f0cee9b14691a7ca952dad1" ],
-    [ "plugin.gd", "d9/dcb/dialogic_2plugin_8gd_source.html", null ]
+    [ "dialogic/plugin.gd", "d9/dcb/dialogic_2plugin_8gd.html", null ]
 ];

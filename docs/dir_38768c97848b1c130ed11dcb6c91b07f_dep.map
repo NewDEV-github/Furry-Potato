@@ -1,4 +1,4 @@
-<map id="addons/dialogic/Editor/TimelineEditor" name="addons/dialogic/Editor/TimelineEditor">
+<map id="TimelineEditor" name="TimelineEditor">
 <area shape="rect" id="node1" href="dir_38768c97848b1c130ed11dcb6c91b07f.html" title="TimelineEditor" coords="27,52,131,77"/>
 <area shape="rect" id="clust1" href="dir_3d9054019d26ab0f9bf07eaa14675c6a.html" title="Editor" coords="16,16,141,88"/>
 </map>

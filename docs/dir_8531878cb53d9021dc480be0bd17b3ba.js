@@ -10,8 +10,8 @@ var dir_8531878cb53d9021dc480be0bd17b3ba =
     [ "ResourcePickers", "dir_48802c464c86bf9bc9de9e5d896a68dc.html", "dir_48802c464c86bf9bc9de9e5d896a68dc" ],
     [ "Text", "dir_8860b101eac2691d3a9b4cfeb2b05154.html", "dir_8860b101eac2691d3a9b4cfeb2b05154" ],
     [ "WaitSeconds", "dir_b070fcdb3a868fd8d3181d6dd6f25783.html", "dir_b070fcdb3a868fd8d3181d6dd6f25783" ],
-    [ "EventPart.gd", "d9/d01/_event_part_8gd_source.html", null ],
-    [ "EventPart_DummyEventDataShower.gd", "d1/d74/_event_part___dummy_event_data_shower_8gd_source.html", null ],
-    [ "ExampleEventPartScript.gd", "d1/d37/_example_event_part_script_8gd_source.html", null ],
-    [ "SpinBoxPreventDnD.gd", "da/de1/_spin_box_prevent_dn_d_8gd_source.html", null ]
+    [ "EventPart.gd", "d2/d2c/EventPart_8gd.html", null ],
+    [ "EventPart_DummyEventDataShower.gd", "d2/df6/EventPart__DummyEventDataShower_8gd.html", null ],
+    [ "ExampleEventPartScript.gd", "d1/d97/ExampleEventPartScript_8gd.html", null ],
+    [ "SpinBoxPreventDnD.gd", "d3/df8/SpinBoxPreventDnD_8gd.html", null ]
 ];

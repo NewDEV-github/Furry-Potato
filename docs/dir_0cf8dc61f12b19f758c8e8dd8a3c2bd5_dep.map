@@ -1,4 +1,4 @@
-<map id="scripts/scenes/game/studio_manager/menus" name="scripts/scenes/game/studio_manager/menus">
+<map id="menus" name="menus">
 <area shape="rect" id="node1" href="dir_0cf8dc61f12b19f758c8e8dd8a3c2bd5.html" title="menus" coords="43,52,104,77"/>
 <area shape="rect" id="clust1" href="dir_2f0fb76292857a596cf595178fe7920b.html" title="studio_manager" coords="16,16,131,88"/>
 </map>

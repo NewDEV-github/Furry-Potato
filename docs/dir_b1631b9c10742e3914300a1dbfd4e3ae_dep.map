@@ -1,4 +1,4 @@
-<map id="addons/dialogic/Editor/Events" name="addons/dialogic/Editor/Events">
+<map id="Events" name="Events">
 <area shape="rect" id="node3" href="dir_72cab1fda9abfdab023bb98ae25829a6.html" title="Audio" coords="1003,84,1058,109"/>
 <area shape="rect" id="node4" href="dir_dfd3bdcd8a4357325625fbd7c25e9d16.html" title="CallNode" coords="904,84,979,109"/>
 <area shape="rect" id="node5" href="dir_83b9689db66c42d765b801bcf660ad6e.html" title="Character" coords="801,84,879,109"/>

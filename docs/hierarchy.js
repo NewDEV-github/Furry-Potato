@@ -1,21 +1,21 @@
 var hierarchy =
 [
-    [ "BaseSave", "d6/d56/class_base_save.html", [
-      [ "SaveContainer", "d5/d24/class_save_container.html", null ]
+    [ "BaseSave", "d0/dd0/classBaseSave.html", [
+      [ "SaveContainer", "d4/d14/classSaveContainer.html", null ]
     ] ],
     [ "Control", null, [
-      [ "SaveManager", "da/da0/class_save_manager.html", null ]
+      [ "SaveManager", "d8/d24/classSaveManager.html", null ]
     ] ],
-    [ "DialogicSharp", "db/d13/class_dialogic_sharp.html", null ],
+    [ "DialogicSharp", "d1/d1c/classDialogicSharp.html", null ],
     [ "Node", null, [
-      [ "Computer", "d0/d39/class_computer.html", null ],
-      [ "Saver", "da/def/class_saver.html", null ],
-      [ "ShopItemManager", "d1/df4/class_shop_item_manager.html", null ]
+      [ "Computer", "d5/de3/classComputer.html", null ],
+      [ "Saver", "dd/de5/classSaver.html", null ],
+      [ "ShopItemManager", "d5/deb/classShopItemManager.html", null ]
     ] ],
-    [ "ShopItemBase", "d3/d66/class_shop_item_base.html", [
-      [ "ShopItemHeadphones", "d5/d51/class_shop_item_headphones.html", null ]
+    [ "ShopItemBase", "d1/dc3/classShopItemBase.html", [
+      [ "ShopItemHeadphones", "d1/d44/classShopItemHeadphones.html", null ]
     ] ],
     [ "WindowDialog", null, [
-      [ "SaveSelectMenuPopup", "dd/d09/class_save_select_menu_popup.html", null ]
+      [ "SaveSelectMenuPopup", "dd/d61/classSaveSelectMenuPopup.html", null ]
     ] ]
 ];

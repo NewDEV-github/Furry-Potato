@@ -1,4 +1,4 @@
-<map id="addons/dialogic/Editor/Events/Parts/ResourcePickers" name="addons/dialogic/Editor/Events/Parts/ResourcePickers">
+<map id="ResourcePickers" name="ResourcePickers">
 <area shape="rect" id="node2" href="dir_17c25578f7b0f5c3187cc11c8c0b3bd2.html" title="Characters" coords="504,63,589,88"/>
 <area shape="rect" id="node3" href="dir_17992449f3cbf5f95105b8597da31520.html" title="Definitions" coords="397,63,480,88"/>
 <area shape="rect" id="node4" href="dir_49762f317436ab81dbfb96c8bdfaaab2.html" title="Files" coords="323,63,373,88"/>

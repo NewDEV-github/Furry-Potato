@@ -1,4 +1,4 @@
-<map id="scripts/scenes/game/pause_menu" name="scripts/scenes/game/pause_menu">
+<map id="pause_menu" name="pause_menu">
 <area shape="rect" id="node1" href="dir_f902f6cc5a9a8294f0a16d25a12b8f37.html" title="pause_menu" coords="27,52,123,77"/>
 <area shape="rect" id="clust1" href="dir_e2aaf2fe2f16de62b742414663c12c7d.html" title="game" coords="16,16,133,88"/>
 </map>

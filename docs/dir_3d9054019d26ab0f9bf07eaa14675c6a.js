@@ -10,5 +10,5 @@ var dir_3d9054019d26ab0f9bf07eaa14675c6a =
     [ "ThemeEditor", "dir_c031f15a3a5579658f97112e60b44fcd.html", "dir_c031f15a3a5579658f97112e60b44fcd" ],
     [ "TimelineEditor", "dir_38768c97848b1c130ed11dcb6c91b07f.html", "dir_38768c97848b1c130ed11dcb6c91b07f" ],
     [ "ValueEditor", "dir_853491cfad6dcf9ea2fb64f64f2fcc6f.html", "dir_853491cfad6dcf9ea2fb64f64f2fcc6f" ],
-    [ "EditorView.gd", "d3/d00/_editor_view_8gd_source.html", null ]
+    [ "EditorView.gd", "d8/d04/EditorView_8gd.html", null ]
 ];

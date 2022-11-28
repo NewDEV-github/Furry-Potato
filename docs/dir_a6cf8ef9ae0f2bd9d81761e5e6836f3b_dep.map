@@ -1,4 +1,4 @@
-<map id="addons/dialogic/Editor/Events/Parts/ResourcePickers/Scenes" name="addons/dialogic/Editor/Events/Parts/ResourcePickers/Scenes">
+<map id="Scenes" name="Scenes">
 <area shape="rect" id="node1" href="dir_a6cf8ef9ae0f2bd9d81761e5e6836f3b.html" title="Scenes" coords="43,52,109,77"/>
 <area shape="rect" id="clust1" href="dir_48802c464c86bf9bc9de9e5d896a68dc.html" title="ResourcePickers" coords="16,16,137,88"/>
 </map>

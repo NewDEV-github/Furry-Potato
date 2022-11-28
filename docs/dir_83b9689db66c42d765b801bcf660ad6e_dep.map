@@ -1,4 +1,4 @@
-<map id="addons/dialogic/Editor/Events/Parts/Character" name="addons/dialogic/Editor/Events/Parts/Character">
+<map id="Character" name="Character">
 <area shape="rect" id="node1" href="dir_83b9689db66c42d765b801bcf660ad6e.html" title="Character" coords="27,52,106,77"/>
 <area shape="rect" id="clust1" href="dir_8531878cb53d9021dc480be0bd17b3ba.html" title="Parts" coords="16,16,117,88"/>
 </map>

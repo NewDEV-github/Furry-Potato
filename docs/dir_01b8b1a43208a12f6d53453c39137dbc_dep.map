@@ -1,4 +1,4 @@
-<map id="addons/dialogic/Nodes" name="addons/dialogic/Nodes">
+<map id="Nodes" name="Nodes">
 <area shape="rect" id="node4" href="dir_c775e243369a100754e978e038a8c2ad.html" title="attention_seeker" coords="370,84,489,109"/>
 <area shape="rect" id="node5" href="dir_b4827fd339e93999276e1af401f82fbb.html" title="entrances_and_exits" coords="203,84,346,109"/>
 <area shape="rect" id="clust4" href="dir_19162d5c7028733b05ad5977aa352008.html" coords="192,73,609,120"/>

@@ -1,7 +1,7 @@
 var dir_83b9689db66c42d765b801bcf660ad6e =
 [
-    [ "EventPart_CharacterAction.gd", "d1/d99/_event_part___character_action_8gd_source.html", null ],
-    [ "EventPart_CharacterActionSettings.gd", "de/d53/_event_part___character_action_settings_8gd_source.html", null ],
-    [ "EventPart_CharacterJoining.gd", "d6/dc0/_event_part___character_joining_8gd_source.html", null ],
-    [ "EventPart_PositionPicker.gd", "df/df6/_event_part___position_picker_8gd_source.html", null ]
+    [ "EventPart_CharacterAction.gd", "d8/d35/EventPart__CharacterAction_8gd.html", null ],
+    [ "EventPart_CharacterActionSettings.gd", "d0/d7e/EventPart__CharacterActionSettings_8gd.html", null ],
+    [ "EventPart_CharacterJoining.gd", "d0/d21/EventPart__CharacterJoining_8gd.html", null ],
+    [ "EventPart_PositionPicker.gd", "db/d00/EventPart__PositionPicker_8gd.html", null ]
 ];

@@ -1,0 +1,4 @@
+<map id="ShopItemBase" name="ShopItemBase">
+<area shape="rect" id="node1" title="Abstract base class for all shop items" coords="27,5,133,31"/>
+<area shape="rect" id="node2" href="$d1/d44/classShopItemHeadphones.html" title="Class for &quot;Casual headphones&quot; item" coords="5,79,155,104"/>
+</map>

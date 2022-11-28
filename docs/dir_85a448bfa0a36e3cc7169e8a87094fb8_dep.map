@@ -1,4 +1,4 @@
-<map id="scripts/scenes/game/shop/items" name="scripts/scenes/game/shop/items">
+<map id="items" name="items">
 <area shape="rect" id="node1" href="dir_85a448bfa0a36e3cc7169e8a87094fb8.html" title="items" coords="27,52,82,77"/>
 <area shape="rect" id="clust1" href="dir_96a4b376ebb0fff8a4082da2dd36a82e.html" title="shop" coords="16,16,93,88"/>
 </map>

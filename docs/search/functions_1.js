@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['inititem_0',['InitItem',['../d5/d51/class_shop_item_headphones.html#a04d29416dea3046c71675047e01881e7',1,'ShopItemHeadphones.InitItem()'],['../d3/d66/class_shop_item_base.html#a948ce034810aa4dfde1766bf2509aea8',1,'ShopItemBase.InitItem()']]],
-  ['inititems_1',['InitItems',['../d1/df4/class_shop_item_manager.html#a1059438d240779d6be75471ccde16824',1,'ShopItemManager']]]
+  ['eraseslot_0',['EraseSlot',['../d1/d1c/classDialogicSharp.html#aa15303ac5851f14e362038b6c13e4d40',1,'DialogicSharp']]],
+  ['export_1',['Export',['../d1/d1c/classDialogicSharp.html#acddfcb33c547a7bcf080dcb1b747bd02',1,'DialogicSharp']]]
 ];

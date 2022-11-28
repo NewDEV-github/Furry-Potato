@@ -1,4 +1,4 @@
-<map id="addons/dialogic/Nodes/Anima" name="addons/dialogic/Nodes/Anima">
+<map id="Anima" name="Anima">
 <area shape="rect" id="node3" href="dir_c775e243369a100754e978e038a8c2ad.html" title="attention_seeker" coords="287,73,406,99"/>
 <area shape="rect" id="node4" href="dir_b4827fd339e93999276e1af401f82fbb.html" title="entrances_and_exits" coords="121,73,263,99"/>
 <area shape="rect" id="clust3" href="dir_19162d5c7028733b05ad5977aa352008.html" coords="109,63,527,109"/>

@@ -1,4 +1,4 @@
-<map id="scripts/scenes/game/other/Saver" name="scripts/scenes/game/other/Saver">
+<map id="Saver" name="Saver">
 <area shape="rect" id="node1" href="dir_d1cb51c018e5b3e23ec745129a9cca39.html" title="Saver" coords="27,52,82,77"/>
 <area shape="rect" id="clust1" href="dir_f6f4b1c277654e045e086d66040d6ddf.html" title="other" coords="16,16,93,88"/>
 </map>

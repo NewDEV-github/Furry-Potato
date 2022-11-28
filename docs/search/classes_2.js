@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dialogicsharp_0',['DialogicSharp',['../db/d13/class_dialogic_sharp.html',1,'']]]
+  ['dialogicsharp_0',['DialogicSharp',['../d1/d1c/classDialogicSharp.html',1,'']]]
 ];

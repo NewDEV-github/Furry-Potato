@@ -1,0 +1,4 @@
+<map id="SaveManager" name="SaveManager">
+<area shape="rect" id="node1" title="Class used to manage all game saves." coords="5,79,105,104"/>
+<area shape="rect" id="node2" title=" " coords="24,5,87,31"/>
+</map>

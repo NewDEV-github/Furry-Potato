@@ -1,0 +1,6 @@
+<map id="ShopItemManager" name="ShopItemManager">
+<area shape="rect" id="node1" title="Class for managing all shop items" coords="52,93,179,119"/>
+<area shape="rect" id="node2" title=" " coords="5,5,57,31"/>
+<area shape="rect" id="node3" title=" " coords="82,5,149,31"/>
+<area shape="rect" id="node4" href="$d3/d66/class_shop_item_base.html" title="Abstract base class for all shop items" coords="173,5,279,31"/>
+</map>

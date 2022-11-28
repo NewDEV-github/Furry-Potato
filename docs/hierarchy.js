@@ -8,7 +8,9 @@ var hierarchy =
     ] ],
     [ "DialogicSharp", "d1/d1c/classDialogicSharp.html", null ],
     [ "Node", null, [
+      [ "BackgroundLoader", "d9/d5c/classBackgroundLoader.html", null ],
       [ "Computer", "d5/de3/classComputer.html", null ],
+      [ "Loader", "d5/d5c/classLoader.html", null ],
       [ "Saver", "dd/de5/classSaver.html", null ],
       [ "ShopItemManager", "d5/deb/classShopItemManager.html", null ]
     ] ],

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FE3/cQ3Xz5BOgpy3Ip87OhDEkHkH3VgpITiODf++Ki6NFgcAIxhnnm2TtDii9pqm9yYZ4jwlgSEIXhYQjTSpsw==",
+  "dgSpecHash": "tms8Gx2NIJXgJfS29NtIPzwy13uKeJDauAyzTMkgkRbRRAr2kaDO4ExKc1u5HhuDn70/9Vy5btzl76bRzpSing==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\Furry-Potato\\Furry Potato.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DoS\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\DoS\\.nuget\\packages\\newtonsoft.json.bson\\1.0.3-beta1\\newtonsoft.json.bson.1.0.3-beta1.nupkg.sha512"
+  ],
   "logs": []
 }

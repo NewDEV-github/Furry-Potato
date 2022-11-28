@@ -106,7 +106,7 @@ text = "Use... different things"
 
 [node name="AnimatedIcon" parent="." instance=ExtResource( 7 )]
 visible = false
-frame = 1
+frame = 0
 
 [node name="Visualizer" parent="." instance=ExtResource( 3 )]
 position = Vector2( 235, 400 )
@@ -116,12 +116,13 @@ audio_node = NodePath("../AudioStreamPlayer")
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="SaveSelectMenuPopup" type="WindowDialog" parent="."]
+visible = true
 margin_right = 716.0
 margin_bottom = 441.0
 window_title = "Save select"
 script = ExtResource( 9 )
 
-[node name="Container" type="VBoxContainer" parent="SaveSelectMenuPopup"]
+[node name="Container" type="ItemList" parent="SaveSelectMenuPopup"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 

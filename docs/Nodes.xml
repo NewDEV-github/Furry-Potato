@@ -14,6 +14,72 @@
           <Path>annotated.html</Path>
         <Subnodes>
            <Node>
+            <Name>BackgroundLoader</Name>
+            <Path>d9/d5c/classBackgroundLoader.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>_Ready</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a3f5201b512af921a27843f5e539bbfd2</Anchor>
+             </Node>
+             <Node>
+              <Name>ChangeSceneToPreloaded</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>abadf730f6aa55cbf16eabea117236a99</Anchor>
+             </Node>
+             <Node>
+              <Name>ClearStuff</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a9523179cc2082561f774b7bc0ec5882a</Anchor>
+             </Node>
+             <Node>
+              <Name>PreloadScene</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a7e680d86816156d6317bc816712cd849</Anchor>
+             </Node>
+             <Node>
+              <Name>ThreadDone</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a55b6e72c5ff0323136abf4e8c00d224d</Anchor>
+             </Node>
+             <Node>
+              <Name>ThreadLoad</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a85eecde672efb01b29ecd182504dcb21</Anchor>
+             </Node>
+             <Node>
+              <Name>_newScene</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a79bbfed2880def617c8701c4ed9e5ff7</Anchor>
+             </Node>
+             <Node>
+              <Name>_res</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>ac307601308e484e30b55b0d8e9b3a4ef</Anchor>
+             </Node>
+             <Node>
+              <Name>_scenePath</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a6dc40ea61d18df0b4df8776eeceb0bb5</Anchor>
+             </Node>
+             <Node>
+              <Name>_thread</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a98c52563f03603667fdff76551eeb6c8</Anchor>
+             </Node>
+             <Node>
+              <Name>CanChange</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a7cb7630bd66bbcdaf489a61fa8fbbcbe</Anchor>
+             </Node>
+             <Node>
+              <Name>Instance</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+              <Anchor>a3df958d34839ccffb66e22e3c47da008</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>BaseSave</Name>
             <Path>d0/dd0/classBaseSave.html</Path>
           <Subnodes>
@@ -147,6 +213,17 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Loader</Name>
+            <Path>d5/d5c/classLoader.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>LoadSave</Name>
+              <Path>d5/d5c/classLoader.html</Path>
+              <Anchor>a82eb43536c346139a0afa601a8d4b390</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>SaveContainer</Name>
             <Path>d4/d14/classSaveContainer.html</Path>
           <Subnodes>
@@ -206,6 +283,11 @@
               <Path>d8/d24/classSaveManager.html</Path>
               <Anchor>a20b553cdc3fd6733aa2d85da56386e30</Anchor>
              </Node>
+             <Node>
+              <Name>SavePaths</Name>
+              <Path>d8/d24/classSaveManager.html</Path>
+              <Anchor>a4cd36b0d9348b89e98ed5823fd99e15d</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -239,9 +321,29 @@
               <Anchor>a0318807429135dc184398fb68e098163</Anchor>
              </Node>
              <Node>
-              <Name>saveItem</Name>
+              <Name>SaveSelectedToLoad</Name>
               <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-              <Anchor>a732e3e418885a3e4488ad513ac815336</Anchor>
+              <Anchor>a30832eea73a8ca4cce34404cc01e1d24</Anchor>
+             </Node>
+             <Node>
+              <Name>_currentItemListId</Name>
+              <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+              <Anchor>a5a1512146616c6a68db275873d5d50ed</Anchor>
+             </Node>
+             <Node>
+              <Name>_itemList</Name>
+              <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+              <Anchor>abf582f0c7505de1588d56595f1189649</Anchor>
+             </Node>
+             <Node>
+              <Name>_pathsForItemList</Name>
+              <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+              <Anchor>ad7259fc2ebb41c07d7db8abf7a0e3261</Anchor>
+             </Node>
+             <Node>
+              <Name>_saveManager</Name>
+              <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+              <Anchor>a09b3ab0df3ae34e82308d97143d13c7e</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -447,8 +549,16 @@
             <Path></Path>
           <Subnodes>
              <Node>
+              <Name>BackgroundLoader</Name>
+              <Path>d9/d5c/classBackgroundLoader.html</Path>
+             </Node>
+             <Node>
               <Name>Computer</Name>
               <Path>d5/de3/classComputer.html</Path>
+             </Node>
+             <Node>
+              <Name>Loader</Name>
+              <Path>d5/d5c/classLoader.html</Path>
              </Node>
              <Node>
               <Name>Saver</Name>
@@ -1550,6 +1660,78 @@
                     </Subnodes>
                    </Node>
                    <Node>
+                    <Name>BackgroundLoader.cs</Name>
+                    <Path>dd/d0e/BackgroundLoader_8cs.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>BackgroundLoader</Name>
+                      <Path>d9/d5c/classBackgroundLoader.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>_Ready</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a3f5201b512af921a27843f5e539bbfd2</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ChangeSceneToPreloaded</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>abadf730f6aa55cbf16eabea117236a99</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ClearStuff</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a9523179cc2082561f774b7bc0ec5882a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>PreloadScene</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a7e680d86816156d6317bc816712cd849</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ThreadDone</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a55b6e72c5ff0323136abf4e8c00d224d</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ThreadLoad</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a85eecde672efb01b29ecd182504dcb21</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_newScene</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a79bbfed2880def617c8701c4ed9e5ff7</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_res</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>ac307601308e484e30b55b0d8e9b3a4ef</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_scenePath</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a6dc40ea61d18df0b4df8776eeceb0bb5</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_thread</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a98c52563f03603667fdff76551eeb6c8</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>CanChange</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a7cb7630bd66bbcdaf489a61fa8fbbcbe</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Instance</Name>
+                        <Path>d9/d5c/classBackgroundLoader.html</Path>
+                        <Anchor>a3df958d34839ccffb66e22e3c47da008</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
                     <Name>Computer.cs</Name>
                     <Path>d3/d6c/Computer_8cs.html</Path>
                   <Subnodes>
@@ -1561,6 +1743,23 @@
                         <Name>_Ready</Name>
                         <Path>d5/de3/classComputer.html</Path>
                         <Anchor>a807b5c09426266e932d624b303dde87b</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>Loader.cs</Name>
+                    <Path>dd/de4/Loader_8cs.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>Loader</Name>
+                      <Path>d5/d5c/classLoader.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>LoadSave</Name>
+                        <Path>d5/d5c/classLoader.html</Path>
+                        <Anchor>a82eb43536c346139a0afa601a8d4b390</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -1619,6 +1818,11 @@
                         <Name>SaveCount</Name>
                         <Path>d8/d24/classSaveManager.html</Path>
                         <Anchor>a20b553cdc3fd6733aa2d85da56386e30</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>SavePaths</Name>
+                        <Path>d8/d24/classSaveManager.html</Path>
+                        <Anchor>a4cd36b0d9348b89e98ed5823fd99e15d</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -1937,9 +2141,29 @@
                       <Anchor>a0318807429135dc184398fb68e098163</Anchor>
                      </Node>
                      <Node>
-                      <Name>saveItem</Name>
+                      <Name>SaveSelectedToLoad</Name>
                       <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-                      <Anchor>a732e3e418885a3e4488ad513ac815336</Anchor>
+                      <Anchor>a30832eea73a8ca4cce34404cc01e1d24</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_currentItemListId</Name>
+                      <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+                      <Anchor>a5a1512146616c6a68db275873d5d50ed</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_itemList</Name>
+                      <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+                      <Anchor>abf582f0c7505de1588d56595f1189649</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_pathsForItemList</Name>
+                      <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+                      <Anchor>ad7259fc2ebb41c07d7db8abf7a0e3261</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_saveManager</Name>
+                      <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+                      <Anchor>a09b3ab0df3ae34e82308d97143d13c7e</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>

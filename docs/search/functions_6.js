@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['resetsaves_0',['ResetSaves',['../d1/d1c/classDialogicSharp.html#a32b64065097ff481c6866967d716fdff',1,'DialogicSharp']]]
+  ['load_0',['Load',['../d1/d1c/classDialogicSharp.html#aeff167a3beab4bd3421211f76342efdb',1,'DialogicSharp']]],
+  ['loadsave_1',['LoadSave',['../d5/d5c/classLoader.html#a82eb43536c346139a0afa601a8d4b390',1,'Loader']]]
 ];

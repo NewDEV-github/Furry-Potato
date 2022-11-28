@@ -14,6 +14,10 @@ public class SaveManager : Control {
     /// </summary>
     public int SaveCount = 0;
     private Array<string> _saveNamesList = new Array<string>();
+    /// <summary>
+    /// Dictionary that contains save name as key and path to root of save as a value
+    /// </summary>
+    public Dictionary<string, string> SavePaths = new Dictionary<string, string>();
     public override void _Ready()
     {
         GetSaveList();
@@ -32,6 +36,7 @@ public class SaveManager : Control {
                 Console.WriteLine("Looking up for save name data in: " + dir);
                 string realSaveName = File.ReadAllText(filePath);;
                 _saveNamesList.Add(realSaveName);
+                SavePaths.Add(realSaveName, dir);
             }
         } else {
             Console.WriteLine("Zero saves found");

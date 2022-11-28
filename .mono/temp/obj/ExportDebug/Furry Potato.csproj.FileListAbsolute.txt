@@ -7,3 +7,6 @@ D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.AssemblyInfo.cs
 D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.csproj.CoreCompileInputs.cache
 D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.dll
 D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.pdb
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportDebug\Newtonsoft.Json.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportDebug\Newtonsoft.Json.Bson.dll
+D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.csproj.CopyComplete

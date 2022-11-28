@@ -158,6 +158,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a20b553cdc3fd6733aa2d85da56386e30"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d24/classSaveManager.html#a20b553cdc3fd6733aa2d85da56386e30">SaveCount</a> = 0</td></tr>
 <tr class="memdesc:a20b553cdc3fd6733aa2d85da56386e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array that contains only list of save names   <a href="../../d8/d24/classSaveManager.html#a20b553cdc3fd6733aa2d85da56386e30">More...</a><br /></td></tr>
 <tr class="separator:a20b553cdc3fd6733aa2d85da56386e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd36b0d9348b89e98ed5823fd99e15d"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d24/classSaveManager.html#a4cd36b0d9348b89e98ed5823fd99e15d">SavePaths</a> = new Dictionary&lt;string, string&gt;()</td></tr>
+<tr class="memdesc:a4cd36b0d9348b89e98ed5823fd99e15d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary that contains save name as key and path to root of save as a value   <a href="../../d8/d24/classSaveManager.html#a4cd36b0d9348b89e98ed5823fd99e15d">More...</a><br /></td></tr>
+<tr class="separator:a4cd36b0d9348b89e98ed5823fd99e15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -198,11 +201,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00017">17</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00021">21</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00025">GetSaveList()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00029">GetSaveList()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">SaveSelectMenuPopup._Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">SaveSelectMenuPopup._Ready()</a>.</p>
 
 </div>
 </div>
@@ -239,9 +242,9 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Last modification date in string</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00054">54</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00059">59</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">SaveSelectMenuPopup._Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">SaveSelectMenuPopup._Ready()</a>.</p>
 
 </div>
 </div>
@@ -270,11 +273,11 @@ Private Attributes</h2></td></tr>
 
 <p>Loads all save names from disk  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00025">25</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00029">29</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00016">_saveNamesList</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00015">SaveCount</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00016">_saveNamesList</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00015">SaveCount</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00020">SavePaths</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00017">_Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00021">_Ready()</a>.</p>
 
 </div>
 </div>
@@ -304,11 +307,11 @@ Private Attributes</h2></td></tr>
 <p>Public interface for getting list of save names  </p>
 <dl class="section return"><dt>Returns</dt><dd>Array of save names</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00045">45</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00050">50</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00016">_saveNamesList</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">SaveSelectMenuPopup._Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">SaveSelectMenuPopup._Ready()</a>.</p>
 
 </div>
 </div>
@@ -335,7 +338,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00016">16</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00025">GetSaveList()</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00045">GetSaveNamesArray()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00029">GetSaveList()</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00050">GetSaveNamesArray()</a>.</p>
 
 </div>
 </div>
@@ -355,7 +358,27 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00015">15</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">SaveSelectMenuPopup._Ready()</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00025">GetSaveList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">SaveSelectMenuPopup._Ready()</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00029">GetSaveList()</a>.</p>
+
+</div>
+</div>
+<a id="a4cd36b0d9348b89e98ed5823fd99e15d" name="a4cd36b0d9348b89e98ed5823fd99e15d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cd36b0d9348b89e98ed5823fd99e15d">&#9670;&#160;</a></span>SavePaths</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, string&gt; SaveManager.SavePaths = new Dictionary&lt;string, string&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dictionary that contains save name as key and path to root of save as a value  </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00020">20</a> of file <a class="el" href="../../d2/de6/SaveManager_8cs_source.html">SaveManager.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">SaveSelectMenuPopup._Ready()</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00029">GetSaveList()</a>.</p>
 
 </div>
 </div>

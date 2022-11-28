@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('dd/d61/classSaveSelectMenuPopup.html',
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dd/d1a/classSaveSelectMenuPopup-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">SaveSelectMenuPopup Class Reference</div></div>
@@ -132,8 +133,10 @@ $(document).ready(function(){initNavTree('dd/d61/classSaveSelectMenuPopup.html',
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../d3/d65/classSaveSelectMenuPopup__coll__graph.png" border="0" usemap="#aSaveSelectMenuPopup_coll__map" alt="Collaboration graph"/></div>
 <map name="aSaveSelectMenuPopup_coll__map" id="aSaveSelectMenuPopup_coll__map">
-<area shape="rect" title=" " coords="5,79,161,104"/>
-<area shape="rect" title=" " coords="31,5,135,31"/>
+<area shape="rect" title=" " coords="5,168,161,193"/>
+<area shape="rect" title=" " coords="10,80,114,105"/>
+<area shape="rect" href="../../d8/d24/classSaveManager.html" title="Class used to manage all game saves." coords="139,80,239,105"/>
+<area shape="rect" title=" " coords="157,5,220,31"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -142,10 +145,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0318807429135dc184398fb68e098163"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a0318807429135dc184398fb68e098163">_Ready</a> ()</td></tr>
 <tr class="separator:a0318807429135dc184398fb68e098163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a30832eea73a8ca4cce34404cc01e1d24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a30832eea73a8ca4cce34404cc01e1d24">SaveSelectedToLoad</a> (int index)</td></tr>
+<tr class="separator:a30832eea73a8ca4cce34404cc01e1d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a732e3e418885a3e4488ad513ac815336"><td class="memItemLeft" align="right" valign="top">PackedScene&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a732e3e418885a3e4488ad513ac815336">saveItem</a> = (PackedScene)ResourceLoader.Load(&quot;res://scenes/game/other/save_scene_instance.tscn&quot;)</td></tr>
-<tr class="separator:a732e3e418885a3e4488ad513ac815336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf582f0c7505de1588d56595f1189649"><td class="memItemLeft" align="right" valign="top">ItemList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#abf582f0c7505de1588d56595f1189649">_itemList</a></td></tr>
+<tr class="separator:abf582f0c7505de1588d56595f1189649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b3ab0df3ae34e82308d97143d13c7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d24/classSaveManager.html">SaveManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a09b3ab0df3ae34e82308d97143d13c7e">_saveManager</a> = new <a class="el" href="../../d8/d24/classSaveManager.html">SaveManager</a>()</td></tr>
+<tr class="separator:a09b3ab0df3ae34e82308d97143d13c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7259fc2ebb41c07d7db8abf7a0e3261"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#ad7259fc2ebb41c07d7db8abf7a0e3261">_pathsForItemList</a> = new Dictionary&lt;int, string&gt;()</td></tr>
+<tr class="memdesc:ad7259fc2ebb41c07d7db8abf7a0e3261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary used to keep where is root path for each save. To make it easier the key is id of ItemList's item.   <a href="../../dd/d61/classSaveSelectMenuPopup.html#ad7259fc2ebb41c07d7db8abf7a0e3261">More...</a><br /></td></tr>
+<tr class="separator:ad7259fc2ebb41c07d7db8abf7a0e3261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a1512146616c6a68db275873d5d50ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a5a1512146616c6a68db275873d5d50ed">_currentItemListId</a> = 0</td></tr>
+<tr class="separator:a5a1512146616c6a68db275873d5d50ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -174,15 +189,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">12</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">15</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00017">SaveManager._Ready()</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00054">SaveManager.GetSaveLastModificationDate()</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00045">SaveManager.GetSaveNamesArray()</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00015">SaveManager.SaveCount</a>, and <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00010">saveItem</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00014">_currentItemListId</a>, <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00006">_itemList</a>, <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">_pathsForItemList</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00021">SaveManager._Ready()</a>, <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00007">_saveManager</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00059">SaveManager.GetSaveLastModificationDate()</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00050">SaveManager.GetSaveNamesArray()</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00015">SaveManager.SaveCount</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00020">SaveManager.SavePaths</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a732e3e418885a3e4488ad513ac815336" name="a732e3e418885a3e4488ad513ac815336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a732e3e418885a3e4488ad513ac815336">&#9670;&#160;</a></span>saveItem</h2>
+<a id="a30832eea73a8ca4cce34404cc01e1d24" name="a30832eea73a8ca4cce34404cc01e1d24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30832eea73a8ca4cce34404cc01e1d24">&#9670;&#160;</a></span>SaveSelectedToLoad()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,7 +205,38 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">PackedScene SaveSelectMenuPopup.saveItem = (PackedScene)ResourceLoader.Load(&quot;res://scenes/game/other/save_scene_instance.tscn&quot;)</td>
+          <td class="memname">void SaveSelectMenuPopup.SaveSelectedToLoad </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00032">32</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">_pathsForItemList</a>, and <a class="el" href="../../dd/de4/Loader_8cs_source.html#l00010">Loader.LoadSave()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5a1512146616c6a68db275873d5d50ed" name="a5a1512146616c6a68db275873d5d50ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a1512146616c6a68db275873d5d50ed">&#9670;&#160;</a></span>_currentItemListId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SaveSelectMenuPopup._currentItemListId = 0</td>
         </tr>
       </table>
   </td>
@@ -201,9 +246,89 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00010">10</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00014">14</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">_Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">_Ready()</a>.</p>
+
+</div>
+</div>
+<a id="abf582f0c7505de1588d56595f1189649" name="abf582f0c7505de1588d56595f1189649"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf582f0c7505de1588d56595f1189649">&#9670;&#160;</a></span>_itemList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ItemList SaveSelectMenuPopup._itemList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00006">6</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">_Ready()</a>.</p>
+
+</div>
+</div>
+<a id="ad7259fc2ebb41c07d7db8abf7a0e3261" name="ad7259fc2ebb41c07d7db8abf7a0e3261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7259fc2ebb41c07d7db8abf7a0e3261">&#9670;&#160;</a></span>_pathsForItemList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;int, string&gt; SaveSelectMenuPopup._pathsForItemList = new Dictionary&lt;int, string&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dictionary used to keep where is root path for each save. To make it easier the key is id of ItemList's item.  </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">12</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">_Ready()</a>, and <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00032">SaveSelectedToLoad()</a>.</p>
+
+</div>
+</div>
+<a id="a09b3ab0df3ae34e82308d97143d13c7e" name="a09b3ab0df3ae34e82308d97143d13c7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09b3ab0df3ae34e82308d97143d13c7e">&#9670;&#160;</a></span>_saveManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/d24/classSaveManager.html">SaveManager</a> SaveSelectMenuPopup._saveManager = new <a class="el" href="../../d8/d24/classSaveManager.html">SaveManager</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00007">7</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">_Ready()</a>.</p>
 
 </div>
 </div>

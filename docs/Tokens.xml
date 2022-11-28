@@ -2,6 +2,15 @@
 <Tokens version="1.0">
   <Token>
     <TokenIdentifier>
+      <Name>BackgroundLoader</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>BaseSave</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -26,6 +35,15 @@
       <Scope>DialogicSharp</Scope>
     </TokenIdentifier>
     <Path>d1/d1c/classDialogicSharp.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Loader</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>Loader</Scope>
+    </TokenIdentifier>
+    <Path>d5/d5c/classLoader.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -102,6 +120,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_currentItemListId</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>SaveSelectMenuPopup</Scope>
+    </TokenIdentifier>
+    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+    <Anchor>a5a1512146616c6a68db275873d5d50ed</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_dialogic</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -115,10 +143,51 @@
       <Name>_itemList</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
+      <Scope>SaveSelectMenuPopup</Scope>
+    </TokenIdentifier>
+    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+    <Anchor>abf582f0c7505de1588d56595f1189649</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_itemList</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
       <Scope>ShopItemManager</Scope>
     </TokenIdentifier>
     <Path>d5/deb/classShopItemManager.html</Path>
     <Anchor>a53a4535e5cefc028bb34c96c882d0daa</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_newScene</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a79bbfed2880def617c8701c4ed9e5ff7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_pathsForItemList</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>SaveSelectMenuPopup</Scope>
+    </TokenIdentifier>
+    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+    <Anchor>ad7259fc2ebb41c07d7db8abf7a0e3261</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a3f5201b512af921a27843f5e539bbfd2</Anchor>
+    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -166,6 +235,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_res</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>ac307601308e484e30b55b0d8e9b3a4ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_saveContainer</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -173,6 +252,16 @@
     </TokenIdentifier>
     <Path>dd/de5/classSaver.html</Path>
     <Anchor>a29b24d68174ec78767528f3b5312a5db</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_saveManager</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>SaveSelectMenuPopup</Scope>
+    </TokenIdentifier>
+    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+    <Anchor>a09b3ab0df3ae34e82308d97143d13c7e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -196,6 +285,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_scenePath</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a6dc40ea61d18df0b4df8776eeceb0bb5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_shopItems</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -206,6 +305,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_thread</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a98c52563f03603667fdff76551eeb6c8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Autosave</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instp</Type>
@@ -213,6 +322,38 @@
     </TokenIdentifier>
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>adac214c08f75c7645efc787045108dc9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CanChange</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a7cb7630bd66bbcdaf489a61fa8fbbcbe</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ChangeSceneToPreloaded</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>abadf730f6aa55cbf16eabea117236a99</Anchor>
+    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClearStuff</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a9523179cc2082561f774b7bc0ec5882a</Anchor>
+    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -575,6 +716,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Instance</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a3df958d34839ccffb66e22e3c47da008</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ItemCost</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -656,6 +807,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>LoadSave</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Loader</Scope>
+    </TokenIdentifier>
+    <Path>d5/d5c/classLoader.html</Path>
+    <Anchor>a82eb43536c346139a0afa601a8d4b390</Anchor>
+    <DeclaredIn>Loader.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PreloadScene</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a7e680d86816156d6317bc816712cd849</Anchor>
+    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ResetSaves</Name>
       <APILanguage>csharp</APILanguage>
       <Type>clm</Type>
@@ -699,13 +872,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>saveItem</Name>
+      <Name>SavePaths</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
+      <Scope>SaveManager</Scope>
+    </TokenIdentifier>
+    <Path>d8/d24/classSaveManager.html</Path>
+    <Anchor>a4cd36b0d9348b89e98ed5823fd99e15d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SaveSelectedToLoad</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
       <Scope>SaveSelectMenuPopup</Scope>
     </TokenIdentifier>
     <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>a732e3e418885a3e4488ad513ac815336</Anchor>
+    <Anchor>a30832eea73a8ca4cce34404cc01e1d24</Anchor>
+    <DeclaredIn>SaveSelectMenuPopup.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -761,6 +945,28 @@
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>a887b2947d040e3b5285eeadb06c259f8</Anchor>
     <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ThreadDone</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a55b6e72c5ff0323136abf4e8c00d224d</Anchor>
+    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ThreadLoad</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BackgroundLoader</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5c/classBackgroundLoader.html</Path>
+    <Anchor>a85eecde672efb01b29ecd182504dcb21</Anchor>
+    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

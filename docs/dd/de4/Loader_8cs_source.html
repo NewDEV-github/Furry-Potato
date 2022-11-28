@@ -112,16 +112,25 @@ $(document).ready(function(){initNavTree('dd/de4/Loader_8cs_source.html','../../
 <div class="contents">
 <a href="../../dd/de4/Loader_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>Godot;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System;</div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="../../d5/d5c/classLoader.html">    4</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="../../d5/d5c/classLoader.html">Loader</a> : Node</div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d5/d5c/classLoader.html#a82eb43536c346139a0afa601a8d4b390">   10</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d5c/classLoader.html#a82eb43536c346139a0afa601a8d4b390">LoadSave</a>(<span class="keywordtype">string</span> saveDir) {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="comment">//TODO: Get all file list in GameController folder and assign their content to value matching appropriate file name</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="comment">//TODO: Do the same for OptionController</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    }</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
-<div class="ttc" id="aclassLoader_html"><div class="ttname"><a href="../../d5/d5c/classLoader.html">Loader</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/Loader_8cs_source.html#l00004">Loader.cs:5</a></div></div>
-<div class="ttc" id="aclassLoader_html_a82eb43536c346139a0afa601a8d4b390"><div class="ttname"><a href="../../d5/d5c/classLoader.html#a82eb43536c346139a0afa601a8d4b390">Loader.LoadSave</a></div><div class="ttdeci">void LoadSave(string saveDir)</div><div class="ttdoc">Loads save, then after loading data changes scene to game</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/Loader_8cs_source.html#l00010">Loader.cs:10</a></div></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>Godot.Collections;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="../../d5/d5c/classLoader.html">    5</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="../../d5/d5c/classLoader.html">Loader</a> : Node</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d5/d5c/classLoader.html#a82eb43536c346139a0afa601a8d4b390">   15</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d5c/classLoader.html#a82eb43536c346139a0afa601a8d4b390">LoadSave</a>(<span class="keywordtype">string</span> saveDir) {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        Dictionary&lt;string, string&gt; newGameControllerData = <span class="keyword">new</span> Dictionary&lt;string, string&gt;();</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keywordtype">string</span>[] fileEntriesGameController = System.IO.Directory.GetFiles(saveDir + <span class="stringliteral">&quot;\\data\\GameController\\&quot;</span>);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keywordtype">string</span>[] fileEntriesOptionsController = System.IO.Directory.GetFiles(saveDir + <span class="stringliteral">&quot;\\data\\OptionsController\\&quot;</span>);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="comment">//TODO: Finish this fucking shit</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordflow">foreach</span> (var gControllerData <span class="keywordflow">in</span> fileEntriesGameController) {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="keywordtype">string</span> baseName = <span class="keyword">null</span>; </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            newGameControllerData.Add(baseName, System.IO.File.ReadAllText(saveDir + <span class="stringliteral">&quot;\\data\\GameController\\&quot;</span> + gControllerData));</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        }</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    }</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
+<div class="ttc" id="aclassLoader_html"><div class="ttname"><a href="../../d5/d5c/classLoader.html">Loader</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/Loader_8cs_source.html#l00005">Loader.cs:6</a></div></div>
+<div class="ttc" id="aclassLoader_html_a82eb43536c346139a0afa601a8d4b390"><div class="ttname"><a href="../../d5/d5c/classLoader.html#a82eb43536c346139a0afa601a8d4b390">Loader.LoadSave</a></div><div class="ttdeci">void LoadSave(string saveDir)</div><div class="ttdoc">Loads save, then after loading data changes scene to game</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/Loader_8cs_source.html#l00015">Loader.cs:15</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

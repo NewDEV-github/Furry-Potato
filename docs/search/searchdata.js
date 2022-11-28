@@ -6,7 +6,8 @@ var indexSectionsWithContent =
   3: "_ceghilprstw",
   4: "_cdis",
   5: "dfg",
-  6: "acd"
+  6: "acd",
+  7: "t"
 };
 
 var indexSectionNames =
@@ -17,7 +18,8 @@ var indexSectionNames =
   3: "functions",
   4: "variables",
   5: "typedefs",
-  6: "properties"
+  6: "properties",
+  7: "pages"
 };
 
 var indexSectionLabels =
@@ -28,6 +30,7 @@ var indexSectionLabels =
   3: "Functions",
   4: "Variables",
   5: "Typedefs",
-  6: "Properties"
+  6: "Properties",
+  7: "Pages"
 };
 

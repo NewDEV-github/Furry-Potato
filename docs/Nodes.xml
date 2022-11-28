@@ -6,6 +6,10 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
+        <Name>Todo List</Name>
+        <Path>dd/da0/todo.html</Path>
+       </Node>
+       <Node>
         <Name>Classes</Name>
         <Path>annotated.html</Path>
       <Subnodes>

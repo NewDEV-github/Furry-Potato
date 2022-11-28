@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Furry Potato", "index.html", [
+    [ "Todo List", "dd/da0/todo.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -50,7 +51,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d7/d9e/wobble_8gd_source.html",
-"dir_a1a18b434e0a62367fed02959ba9f2ca.html"
+"dir_96a4b376ebb0fff8a4082da2dd36a82e.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

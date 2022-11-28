@@ -34,7 +34,7 @@ public class SaveManager : Control {
             foreach (string dir in dirs) {
                 string filePath = dir + "\\SaveName.dat";
                 Console.WriteLine("Looking up for save name data in: " + dir);
-                string realSaveName = File.ReadAllText(filePath);;
+                string realSaveName = File.ReadAllText(filePath);
                 _saveNamesList.Add(realSaveName);
                 SavePaths.Add(realSaveName, dir);
             }

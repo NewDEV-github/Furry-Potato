@@ -32,7 +32,10 @@ func _on_Resume_pressed():
 func restart():
 	MjPlayer.fade_out()
 	get_tree().paused = false
-	get_tree().reload_current_scene()
+	if get_tree().reload_current_scene():
+		pass
+	else:
+		print("error while reloading game scene")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -70,7 +73,10 @@ func quit_game():
 
 func go_to_main_menu():
 	get_tree().paused = false
-	get_tree().change_scene("res://scenes/main/menu.tscn")
+	if get_tree().change_scene("res://scenes/main/menu.tscn"):
+		pass
+	else:
+		print("Error while going to menu")
 
 
 func _on_PauseMenu_visibility_changed():

@@ -1,0 +1,9 @@
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportDebug\Furry Potato.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportDebug\Furry Potato.pdb
+D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.csproj.AssemblyReference.cache
+D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.AssemblyInfoInputs.cache
+D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.AssemblyInfo.cs
+D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.csproj.CoreCompileInputs.cache
+D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.dll
+D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.pdb

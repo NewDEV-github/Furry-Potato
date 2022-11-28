@@ -1,29 +1,12 @@
 extends WindowDialog
-
-
-var shop_items = [
-	{
-		"item_name": "test item",
-		"item_price": 23,
-		"item_icon": "res://icon.png",
-		"item_description": "Best headphones ever",
-		"music_quality_multiplier": 0.1,
-		"experience_multiplier": 0.1,
-		"party_quality_multiplier": 0
-	},
-	{
-		"item_name": "test item",
-		"item_price": 23,
-		"item_icon": "res://icon.png",
-		"item_description": "Best headphones ever", 
-		"music_quality_multiplier": 0.1,
-		"experience_multiplier": 0.1,
-		"party_quality_multiplier": 0
-	}
-]
+var ShopItemManager = preload("res://scripts/scenes/game/shop/ShopItemManager.cs").new()
+var shop_items = []
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	ShopItemManager.InitItems()
+	for i in ShopItemManager.GetItemList():
+		shop_items.append(ShopItemManager.GetItemData(i))
 	_render_shop_items()
 
 

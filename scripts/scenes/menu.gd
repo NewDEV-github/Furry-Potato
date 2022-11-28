@@ -20,16 +20,21 @@ func _ready():
 	if not MjPlayer.is_playing:
 		MjPlayer.stream = load("res://assets/audio/bg/mj.ogg")
 		MjPlayer.start()
-	dft_file.open("user://dft_setting", File.READ)
-	if str(dft_file.get_line()) == "True":
-		$CheckButton.pressed = true
-		Globals.set_use_furry_characters(true)
-#		on_warning(true)
+	if Directory.new().file_exists("user://dft_setting"):
+		dft_file.open("user://dft_setting", File.READ)
+		if str(dft_file.get_line()) == "True":
+			$CheckButton.pressed = true
+			Globals.set_use_furry_characters(true)
+	#		on_warning(true)
+		else:
+			$CheckButton.pressed = false
+			Globals.set_use_furry_characters(false)
+	#		on_warning(false)
+		dft_file.close()
 	else:
 		$CheckButton.pressed = false
 		Globals.set_use_furry_characters(false)
-#		on_warning(false)
-	dft_file.close()
+	
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

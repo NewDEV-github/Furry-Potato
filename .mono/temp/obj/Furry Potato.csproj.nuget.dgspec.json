@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\Furry-Potato\\Furry Potato.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\Furry-Potato\\Furry Potato.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\Furry-Potato\\Furry Potato.csproj",
+        "projectName": "Furry Potato",
+        "projectPath": "D:\\GitHub\\Furry-Potato\\Furry Potato.csproj",
+        "packagesPath": "C:\\Users\\DoS\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\Furry-Potato\\.mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DoS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

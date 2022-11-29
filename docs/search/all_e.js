@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['hascurrentdialognode_0',['HasCurrentDialogNode',['../d1/d1c/classDialogicSharp.html#a7db89dcd8417cb767e3e693ec987203d',1,'DialogicSharp']]],
-  ['headshake_2egd_1',['headshake.gd',['../d1/d7a/headshake_8gd.html',1,'']]],
-  ['heartbeat_2egd_2',['heartbeat.gd',['../d0/d72/heartbeat_8gd.html',1,'']]],
-  ['history_2egd_3',['History.gd',['../d9/da5/History_8gd.html',1,'']]],
-  ['historyrow_2egd_4',['HistoryRow.gd',['../d5/d99/HistoryRow_8gd.html',1,'']]],
-  ['historysettings_2egd_5',['HistorySettings.gd',['../d6/d4d/HistorySettings_8gd.html',1,'']]]
+  ['threaddone_0',['ThreadDone',['../d9/d5c/classBackgroundLoader.html#a55b6e72c5ff0323136abf4e8c00d224d',1,'BackgroundLoader']]],
+  ['threadload_1',['ThreadLoad',['../d9/d5c/classBackgroundLoader.html#a85eecde672efb01b29ecd182504dcb21',1,'BackgroundLoader']]],
+  ['todo_20list_2',['Todo List',['../dd/da0/todo.html',1,'']]]
 ];

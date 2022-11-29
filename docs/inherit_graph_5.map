@@ -1,4 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " coords="5,5,109,31"/>
-<area shape="rect" id="node2" href="$dd/d61/classSaveSelectMenuPopup.html" title=" " coords="157,5,313,31"/>
+<area shape="rect" id="node1" title=" " coords="5,104,57,129"/>
+<area shape="rect" id="node2" href="$d9/d5c/classBackgroundLoader.html" title="Class for asynchronous scene loading" coords="105,5,236,31"/>
+<area shape="rect" id="node3" href="$d5/de3/classComputer.html" title="In&#45;game computer core class" coords="131,55,210,80"/>
+<area shape="rect" id="node4" href="$d5/d5c/classLoader.html" title="Class used to pre&#45;load and format save data" coords="140,104,201,129"/>
+<area shape="rect" id="node5" href="$dd/de5/classSaver.html" title=" " coords="143,153,198,179"/>
+<area shape="rect" id="node6" href="$d5/deb/classShopItemManager.html" title="Class for managing all shop items" coords="107,203,234,228"/>
 </map>

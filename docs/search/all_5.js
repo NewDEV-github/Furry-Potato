@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['6_2dfade_5fout_5fdown_5fbig_2egd_0',['6-fade_out_down_big.gd',['../da/db5/6-fade__out__down__big_8gd.html',1,'']]]
+  ['eraseslot_0',['EraseSlot',['../d1/d1c/classDialogicSharp.html#aa15303ac5851f14e362038b6c13e4d40',1,'DialogicSharp']]],
+  ['export_1',['Export',['../d1/d1c/classDialogicSharp.html#acddfcb33c547a7bcf080dcb1b747bd02',1,'DialogicSharp']]]
 ];

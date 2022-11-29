@@ -1,5 +1,5 @@
 <map id="SaveSelectMenuPopup" name="SaveSelectMenuPopup">
-<area shape="rect" id="node1" title=" " coords="5,168,161,193"/>
+<area shape="rect" id="node1" title="Class used by save menu popup" coords="5,168,161,193"/>
 <area shape="rect" id="node2" title=" " coords="10,80,114,105"/>
 <area shape="rect" id="node3" href="$d8/d24/classSaveManager.html" title="Class used to manage all game saves." coords="139,80,239,105"/>
 <area shape="rect" id="node4" title=" " coords="157,5,220,31"/>

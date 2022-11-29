@@ -109,12 +109,17 @@ $(document).ready(function(){initNavTree('dd/d61/classSaveSelectMenuPopup.html',
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dd/d1a/classSaveSelectMenuPopup-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">SaveSelectMenuPopup Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class used by save menu popup   
+ <a href="../../dd/d61/classSaveSelectMenuPopup.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SaveSelectMenuPopup:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -122,7 +127,7 @@ $(document).ready(function(){initNavTree('dd/d61/classSaveSelectMenuPopup.html',
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../db/d57/classSaveSelectMenuPopup__inherit__graph.png" border="0" usemap="#aSaveSelectMenuPopup_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSaveSelectMenuPopup_inherit__map" id="aSaveSelectMenuPopup_inherit__map">
-<area shape="rect" title=" " coords="5,79,161,104"/>
+<area shape="rect" title="Class used by save menu popup" coords="5,79,161,104"/>
 <area shape="rect" title=" " coords="31,5,135,31"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
@@ -133,7 +138,7 @@ $(document).ready(function(){initNavTree('dd/d61/classSaveSelectMenuPopup.html',
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../d3/d65/classSaveSelectMenuPopup__coll__graph.png" border="0" usemap="#aSaveSelectMenuPopup_coll__map" alt="Collaboration graph"/></div>
 <map name="aSaveSelectMenuPopup_coll__map" id="aSaveSelectMenuPopup_coll__map">
-<area shape="rect" title=" " coords="5,168,161,193"/>
+<area shape="rect" title="Class used by save menu popup" coords="5,168,161,193"/>
 <area shape="rect" title=" " coords="10,80,114,105"/>
 <area shape="rect" href="../../d8/d24/classSaveManager.html" title="Class used to manage all game saves." coords="139,80,239,105"/>
 <area shape="rect" title=" " coords="157,5,220,31"/>
@@ -145,14 +150,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0318807429135dc184398fb68e098163"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a0318807429135dc184398fb68e098163">_Ready</a> ()</td></tr>
 <tr class="separator:a0318807429135dc184398fb68e098163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aab7c957db2254f88a3b446d221f3af0e"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, Dictionary&lt; string, string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#aab7c957db2254f88a3b446d221f3af0e">PreloadedSaveData</a> = new Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;()</td></tr>
+<tr class="memdesc:aab7c957db2254f88a3b446d221f3af0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains preloaded save data, previously set by  <a href="../../dd/d61/classSaveSelectMenuPopup.html#aab7c957db2254f88a3b446d221f3af0e">More...</a><br /></td></tr>
+<tr class="separator:aab7c957db2254f88a3b446d221f3af0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a30832eea73a8ca4cce34404cc01e1d24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a30832eea73a8ca4cce34404cc01e1d24">SaveSelectedToLoad</a> (int index)</td></tr>
+<tr class="memdesc:a30832eea73a8ca4cce34404cc01e1d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by Godot, when user has selected save to load   <a href="../../dd/d61/classSaveSelectMenuPopup.html#a30832eea73a8ca4cce34404cc01e1d24">More...</a><br /></td></tr>
 <tr class="separator:a30832eea73a8ca4cce34404cc01e1d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a778145d1a8ef2e4e96a161bce39393a5"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a778145d1a8ef2e4e96a161bce39393a5">SaveDataPreloaded</a> ()</td></tr>
+<tr class="memdesc:a778145d1a8ef2e4e96a161bce39393a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal emitted when save data has been preloaded   <a href="../../dd/d61/classSaveSelectMenuPopup.html#a778145d1a8ef2e4e96a161bce39393a5">More...</a><br /></td></tr>
+<tr class="separator:a778145d1a8ef2e4e96a161bce39393a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:abf582f0c7505de1588d56595f1189649"><td class="memItemLeft" align="right" valign="top">ItemList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#abf582f0c7505de1588d56595f1189649">_itemList</a></td></tr>
+<tr class="memdesc:abf582f0c7505de1588d56595f1189649"><td class="mdescLeft">&#160;</td><td class="mdescRight">ItemList's node instance   <a href="../../dd/d61/classSaveSelectMenuPopup.html#abf582f0c7505de1588d56595f1189649">More...</a><br /></td></tr>
 <tr class="separator:abf582f0c7505de1588d56595f1189649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09b3ab0df3ae34e82308d97143d13c7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d24/classSaveManager.html">SaveManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a09b3ab0df3ae34e82308d97143d13c7e">_saveManager</a> = new <a class="el" href="../../d8/d24/classSaveManager.html">SaveManager</a>()</td></tr>
 <tr class="separator:a09b3ab0df3ae34e82308d97143d13c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,11 +179,13 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:ad7259fc2ebb41c07d7db8abf7a0e3261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary used to keep where is root path for each save. To make it easier the key is id of ItemList's item.   <a href="../../dd/d61/classSaveSelectMenuPopup.html#ad7259fc2ebb41c07d7db8abf7a0e3261">More...</a><br /></td></tr>
 <tr class="separator:ad7259fc2ebb41c07d7db8abf7a0e3261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a1512146616c6a68db275873d5d50ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d61/classSaveSelectMenuPopup.html#a5a1512146616c6a68db275873d5d50ed">_currentItemListId</a> = 0</td></tr>
+<tr class="memdesc:a5a1512146616c6a68db275873d5d50ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current ID of next non-existent Item in the ItemList   <a href="../../dd/d61/classSaveSelectMenuPopup.html#a5a1512146616c6a68db275873d5d50ed">More...</a><br /></td></tr>
 <tr class="separator:a5a1512146616c6a68db275873d5d50ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00005">5</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+<div class="textblock"><p >Class used by save menu popup  </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00008">8</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0318807429135dc184398fb68e098163" name="a0318807429135dc184398fb68e098163"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0318807429135dc184398fb68e098163">&#9670;&#160;</a></span>_Ready()</h2>
@@ -189,9 +210,36 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">15</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00037">37</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00014">_currentItemListId</a>, <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00006">_itemList</a>, <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">_pathsForItemList</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00021">SaveManager._Ready()</a>, <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00007">_saveManager</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00059">SaveManager.GetSaveLastModificationDate()</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00050">SaveManager.GetSaveNamesArray()</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00015">SaveManager.SaveCount</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00020">SaveManager.SavePaths</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00036">_currentItemListId</a>, <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00019">_itemList</a>, <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00031">_pathsForItemList</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00021">SaveManager._Ready()</a>, <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00026">_saveManager</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00059">SaveManager.GetSaveLastModificationDate()</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00050">SaveManager.GetSaveNamesArray()</a>, <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00015">SaveManager.SaveCount</a>, and <a class="el" href="../../d2/de6/SaveManager_8cs_source.html#l00020">SaveManager.SavePaths</a>.</p>
+
+</div>
+</div>
+<a id="a778145d1a8ef2e4e96a161bce39393a5" name="a778145d1a8ef2e4e96a161bce39393a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a778145d1a8ef2e4e96a161bce39393a5">&#9670;&#160;</a></span>SaveDataPreloaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void SaveSelectMenuPopup.SaveDataPreloaded </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Signal emitted when save data has been preloaded  </p>
 
 </div>
 </div>
@@ -219,9 +267,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00032">32</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+<p>Called by Godot, when user has selected save to load  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of item, in displayed ItemList with save list, that contains selected save name</td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">References <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">_pathsForItemList</a>, and <a class="el" href="../../dd/de4/Loader_8cs_source.html#l00015">Loader.LoadSave()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00058">58</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00031">_pathsForItemList</a>, <a class="el" href="../../dd/de4/Loader_8cs_source.html#l00016">Loader.LoadSave()</a>, and <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00025">PreloadedSaveData</a>.</p>
 
 </div>
 </div>
@@ -246,9 +302,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00014">14</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+<p>Current ID of next non-existent Item in the ItemList  </p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">_Ready()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00036">36</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00037">_Ready()</a>.</p>
 
 </div>
 </div>
@@ -272,9 +330,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00006">6</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+<p>ItemList's node instance  </p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">_Ready()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00019">19</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00037">_Ready()</a>.</p>
 
 </div>
 </div>
@@ -300,9 +360,9 @@ Private Attributes</h2></td></tr>
 
 <p>Dictionary used to keep where is root path for each save. To make it easier the key is id of ItemList's item.  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00012">12</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00031">31</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">_Ready()</a>, and <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00032">SaveSelectedToLoad()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00037">_Ready()</a>, and <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00058">SaveSelectedToLoad()</a>.</p>
 
 </div>
 </div>
@@ -326,9 +386,30 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00007">7</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00026">26</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00015">_Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00037">_Ready()</a>.</p>
+
+</div>
+</div>
+<a id="aab7c957db2254f88a3b446d221f3af0e" name="aab7c957db2254f88a3b446d221f3af0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7c957db2254f88a3b446d221f3af0e">&#9670;&#160;</a></span>PreloadedSaveData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, Dictionary&lt;string, string&gt; &gt; SaveSelectMenuPopup.PreloadedSaveData = new Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Contains preloaded save data, previously set by </p>
+<p ><code>new <a class="el" href="../../d5/d5c/classLoader.html" title="Class used to pre-load and format save data">Loader()</a>.LoadSave(string path)</code> Useful after only <code>SaveDataPreloaded</code> signal has been called.  </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00025">25</a> of file <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html">SaveSelectMenuPopup.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d79/SaveSelectMenuPopup_8cs_source.html#l00058">SaveSelectedToLoad()</a>.</p>
 
 </div>
 </div>

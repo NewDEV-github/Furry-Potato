@@ -1,47 +1,5 @@
 <map id="dialogic" name="dialogic">
-<area shape="rect" id="node3" href="dir_5b939de483b8cb33d8ee9f1def717fec.html" title="Nodes" coords="4628,105,4687,131"/>
-<area shape="rect" id="node5" href="dir_d4a3eeea76afb61e7fbc331fcada00d3.html" title="CharacterEditor" coords="2300,105,2412,131"/>
-<area shape="rect" id="node6" href="dir_f741f2a37ebbf6cd5711e8c9cf959c71.html" title="Common" coords="2201,105,2276,131"/>
-<area shape="rect" id="node7" href="dir_0c23bb563075522fb49bdb37400e5031.html" title="DocumentationViewer" coords="2029,105,2177,131"/>
-<area shape="rect" id="node10" href="dir_72cab1fda9abfdab023bb98ae25829a6.html" title="Audio" coords="3709,105,3763,131"/>
-<area shape="rect" id="node11" href="dir_dfd3bdcd8a4357325625fbd7c25e9d16.html" title="CallNode" coords="3609,105,3684,131"/>
-<area shape="rect" id="node12" href="dir_83b9689db66c42d765b801bcf660ad6e.html" title="Character" coords="3506,105,3585,131"/>
-<area shape="rect" id="node13" href="dir_b06fa687f55f89a75e679f04ec4b9b02.html" title="EventBlock" coords="3395,105,3482,131"/>
-<area shape="rect" id="node14" href="dir_e76f276a635ac31086b2ca1251263718.html" title="Images" coords="3307,105,3371,131"/>
-<area shape="rect" id="node15" href="dir_a632c45765771b778ba1bc0ff67a9a3b.html" title="Logic" coords="3229,105,3283,131"/>
-<area shape="rect" id="node16" href="dir_48365b3ecdb56776c9e017652937bf84.html" title="Numbers" coords="3131,105,3205,131"/>
-<area shape="rect" id="node18" href="dir_17c25578f7b0f5c3187cc11c8c0b3bd2.html" title="Characters" coords="4332,105,4417,131"/>
-<area shape="rect" id="node19" href="dir_17992449f3cbf5f95105b8597da31520.html" title="Definitions" coords="4225,105,4308,131"/>
-<area shape="rect" id="node20" href="dir_49762f317436ab81dbfb96c8bdfaaab2.html" title="Files" coords="4151,105,4201,131"/>
-<area shape="rect" id="node21" href="dir_a6cf8ef9ae0f2bd9d81761e5e6836f3b.html" title="Scenes" coords="4060,105,4127,131"/>
-<area shape="rect" id="node22" href="dir_3bb1c738266e8e591d4646b0e78d7660.html" title="Themes" coords="3967,105,4035,131"/>
-<area shape="rect" id="node23" href="dir_cc7452afd0c8049ac2f7ab088ecd90bd.html" title="Timelines" coords="3865,105,3943,131"/>
-<area shape="rect" id="node24" href="dir_8860b101eac2691d3a9b4cfeb2b05154.html" title="Text" coords="3059,105,3106,131"/>
-<area shape="rect" id="node25" href="dir_b070fcdb3a868fd8d3181d6dd6f25783.html" title="WaitSeconds" coords="2935,105,3035,131"/>
-<area shape="rect" id="node26" href="dir_346c116e7c8784cd80ccd4551221956a.html" title="Templates" coords="2743,105,2825,131"/>
-<area shape="rect" id="node27" href="dir_5517eeceeb49fcfc0189d7e4163dcbbb.html" title="GlossaryEntryEditor" coords="1865,105,2004,131"/>
-<area shape="rect" id="node28" href="dir_0acab7a2e77b6b634730564c3027d51f.html" title="MasterTree" coords="1754,105,1841,131"/>
-<area shape="rect" id="node30" href="dir_db3fa7dafd5ef394cd8562ce4fc70834.html" title="Scenes" coords="2516,105,2583,131"/>
-<area shape="rect" id="node31" href="dir_c031f15a3a5579658f97112e60b44fcd.html" title="ThemeEditor" coords="1635,105,1730,131"/>
-<area shape="rect" id="node32" href="dir_38768c97848b1c130ed11dcb6c91b07f.html" title="TimelineEditor" coords="1507,105,1611,131"/>
-<area shape="rect" id="node33" href="dir_853491cfad6dcf9ea2fb64f64f2fcc6f.html" title="ValueEditor" coords="1393,105,1482,131"/>
-<area shape="rect" id="node35" href="dir_7eeb14b11008e16ac5367ad02b188d8d.html" title="CustomEvents" coords="1109,105,1216,131"/>
-<area shape="rect" id="node36" href="dir_e7ea2ce5d25d9dfa0923fbb59fe47f61.html" title="History" coords="1022,105,1085,131"/>
-<area shape="rect" id="node37" href="dir_ae83e23859c6e9fa87e9140547348b74.html" title="Localization" coords="201,105,292,131"/>
-<area shape="rect" id="node41" href="dir_c775e243369a100754e978e038a8c2ad.html" title="attention_seeker" coords="739,105,858,131"/>
-<area shape="rect" id="node42" href="dir_b4827fd339e93999276e1af401f82fbb.html" title="entrances_and_exits" coords="573,105,715,131"/>
-<area shape="rect" id="node43" href="dir_78fd425a84c5eadf62dec76e74324c95.html" title="Other" coords="122,105,177,131"/>
-<area shape="rect" id="node44" href="dir_db9a0c842f0cee9b14691a7ca952dad1.html" title="Parser" coords="38,105,98,131"/>
-<area shape="rect" id="clust3" href="dir_c658b221f8fd3e6b8aa9106481a54f81.html" coords="4617,95,4831,141"/>
-<area shape="rect" id="clust7" href="dir_48802c464c86bf9bc9de9e5d896a68dc.html" coords="3855,95,4575,141"/>
-<area shape="rect" id="clust6" href="dir_8531878cb53d9021dc480be0bd17b3ba.html" coords="2924,84,4585,152"/>
-<area shape="rect" id="clust5" href="dir_b1631b9c10742e3914300a1dbfd4e3ae.html" coords="2732,73,4596,163"/>
-<area shape="rect" id="clust8" href="dir_117b2dedd556b1b10ce478424aa15e56.html" coords="2505,95,2721,141"/>
-<area shape="rect" id="clust4" href="dir_3d9054019d26ab0f9bf07eaa14675c6a.html" coords="1381,63,4607,173"/>
-<area shape="rect" id="clust9" href="dir_4add5bc21e6f0d80d809325239b31121.html" coords="1011,95,1371,141"/>
-<area shape="rect" id="clust12" href="dir_19162d5c7028733b05ad5977aa352008.html" coords="561,95,979,141"/>
-<area shape="rect" id="clust11" href="dir_61e2ec4f5c7678786cdf297a87ab974d.html" coords="479,84,989,152"/>
-<area shape="rect" id="clust10" href="dir_01b8b1a43208a12f6d53453c39137dbc.html" coords="396,73,1000,163"/>
-<area shape="rect" id="clust2" href="dir_6c69cb03c84b3eac49f5007795ee7870.html" coords="27,52,4841,184"/>
-<area shape="rect" id="clust1" href="dir_1233bc0a3e869c10318208e4553a4fcb.html" title="addons" coords="16,16,4852,195"/>
+<area shape="rect" id="node2" href="dir_78fd425a84c5eadf62dec76e74324c95.html" title="Other" coords="38,63,93,88"/>
+<area shape="rect" id="clust2" href="dir_6c69cb03c84b3eac49f5007795ee7870.html" coords="27,52,195,99"/>
+<area shape="rect" id="clust1" href="dir_1233bc0a3e869c10318208e4553a4fcb.html" title="addons" coords="16,16,205,109"/>
 </map>

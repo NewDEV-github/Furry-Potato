@@ -131,3 +131,4 @@ anchor_bottom = 1.0
 [connection signal="pressed" from="MenuButtons/LoadGame" to="." method="_on_LoadGame_pressed"]
 [connection signal="pressed" from="MenuButtons/Options" to="." method="_on_Options_pressed"]
 [connection signal="pressed" from="CheckButton" to="." method="_on_CheckButton_pressed"]
+[connection signal="SaveDataPreloaded" from="SaveSelectMenuPopup" to="." method="_on_SaveSelectMenuPopup_SaveDataPreloaded"]

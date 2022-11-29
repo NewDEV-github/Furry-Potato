@@ -17,3 +17,7 @@ func set_option_data(key, value):
 
 func get_option_data(key):
 	pass
+
+func set_new_data_fields(new_data):
+	option_data = new_data
+	print("New data set successfully")

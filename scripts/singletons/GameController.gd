@@ -12,6 +12,10 @@ var data = {
 	"PlayerEmailDomain": "furry.potato"
 }
 
+func set_new_data_fields(new_data):
+	data = new_data
+	print("New data set successfully")
+
 func set_name(new_name):
 	data["DJName"] = new_name
 	print("New name is: " + data["DJName"])

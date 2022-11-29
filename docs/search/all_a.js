@@ -1,28 +1,8 @@
 var searchData=
 [
-  ['default_5fdialog_5fresource_0',['DEFAULT_DIALOG_RESOURCE',['../d1/d1c/classDialogicSharp.html#a4346fe4d54d8b1ffcffe2ba30848e1f6',1,'DialogicSharp']]],
-  ['defaultdefinitions_1',['DefaultDefinitions',['../d1/d1c/classDialogicSharp.html#aeb82752d8dcf6868515e3f6e65d6ea45',1,'DialogicSharp']]],
-  ['definitions_2',['Definitions',['../d1/d1c/classDialogicSharp.html#a3c4c231c6cd54ceeb8d4b0fd0dc14c3b',1,'DialogicSharp']]],
-  ['dialogicanimapropertieshelper_2egd_3',['DialogicAnimaPropertiesHelper.gd',['../d4/de8/DialogicAnimaPropertiesHelper_8gd.html',1,'']]],
-  ['dialogicanimaresources_2egd_4',['DialogicAnimaResources.gd',['../d7/d4f/DialogicAnimaResources_8gd.html',1,'']]],
-  ['dialogicanimatween_2egd_5',['DialogicAnimaTween.gd',['../d7/d26/DialogicAnimaTween_8gd.html',1,'']]],
-  ['dialogicclass_2egd_6',['DialogicClass.gd',['../d3/d4d/DialogicClass_8gd.html',1,'']]],
-  ['dialogiccustomevents_2egd_7',['DialogicCustomEvents.gd',['../da/d44/DialogicCustomEvents_8gd.html',1,'']]],
-  ['dialogicdefinitionsutil_2egd_8',['DialogicDefinitionsUtil.gd',['../de/da6/DialogicDefinitionsUtil_8gd.html',1,'']]],
-  ['dialogicparser_2egd_9',['DialogicParser.gd',['../d1/d76/DialogicParser_8gd.html',1,'']]],
-  ['dialogicresources_2egd_10',['DialogicResources.gd',['../d3/d0d/DialogicResources_8gd.html',1,'']]],
-  ['dialogicsharp_11',['DialogicSharp',['../d1/d1c/classDialogicSharp.html',1,'']]],
-  ['dialogicsharp_2ecs_12',['DialogicSharp.cs',['../de/d97/DialogicSharp_8cs.html',1,'']]],
-  ['dialogicutil_2egd_13',['DialogicUtil.gd',['../db/d1d/DialogicUtil_8gd.html',1,'']]],
-  ['dialognode_2egd_14',['DialogNode.gd',['../d7/ddc/DialogNode_8gd.html',1,'']]],
-  ['dialogproxy_2egd_15',['DialogProxy.gd',['../d9/d7c/DialogProxy_8gd.html',1,'']]],
-  ['directory_16',['Directory',['../d2/de6/SaveManager_8cs.html#aada057080323f6e867d8f9c189276716',1,'SaveManager.cs']]],
-  ['discord_2egd_17',['discord.gd',['../d1/db4/discord_8gd.html',1,'']]],
-  ['discordsdk_2egd_18',['DiscordSDK.gd',['../d3/d39/DiscordSDK_8gd.html',1,'']]],
-  ['docsmarkdownparser_2egd_19',['DocsMarkdownParser.gd',['../de/dfe/DocsMarkdownParser_8gd.html',1,'']]],
-  ['docspageviewer_2egd_20',['DocsPageViewer.gd',['../d6/d9c/DocsPageViewer_8gd.html',1,'']]],
-  ['docstreehelper_2egd_21',['DocsTreeHelper.gd',['../d8/da5/DocsTreeHelper_8gd.html',1,'']]],
-  ['documentationtree_2egd_22',['DocumentationTree.gd',['../da/dc9/DocumentationTree_8gd.html',1,'']]],
-  ['documentationviewer_2egd_23',['DocumentationViewer.gd',['../d0/d25/Documentation_2Nodes_2DocumentationViewer_8gd.html',1,'']]],
-  ['plugin_2egd_24',['plugin.gd',['../d9/dcb/dialogic_2plugin_8gd.html',1,'']]]
+  ['load_0',['Load',['../d1/d1c/classDialogicSharp.html#aeff167a3beab4bd3421211f76342efdb',1,'DialogicSharp']]],
+  ['loader_1',['Loader',['../d5/d5c/classLoader.html',1,'']]],
+  ['loader_2ecs_2',['Loader.cs',['../dd/de4/Loader_8cs.html',1,'']]],
+  ['loadsave_3',['LoadSave',['../d5/d5c/classLoader.html#a9011f0e536fdc4cde02557a0c3a9e78c',1,'Loader']]],
+  ['loadsongfiles_4',['LoadSongFiles',['../df/d61/classCustomAudioLibrary.html#ad23372af6611bd8a35737b84b8cbdc5d',1,'CustomAudioLibrary']]]
 ];

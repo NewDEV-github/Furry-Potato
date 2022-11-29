@@ -1,0 +1,5 @@
+<map id="CustomAudioLibrary" name="CustomAudioLibrary">
+<area shape="rect" id="node1" title="Class used to manage all actions related to playing music from user&#39;s PC" coords="71,93,210,119"/>
+<area shape="rect" id="node2" title=" " coords="5,5,140,31"/>
+<area shape="rect" id="node3" href="$dd/d22/classFolderBase.html" title="Basic abstract class for folders in" coords="165,5,253,31"/>
+</map>

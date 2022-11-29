@@ -126,7 +126,6 @@ INPUT                  =
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          = *.c \
                          *.cc \
-                         *.gd \
                          *.cxx \
                          *.cpp \
                          *.c++ \

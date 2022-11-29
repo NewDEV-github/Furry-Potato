@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['3_2dfade_5fin_5fup_5fbig_2egd_0',['3-fade_in_up_big.gd',['../d6/d61/3-fade__in__up__big_8gd.html',1,'']]]
+  ['backgroundloader_0',['BackgroundLoader',['../d9/d5c/classBackgroundLoader.html',1,'']]],
+  ['backgroundloader_2ecs_1',['BackgroundLoader.cs',['../dd/d0e/BackgroundLoader_8cs.html',1,'']]],
+  ['basesave_2',['BaseSave',['../d0/dd0/classBaseSave.html',1,'']]],
+  ['basesave_2ecs_3',['BaseSave.cs',['../dc/d93/BaseSave_8cs.html',1,'']]]
 ];

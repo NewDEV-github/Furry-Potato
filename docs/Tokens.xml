@@ -29,12 +29,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CustomAudioLibrary</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>CustomAudioLibrary</Scope>
+    </TokenIdentifier>
+    <Path>df/d61/classCustomAudioLibrary.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DialogicSharp</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
       <Scope>DialogicSharp</Scope>
     </TokenIdentifier>
     <Path>d1/d1c/classDialogicSharp.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FolderBase</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FolderBase</Scope>
+    </TokenIdentifier>
+    <Path>dd/d22/classFolderBase.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FolderSystemMusic</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FolderSystemMusic</Scope>
+    </TokenIdentifier>
+    <Path>d0/d71/classFolderSystemMusic.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -147,6 +174,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_folderList</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>CustomAudioLibrary</Scope>
+    </TokenIdentifier>
+    <Path>df/d61/classCustomAudioLibrary.html</Path>
+    <Anchor>aa1d2ff975ac03fb001af699b33d3b024</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_itemList</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -206,6 +243,17 @@
     <Path>d5/de3/classComputer.html</Path>
     <Anchor>a807b5c09426266e932d624b303dde87b</Anchor>
     <DeclaredIn>Computer.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>CustomAudioLibrary</Scope>
+    </TokenIdentifier>
+    <Path>df/d61/classCustomAudioLibrary.html</Path>
+    <Anchor>af9ab67b8fd226c8457761f86e2aa564c</Anchor>
+    <DeclaredIn>CustomAudioLibrary.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -309,6 +357,16 @@
     </TokenIdentifier>
     <Path>d5/deb/classShopItemManager.html</Path>
     <Anchor>a2a3f8019d644629e3a4298c73710774b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_systemMusic</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>CustomAudioLibrary</Scope>
+    </TokenIdentifier>
+    <Path>df/d61/classCustomAudioLibrary.html</Path>
+    <Anchor>ae6675694cdab2bd8ab4fe61b9be18ef5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -434,6 +492,50 @@
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>a290f7b037a12f268594ce95c1dafae76</Anchor>
     <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetFilesInFolder</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FolderBase</Scope>
+    </TokenIdentifier>
+    <Path>dd/d22/classFolderBase.html</Path>
+    <Anchor>a0323fb67737c11e65045635c8d32c4ac</Anchor>
+    <DeclaredIn>FolderBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetFilesInFolder</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FolderSystemMusic</Scope>
+    </TokenIdentifier>
+    <Path>d0/d71/classFolderSystemMusic.html</Path>
+    <Anchor>a3a1f2ececd1942940f4fb72a796a0294</Anchor>
+    <DeclaredIn>FolderSystemMusic.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetFolderPath</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FolderBase</Scope>
+    </TokenIdentifier>
+    <Path>dd/d22/classFolderBase.html</Path>
+    <Anchor>a37ab29e89583633e0677c9ad58139224</Anchor>
+    <DeclaredIn>FolderBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetFolderPath</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FolderSystemMusic</Scope>
+    </TokenIdentifier>
+    <Path>d0/d71/classFolderSystemMusic.html</Path>
+    <Anchor>abe6862f166cab58e72c0f334ee0a92e3</Anchor>
+    <DeclaredIn>FolderSystemMusic.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -690,6 +792,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InitFolderList</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>CustomAudioLibrary</Scope>
+    </TokenIdentifier>
+    <Path>df/d61/classCustomAudioLibrary.html</Path>
+    <Anchor>a12a51b4a4128035dffe700c80d736693</Anchor>
+    <DeclaredIn>CustomAudioLibrary.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>InitItem</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -820,8 +933,29 @@
       <Scope>Loader</Scope>
     </TokenIdentifier>
     <Path>d5/d5c/classLoader.html</Path>
-    <Anchor>a82eb43536c346139a0afa601a8d4b390</Anchor>
+    <Anchor>a9011f0e536fdc4cde02557a0c3a9e78c</Anchor>
     <DeclaredIn>Loader.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LoadSongFiles</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>CustomAudioLibrary</Scope>
+    </TokenIdentifier>
+    <Path>df/d61/classCustomAudioLibrary.html</Path>
+    <Anchor>ad23372af6611bd8a35737b84b8cbdc5d</Anchor>
+    <DeclaredIn>CustomAudioLibrary.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PreloadedSaveData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>SaveSelectMenuPopup</Scope>
+    </TokenIdentifier>
+    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+    <Anchor>aab7c957db2254f88a3b446d221f3af0e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -868,6 +1002,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SaveDataPreloaded</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>SaveSelectMenuPopup</Scope>
+    </TokenIdentifier>
+    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
+    <Anchor>a778145d1a8ef2e4e96a161bce39393a5</Anchor>
+    <DeclaredIn>SaveSelectMenuPopup.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SaveGame</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -897,6 +1042,28 @@
     <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
     <Anchor>a30832eea73a8ca4cce34404cc01e1d24</Anchor>
     <DeclaredIn>SaveSelectMenuPopup.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetFileExtensionFilter</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FolderBase</Scope>
+    </TokenIdentifier>
+    <Path>dd/d22/classFolderBase.html</Path>
+    <Anchor>a9b1f08bdf3dacfa1fef9ab5e5051757b</Anchor>
+    <DeclaredIn>FolderBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetFileExtensionFilter</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FolderSystemMusic</Scope>
+    </TokenIdentifier>
+    <Path>d0/d71/classFolderSystemMusic.html</Path>
+    <Anchor>a82b6e7c2f6ce8ae4dddc807eababd572</Anchor>
+    <DeclaredIn>FolderSystemMusic.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

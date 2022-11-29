@@ -2,25 +2,40 @@ using Godot;
 using System;
 using Godot.Collections;
 
-public class Loader : Node
-{
+
+/// <summary>
+/// Class used to pre-load and format save data
+/// </summary>
+public class Loader : Node {
+    
     /// <summary>
     /// Loads save, then after loading data changes scene to game
     /// </summary>
     /// <param name="saveDir">Save data root directory</param>
-
-    /** @todo Get all file list in GameController folder and assign their content to value matching appropriate file name */
-    /** @todo Make getting base file name work, to use it with setting save data */
-    /** @todo Do the same for OptionController */
-    public void LoadSave(string saveDir) {
+    /// <returns>Parsed save data</returns>
+    public Godot.Collections.Dictionary<string, Godot.Collections.Dictionary<string, string>> LoadSave(string saveDir) {
+        Console.Write($"Save dir is {saveDir}");
         Dictionary<string, string> newGameControllerData = new Dictionary<string, string>();
+        Dictionary<string, string> newOptionControllerData = new Dictionary<string, string>();
         string[] fileEntriesGameController = System.IO.Directory.GetFiles(saveDir + "\\data\\GameController\\");
-        string[] fileEntriesOptionsController = System.IO.Directory.GetFiles(saveDir + "\\data\\OptionsController\\");
-        
+        string[] fileEntriesOptionsController = System.IO.Directory.GetFiles(saveDir + "\\data\\OptionController\\");
+
         //TODO: Finish this fucking shit
         foreach (var gControllerData in fileEntriesGameController) {
-            string baseName = null; 
-            newGameControllerData.Add(baseName, System.IO.File.ReadAllText(saveDir + "\\data\\GameController\\" + gControllerData));
+            string baseName = System.IO.Path.GetFileNameWithoutExtension(gControllerData);
+            newGameControllerData.Add(baseName, System.IO.File.ReadAllText(gControllerData));
         }
+
+        foreach (var oControllerData in fileEntriesOptionsController) {
+            string baseName = System.IO.Path.GetFileNameWithoutExtension(oControllerData);
+            newOptionControllerData.Add(baseName, System.IO.File.ReadAllText(oControllerData));
+        }
+
+        Godot.Collections.Dictionary<string, Godot.Collections.Dictionary<string, string>> returnVar = new Dictionary<string, Dictionary<string, string>>();
+        returnVar.Add("GameController", newGameControllerData);
+        returnVar.Add("OptionController", newOptionControllerData);
+
+        return returnVar;
     }
 }
+

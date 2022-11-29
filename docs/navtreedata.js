@@ -49,9 +49,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"d7/d9e/wobble_8gd_source.html",
-"dir_96a4b376ebb0fff8a4082da2dd36a82e.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -90,3 +90,11 @@ func _on_VideoPlayer_finished() -> void:
 
 func _on_LoadGame_pressed():
 	$SaveSelectMenuPopup.popup_centered()
+
+
+func _on_SaveSelectMenuPopup_SaveDataPreloaded():
+	GameController.set_new_data_fields($SaveSelectMenuPopup.PreloadedSaveData["GameController"])
+	OptionController.set_new_data_fields($SaveSelectMenuPopup.PreloadedSaveData["OptionController"])
+	get_tree().change_scene("res://scenes/game/game.tscn")
+	MjPlayer.fade_out()
+	$"VideoPlayer".fade_out()

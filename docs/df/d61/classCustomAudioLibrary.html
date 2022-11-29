@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('df/d61/classCustomAudioLibrary.html','
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../da/dfe/classCustomAudioLibrary__coll__graph.png" border="0" usemap="#aCustomAudioLibrary_coll__map" alt="Collaboration graph"/></div>
 <map name="aCustomAudioLibrary_coll__map" id="aCustomAudioLibrary_coll__map">
-<area shape="rect" title="Class used to manage all actions related to playing music from user&#39;s PC" coords="71,93,210,119"/>
+<area shape="rect" title="Class used to manage all actions related to playing music from user&#39;s PC" coords="71,108,210,133"/>
 <area shape="rect" title=" " coords="5,5,140,31"/>
 <area shape="rect" href="../../dd/d22/classFolderBase.html" title="Basic abstract class for folders in" coords="165,5,253,31"/>
 </map>
@@ -160,15 +160,17 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ae6675694cdab2bd8ab4fe61b9be18ef5"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="../../dd/d22/classFolderBase.html">FolderBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d61/classCustomAudioLibrary.html#ae6675694cdab2bd8ab4fe61b9be18ef5">_systemMusic</a> = new <a class="el" href="../../d0/d71/classFolderSystemMusic.html">FolderSystemMusic</a>()</td></tr>
 <tr class="separator:ae6675694cdab2bd8ab4fe61b9be18ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1d2ff975ac03fb001af699b33d3b024"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, <a class="el" href="../../dd/d22/classFolderBase.html">FolderBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d61/classCustomAudioLibrary.html#aa1d2ff975ac03fb001af699b33d3b024">_folderList</a> = new Dictionary&lt;string, <a class="el" href="../../dd/d22/classFolderBase.html">FolderBase</a>&gt;()</td></tr>
-<tr class="memdesc:aa1d2ff975ac03fb001af699b33d3b024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary of folders to look for music files   <a href="../../df/d61/classCustomAudioLibrary.html#aa1d2ff975ac03fb001af699b33d3b024">More...</a><br /></td></tr>
-<tr class="separator:aa1d2ff975ac03fb001af699b33d3b024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac595bad81b3cc757cf1ef8c397cf5301"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="../../dd/d22/classFolderBase.html">FolderBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d61/classCustomAudioLibrary.html#ac595bad81b3cc757cf1ef8c397cf5301">_systemDocuments</a> = new <a class="el" href="../../dc/de4/classFolderSystemDocuments.html">FolderSystemDocuments</a>()</td></tr>
+<tr class="separator:ac595bad81b3cc757cf1ef8c397cf5301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa524b5f12078f49c10704ff1b17bf521"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d61/classCustomAudioLibrary.html#aa524b5f12078f49c10704ff1b17bf521">_folderList</a> = new Dictionary&lt;string, string&gt;()</td></tr>
+<tr class="memdesc:aa524b5f12078f49c10704ff1b17bf521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary of folders to look for music files   <a href="../../df/d61/classCustomAudioLibrary.html#aa524b5f12078f49c10704ff1b17bf521">More...</a><br /></td></tr>
+<tr class="separator:aa524b5f12078f49c10704ff1b17bf521"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Class used to manage all actions related to playing music from user's PC  </p>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000001">Todo:</a></b></dt><dd>Load file list and send it via array to Godot code </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00009">9</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00010">10</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af9ab67b8fd226c8457761f86e2aa564c" name="af9ab67b8fd226c8457761f86e2aa564c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9ab67b8fd226c8457761f86e2aa564c">&#9670;&#160;</a></span>_Ready()</h2>
@@ -193,9 +195,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00025">25</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00029">29</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00021">InitFolderList()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00023">InitFolderList()</a>.</p>
 
 </div>
 </div>
@@ -224,11 +226,11 @@ Private Attributes</h2></td></tr>
 
 <p>Called to initialize folder list  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00021">21</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00023">23</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00016">_folderList</a>, and <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00011">_systemMusic</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00018">_folderList</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00025">_Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00029">_Ready()</a>.</p>
 
 </div>
 </div>
@@ -259,15 +261,15 @@ Private Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Array of file paths</dd></dl>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000002">Todo:</a></b></dt><dd>Getting file path and inserting it into array to return </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00034">34</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00038">38</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00016">_folderList</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00018">_folderList</a>, and <a class="el" href="../../dd/d22/classFolderBase.html#a37ab29e89583633e0677c9ad58139224">FolderBase.GetFolderPath()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa1d2ff975ac03fb001af699b33d3b024" name="aa1d2ff975ac03fb001af699b33d3b024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1d2ff975ac03fb001af699b33d3b024">&#9670;&#160;</a></span>_folderList</h2>
+<a id="aa524b5f12078f49c10704ff1b17bf521" name="aa524b5f12078f49c10704ff1b17bf521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa524b5f12078f49c10704ff1b17bf521">&#9670;&#160;</a></span>_folderList</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -276,7 +278,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;string, <a class="el" href="../../dd/d22/classFolderBase.html">FolderBase</a>&gt; CustomAudioLibrary._folderList = new Dictionary&lt;string, <a class="el" href="../../dd/d22/classFolderBase.html">FolderBase</a>&gt;()</td>
+          <td class="memname">readonly Dictionary&lt;string, string&gt; CustomAudioLibrary._folderList = new Dictionary&lt;string, string&gt;()</td>
         </tr>
       </table>
   </td>
@@ -288,9 +290,33 @@ Private Attributes</h2></td></tr>
 
 <p>Dictionary of folders to look for music files  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00016">16</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00018">18</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00021">InitFolderList()</a>, and <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00034">LoadSongFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00023">InitFolderList()</a>, and <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00038">LoadSongFiles()</a>.</p>
+
+</div>
+</div>
+<a id="ac595bad81b3cc757cf1ef8c397cf5301" name="ac595bad81b3cc757cf1ef8c397cf5301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac595bad81b3cc757cf1ef8c397cf5301">&#9670;&#160;</a></span>_systemDocuments</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="../../dd/d22/classFolderBase.html">FolderBase</a> CustomAudioLibrary._systemDocuments = new <a class="el" href="../../dc/de4/classFolderSystemDocuments.html">FolderSystemDocuments</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00013">13</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
 
 </div>
 </div>
@@ -314,9 +340,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00011">11</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00021">InitFolderList()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00012">12</a> of file <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html">CustomAudioLibrary.cs</a>.</p>
 
 </div>
 </div>

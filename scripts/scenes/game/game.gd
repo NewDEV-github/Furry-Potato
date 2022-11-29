@@ -13,6 +13,17 @@ func fade_out():
 	tween_out.start()
 
 var start_dialog = Dialogic.start('tutorial1')
+
+var in_game_audio_files = [
+	"res://assets/audio/bg/1stage2.mp3",
+	"res://assets/audio/bg/beauty.ogg",
+	"res://assets/audio/bg/credits_gekagd.ogg",
+	"res://assets/audio/bg/nasko.ogg",
+	"res://assets/audio/bg/Alphaville - Forever Young _Official Video.ogg",
+	"res://assets/audio/bg/Fast_Five_-_Don_Omar_Ft._Lucenzo_-_Danza_Kuduro.mp4.mp3",
+	"res://assets/audio/bg/Queen - Radio Ga Ga (Official Video).ogg",
+]
+
 var audio_files = [
 	"res://assets/audio/bg/1stage2.mp3",
 	"res://assets/audio/bg/beauty.ogg",
@@ -43,6 +54,19 @@ var song_authors = {
 var dft_file = File.new()
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	#check whether optioon has been enaboed, if not leave default in game music
+	if OptionController.get_option_data("custom_audio_library_enable") == "True":
+		print("Custom library enabled")
+		#if needed to play alongside, mix with in game music
+		if OptionController.get_option_data("custom_audio_library_play_alongside") == "True":
+			print("Custom library set to play alongside")
+			audio_files += Array($AudioStreamPlayer.LoadSongFiles())
+		elif OptionController.get_option_data("custom_audio_library_play_alongside") == "False":
+			print("Custom library set to not play alongside")
+			audio_files = Array($AudioStreamPlayer.LoadSongFiles())
+	else:
+		audio_files = in_game_audio_files
+	
 	GameController.start_new_game()
 	Globals.connect("furry",self,  "on_warning")
 	dft_file.open("user://dft_setting", File.READ)
@@ -60,9 +84,10 @@ func _ready():
 func play_random_song():
 	randomize()
 	var song_file = audio_files[randi()%audio_files.size()]
-	$AudioStreamPlayer.stream = load(song_file)
+	$AudioStreamPlayer.stream = _load_audio_file(song_file)
 	$AudioStreamPlayer.play()
-	Player.set_title(song_titles[song_file], song_authors[song_file])
+	if song_titles.has(song_file) && song_authors.has(song_file):
+		Player.set_title(song_titles[song_file], song_authors[song_file])
 func dialog_listener(string:String):
 	match string:
 		"run_tutorial":
@@ -149,3 +174,30 @@ func on_warning(enabled):
 		$AnimatedIcon.hide()
 	dft_file.store_line(str(enabled))
 	dft_file.close()
+
+func _load_audio_file(path: String):
+	# get file bytes
+	var file = File.new()
+	file.open(path, File.READ)
+	print("Loading from path: " + path)
+	var buffer = file.get_buffer(file.get_len())
+	if buffer == null:
+		print("buffer is null")
+	file.close()
+	
+	# create stream out of these bytes
+	var stream
+	if path.get_extension() == "ogg":
+		stream = AudioStreamOGGVorbis.new()
+#		stream.format = AudioStreamSample.FORMAT_16_BITS
+		stream.data = buffer
+#		stream.mix_rate = 44100
+#		stream.stereo = false
+	elif path.get_extension() == 'mp3':
+		stream = AudioStreamMP3.new()
+#		stream.format = AudioStreamSample.FORMAT_16_BITS
+		stream.data = buffer
+#		stream.mix_rate = 44100
+#		stream.stereo = false
+	# return this stream
+	return stream

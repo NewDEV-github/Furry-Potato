@@ -56,6 +56,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FolderSystemDocuments</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FolderSystemDocuments</Scope>
+    </TokenIdentifier>
+    <Path>dc/de4/classFolderSystemDocuments.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>FolderSystemMusic</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -180,7 +189,7 @@
       <Scope>CustomAudioLibrary</Scope>
     </TokenIdentifier>
     <Path>df/d61/classCustomAudioLibrary.html</Path>
-    <Anchor>aa1d2ff975ac03fb001af699b33d3b024</Anchor>
+    <Anchor>aa524b5f12078f49c10704ff1b17bf521</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -360,6 +369,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_systemDocuments</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>CustomAudioLibrary</Scope>
+    </TokenIdentifier>
+    <Path>df/d61/classCustomAudioLibrary.html</Path>
+    <Anchor>ac595bad81b3cc757cf1ef8c397cf5301</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_systemMusic</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -509,6 +528,17 @@
       <Name>GetFilesInFolder</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
+      <Scope>FolderSystemDocuments</Scope>
+    </TokenIdentifier>
+    <Path>dc/de4/classFolderSystemDocuments.html</Path>
+    <Anchor>afd54f9b9e105b342b5f9a96afd7db8d0</Anchor>
+    <DeclaredIn>FolderSystemDocuments.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetFilesInFolder</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
       <Scope>FolderSystemMusic</Scope>
     </TokenIdentifier>
     <Path>d0/d71/classFolderSystemMusic.html</Path>
@@ -525,6 +555,17 @@
     <Path>dd/d22/classFolderBase.html</Path>
     <Anchor>a37ab29e89583633e0677c9ad58139224</Anchor>
     <DeclaredIn>FolderBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetFolderPath</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FolderSystemDocuments</Scope>
+    </TokenIdentifier>
+    <Path>dc/de4/classFolderSystemDocuments.html</Path>
+    <Anchor>a61ec96cb78fc1798e9766870094fb794</Anchor>
+    <DeclaredIn>FolderSystemDocuments.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1053,6 +1094,17 @@
     <Path>dd/d22/classFolderBase.html</Path>
     <Anchor>a9b1f08bdf3dacfa1fef9ab5e5051757b</Anchor>
     <DeclaredIn>FolderBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetFileExtensionFilter</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FolderSystemDocuments</Scope>
+    </TokenIdentifier>
+    <Path>dc/de4/classFolderSystemDocuments.html</Path>
+    <Anchor>a72aca2069861ab1f9ad069064745bb6b</Anchor>
+    <DeclaredIn>FolderSystemDocuments.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

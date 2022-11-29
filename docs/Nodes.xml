@@ -137,7 +137,12 @@
              <Node>
               <Name>_folderList</Name>
               <Path>df/d61/classCustomAudioLibrary.html</Path>
-              <Anchor>aa1d2ff975ac03fb001af699b33d3b024</Anchor>
+              <Anchor>aa524b5f12078f49c10704ff1b17bf521</Anchor>
+             </Node>
+             <Node>
+              <Name>_systemDocuments</Name>
+              <Path>df/d61/classCustomAudioLibrary.html</Path>
+              <Anchor>ac595bad81b3cc757cf1ef8c397cf5301</Anchor>
              </Node>
              <Node>
               <Name>_systemMusic</Name>
@@ -265,6 +270,27 @@
               <Name>SetFileExtensionFilter</Name>
               <Path>dd/d22/classFolderBase.html</Path>
               <Anchor>a9b1f08bdf3dacfa1fef9ab5e5051757b</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>FolderSystemDocuments</Name>
+            <Path>dc/de4/classFolderSystemDocuments.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>GetFilesInFolder</Name>
+              <Path>dc/de4/classFolderSystemDocuments.html</Path>
+              <Anchor>afd54f9b9e105b342b5f9a96afd7db8d0</Anchor>
+             </Node>
+             <Node>
+              <Name>GetFolderPath</Name>
+              <Path>dc/de4/classFolderSystemDocuments.html</Path>
+              <Anchor>a61ec96cb78fc1798e9766870094fb794</Anchor>
+             </Node>
+             <Node>
+              <Name>SetFileExtensionFilter</Name>
+              <Path>dc/de4/classFolderSystemDocuments.html</Path>
+              <Anchor>a72aca2069861ab1f9ad069064745bb6b</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -646,6 +672,10 @@
             <Path>dd/d22/classFolderBase.html</Path>
           <Subnodes>
              <Node>
+              <Name>FolderSystemDocuments</Name>
+              <Path>dc/de4/classFolderSystemDocuments.html</Path>
+             </Node>
+             <Node>
               <Name>FolderSystemMusic</Name>
               <Path>d0/d71/classFolderSystemMusic.html</Path>
              </Node>
@@ -913,6 +943,33 @@
                         </Subnodes>
                        </Node>
                        <Node>
+                        <Name>FolderSystemDocuments.cs</Name>
+                        <Path>dd/ded/FolderSystemDocuments_8cs.html</Path>
+                      <Subnodes>
+                         <Node>
+                          <Name>FolderSystemDocuments</Name>
+                          <Path>dc/de4/classFolderSystemDocuments.html</Path>
+                        <Subnodes>
+                           <Node>
+                            <Name>GetFilesInFolder</Name>
+                            <Path>dc/de4/classFolderSystemDocuments.html</Path>
+                            <Anchor>afd54f9b9e105b342b5f9a96afd7db8d0</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>GetFolderPath</Name>
+                            <Path>dc/de4/classFolderSystemDocuments.html</Path>
+                            <Anchor>a61ec96cb78fc1798e9766870094fb794</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>SetFileExtensionFilter</Name>
+                            <Path>dc/de4/classFolderSystemDocuments.html</Path>
+                            <Anchor>a72aca2069861ab1f9ad069064745bb6b</Anchor>
+                           </Node>
+                          </Subnodes>
+                         </Node>
+                        </Subnodes>
+                       </Node>
+                       <Node>
                         <Name>FolderSystemMusic.cs</Name>
                         <Path>d0/dd3/FolderSystemMusic_8cs.html</Path>
                       <Subnodes>
@@ -967,7 +1024,12 @@
                          <Node>
                           <Name>_folderList</Name>
                           <Path>df/d61/classCustomAudioLibrary.html</Path>
-                          <Anchor>aa1d2ff975ac03fb001af699b33d3b024</Anchor>
+                          <Anchor>aa524b5f12078f49c10704ff1b17bf521</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>_systemDocuments</Name>
+                          <Path>df/d61/classCustomAudioLibrary.html</Path>
+                          <Anchor>ac595bad81b3cc757cf1ef8c397cf5301</Anchor>
                          </Node>
                          <Node>
                           <Name>_systemMusic</Name>

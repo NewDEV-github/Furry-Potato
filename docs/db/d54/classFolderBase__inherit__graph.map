@@ -1,4 +1,5 @@
 <map id="FolderBase" name="FolderBase">
-<area shape="rect" id="node1" title="Basic abstract class for folders in" coords="31,5,119,31"/>
-<area shape="rect" id="node2" href="$d0/d71/classFolderSystemMusic.html" title=" " coords="5,79,144,104"/>
+<area shape="rect" id="node1" title="Basic abstract class for folders in" coords="135,5,223,31"/>
+<area shape="rect" id="node2" href="$dc/de4/classFolderSystemDocuments.html" title=" " coords="5,79,175,104"/>
+<area shape="rect" id="node3" href="$d0/d71/classFolderSystemMusic.html" title=" " coords="199,79,338,104"/>
 </map>

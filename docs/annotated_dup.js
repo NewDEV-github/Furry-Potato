@@ -6,6 +6,7 @@ var annotated_dup =
     [ "CustomAudioLibrary", "df/d61/classCustomAudioLibrary.html", "df/d61/classCustomAudioLibrary" ],
     [ "DialogicSharp", "d1/d1c/classDialogicSharp.html", "d1/d1c/classDialogicSharp" ],
     [ "FolderBase", "dd/d22/classFolderBase.html", "dd/d22/classFolderBase" ],
+    [ "FolderSystemDocuments", "dc/de4/classFolderSystemDocuments.html", "dc/de4/classFolderSystemDocuments" ],
     [ "FolderSystemMusic", "d0/d71/classFolderSystemMusic.html", "d0/d71/classFolderSystemMusic" ],
     [ "Loader", "d5/d5c/classLoader.html", "d5/d5c/classLoader" ],
     [ "SaveContainer", "d4/d14/classSaveContainer.html", "d4/d14/classSaveContainer" ],

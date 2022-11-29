@@ -11,6 +11,7 @@ var hierarchy =
     ] ],
     [ "DialogicSharp", "d1/d1c/classDialogicSharp.html", null ],
     [ "FolderBase", "dd/d22/classFolderBase.html", [
+      [ "FolderSystemDocuments", "dc/de4/classFolderSystemDocuments.html", null ],
       [ "FolderSystemMusic", "d0/d71/classFolderSystemMusic.html", null ]
     ] ],
     [ "Node", null, [

@@ -14,7 +14,7 @@ var searchData=
   ['saveselectedtoload_11',['SaveSelectedToLoad',['../dd/d61/classSaveSelectMenuPopup.html#a30832eea73a8ca4cce34404cc01e1d24',1,'SaveSelectMenuPopup']]],
   ['saveselectmenupopup_12',['SaveSelectMenuPopup',['../dd/d61/classSaveSelectMenuPopup.html',1,'']]],
   ['saveselectmenupopup_2ecs_13',['SaveSelectMenuPopup.cs',['../de/d79/SaveSelectMenuPopup_8cs.html',1,'']]],
-  ['setfileextensionfilter_14',['SetFileExtensionFilter',['../dd/d22/classFolderBase.html#a9b1f08bdf3dacfa1fef9ab5e5051757b',1,'FolderBase.SetFileExtensionFilter()'],['../d0/d71/classFolderSystemMusic.html#a82b6e7c2f6ce8ae4dddc807eababd572',1,'FolderSystemMusic.SetFileExtensionFilter()']]],
+  ['setfileextensionfilter_14',['SetFileExtensionFilter',['../dd/d22/classFolderBase.html#a9b1f08bdf3dacfa1fef9ab5e5051757b',1,'FolderBase.SetFileExtensionFilter()'],['../dc/de4/classFolderSystemDocuments.html#a72aca2069861ab1f9ad069064745bb6b',1,'FolderSystemDocuments.SetFileExtensionFilter()'],['../d0/d71/classFolderSystemMusic.html#a82b6e7c2f6ce8ae4dddc807eababd572',1,'FolderSystemMusic.SetFileExtensionFilter()']]],
   ['setsavedir_15',['SetSaveDir',['../d0/dd0/classBaseSave.html#aca1230ac02fbaef17445a6b268a0a469',1,'BaseSave.SetSaveDir()'],['../d4/d14/classSaveContainer.html#a086cd28c26e8595b845c29671b74461e',1,'SaveContainer.SetSaveDir()']]],
   ['setvariable_16',['SetVariable',['../d1/d1c/classDialogicSharp.html#a50e78c9bb929bed5986738e2d0a3f7e6',1,'DialogicSharp']]],
   ['shopitembase_17',['ShopItemBase',['../d1/dc3/classShopItemBase.html',1,'']]],

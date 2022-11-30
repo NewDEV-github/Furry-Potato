@@ -5,7 +5,6 @@
 [ext_resource path="res://assets/themes/new_gui/neon.tres" type="Theme" id=3]
 
 [node name="Control" type="WindowDialog"]
-visible = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -109,13 +108,13 @@ text = "Music"
 margin_top = 191.0
 margin_right = 425.0
 margin_bottom = 231.0
-text = "Custom music library"
+text = "Custom music library *"
 
 [node name="MixWithBuiltinSongs" type="CheckButton" parent="splitter/right"]
 margin_top = 235.0
 margin_right = 425.0
 margin_bottom = 275.0
-text = "Play custom library alongside with built-in songs"
+text = "Play custom library alongside with built-in songs *"
 
 [node name="Button" type="Button" parent="."]
 visible = false

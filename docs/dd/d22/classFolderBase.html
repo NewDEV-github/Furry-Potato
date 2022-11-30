@@ -42,6 +42,7 @@ DoxygenAwesomeInteractiveToc.init()
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../icon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Furry Potato
    </div>
@@ -131,9 +132,6 @@ $(document).ready(function(){initNavTree('dd/d22/classFolderBase.html','../../')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9b1f08bdf3dacfa1fef9ab5e5051757b"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d22/classFolderBase.html#a9b1f08bdf3dacfa1fef9ab5e5051757b">SetFileExtensionFilter</a> (System.Array arrayOfExtensions)</td></tr>
-<tr class="memdesc:a9b1f08bdf3dacfa1fef9ab5e5051757b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets filters for extensions for files to look for with   <a href="../../dd/d22/classFolderBase.html#a9b1f08bdf3dacfa1fef9ab5e5051757b">More...</a><br /></td></tr>
-<tr class="separator:a9b1f08bdf3dacfa1fef9ab5e5051757b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0323fb67737c11e65045635c8d32c4ac"><td class="memItemLeft" align="right" valign="top">abstract Array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d22/classFolderBase.html#a0323fb67737c11e65045635c8d32c4ac">GetFilesInFolder</a> ()</td></tr>
 <tr class="memdesc:a0323fb67737c11e65045635c8d32c4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns array of files in folder   <a href="../../dd/d22/classFolderBase.html#a0323fb67737c11e65045635c8d32c4ac">More...</a><br /></td></tr>
 <tr class="separator:a0323fb67737c11e65045635c8d32c4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,9 +141,9 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Basic abstract class for folders in </p>
-<p ><code><a class="el" href="../../df/d61/classCustomAudioLibrary.html" title="Class used to manage all actions related to playing music from user&#39;s PC">CustomAudioLibrary</a></code> </p><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000003">Todo:</a></b></dt><dd>Add extension handling </dd></dl>
+<p ><code><a class="el" href="../../df/d61/classCustomAudioLibrary.html" title="Class used to manage all actions related to playing music from user&#39;s PC">CustomAudioLibrary</a></code>  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d98/FolderBase_8cs_source.html#l00008">8</a> of file <a class="el" href="../../d2/d98/FolderBase_8cs_source.html">FolderBase.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d98/FolderBase_8cs_source.html#l00007">7</a> of file <a class="el" href="../../d2/d98/FolderBase_8cs_source.html">FolderBase.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0323fb67737c11e65045635c8d32c4ac" name="a0323fb67737c11e65045635c8d32c4ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0323fb67737c11e65045635c8d32c4ac">&#9670;&#160;</a></span>GetFilesInFolder()</h2>
@@ -206,43 +204,6 @@ Public Member Functions</h2></td></tr>
 <p>Implemented in <a class="el" href="../../dc/de4/classFolderSystemDocuments.html#a61ec96cb78fc1798e9766870094fb794">FolderSystemDocuments</a>, and <a class="el" href="../../d0/d71/classFolderSystemMusic.html#abe6862f166cab58e72c0f334ee0a92e3">FolderSystemMusic</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/df3/CustomAudioLibrary_8cs_source.html#l00038">CustomAudioLibrary.LoadSongFiles()</a>.</p>
-
-</div>
-</div>
-<a id="a9b1f08bdf3dacfa1fef9ab5e5051757b" name="a9b1f08bdf3dacfa1fef9ab5e5051757b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b1f08bdf3dacfa1fef9ab5e5051757b">&#9670;&#160;</a></span>SetFileExtensionFilter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">abstract void FolderBase.SetFileExtensionFilter </td>
-          <td>(</td>
-          <td class="paramtype">System.Array&#160;</td>
-          <td class="paramname"><em>arrayOfExtensions</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets filters for extensions for files to look for with  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">arrayOfExtensions</td><td>Array including extensions, eg. <div class="fragment"><div class="line">[<span class="stringliteral">&quot;mp3&quot;</span>]</div>
-</div><!-- fragment --></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="../../dc/de4/classFolderSystemDocuments.html#a72aca2069861ab1f9ad069064745bb6b">FolderSystemDocuments</a>, and <a class="el" href="../../d0/d71/classFolderSystemMusic.html#a82b6e7c2f6ce8ae4dddc807eababd572">FolderSystemMusic</a>.</p>
 
 </div>
 </div>

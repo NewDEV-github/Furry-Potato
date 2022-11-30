@@ -10,3 +10,5 @@ D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.pdb
 D:\GitHub\Furry-Potato\.mono\temp\bin\ExportDebug\Newtonsoft.Json.dll
 D:\GitHub\Furry-Potato\.mono\temp\bin\ExportDebug\Newtonsoft.Json.Bson.dll
 D:\GitHub\Furry-Potato\.mono\temp\obj\ExportDebug\Furry Potato.csproj.CopyComplete
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportDebug\NewDEVSharp.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportDebug\NewDEVSharp.pdb

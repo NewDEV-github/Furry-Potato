@@ -42,6 +42,7 @@ DoxygenAwesomeInteractiveToc.init()
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../icon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Furry Potato
    </div>
@@ -121,28 +122,36 @@ $(document).ready(function(){initNavTree('dd/de4/Loader_8cs_source.html','../../
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        Console.Write($<span class="stringliteral">&quot;Save dir is {saveDir}&quot;</span>);</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        Dictionary&lt;string, string&gt; newGameControllerData = <span class="keyword">new</span> Dictionary&lt;string, string&gt;();</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        Dictionary&lt;string, string&gt; newOptionControllerData = <span class="keyword">new</span> Dictionary&lt;string, string&gt;();</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordtype">string</span>[] fileEntriesGameController = System.IO.Directory.GetFiles(saveDir + <span class="stringliteral">&quot;\\data\\GameController\\&quot;</span>);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordtype">string</span>[] fileEntriesOptionsController = System.IO.Directory.GetFiles(saveDir + <span class="stringliteral">&quot;\\data\\OptionController\\&quot;</span>);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="comment">//TODO: Finish this fucking shit</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keywordflow">foreach</span> (var gControllerData <span class="keywordflow">in</span> fileEntriesGameController) {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keywordtype">string</span> baseName = System.IO.Path.GetFileNameWithoutExtension(gControllerData);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            newGameControllerData.Add(baseName, System.IO.File.ReadAllText(gControllerData));</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        }</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">foreach</span> (var oControllerData <span class="keywordflow">in</span> fileEntriesOptionsController) {</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <span class="keywordtype">string</span> baseName = System.IO.Path.GetFileNameWithoutExtension(oControllerData);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            newOptionControllerData.Add(baseName, System.IO.File.ReadAllText(oControllerData));</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        }</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        Godot.Collections.Dictionary&lt;string, Godot.Collections.Dictionary&lt;string, <span class="keywordtype">string</span>&gt;&gt; returnVar = <span class="keyword">new</span> Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        returnVar.Add(<span class="stringliteral">&quot;GameController&quot;</span>, newGameControllerData);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        returnVar.Add(<span class="stringliteral">&quot;OptionController&quot;</span>, newOptionControllerData);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> returnVar;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        Dictionary&lt;string, string&gt; newShopItemControllerData = <span class="keyword">new</span> Dictionary&lt;string, string&gt;();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordtype">string</span>[] fileEntriesGameController = System.IO.Directory.GetFiles(saveDir + <span class="stringliteral">&quot;\\data\\GameController\\&quot;</span>);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordtype">string</span>[] fileEntriesOptionsController = System.IO.Directory.GetFiles(saveDir + <span class="stringliteral">&quot;\\data\\OptionController\\&quot;</span>);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordtype">string</span>[] fileEntriesShopItemController = System.IO.Directory.GetFiles(saveDir + <span class="stringliteral">&quot;\\data\\OptionController\\&quot;</span>);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="comment">//TODO: Finish this fucking shit</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">foreach</span> (var gControllerData <span class="keywordflow">in</span> fileEntriesGameController) {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            <span class="keywordtype">string</span> baseName = System.IO.Path.GetFileNameWithoutExtension(gControllerData);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            newGameControllerData.Add(baseName, System.IO.File.ReadAllText(gControllerData));</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        }</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">foreach</span> (var oControllerData <span class="keywordflow">in</span> fileEntriesOptionsController) {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordtype">string</span> baseName = System.IO.Path.GetFileNameWithoutExtension(oControllerData);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            newOptionControllerData.Add(baseName, System.IO.File.ReadAllText(oControllerData));</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">foreach</span> (var siControllerData <span class="keywordflow">in</span> fileEntriesShopItemController) {</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <span class="keywordtype">string</span> baseName = System.IO.Path.GetFileNameWithoutExtension(siControllerData);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            newShopItemControllerData.Add(baseName, System.IO.File.ReadAllText(siControllerData));</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        }</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        Godot.Collections.Dictionary&lt;string, Godot.Collections.Dictionary&lt;string, <span class="keywordtype">string</span>&gt;&gt; returnVar = <span class="keyword">new</span> Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        returnVar.Add(<span class="stringliteral">&quot;GameController&quot;</span>, newGameControllerData);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        returnVar.Add(<span class="stringliteral">&quot;OptionController&quot;</span>, newOptionControllerData);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        returnVar.Add(<span class="stringliteral">&quot;ShopItemController&quot;</span>, newShopItemControllerData);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordflow">return</span> returnVar;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="ttc" id="aclassLoader_html"><div class="ttname"><a href="../../d5/d5c/classLoader.html">Loader</a></div><div class="ttdoc">Class used to pre-load and format save data</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/Loader_8cs_source.html#l00009">Loader.cs:9</a></div></div>
 <div class="ttc" id="aclassLoader_html_a9011f0e536fdc4cde02557a0c3a9e78c"><div class="ttname"><a href="../../d5/d5c/classLoader.html#a9011f0e536fdc4cde02557a0c3a9e78c">Loader.LoadSave</a></div><div class="ttdeci">Godot.Collections.Dictionary&lt; string, Godot.Collections.Dictionary&lt; string, string &gt; &gt; LoadSave(string saveDir)</div><div class="ttdoc">Loads save, then after loading data changes scene to game</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/Loader_8cs_source.html#l00016">Loader.cs:16</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -150,7 +159,7 @@ $(document).ready(function(){initNavTree('dd/de4/Loader_8cs_source.html','../../
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_28d1c3bcce0759d97202535c3e495d57.html">scenes</a></li><li class="navelem"><a class="el" href="../../dir_e2aaf2fe2f16de62b742414663c12c7d.html">game</a></li><li class="navelem"><a class="el" href="../../dir_f6f4b1c277654e045e086d66040d6ddf.html">other</a></li><li class="navelem"><a class="el" href="../../dd/de4/Loader_8cs.html">Loader.cs</a></li>
+    <li class="navelem"><a class="el" href="../../dir_00ef2fdc01bf718bd06b69ae9490cb16.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_dabf1eac774ac4bdb3030d1e2e6c065f.html">scenes</a></li><li class="navelem"><a class="el" href="../../dir_2161812e1dbc7f5f53d42d987be680fd.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0b8285cf823f880ec1b46ece4246cd7f.html">other</a></li><li class="navelem"><a class="el" href="../../dd/de4/Loader_8cs.html">Loader.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>

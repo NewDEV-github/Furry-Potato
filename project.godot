@@ -123,6 +123,8 @@ Player="*res://scenes/game/other/Player.tscn"
 SaveManager="*res://scenes/singletons/SaveManager.tscn"
 OptionController="*res://scenes/singletons/OptionController.tscn"
 GameController="*res://scenes/singletons/GameController.tscn"
+ShopItemController="*res://scenes/singletons/ShopItemController.tscn"
+CSharpCore="*res://scripts/CSharpCore.cs"
 
 [debug]
 

@@ -12,6 +12,7 @@ public class SaveContainer : BaseSave {
         Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot) ?? throw new InvalidOperationException());
         Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot + "\\data\\GameController\\"));
         Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot + "\\data\\OptionController\\"));
+        Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot + "\\data\\ShopItemController\\"));
 
     }
 

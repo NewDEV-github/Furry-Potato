@@ -17,8 +17,10 @@ public class Loader : Node {
         Console.Write($"Save dir is {saveDir}");
         Dictionary<string, string> newGameControllerData = new Dictionary<string, string>();
         Dictionary<string, string> newOptionControllerData = new Dictionary<string, string>();
+        Dictionary<string, string> newShopItemControllerData = new Dictionary<string, string>();
         string[] fileEntriesGameController = System.IO.Directory.GetFiles(saveDir + "\\data\\GameController\\");
         string[] fileEntriesOptionsController = System.IO.Directory.GetFiles(saveDir + "\\data\\OptionController\\");
+        string[] fileEntriesShopItemController = System.IO.Directory.GetFiles(saveDir + "\\data\\OptionController\\");
 
         //TODO: Finish this fucking shit
         foreach (var gControllerData in fileEntriesGameController) {
@@ -30,10 +32,16 @@ public class Loader : Node {
             string baseName = System.IO.Path.GetFileNameWithoutExtension(oControllerData);
             newOptionControllerData.Add(baseName, System.IO.File.ReadAllText(oControllerData));
         }
+        
+        foreach (var siControllerData in fileEntriesShopItemController) {
+            string baseName = System.IO.Path.GetFileNameWithoutExtension(siControllerData);
+            newShopItemControllerData.Add(baseName, System.IO.File.ReadAllText(siControllerData));
+        }
 
         Godot.Collections.Dictionary<string, Godot.Collections.Dictionary<string, string>> returnVar = new Dictionary<string, Dictionary<string, string>>();
         returnVar.Add("GameController", newGameControllerData);
         returnVar.Add("OptionController", newOptionControllerData);
+        returnVar.Add("ShopItemController", newShopItemControllerData);
 
         return returnVar;
     }

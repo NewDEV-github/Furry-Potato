@@ -1,0 +1,5 @@
+<map id="NewDEVSharp.Core" name="NewDEVSharp.Core">
+<area shape="rect" id="node1" title="Core class used to hold and manage all of the properties" coords="29,168,168,193"/>
+<area shape="rect" id="node2" href="$de/d81/classNewDEVSharp_1_1DLCManager.html" title="Class used to manage all DLC related things in games" coords="5,80,192,105"/>
+<area shape="rect" id="node3" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="56,5,141,31"/>
+</map>

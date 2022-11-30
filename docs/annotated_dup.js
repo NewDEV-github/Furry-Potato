@@ -1,8 +1,14 @@
 var annotated_dup =
 [
+    [ "NewDEVSharp", "d7/d59/namespaceNewDEVSharp.html", [
+      [ "BaseClass", "d9/db7/classNewDEVSharp_1_1BaseClass.html", "d9/db7/classNewDEVSharp_1_1BaseClass" ],
+      [ "Core", "d5/d9c/classNewDEVSharp_1_1Core.html", "d5/d9c/classNewDEVSharp_1_1Core" ],
+      [ "DLCManager", "de/d81/classNewDEVSharp_1_1DLCManager.html", "de/d81/classNewDEVSharp_1_1DLCManager" ]
+    ] ],
     [ "BackgroundLoader", "d9/d5c/classBackgroundLoader.html", "d9/d5c/classBackgroundLoader" ],
     [ "BaseSave", "d0/dd0/classBaseSave.html", "d0/dd0/classBaseSave" ],
     [ "Computer", "d5/de3/classComputer.html", "d5/de3/classComputer" ],
+    [ "CSharpCore", "d0/dd2/classCSharpCore.html", "d0/dd2/classCSharpCore" ],
     [ "CustomAudioLibrary", "df/d61/classCustomAudioLibrary.html", "df/d61/classCustomAudioLibrary" ],
     [ "DialogicSharp", "d1/d1c/classDialogicSharp.html", "d1/d1c/classDialogicSharp" ],
     [ "FolderBase", "dd/d22/classFolderBase.html", "dd/d22/classFolderBase" ],

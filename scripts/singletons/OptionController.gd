@@ -7,7 +7,7 @@ var option_data = {
 	"comp_vsync_via_compositor": "False",
 	"enable_ProtogenTechnology": "False",
 	"use_furry_characters": "False",
-	"custom_audio_library_enable": "True",
+	"custom_audio_library_enable": "False",
 	"custom_audio_library_play_alongside": "False",
 	"msec_loading_delay": "0"
 }

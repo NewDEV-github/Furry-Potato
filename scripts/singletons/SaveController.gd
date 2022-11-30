@@ -8,11 +8,11 @@ signal game_state_saved
 signal game_state_loaded
 var save_file_base_path
 var cs_saver = preload("res://scripts/scenes/game/other/Saver.cs").new()
-func _save_game_state(oData:Dictionary, gData:Dictionary,saveName:String):
+func _save_game_state(shopItems:Dictionary, oData:Dictionary, gData:Dictionary,saveName:String):
 	var orgSName = saveName
 	saveName.replace(' ', '_')
 	LoadingSavingDataIcon.show_icon()
-	cs_saver.SaveGame(OS.get_user_data_dir() + "\\Saves\\"+ saveName + "\\", oData, gData, orgSName)
+	cs_saver.SaveGame(OS.get_user_data_dir() + "\\Saves\\"+ saveName + "\\", shopItems, oData, gData, orgSName)
 	LoadingSavingDataIcon.hide_icon()
 
 func _preload_game_state(saveName:String) -> Dictionary:
@@ -37,7 +37,7 @@ func _ready():
 		save_file_base_path = Globals.base_install_path + "saves/"
 
 func save_game(save_name:String):
-	_save_game_state(OptionController.option_data, GameController.data, save_name)
+	_save_game_state(ShopItemController.data, OptionController.option_data, GameController.data, save_name)
 
 func load_game(save_name:String):
 	pass

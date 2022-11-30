@@ -15,7 +15,7 @@ func show_icon():
 	$CanvasLayer/AnimationPlayer.play("show_up")
 
 func _process(delta):
-	if DiscordSDK.av_en == "True":
+	if OptionController.get_option_data("use_discord_avatar") == "True":
 		if DiscordSDK.discord_user_img != null:
 			$CanvasLayer/TextureRect.texture = DiscordSDK.discord_user_img
 

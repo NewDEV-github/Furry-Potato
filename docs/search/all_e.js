@@ -1,6 +1,27 @@
 var searchData=
 [
-  ['threaddone_0',['ThreadDone',['../d9/d5c/classBackgroundLoader.html#a55b6e72c5ff0323136abf4e8c00d224d',1,'BackgroundLoader']]],
-  ['threadload_1',['ThreadLoad',['../d9/d5c/classBackgroundLoader.html#a85eecde672efb01b29ecd182504dcb21',1,'BackgroundLoader']]],
-  ['todo_20list_2',['Todo List',['../dd/da0/todo.html',1,'']]]
+  ['save_0',['Save',['../d1/d1c/classDialogicSharp.html#abc67f57d5f7cde4b5d3dad202e41fb3e',1,'DialogicSharp']]],
+  ['savecontainer_1',['SaveContainer',['../d4/d14/classSaveContainer.html',1,'']]],
+  ['savecontainer_2ecs_2',['SaveContainer.cs',['../d2/d5e/SaveContainer_8cs.html',1,'']]],
+  ['savecount_3',['SaveCount',['../d8/d24/classSaveManager.html#a20b553cdc3fd6733aa2d85da56386e30',1,'SaveManager']]],
+  ['savedatapreloaded_4',['SaveDataPreloaded',['../dd/d61/classSaveSelectMenuPopup.html#a778145d1a8ef2e4e96a161bce39393a5',1,'SaveSelectMenuPopup']]],
+  ['savegame_5',['SaveGame',['../dd/de5/classSaver.html#adcb299718fe5ce4ac99c191223d10326',1,'Saver']]],
+  ['savemanager_6',['SaveManager',['../d8/d24/classSaveManager.html',1,'']]],
+  ['savemanager_2ecs_7',['SaveManager.cs',['../d2/de6/SaveManager_8cs.html',1,'']]],
+  ['savepaths_8',['SavePaths',['../d8/d24/classSaveManager.html#a4cd36b0d9348b89e98ed5823fd99e15d',1,'SaveManager']]],
+  ['saver_9',['Saver',['../dd/de5/classSaver.html',1,'']]],
+  ['saver_2ecs_10',['Saver.cs',['../de/df4/Saver_8cs.html',1,'']]],
+  ['saveselectedtoload_11',['SaveSelectedToLoad',['../dd/d61/classSaveSelectMenuPopup.html#a30832eea73a8ca4cce34404cc01e1d24',1,'SaveSelectMenuPopup']]],
+  ['saveselectmenupopup_12',['SaveSelectMenuPopup',['../dd/d61/classSaveSelectMenuPopup.html',1,'']]],
+  ['saveselectmenupopup_2ecs_13',['SaveSelectMenuPopup.cs',['../de/d79/SaveSelectMenuPopup_8cs.html',1,'']]],
+  ['setsavedir_14',['SetSaveDir',['../d0/dd0/classBaseSave.html#aca1230ac02fbaef17445a6b268a0a469',1,'BaseSave.SetSaveDir()'],['../d4/d14/classSaveContainer.html#a086cd28c26e8595b845c29671b74461e',1,'SaveContainer.SetSaveDir()']]],
+  ['setvariable_15',['SetVariable',['../d1/d1c/classDialogicSharp.html#a50e78c9bb929bed5986738e2d0a3f7e6',1,'DialogicSharp']]],
+  ['shopitembase_16',['ShopItemBase',['../d1/dc3/classShopItemBase.html',1,'']]],
+  ['shopitembase_2ecs_17',['ShopItemBase.cs',['../d1/dfb/ShopItemBase_8cs.html',1,'']]],
+  ['shopitemheadphones_18',['ShopItemHeadphones',['../d1/d44/classShopItemHeadphones.html',1,'']]],
+  ['shopitemheadphones_2ecs_19',['ShopItemHeadphones.cs',['../d2/de5/ShopItemHeadphones_8cs.html',1,'']]],
+  ['shopitemmanager_20',['ShopItemManager',['../d5/deb/classShopItemManager.html',1,'']]],
+  ['shopitemmanager_2ecs_21',['ShopItemManager.cs',['../d4/de5/ShopItemManager_8cs.html',1,'']]],
+  ['start_22',['Start',['../d1/d1c/classDialogicSharp.html#a801a0264277882a587e0cac58b7c2163',1,'DialogicSharp']]],
+  ['start_3c_20t_20_3e_23',['Start&lt; T &gt;',['../d1/d1c/classDialogicSharp.html#a887b2947d040e3b5285eeadb06c259f8',1,'DialogicSharp']]]
 ];

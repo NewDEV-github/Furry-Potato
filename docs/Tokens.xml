@@ -11,6 +11,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::BaseClass</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.BaseClass</Scope>
+    </TokenIdentifier>
+    <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>BaseSave</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -29,6 +38,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::Core</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.Core</Scope>
+    </TokenIdentifier>
+    <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSharpCore</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>CSharpCore</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd2/classCSharpCore.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CustomAudioLibrary</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -44,6 +71,15 @@
       <Scope>DialogicSharp</Scope>
     </TokenIdentifier>
     <Path>d1/d1c/classDialogicSharp.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::DLCManager</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.DLCManager</Scope>
+    </TokenIdentifier>
+    <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -146,6 +182,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>NewDEVSharp</Scope>
+    </TokenIdentifier>
+    <Path>d7/d59/namespaceNewDEVSharp.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>todo</Name>
       <APILanguage>unknown</APILanguage>
     </TokenIdentifier>
@@ -183,6 +228,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_dlcManager</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.Core</Scope>
+    </TokenIdentifier>
+    <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+    <Anchor>ae5d522208967b6476c87b567833d3b46</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_folderList</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -190,6 +245,16 @@
     </TokenIdentifier>
     <Path>df/d61/classCustomAudioLibrary.html</Path>
     <Anchor>aa524b5f12078f49c10704ff1b17bf521</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_initializedClasses</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.Core</Scope>
+    </TokenIdentifier>
+    <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+    <Anchor>ab394ebde38771da414c3cc49f243f81f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -213,6 +278,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_newDEVCore</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>CSharpCore</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd2/classCSharpCore.html</Path>
+    <Anchor>a8b3cdc45f6f7621c867b5fa806aa0068</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_newScene</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -230,6 +305,17 @@
     </TokenIdentifier>
     <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
     <Anchor>ad7259fc2ebb41c07d7db8abf7a0e3261</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>CSharpCore</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd2/classCSharpCore.html</Path>
+    <Anchor>a3646911b8210aad6aa6ee546c97c1a1e</Anchor>
+    <DeclaredIn>CSharpCore.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -430,6 +516,50 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ClassInit</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.BaseClass</Scope>
+    </TokenIdentifier>
+    <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
+    <Anchor>ad3900086b3e153a5972e0e55c9220f16</Anchor>
+    <DeclaredIn>BaseClass.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassInit</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.DLCManager</Scope>
+    </TokenIdentifier>
+    <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
+    <Anchor>a3f759d97d3742ac549c2675f7a65c8f2</Anchor>
+    <DeclaredIn>DLCManager.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.BaseClass</Scope>
+    </TokenIdentifier>
+    <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
+    <Anchor>a3158680cba44dd1a8000fc72ad9e1650</Anchor>
+    <DeclaredIn>BaseClass.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.DLCManager</Scope>
+    </TokenIdentifier>
+    <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
+    <Anchor>a311b19c4a72c2662016ce42c67828c16</Anchor>
+    <DeclaredIn>DLCManager.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ClearStuff</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -481,6 +611,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DLCFiles</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.DLCManager</Scope>
+    </TokenIdentifier>
+    <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
+    <Anchor>a035b73938d3d59e88e755362a588ee4b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DlcManager</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>CSharpCore</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd2/classCSharpCore.html</Path>
+    <Anchor>a54fe54ffa2f62db89c72a18a771cc585</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>EraseSlot</Name>
       <APILanguage>csharp</APILanguage>
       <Type>clm</Type>
@@ -511,6 +661,17 @@
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>a290f7b037a12f268594ce95c1dafae76</Anchor>
     <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetDLCManager</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Core</Scope>
+    </TokenIdentifier>
+    <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+    <Anchor>ace50726a90f632a755d8ebd9ef43a80c</Anchor>
+    <DeclaredIn>Core.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -811,6 +972,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GodotToSystem</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Saver</Scope>
+    </TokenIdentifier>
+    <Path>dd/de5/classSaver.html</Path>
+    <Anchor>a835555666376dcf039594650f7edb333</Anchor>
+    <DeclaredIn>Saver.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HasCurrentDialogNode</Name>
       <APILanguage>csharp</APILanguage>
       <Type>clm</Type>
@@ -830,6 +1002,17 @@
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>af14f92742d12ba55495b46695bd35730</Anchor>
     <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Init</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Core</Scope>
+    </TokenIdentifier>
+    <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+    <Anchor>a240ebb6a5fa1787984b8bb0ae81636dd</Anchor>
+    <DeclaredIn>Core.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -874,6 +1057,17 @@
     <Path>d5/deb/classShopItemManager.html</Path>
     <Anchor>a1059438d240779d6be75471ccde16824</Anchor>
     <DeclaredIn>ShopItemManager.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InitSubClass</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Core</Scope>
+    </TokenIdentifier>
+    <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+    <Anchor>af155b8aa92f8cd58e94b8aa12a97cd76</Anchor>
+    <DeclaredIn>Core.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -990,6 +1184,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PreLoadDLCData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.DLCManager</Scope>
+    </TokenIdentifier>
+    <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
+    <Anchor>a967f812b8c015e62258d134d92f88ac2</Anchor>
+    <DeclaredIn>DLCManager.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>PreloadedSaveData</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -1060,7 +1265,7 @@
       <Scope>Saver</Scope>
     </TokenIdentifier>
     <Path>dd/de5/classSaver.html</Path>
-    <Anchor>a4696eaaa1845afb06cb231c06fe7026a</Anchor>
+    <Anchor>adcb299718fe5ce4ac99c191223d10326</Anchor>
     <DeclaredIn>Saver.cs</DeclaredIn>
   </Token>
   <Token>
@@ -1083,39 +1288,6 @@
     <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
     <Anchor>a30832eea73a8ca4cce34404cc01e1d24</Anchor>
     <DeclaredIn>SaveSelectMenuPopup.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetFileExtensionFilter</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FolderBase</Scope>
-    </TokenIdentifier>
-    <Path>dd/d22/classFolderBase.html</Path>
-    <Anchor>a9b1f08bdf3dacfa1fef9ab5e5051757b</Anchor>
-    <DeclaredIn>FolderBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetFileExtensionFilter</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FolderSystemDocuments</Scope>
-    </TokenIdentifier>
-    <Path>dc/de4/classFolderSystemDocuments.html</Path>
-    <Anchor>a72aca2069861ab1f9ad069064745bb6b</Anchor>
-    <DeclaredIn>FolderSystemDocuments.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetFileExtensionFilter</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FolderSystemMusic</Scope>
-    </TokenIdentifier>
-    <Path>d0/d71/classFolderSystemMusic.html</Path>
-    <Anchor>a82b6e7c2f6ce8ae4dddc807eababd572</Anchor>
-    <DeclaredIn>FolderSystemMusic.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

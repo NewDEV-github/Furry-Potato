@@ -16,30 +16,28 @@ public class Saver : Node {
         
     }
 
-    public void SaveGame(string dir, Dictionary<string, string> gOptions, Dictionary<string, string> gData, string orgSName) {
+    public void SaveGame(string dir, Dictionary<string, string> shopItemData, Dictionary<string, string> gOptions, Dictionary<string, string> gData, string orgSName) {
         _saveContainer.SetSaveDir(dir);
         _saveContainer.WriteDirectories();
         File.WriteAllText(dir + "\\SaveName.dat", orgSName);
         File.WriteAllText(dir + "\\data\\ModificationDate.dat", DateTime.Now.ToString(CultureInfo.InvariantCulture));
-        //type conversion
-        System.Collections.Generic.Dictionary<string, string> gameOptions =  new System.Collections.Generic.Dictionary<string, string>();
-        foreach (var gv in gOptions) {
-            gameOptions.Add(gv.Key, gv.Value);
-        }
-
-        System.Collections.Generic.Dictionary<string, string> gameData = new System.Collections.Generic.Dictionary<string, string>();
-        foreach (var gv in gData) {
-            gameData.Add(gv.Key, gv.Value);
-        }
-        
-        _saveContainer.WriteData("data\\OptionController", gameOptions);
-        _saveContainer.WriteData("data\\GameController", gameData);
+        _saveContainer.WriteData("data\\OptionController", GodotToSystem(gOptions));
+        _saveContainer.WriteData("data\\GameController", GodotToSystem(gData));
+        _saveContainer.WriteData("data\\ShopItemController", GodotToSystem(shopItemData));
     }
 
-    
-//  // Called every frame. 'delta' is the elapsed time since the previous frame.
-//  public override void _Process(float delta)
-//  {
-//      
-//  }
+    /// <summary>
+    /// This function converts Godot dictionary to the system one
+    /// <para>This uses string as both data types</para>
+    /// </summary>
+    /// <param name="dict">Godot Dictionary, with strings as both data types</param>
+    /// <returns>The same dictionary, as <code>System.Collections.Generic.Dictionary</code></returns>
+    System.Collections.Generic.Dictionary<string, string> GodotToSystem(Godot.Collections.Dictionary<string, string> dict) {
+        System.Collections.Generic.Dictionary<string, string> returner = new System.Collections.Generic.Dictionary<string, string>();
+        foreach (var v in dict) {
+            returner.Add(v.Key, v.Value);
+        }
+
+        return returner;
+    }
 }

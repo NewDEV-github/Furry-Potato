@@ -136,11 +136,11 @@ func _on_AudioStreamPlayer_finished():
 func _on_PauseMenu_visibility_changed():
 	fade_in()
 
-func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp):
+func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp, party_rewards_music_quality):
 	$Manager/menus/EmailMenu/EmailPreview.hide()
 	$Manager/menus/EmailMenu.hide()
 	var c_n = ClubController.club_data[str(PartyController.party_data[current_party_id+"_club_id"])+"_name"]
-	_render_party_results(c_n, party_rewards_money, party_rewards_exp)
+	_render_party_results(c_n, party_rewards_money, party_rewards_exp, party_rewards_music_quality)
 	if str(current_party_id) == '0':
 		var dialog = Dialogic.start('first_party_end')
 		dialog.connect("dialogic_signal", self, "dialog_listener")
@@ -161,8 +161,8 @@ func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp):
 	GameController.add_experience(party_rewards_exp)
 	$Manager/menus/EmailMenu/EmailControl.check_emails()
 
-func _render_party_results(club_name, new_money, new_exp):
-	var base_string = "Party at %s\n\nRecived money: %s\nRecived experience: %s" % [club_name, new_money, new_exp]
+func _render_party_results(club_name, new_money, new_exp, new_mq):
+	var base_string = "Party at %s\n\nRecived money: %s\nRecived experience: %s\n\n\nMusic quality in audition's opinion: %s" % [club_name, new_money, new_exp, new_mq]
 	$PartyResults/RichTextLabel.text = base_string
 
 func on_warning(enabled):

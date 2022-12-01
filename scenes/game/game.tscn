@@ -120,7 +120,8 @@ audio_node = NodePath("../AudioStreamPlayer")
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="AnimatedIcon" parent="." instance=ExtResource( 8 )]
-frame = 0
+visible = false
+frame = 3
 
 [connection signal="visibility_changed" from="PauseMenu" to="." method="_on_PauseMenu_visibility_changed"]
 [connection signal="pressed" from="Tutorial/TutorialFinished" to="." method="_on_TutorialFinished_pressed"]

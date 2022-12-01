@@ -16,14 +16,20 @@ public class Saver : Node {
         
     }
 
-    public void SaveGame(string dir, Dictionary<string, string> shopItemData, Dictionary<string, string> gOptions, Dictionary<string, string> gData, string orgSName) {
+    /// <summary>
+    /// This method calls SaveContainer class to save data
+    /// </summary>
+    /// <param name="data">Save data</param>
+    /// <param name="dir">Save root directory</param>
+    /// <param name="orgSName">Name of the save</param>
+    public void SaveGame(Dictionary<string, Dictionary<string, string>> data, string dir, string orgSName) {
         _saveContainer.SetSaveDir(dir);
-        _saveContainer.WriteDirectories();
+        _saveContainer.WriteDirectories(data);
         File.WriteAllText(dir + "\\SaveName.dat", orgSName);
         File.WriteAllText(dir + "\\data\\ModificationDate.dat", DateTime.Now.ToString(CultureInfo.InvariantCulture));
-        _saveContainer.WriteData("data\\OptionController", GodotToSystem(gOptions));
-        _saveContainer.WriteData("data\\GameController", GodotToSystem(gData));
-        _saveContainer.WriteData("data\\ShopItemController", GodotToSystem(shopItemData));
+        foreach (var d in data) {
+            _saveContainer.WriteData($"\\data\\{d.Key}", GodotToSystem(d.Value));
+        }
     }
 
     /// <summary>

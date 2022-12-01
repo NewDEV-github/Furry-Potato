@@ -1,22 +1,22 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
+using Godot.Collections;
 
 public class SaveContainer : BaseSave {
     private string _saveRoot = "";
     public override void SetSaveDir(string baseDir) {
         _saveRoot = baseDir;
     }
-    public override void WriteDirectories() {
+    public override void WriteDirectories(Dictionary<string, Dictionary<string, string>> data) {
         Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot) ?? throw new InvalidOperationException());
-        Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot + "\\data\\GameController\\"));
-        Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot + "\\data\\OptionController\\"));
-        Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot + "\\data\\ShopItemController\\"));
+        foreach (var s in data) {
+            Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot + $"\\data\\{s.Key}\\"));
+        }
+        
 
     }
 
-    public override void WriteData(string subfolder, Dictionary<string, string> data) {
+    public override void WriteData(string subfolder, System.Collections.Generic.Dictionary<string, string> data) {
         foreach (var v in data) {
             string name = v.Key;
             string path = _saveRoot + "\\" + subfolder + "\\" + name + ".dat";

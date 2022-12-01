@@ -1,6 +1,24 @@
-[gd_scene format=2]
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scripts/scenes/game/party_ratings/PartyRatingDetails.cs" type="Script" id=1]
+[ext_resource path="res://scripts/scenes/game/party_ratings/PartyRatingsMenu.cs" type="Script" id=2]
+[ext_resource path="res://scripts/scenes/game/party_ratings/PartyList.cs" type="Script" id=3]
 
 [node name="PartyRatingsMenu" type="WindowDialog"]
-margin_right = 48.0
-margin_bottom = 40.0
+margin_right = 351.0
+margin_bottom = 218.0
 window_title = "All party ratings"
+script = ExtResource( 2 )
+
+[node name="PartyList" type="ItemList" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="Details" type="WindowDialog" parent="."]
+visible = true
+margin_right = 353.0
+margin_bottom = 214.0
+script = ExtResource( 1 )
+
+[connection signal="about_to_show" from="." to="." method="_on_PartyRatingsMenu_about_to_show"]

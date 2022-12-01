@@ -44,14 +44,15 @@ public class ShopItemManager : Node {
     /// <param name="itemName">Item name</param>
     /// <returns>Item data in dictionary</returns>
     public Dictionary<string, string> GetItemData(string itemName) {
-        Dictionary<string, string> data = new Dictionary<string, string>();
-        data.Add("item_name", _shopItems[itemName].GetItemName());
-        data.Add("item_description", _shopItems[itemName].GetItemDescription());
-        data.Add("item_price", _shopItems[itemName].GetItemCost());
-        data.Add("item_icon", _shopItems[itemName].GetItemIconPath());
-        data.Add("item_experience_multiplier", _shopItems[itemName].GetItemExperienceMultiplier());
-        data.Add("item_party_quality_multiplier", _shopItems[itemName].GetItemPartyQualityMultiplier());
-        data.Add("item_music_quality_multiplier", _shopItems[itemName].GetItemMusicQualityMultiplier());
+        Dictionary<string, string> data = new Dictionary<string, string> {
+            { "item_name", _shopItems[itemName].GetItemName() },
+            { "item_description", _shopItems[itemName].GetItemDescription() },
+            { "item_price", _shopItems[itemName].GetItemCost() },
+            { "item_icon", _shopItems[itemName].GetItemIconPath() },
+            { "item_experience_multiplier", _shopItems[itemName].GetItemExperienceMultiplier() },
+            { "item_party_quality_multiplier", _shopItems[itemName].GetItemPartyQualityMultiplier() },
+            { "item_music_quality_multiplier", _shopItems[itemName].GetItemMusicQualityMultiplier() }
+        };
         return data;
     }
 }

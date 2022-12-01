@@ -5,7 +5,7 @@ var searchData=
   ['savecontainer_2ecs_2',['SaveContainer.cs',['../d2/d5e/SaveContainer_8cs.html',1,'']]],
   ['savecount_3',['SaveCount',['../d8/d24/classSaveManager.html#a20b553cdc3fd6733aa2d85da56386e30',1,'SaveManager']]],
   ['savedatapreloaded_4',['SaveDataPreloaded',['../dd/d61/classSaveSelectMenuPopup.html#a778145d1a8ef2e4e96a161bce39393a5',1,'SaveSelectMenuPopup']]],
-  ['savegame_5',['SaveGame',['../dd/de5/classSaver.html#adcb299718fe5ce4ac99c191223d10326',1,'Saver']]],
+  ['savegame_5',['SaveGame',['../dd/de5/classSaver.html#af4af9127736384d02d34228629b646d3',1,'Saver']]],
   ['savemanager_6',['SaveManager',['../d8/d24/classSaveManager.html',1,'']]],
   ['savemanager_2ecs_7',['SaveManager.cs',['../d2/de6/SaveManager_8cs.html',1,'']]],
   ['savepaths_8',['SavePaths',['../d8/d24/classSaveManager.html#a4cd36b0d9348b89e98ed5823fd99e15d',1,'SaveManager']]],

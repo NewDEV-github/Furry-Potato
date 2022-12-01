@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['computer_0',['Computer',['../d5/de3/classComputer.html',1,'']]],
-  ['core_1',['Core',['../d5/d9c/classNewDEVSharp_1_1Core.html',1,'NewDEVSharp']]],
-  ['csharpcore_2',['CSharpCore',['../d0/dd2/classCSharpCore.html',1,'']]],
-  ['customaudiolibrary_3',['CustomAudioLibrary',['../df/d61/classCustomAudioLibrary.html',1,'']]]
+  ['backgroundloader_0',['BackgroundLoader',['../d9/d5c/classBackgroundLoader.html',1,'']]],
+  ['baseclass_1',['BaseClass',['../d9/db7/classNewDEVSharp_1_1BaseClass.html',1,'NewDEVSharp']]],
+  ['basesave_2',['BaseSave',['../d0/dd0/classBaseSave.html',1,'']]]
 ];

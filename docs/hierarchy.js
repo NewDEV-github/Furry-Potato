@@ -3,6 +3,7 @@ var hierarchy =
     [ "AudioStreamPlayer", null, [
       [ "CustomAudioLibrary", "df/d61/classCustomAudioLibrary.html", null ]
     ] ],
+    [ "NewDEVSharp.DLC.Auth", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html", null ],
     [ "NewDEVSharp.BaseClass", "d9/db7/classNewDEVSharp_1_1BaseClass.html", [
       [ "NewDEVSharp.DLCManager", "de/d81/classNewDEVSharp_1_1DLCManager.html", null ]
     ] ],
@@ -18,6 +19,9 @@ var hierarchy =
       [ "FolderSystemDocuments", "dc/de4/classFolderSystemDocuments.html", null ],
       [ "FolderSystemMusic", "d0/d71/classFolderSystemMusic.html", null ]
     ] ],
+    [ "ItemList", null, [
+      [ "PartyList", "d2/d1c/classPartyList.html", null ]
+    ] ],
     [ "Node", null, [
       [ "BackgroundLoader", "d9/d5c/classBackgroundLoader.html", null ],
       [ "CSharpCore", "d0/dd2/classCSharpCore.html", null ],
@@ -29,7 +33,10 @@ var hierarchy =
     [ "ShopItemBase", "d1/dc3/classShopItemBase.html", [
       [ "ShopItemHeadphones", "d1/d44/classShopItemHeadphones.html", null ]
     ] ],
+    [ "NewDEVSharp.DLC.Verifier", "da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html", null ],
     [ "WindowDialog", null, [
+      [ "PartyRatingDetails", "d6/d32/classPartyRatingDetails.html", null ],
+      [ "PartyRatingsMenu", "da/d53/classPartyRatingsMenu.html", null ],
       [ "SaveSelectMenuPopup", "dd/d61/classSaveSelectMenuPopup.html", null ]
     ] ]
 ];

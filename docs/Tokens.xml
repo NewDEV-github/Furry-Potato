@@ -2,6 +2,15 @@
 <Tokens version="1.0">
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::DLC::Auth</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.DLC.Auth</Scope>
+    </TokenIdentifier>
+    <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>BackgroundLoader</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -119,6 +128,33 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PartyList</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>PartyList</Scope>
+    </TokenIdentifier>
+    <Path>d2/d1c/classPartyList.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PartyRatingDetails</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>PartyRatingDetails</Scope>
+    </TokenIdentifier>
+    <Path>d6/d32/classPartyRatingDetails.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PartyRatingsMenu</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>PartyRatingsMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d53/classPartyRatingsMenu.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SaveContainer</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -182,12 +218,30 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::DLC::Verifier</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.DLC.Verifier</Scope>
+    </TokenIdentifier>
+    <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewDEVSharp</Name>
       <APILanguage>csharp</APILanguage>
       <Type>ns</Type>
       <Scope>NewDEVSharp</Scope>
     </TokenIdentifier>
     <Path>d7/d59/namespaceNewDEVSharp.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::DLC</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>NewDEVSharp::DLC</Scope>
+    </TokenIdentifier>
+    <Path>db/de3/namespaceNewDEVSharp_1_1DLC.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -255,6 +309,16 @@
     </TokenIdentifier>
     <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
     <Anchor>ab394ebde38771da414c3cc49f243f81f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_itemList</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>PartyRatingsMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d53/classPartyRatingsMenu.html</Path>
+    <Anchor>aa7341867395b0cad2f1e4047b541d3ae</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -371,6 +435,28 @@
     <Path>dd/de5/classSaver.html</Path>
     <Anchor>aa3f3decdf70bec429ed0323061681e3c</Anchor>
     <DeclaredIn>Saver.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PartyList</Scope>
+    </TokenIdentifier>
+    <Path>d2/d1c/classPartyList.html</Path>
+    <Anchor>aab333bdf2c9b44ccbf7359dbad5e7f14</Anchor>
+    <DeclaredIn>PartyList.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PartyRatingsMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d53/classPartyRatingsMenu.html</Path>
+    <Anchor>a2ff6424f3b4b8a4319162c44f19aada4</Anchor>
+    <DeclaredIn>PartyRatingsMenu.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -608,6 +694,39 @@
     </TokenIdentifier>
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>a3c4c231c6cd54ceeb8d4b0fd0dc14c3b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DisplayDetail</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PartyList</Scope>
+    </TokenIdentifier>
+    <Path>d2/d1c/classPartyList.html</Path>
+    <Anchor>a18182a8f1a45eac9fe1eb7284dbfe6ec</Anchor>
+    <DeclaredIn>PartyList.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DisplayDetailedRating</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PartyRatingDetails</Scope>
+    </TokenIdentifier>
+    <Path>d6/d32/classPartyRatingDetails.html</Path>
+    <Anchor>a22a367fab960b909fa12e5f26f83cbd0</Anchor>
+    <DeclaredIn>PartyRatingDetails.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DisplayRatings</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PartyRatingsMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d53/classPartyRatingsMenu.html</Path>
+    <Anchor>aa89c7705fcd319520f12e8c08682363b</Anchor>
+    <DeclaredIn>PartyRatingsMenu.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1216,6 +1335,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ratingsClubs</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>PartyRatingsMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d53/classPartyRatingsMenu.html</Path>
+    <Anchor>ad88e627d45ac700286950a3b8f9970c9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ratingsList</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>PartyRatingsMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d53/classPartyRatingsMenu.html</Path>
+    <Anchor>abad846152d311eed6a62779eb08897bd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ResetSaves</Name>
       <APILanguage>csharp</APILanguage>
       <Type>clm</Type>
@@ -1265,7 +1404,7 @@
       <Scope>Saver</Scope>
     </TokenIdentifier>
     <Path>dd/de5/classSaver.html</Path>
-    <Anchor>adcb299718fe5ce4ac99c191223d10326</Anchor>
+    <Anchor>af4af9127736384d02d34228629b646d3</Anchor>
     <DeclaredIn>Saver.cs</DeclaredIn>
   </Token>
   <Token>
@@ -1374,7 +1513,7 @@
       <Scope>BaseSave</Scope>
     </TokenIdentifier>
     <Path>d0/dd0/classBaseSave.html</Path>
-    <Anchor>a6cb202c1b4f306a344653e46d8f43f9b</Anchor>
+    <Anchor>ae6beb7d4e5998e22c1bf6eaf3f3e1329</Anchor>
     <DeclaredIn>BaseSave.cs</DeclaredIn>
   </Token>
   <Token>
@@ -1385,7 +1524,7 @@
       <Scope>SaveContainer</Scope>
     </TokenIdentifier>
     <Path>d4/d14/classSaveContainer.html</Path>
-    <Anchor>a270e45f52be2d6ef94154a5272c3a294</Anchor>
+    <Anchor>aa0144b51a67285e7fe6e16c77906ca07</Anchor>
     <DeclaredIn>SaveContainer.cs</DeclaredIn>
   </Token>
   <Token>
@@ -1396,7 +1535,7 @@
       <Scope>BaseSave</Scope>
     </TokenIdentifier>
     <Path>d0/dd0/classBaseSave.html</Path>
-    <Anchor>aa7d74ad26716b9d195ea8d297ee57710</Anchor>
+    <Anchor>a191ddaf3a6483adb947d0da51c5ad24a</Anchor>
     <DeclaredIn>BaseSave.cs</DeclaredIn>
   </Token>
   <Token>
@@ -1407,7 +1546,7 @@
       <Scope>SaveContainer</Scope>
     </TokenIdentifier>
     <Path>d4/d14/classSaveContainer.html</Path>
-    <Anchor>ad7b0485296fc95c5add9145f481f3b2e</Anchor>
+    <Anchor>a501218accd67d0df40b3c7ac0b312d1c</Anchor>
     <DeclaredIn>SaveContainer.cs</DeclaredIn>
   </Token>
   <Token>

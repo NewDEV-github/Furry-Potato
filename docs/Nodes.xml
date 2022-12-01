@@ -22,6 +22,20 @@
             <Path>d7/d59/namespaceNewDEVSharp.html</Path>
           <Subnodes>
              <Node>
+              <Name>DLC</Name>
+              <Path>db/de3/namespaceNewDEVSharp_1_1DLC.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Auth</Name>
+                <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+               </Node>
+               <Node>
+                <Name>Verifier</Name>
+                <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>BaseClass</Name>
               <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
             <Subnodes>
@@ -112,6 +126,20 @@
             <Name>NewDEVSharp</Name>
             <Path>d7/d59/namespaceNewDEVSharp.html</Path>
           <Subnodes>
+             <Node>
+              <Name>DLC</Name>
+              <Path>db/de3/namespaceNewDEVSharp_1_1DLC.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Auth</Name>
+                <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+               </Node>
+               <Node>
+                <Name>Verifier</Name>
+                <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
              <Node>
               <Name>BaseClass</Name>
               <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
@@ -265,12 +293,12 @@
              <Node>
               <Name>WriteData</Name>
               <Path>d0/dd0/classBaseSave.html</Path>
-              <Anchor>a6cb202c1b4f306a344653e46d8f43f9b</Anchor>
+              <Anchor>ae6beb7d4e5998e22c1bf6eaf3f3e1329</Anchor>
              </Node>
              <Node>
               <Name>WriteDirectories</Name>
               <Path>d0/dd0/classBaseSave.html</Path>
-              <Anchor>aa7d74ad26716b9d195ea8d297ee57710</Anchor>
+              <Anchor>a191ddaf3a6483adb947d0da51c5ad24a</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -503,6 +531,64 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>PartyList</Name>
+            <Path>d2/d1c/classPartyList.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>_Ready</Name>
+              <Path>d2/d1c/classPartyList.html</Path>
+              <Anchor>aab333bdf2c9b44ccbf7359dbad5e7f14</Anchor>
+             </Node>
+             <Node>
+              <Name>DisplayDetail</Name>
+              <Path>d2/d1c/classPartyList.html</Path>
+              <Anchor>a18182a8f1a45eac9fe1eb7284dbfe6ec</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>PartyRatingDetails</Name>
+            <Path>d6/d32/classPartyRatingDetails.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>DisplayDetailedRating</Name>
+              <Path>d6/d32/classPartyRatingDetails.html</Path>
+              <Anchor>a22a367fab960b909fa12e5f26f83cbd0</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>PartyRatingsMenu</Name>
+            <Path>da/d53/classPartyRatingsMenu.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>_Ready</Name>
+              <Path>da/d53/classPartyRatingsMenu.html</Path>
+              <Anchor>a2ff6424f3b4b8a4319162c44f19aada4</Anchor>
+             </Node>
+             <Node>
+              <Name>DisplayRatings</Name>
+              <Path>da/d53/classPartyRatingsMenu.html</Path>
+              <Anchor>aa89c7705fcd319520f12e8c08682363b</Anchor>
+             </Node>
+             <Node>
+              <Name>_itemList</Name>
+              <Path>da/d53/classPartyRatingsMenu.html</Path>
+              <Anchor>aa7341867395b0cad2f1e4047b541d3ae</Anchor>
+             </Node>
+             <Node>
+              <Name>ratingsClubs</Name>
+              <Path>da/d53/classPartyRatingsMenu.html</Path>
+              <Anchor>ad88e627d45ac700286950a3b8f9970c9</Anchor>
+             </Node>
+             <Node>
+              <Name>ratingsList</Name>
+              <Path>da/d53/classPartyRatingsMenu.html</Path>
+              <Anchor>abad846152d311eed6a62779eb08897bd</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>SaveContainer</Name>
             <Path>d4/d14/classSaveContainer.html</Path>
           <Subnodes>
@@ -514,12 +600,12 @@
              <Node>
               <Name>WriteData</Name>
               <Path>d4/d14/classSaveContainer.html</Path>
-              <Anchor>a270e45f52be2d6ef94154a5272c3a294</Anchor>
+              <Anchor>aa0144b51a67285e7fe6e16c77906ca07</Anchor>
              </Node>
              <Node>
               <Name>WriteDirectories</Name>
               <Path>d4/d14/classSaveContainer.html</Path>
-              <Anchor>ad7b0485296fc95c5add9145f481f3b2e</Anchor>
+              <Anchor>a501218accd67d0df40b3c7ac0b312d1c</Anchor>
              </Node>
              <Node>
               <Name>_saveRoot</Name>
@@ -586,7 +672,7 @@
              <Node>
               <Name>SaveGame</Name>
               <Path>dd/de5/classSaver.html</Path>
-              <Anchor>adcb299718fe5ce4ac99c191223d10326</Anchor>
+              <Anchor>af4af9127736384d02d34228629b646d3</Anchor>
              </Node>
              <Node>
               <Name>_saveContainer</Name>
@@ -825,6 +911,10 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>NewDEVSharp.DLC.Auth</Name>
+            <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+           </Node>
+           <Node>
             <Name>NewDEVSharp.BaseClass</Name>
             <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
           <Subnodes>
@@ -877,6 +967,16 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>ItemList</Name>
+            <Path></Path>
+          <Subnodes>
+             <Node>
+              <Name>PartyList</Name>
+              <Path>d2/d1c/classPartyList.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Node</Name>
             <Path></Path>
           <Subnodes>
@@ -917,9 +1017,21 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>NewDEVSharp.DLC.Verifier</Name>
+            <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+           </Node>
+           <Node>
             <Name>WindowDialog</Name>
             <Path></Path>
           <Subnodes>
+             <Node>
+              <Name>PartyRatingDetails</Name>
+              <Path>d6/d32/classPartyRatingDetails.html</Path>
+             </Node>
+             <Node>
+              <Name>PartyRatingsMenu</Name>
+              <Path>da/d53/classPartyRatingsMenu.html</Path>
+             </Node>
              <Node>
               <Name>SaveSelectMenuPopup</Name>
               <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
@@ -1094,6 +1206,32 @@
             <Name>NewDEVSharp</Name>
             <Path>dir_077579c9fc193daa8c02eb26cdbdc4f8.html</Path>
           <Subnodes>
+             <Node>
+              <Name>DLC</Name>
+              <Path>dir_44e9b0a5d26986f336aff7e54ef3fc7f.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Auth.cs</Name>
+                <Path>d6/d7f/Auth_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.DLC.Auth</Name>
+                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Verifier.cs</Name>
+                <Path>d9/dd3/Verifier_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.DLC.Verifier</Name>
+                  <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
              <Node>
               <Name>obj</Name>
               <Path>dir_16e2d6add900945cf63a2ffe3b28963b.html</Path>
@@ -1387,12 +1525,12 @@
                          <Node>
                           <Name>WriteData</Name>
                           <Path>d0/dd0/classBaseSave.html</Path>
-                          <Anchor>a6cb202c1b4f306a344653e46d8f43f9b</Anchor>
+                          <Anchor>ae6beb7d4e5998e22c1bf6eaf3f3e1329</Anchor>
                          </Node>
                          <Node>
                           <Name>WriteDirectories</Name>
                           <Path>d0/dd0/classBaseSave.html</Path>
-                          <Anchor>aa7d74ad26716b9d195ea8d297ee57710</Anchor>
+                          <Anchor>a191ddaf3a6483adb947d0da51c5ad24a</Anchor>
                          </Node>
                         </Subnodes>
                        </Node>
@@ -1414,12 +1552,12 @@
                          <Node>
                           <Name>WriteData</Name>
                           <Path>d4/d14/classSaveContainer.html</Path>
-                          <Anchor>a270e45f52be2d6ef94154a5272c3a294</Anchor>
+                          <Anchor>aa0144b51a67285e7fe6e16c77906ca07</Anchor>
                          </Node>
                          <Node>
                           <Name>WriteDirectories</Name>
                           <Path>d4/d14/classSaveContainer.html</Path>
-                          <Anchor>ad7b0485296fc95c5add9145f481f3b2e</Anchor>
+                          <Anchor>a501218accd67d0df40b3c7ac0b312d1c</Anchor>
                          </Node>
                          <Node>
                           <Name>_saveRoot</Name>
@@ -1616,7 +1754,7 @@
                        <Node>
                         <Name>SaveGame</Name>
                         <Path>dd/de5/classSaver.html</Path>
-                        <Anchor>adcb299718fe5ce4ac99c191223d10326</Anchor>
+                        <Anchor>af4af9127736384d02d34228629b646d3</Anchor>
                        </Node>
                        <Node>
                         <Name>_saveContainer</Name>
@@ -1629,6 +1767,88 @@
                       <Name>File</Name>
                       <Path>de/df4/Saver_8cs.html</Path>
                       <Anchor>ae995b2c01e7e2f2c2b1f3617c3faa4b6</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>party_ratings</Name>
+                  <Path>dir_8f92a9b043fa61658a56b1fc17ac1272.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>PartyList.cs</Name>
+                    <Path>db/dbf/PartyList_8cs.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>PartyList</Name>
+                      <Path>d2/d1c/classPartyList.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>_Ready</Name>
+                        <Path>d2/d1c/classPartyList.html</Path>
+                        <Anchor>aab333bdf2c9b44ccbf7359dbad5e7f14</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DisplayDetail</Name>
+                        <Path>d2/d1c/classPartyList.html</Path>
+                        <Anchor>a18182a8f1a45eac9fe1eb7284dbfe6ec</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>PartyRatingDetails.cs</Name>
+                    <Path>dd/d80/PartyRatingDetails_8cs.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>PartyRatingDetails</Name>
+                      <Path>d6/d32/classPartyRatingDetails.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>DisplayDetailedRating</Name>
+                        <Path>d6/d32/classPartyRatingDetails.html</Path>
+                        <Anchor>a22a367fab960b909fa12e5f26f83cbd0</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>PartyRatingsMenu.cs</Name>
+                    <Path>d1/de7/PartyRatingsMenu_8cs.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>PartyRatingsMenu</Name>
+                      <Path>da/d53/classPartyRatingsMenu.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>_Ready</Name>
+                        <Path>da/d53/classPartyRatingsMenu.html</Path>
+                        <Anchor>a2ff6424f3b4b8a4319162c44f19aada4</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DisplayRatings</Name>
+                        <Path>da/d53/classPartyRatingsMenu.html</Path>
+                        <Anchor>aa89c7705fcd319520f12e8c08682363b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_itemList</Name>
+                        <Path>da/d53/classPartyRatingsMenu.html</Path>
+                        <Anchor>aa7341867395b0cad2f1e4047b541d3ae</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ratingsClubs</Name>
+                        <Path>da/d53/classPartyRatingsMenu.html</Path>
+                        <Anchor>ad88e627d45ac700286950a3b8f9970c9</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ratingsList</Name>
+                        <Path>da/d53/classPartyRatingsMenu.html</Path>
+                        <Anchor>abad846152d311eed6a62779eb08897bd</Anchor>
+                       </Node>
+                      </Subnodes>
                      </Node>
                     </Subnodes>
                    </Node>

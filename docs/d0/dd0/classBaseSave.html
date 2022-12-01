@@ -130,10 +130,10 @@ $(document).ready(function(){initNavTree('d0/dd0/classBaseSave.html','../../'); 
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aca1230ac02fbaef17445a6b268a0a469"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classBaseSave.html#aca1230ac02fbaef17445a6b268a0a469">SetSaveDir</a> (string baseDir)</td></tr>
 <tr class="separator:aca1230ac02fbaef17445a6b268a0a469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7d74ad26716b9d195ea8d297ee57710"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classBaseSave.html#aa7d74ad26716b9d195ea8d297ee57710">WriteDirectories</a> ()</td></tr>
-<tr class="separator:aa7d74ad26716b9d195ea8d297ee57710"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cb202c1b4f306a344653e46d8f43f9b"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classBaseSave.html#a6cb202c1b4f306a344653e46d8f43f9b">WriteData</a> (string subfolder, Dictionary&lt; string, string &gt; data)</td></tr>
-<tr class="separator:a6cb202c1b4f306a344653e46d8f43f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191ddaf3a6483adb947d0da51c5ad24a"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classBaseSave.html#a191ddaf3a6483adb947d0da51c5ad24a">WriteDirectories</a> (Dictionary&lt; string, Dictionary&lt; string, string &gt; &gt; dirData)</td></tr>
+<tr class="separator:a191ddaf3a6483adb947d0da51c5ad24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6beb7d4e5998e22c1bf6eaf3f3e1329"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classBaseSave.html#ae6beb7d4e5998e22c1bf6eaf3f3e1329">WriteData</a> (string subfolder, System.Collections.Generic.Dictionary&lt; string, string &gt; data)</td></tr>
+<tr class="separator:ae6beb7d4e5998e22c1bf6eaf3f3e1329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -167,8 +167,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6cb202c1b4f306a344653e46d8f43f9b" name="a6cb202c1b4f306a344653e46d8f43f9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cb202c1b4f306a344653e46d8f43f9b">&#9670;&#160;</a></span>WriteData()</h2>
+<a id="ae6beb7d4e5998e22c1bf6eaf3f3e1329" name="ae6beb7d4e5998e22c1bf6eaf3f3e1329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6beb7d4e5998e22c1bf6eaf3f3e1329">&#9670;&#160;</a></span>WriteData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,7 +185,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Dictionary&lt; string, string &gt;&#160;</td>
+          <td class="paramtype">System.Collections.Generic.Dictionary&lt; string, string &gt;&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -201,12 +201,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d4/d14/classSaveContainer.html#a270e45f52be2d6ef94154a5272c3a294">SaveContainer</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d14/classSaveContainer.html#aa0144b51a67285e7fe6e16c77906ca07">SaveContainer</a>.</p>
 
 </div>
 </div>
-<a id="aa7d74ad26716b9d195ea8d297ee57710" name="aa7d74ad26716b9d195ea8d297ee57710"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7d74ad26716b9d195ea8d297ee57710">&#9670;&#160;</a></span>WriteDirectories()</h2>
+<a id="a191ddaf3a6483adb947d0da51c5ad24a" name="a191ddaf3a6483adb947d0da51c5ad24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191ddaf3a6483adb947d0da51c5ad24a">&#9670;&#160;</a></span>WriteDirectories()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,7 +217,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">abstract void BaseSave.WriteDirectories </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">Dictionary&lt; string, Dictionary&lt; string, string &gt; &gt;&#160;</td>
+          <td class="paramname"><em>dirData</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -228,7 +229,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d4/d14/classSaveContainer.html#ad7b0485296fc95c5add9145f481f3b2e">SaveContainer</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d14/classSaveContainer.html#a501218accd67d0df40b3c7ac0b312d1c">SaveContainer</a>.</p>
 
 </div>
 </div>

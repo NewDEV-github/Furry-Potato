@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['folderbase_0',['FolderBase',['../dd/d22/classFolderBase.html',1,'']]],
-  ['foldersystemdocuments_1',['FolderSystemDocuments',['../dc/de4/classFolderSystemDocuments.html',1,'']]],
-  ['foldersystemmusic_2',['FolderSystemMusic',['../d0/d71/classFolderSystemMusic.html',1,'']]]
+  ['dialogicsharp_0',['DialogicSharp',['../d1/d1c/classDialogicSharp.html',1,'']]],
+  ['dlcmanager_1',['DLCManager',['../de/d81/classNewDEVSharp_1_1DLCManager.html',1,'NewDEVSharp']]]
 ];

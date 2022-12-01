@@ -1,23 +1,4 @@
 var searchData=
 [
-  ['dialogicanimapropertieshelper_2egd_0',['DialogicAnimaPropertiesHelper.gd',['../d4/de8/DialogicAnimaPropertiesHelper_8gd.html',1,'']]],
-  ['dialogicanimaresources_2egd_1',['DialogicAnimaResources.gd',['../d7/d4f/DialogicAnimaResources_8gd.html',1,'']]],
-  ['dialogicanimatween_2egd_2',['DialogicAnimaTween.gd',['../d7/d26/DialogicAnimaTween_8gd.html',1,'']]],
-  ['dialogicclass_2egd_3',['DialogicClass.gd',['../d3/d4d/DialogicClass_8gd.html',1,'']]],
-  ['dialogiccustomevents_2egd_4',['DialogicCustomEvents.gd',['../da/d44/DialogicCustomEvents_8gd.html',1,'']]],
-  ['dialogicdefinitionsutil_2egd_5',['DialogicDefinitionsUtil.gd',['../de/da6/DialogicDefinitionsUtil_8gd.html',1,'']]],
-  ['dialogicparser_2egd_6',['DialogicParser.gd',['../d1/d76/DialogicParser_8gd.html',1,'']]],
-  ['dialogicresources_2egd_7',['DialogicResources.gd',['../d3/d0d/DialogicResources_8gd.html',1,'']]],
-  ['dialogicsharp_2ecs_8',['DialogicSharp.cs',['../de/d97/DialogicSharp_8cs.html',1,'']]],
-  ['dialogicutil_2egd_9',['DialogicUtil.gd',['../db/d1d/DialogicUtil_8gd.html',1,'']]],
-  ['dialognode_2egd_10',['DialogNode.gd',['../d7/ddc/DialogNode_8gd.html',1,'']]],
-  ['dialogproxy_2egd_11',['DialogProxy.gd',['../d9/d7c/DialogProxy_8gd.html',1,'']]],
-  ['discord_2egd_12',['discord.gd',['../d1/db4/discord_8gd.html',1,'']]],
-  ['discordsdk_2egd_13',['DiscordSDK.gd',['../d3/d39/DiscordSDK_8gd.html',1,'']]],
-  ['docsmarkdownparser_2egd_14',['DocsMarkdownParser.gd',['../de/dfe/DocsMarkdownParser_8gd.html',1,'']]],
-  ['docspageviewer_2egd_15',['DocsPageViewer.gd',['../d6/d9c/DocsPageViewer_8gd.html',1,'']]],
-  ['docstreehelper_2egd_16',['DocsTreeHelper.gd',['../d8/da5/DocsTreeHelper_8gd.html',1,'']]],
-  ['documentationtree_2egd_17',['DocumentationTree.gd',['../da/dc9/DocumentationTree_8gd.html',1,'']]],
-  ['documentationviewer_2egd_18',['DocumentationViewer.gd',['../d0/d25/Documentation_2Nodes_2DocumentationViewer_8gd.html',1,'']]],
-  ['plugin_2egd_19',['plugin.gd',['../d9/dcb/dialogic_2plugin_8gd.html',1,'']]]
+  ['verifier_2ecs_0',['Verifier.cs',['../d9/dd3/Verifier_8cs.html',1,'']]]
 ];

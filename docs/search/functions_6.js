@@ -5,5 +5,5 @@ var searchData=
   ['initfolderlist_2',['InitFolderList',['../df/d61/classCustomAudioLibrary.html#a12a51b4a4128035dffe700c80d736693',1,'CustomAudioLibrary']]],
   ['inititem_3',['InitItem',['../d1/d44/classShopItemHeadphones.html#a04d29416dea3046c71675047e01881e7',1,'ShopItemHeadphones.InitItem()'],['../d1/dc3/classShopItemBase.html#a948ce034810aa4dfde1766bf2509aea8',1,'ShopItemBase.InitItem()']]],
   ['inititems_4',['InitItems',['../d5/deb/classShopItemManager.html#a1059438d240779d6be75471ccde16824',1,'ShopItemManager']]],
-  ['initsubclass_5',['InitSubClass',['../d5/d9c/classNewDEVSharp_1_1Core.html#af155b8aa92f8cd58e94b8aa12a97cd76',1,'NewDEVSharp::Core']]]
+  ['isdlclegal_5',['IsDLCLegal',['../da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html#a7f0d046481e1bbbaf9e14644bd61fb3d',1,'NewDEVSharp::DLC::Verifier']]]
 ];

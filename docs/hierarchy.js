@@ -3,9 +3,15 @@ var hierarchy =
     [ "AudioStreamPlayer", null, [
       [ "CustomAudioLibrary", "df/d61/classCustomAudioLibrary.html", null ]
     ] ],
-    [ "NewDEVSharp.DLC.Auth", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html", null ],
     [ "NewDEVSharp.BaseClass", "d9/db7/classNewDEVSharp_1_1BaseClass.html", [
-      [ "NewDEVSharp.DLCManager", "de/d81/classNewDEVSharp_1_1DLCManager.html", null ]
+      [ "NewDEVSharp.DLC.Auth", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html", null ],
+      [ "NewDEVSharp.DLC.DLC", "de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html", null ],
+      [ "NewDEVSharp.DLC.Manager", "db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html", null ],
+      [ "NewDEVSharp.DLC.Verifier", "da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html", null ],
+      [ "NewDEVSharp.Launcher.Manager", "d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html", null ],
+      [ "NewDEVSharp.Server.BaseServer", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html", [
+        [ "NewDEVSharp.Server.Auth", "db/d85/classNewDEVSharp_1_1Server_1_1Auth.html", null ]
+      ] ]
     ] ],
     [ "BaseSave", "d0/dd0/classBaseSave.html", [
       [ "SaveContainer", "d4/d14/classSaveContainer.html", null ]
@@ -33,7 +39,6 @@ var hierarchy =
     [ "ShopItemBase", "d1/dc3/classShopItemBase.html", [
       [ "ShopItemHeadphones", "d1/d44/classShopItemHeadphones.html", null ]
     ] ],
-    [ "NewDEVSharp.DLC.Verifier", "da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html", null ],
     [ "WindowDialog", null, [
       [ "PartyRatingDetails", "d6/d32/classPartyRatingDetails.html", null ],
       [ "PartyRatingsMenu", "da/d53/classPartyRatingsMenu.html", null ],

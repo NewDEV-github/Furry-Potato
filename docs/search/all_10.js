@@ -1,5 +1,29 @@
 var searchData=
 [
-  ['verifier_0',['Verifier',['../da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html',1,'NewDEVSharp::DLC']]],
-  ['verifier_2ecs_1',['Verifier.cs',['../d9/dd3/Verifier_8cs.html',1,'']]]
+  ['auth_2ecs_0',['Auth.cs',['../da/d27/Server_2Auth_8cs.html',1,'']]],
+  ['save_1',['Save',['../d1/d1c/classDialogicSharp.html#abc67f57d5f7cde4b5d3dad202e41fb3e',1,'DialogicSharp']]],
+  ['savecontainer_2',['SaveContainer',['../d4/d14/classSaveContainer.html',1,'']]],
+  ['savecontainer_2ecs_3',['SaveContainer.cs',['../d2/d5e/SaveContainer_8cs.html',1,'']]],
+  ['savecount_4',['SaveCount',['../d8/d24/classSaveManager.html#a20b553cdc3fd6733aa2d85da56386e30',1,'SaveManager']]],
+  ['savedatapreloaded_5',['SaveDataPreloaded',['../dd/d61/classSaveSelectMenuPopup.html#a778145d1a8ef2e4e96a161bce39393a5',1,'SaveSelectMenuPopup']]],
+  ['savegame_6',['SaveGame',['../dd/de5/classSaver.html#af4af9127736384d02d34228629b646d3',1,'Saver']]],
+  ['savemanager_7',['SaveManager',['../d8/d24/classSaveManager.html',1,'']]],
+  ['savemanager_2ecs_8',['SaveManager.cs',['../d2/de6/SaveManager_8cs.html',1,'']]],
+  ['savepaths_9',['SavePaths',['../d8/d24/classSaveManager.html#a4cd36b0d9348b89e98ed5823fd99e15d',1,'SaveManager']]],
+  ['saver_10',['Saver',['../dd/de5/classSaver.html',1,'']]],
+  ['saver_2ecs_11',['Saver.cs',['../de/df4/Saver_8cs.html',1,'']]],
+  ['saveselectedtoload_12',['SaveSelectedToLoad',['../dd/d61/classSaveSelectMenuPopup.html#a30832eea73a8ca4cce34404cc01e1d24',1,'SaveSelectMenuPopup']]],
+  ['saveselectmenupopup_13',['SaveSelectMenuPopup',['../dd/d61/classSaveSelectMenuPopup.html',1,'']]],
+  ['saveselectmenupopup_2ecs_14',['SaveSelectMenuPopup.cs',['../de/d79/SaveSelectMenuPopup_8cs.html',1,'']]],
+  ['serverurl_15',['ServerURL',['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#abcf4cae09c1240a0358a7b12e3c81948',1,'NewDEVSharp::Server::BaseServer']]],
+  ['setsavedir_16',['SetSaveDir',['../d0/dd0/classBaseSave.html#aca1230ac02fbaef17445a6b268a0a469',1,'BaseSave.SetSaveDir()'],['../d4/d14/classSaveContainer.html#a086cd28c26e8595b845c29671b74461e',1,'SaveContainer.SetSaveDir()']]],
+  ['setvariable_17',['SetVariable',['../d1/d1c/classDialogicSharp.html#a50e78c9bb929bed5986738e2d0a3f7e6',1,'DialogicSharp']]],
+  ['shopitembase_18',['ShopItemBase',['../d1/dc3/classShopItemBase.html',1,'']]],
+  ['shopitembase_2ecs_19',['ShopItemBase.cs',['../d1/dfb/ShopItemBase_8cs.html',1,'']]],
+  ['shopitemheadphones_20',['ShopItemHeadphones',['../d1/d44/classShopItemHeadphones.html',1,'']]],
+  ['shopitemheadphones_2ecs_21',['ShopItemHeadphones.cs',['../d2/de5/ShopItemHeadphones_8cs.html',1,'']]],
+  ['shopitemmanager_22',['ShopItemManager',['../d5/deb/classShopItemManager.html',1,'']]],
+  ['shopitemmanager_2ecs_23',['ShopItemManager.cs',['../d4/de5/ShopItemManager_8cs.html',1,'']]],
+  ['start_24',['Start',['../d1/d1c/classDialogicSharp.html#a801a0264277882a587e0cac58b7c2163',1,'DialogicSharp']]],
+  ['start_3c_20t_20_3e_25',['Start&lt; T &gt;',['../d1/d1c/classDialogicSharp.html#a887b2947d040e3b5285eeadb06c259f8',1,'DialogicSharp']]]
 ];

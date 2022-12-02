@@ -12,31 +12,26 @@ var party_ids = [
 var done_partys = []
 
 var party_data = {
-	"0_party_name": "",
 	"0_club_id": 0,
 	"0_base_price": 1000,
 	"0_base_experience": 100,
 	"0_req_experience": 0,
 	
-	"1_party_name": "",
 	"1_club_id": 1,
 	"1_base_price": 1000,
 	"1_base_experience": 150,
 	"1_req_experience": 10,
 	
-	"2_party_name": "",
 	"2_club_id": 2,
 	"2_base_price": 1000,
 	"2_base_experience": 170,
 	"2_req_experience": 200,
 	
-	"3_party_name": "",
 	"3_club_id": 3,
 	"3_base_price": 1000,
 	"3_base_experience": 120,
 	"3_req_experience": 300,
 	
-	"4_party_name": "",
 	"4_club_id": 4,
 	"4_base_price": 1000,
 	"4_base_experience": 400,

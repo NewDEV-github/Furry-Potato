@@ -28,10 +28,191 @@
                <Node>
                 <Name>Auth</Name>
                 <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+                  <Anchor>a2ddb78e42bfd2a3aaf2b84d20f6fbf22</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+                  <Anchor>a1a56db36d62a17ded71fb71527d94153</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DLC</Name>
+                <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>aa943b87607a89b750f6442e201ccc2d1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a08c24ac8e56cbf347f4bbbdaeff20f03</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCBasePath</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>aec3d9b9bf723f3de9de0c1449fa8cf77</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCFiles</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a15e8b67b25bd267e24ec7beb9db03564</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCGame</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>adca693169d99af309340d5f19b6f2519</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCID</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a726844d7d1ca036c86bd50d3a565c986</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCName</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a19d994fedd69c4cc0e1211db90d73e3a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Manager</Name>
+                <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>a7548da9fca1448b12aa034142c093d77</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>ab87228e0a9d37a28f676b22b9705fb6e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PreLoadDLCData</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>a92e233f3645dc31183edb0bacd876b9f</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>Verifier</Name>
                 <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                  <Anchor>ae0835cb7de1625da3de8ab97c573caaa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                  <Anchor>a91ce0208b7785bfc7abb40c4565db323</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>IsDLCLegal</Name>
+                  <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                  <Anchor>a7f0d046481e1bbbaf9e14644bd61fb3d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Launcher</Name>
+              <Path>d9/d11/namespaceNewDEVSharp_1_1Launcher.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Manager</Name>
+                <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+                  <Anchor>a7194a206a906538cb919d29c0e3fb37b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+                  <Anchor>af769085d8e3f8a32f6e452e3b65f0ca0</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Server</Name>
+              <Path>d4/df5/namespaceNewDEVSharp_1_1Server.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Auth</Name>
+                <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a4ca12a6f2772388b3c978f2d684fd5c4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a09ac883c95fe04b69fee23c9a296e209</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Request</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>ad9c983f2dbf2062ff98e73da93bb45fa</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>BaseServer</Name>
+                <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>RequestType</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a26ee430c987c07c6f6521da65cd32d59</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>aff87aab56deab0c59899049dc093f7b3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a34f2158e15deb0e721702e7d263698e7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DictToJson</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>af55f88a43dd84a08869e85d8a9fe0db5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>JsonToStringDict</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a872aa00783e9f6b0f4a15e5fc0c19f05</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Request</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a5fbbdc629698f5811f2aec6573ddfe2d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ServerURL</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>abcf4cae09c1240a0358a7b12e3c81948</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -56,55 +237,9 @@
               <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
             <Subnodes>
                <Node>
-                <Name>GetDLCManager</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>ace50726a90f632a755d8ebd9ef43a80c</Anchor>
-               </Node>
-               <Node>
                 <Name>Init</Name>
                 <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                 <Anchor>a240ebb6a5fa1787984b8bb0ae81636dd</Anchor>
-               </Node>
-               <Node>
-                <Name>InitSubClass</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>af155b8aa92f8cd58e94b8aa12a97cd76</Anchor>
-               </Node>
-               <Node>
-                <Name>_dlcManager</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>ae5d522208967b6476c87b567833d3b46</Anchor>
-               </Node>
-               <Node>
-                <Name>_initializedClasses</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>ab394ebde38771da414c3cc49f243f81f</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>DLCManager</Name>
-              <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>ClassInit</Name>
-                <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                <Anchor>a3f759d97d3742ac549c2675f7a65c8f2</Anchor>
-               </Node>
-               <Node>
-                <Name>ClassName</Name>
-                <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                <Anchor>a311b19c4a72c2662016ce42c67828c16</Anchor>
-               </Node>
-               <Node>
-                <Name>PreLoadDLCData</Name>
-                <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                <Anchor>a967f812b8c015e62258d134d92f88ac2</Anchor>
-               </Node>
-               <Node>
-                <Name>DLCFiles</Name>
-                <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                <Anchor>a035b73938d3d59e88e755362a588ee4b</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -133,10 +268,191 @@
                <Node>
                 <Name>Auth</Name>
                 <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+                  <Anchor>a2ddb78e42bfd2a3aaf2b84d20f6fbf22</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+                  <Anchor>a1a56db36d62a17ded71fb71527d94153</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DLC</Name>
+                <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>aa943b87607a89b750f6442e201ccc2d1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a08c24ac8e56cbf347f4bbbdaeff20f03</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCBasePath</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>aec3d9b9bf723f3de9de0c1449fa8cf77</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCFiles</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a15e8b67b25bd267e24ec7beb9db03564</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCGame</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>adca693169d99af309340d5f19b6f2519</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCID</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a726844d7d1ca036c86bd50d3a565c986</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DLCName</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a19d994fedd69c4cc0e1211db90d73e3a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Manager</Name>
+                <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>a7548da9fca1448b12aa034142c093d77</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>ab87228e0a9d37a28f676b22b9705fb6e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PreLoadDLCData</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>a92e233f3645dc31183edb0bacd876b9f</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>Verifier</Name>
                 <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                  <Anchor>ae0835cb7de1625da3de8ab97c573caaa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                  <Anchor>a91ce0208b7785bfc7abb40c4565db323</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>IsDLCLegal</Name>
+                  <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                  <Anchor>a7f0d046481e1bbbaf9e14644bd61fb3d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Launcher</Name>
+              <Path>d9/d11/namespaceNewDEVSharp_1_1Launcher.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Manager</Name>
+                <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+                  <Anchor>a7194a206a906538cb919d29c0e3fb37b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+                  <Anchor>af769085d8e3f8a32f6e452e3b65f0ca0</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Server</Name>
+              <Path>d4/df5/namespaceNewDEVSharp_1_1Server.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Auth</Name>
+                <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a4ca12a6f2772388b3c978f2d684fd5c4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a09ac883c95fe04b69fee23c9a296e209</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Request</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>ad9c983f2dbf2062ff98e73da93bb45fa</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>BaseServer</Name>
+                <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>RequestType</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a26ee430c987c07c6f6521da65cd32d59</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>aff87aab56deab0c59899049dc093f7b3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a34f2158e15deb0e721702e7d263698e7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DictToJson</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>af55f88a43dd84a08869e85d8a9fe0db5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>JsonToStringDict</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a872aa00783e9f6b0f4a15e5fc0c19f05</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Request</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a5fbbdc629698f5811f2aec6573ddfe2d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ServerURL</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>abcf4cae09c1240a0358a7b12e3c81948</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -161,55 +477,9 @@
               <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
             <Subnodes>
                <Node>
-                <Name>GetDLCManager</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>ace50726a90f632a755d8ebd9ef43a80c</Anchor>
-               </Node>
-               <Node>
                 <Name>Init</Name>
                 <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                 <Anchor>a240ebb6a5fa1787984b8bb0ae81636dd</Anchor>
-               </Node>
-               <Node>
-                <Name>InitSubClass</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>af155b8aa92f8cd58e94b8aa12a97cd76</Anchor>
-               </Node>
-               <Node>
-                <Name>_dlcManager</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>ae5d522208967b6476c87b567833d3b46</Anchor>
-               </Node>
-               <Node>
-                <Name>_initializedClasses</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>ab394ebde38771da414c3cc49f243f81f</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>DLCManager</Name>
-              <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>ClassInit</Name>
-                <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                <Anchor>a3f759d97d3742ac549c2675f7a65c8f2</Anchor>
-               </Node>
-               <Node>
-                <Name>ClassName</Name>
-                <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                <Anchor>a311b19c4a72c2662016ce42c67828c16</Anchor>
-               </Node>
-               <Node>
-                <Name>PreLoadDLCData</Name>
-                <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                <Anchor>a967f812b8c015e62258d134d92f88ac2</Anchor>
-               </Node>
-               <Node>
-                <Name>DLCFiles</Name>
-                <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                <Anchor>a035b73938d3d59e88e755362a588ee4b</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -318,19 +588,9 @@
             <Path>d0/dd2/classCSharpCore.html</Path>
           <Subnodes>
              <Node>
-              <Name>_Ready</Name>
-              <Path>d0/dd2/classCSharpCore.html</Path>
-              <Anchor>a3646911b8210aad6aa6ee546c97c1a1e</Anchor>
-             </Node>
-             <Node>
               <Name>_newDEVCore</Name>
               <Path>d0/dd2/classCSharpCore.html</Path>
               <Anchor>a8b3cdc45f6f7621c867b5fa806aa0068</Anchor>
-             </Node>
-             <Node>
-              <Name>DlcManager</Name>
-              <Path>d0/dd2/classCSharpCore.html</Path>
-              <Anchor>a54fe54ffa2f62db89c72a18a771cc585</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -911,16 +1171,38 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>NewDEVSharp.DLC.Auth</Name>
-            <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-           </Node>
-           <Node>
             <Name>NewDEVSharp.BaseClass</Name>
             <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
           <Subnodes>
              <Node>
-              <Name>NewDEVSharp.DLCManager</Name>
-              <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
+              <Name>NewDEVSharp.DLC.Auth</Name>
+              <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+             </Node>
+             <Node>
+              <Name>NewDEVSharp.DLC.DLC</Name>
+              <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+             </Node>
+             <Node>
+              <Name>NewDEVSharp.DLC.Manager</Name>
+              <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+             </Node>
+             <Node>
+              <Name>NewDEVSharp.DLC.Verifier</Name>
+              <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+             </Node>
+             <Node>
+              <Name>NewDEVSharp.Launcher.Manager</Name>
+              <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+             </Node>
+             <Node>
+              <Name>NewDEVSharp.Server.BaseServer</Name>
+              <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>NewDEVSharp.Server.Auth</Name>
+                <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
             </Subnodes>
            </Node>
@@ -1017,10 +1299,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>NewDEVSharp.DLC.Verifier</Name>
-            <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
-           </Node>
-           <Node>
             <Name>WindowDialog</Name>
             <Path></Path>
           <Subnodes>
@@ -1055,6 +1333,10 @@
            <Node>
             <Name>Variables</Name>
             <Path>functions_vars.html</Path>
+           </Node>
+           <Node>
+            <Name>Enumerations</Name>
+            <Path>functions_enum.html</Path>
            </Node>
            <Node>
             <Name>Properties</Name>
@@ -1211,12 +1493,98 @@
               <Path>dir_44e9b0a5d26986f336aff7e54ef3fc7f.html</Path>
             <Subnodes>
                <Node>
-                <Name>Auth.cs</Name>
-                <Path>d6/d7f/Auth_8cs.html</Path>
+                <Name>DLC/Auth.cs</Name>
+                <Path>d1/dfc/DLC_2Auth_8cs.html</Path>
               <Subnodes>
                  <Node>
                   <Name>NewDEVSharp.DLC.Auth</Name>
                   <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+                    <Anchor>a2ddb78e42bfd2a3aaf2b84d20f6fbf22</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
+                    <Anchor>a1a56db36d62a17ded71fb71527d94153</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DLC.cs</Name>
+                <Path>d0/dd9/DLC_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.DLC.DLC</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                    <Anchor>aa943b87607a89b750f6442e201ccc2d1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                    <Anchor>a08c24ac8e56cbf347f4bbbdaeff20f03</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DLCBasePath</Name>
+                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                    <Anchor>aec3d9b9bf723f3de9de0c1449fa8cf77</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DLCFiles</Name>
+                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                    <Anchor>a15e8b67b25bd267e24ec7beb9db03564</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DLCGame</Name>
+                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                    <Anchor>adca693169d99af309340d5f19b6f2519</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DLCID</Name>
+                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                    <Anchor>a726844d7d1ca036c86bd50d3a565c986</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DLCName</Name>
+                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                    <Anchor>a19d994fedd69c4cc0e1211db90d73e3a</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DLC/Manager.cs</Name>
+                <Path>d4/d6e/DLC_2Manager_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.DLC.Manager</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                    <Anchor>a7548da9fca1448b12aa034142c093d77</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                    <Anchor>ab87228e0a9d37a28f676b22b9705fb6e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PreLoadDLCData</Name>
+                    <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                    <Anchor>a92e233f3645dc31183edb0bacd876b9f</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1227,6 +1595,51 @@
                  <Node>
                   <Name>NewDEVSharp.DLC.Verifier</Name>
                   <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                    <Anchor>ae0835cb7de1625da3de8ab97c573caaa</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                    <Anchor>a91ce0208b7785bfc7abb40c4565db323</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IsDLCLegal</Name>
+                    <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+                    <Anchor>a7f0d046481e1bbbaf9e14644bd61fb3d</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Launcher</Name>
+              <Path>dir_c8d4216c46ff0a8536eefa336f3a7ca0.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Launcher/Manager.cs</Name>
+                <Path>d3/d8e/Launcher_2Manager_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.Launcher.Manager</Name>
+                  <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+                    <Anchor>a7194a206a906538cb919d29c0e3fb37b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+                    <Anchor>af769085d8e3f8a32f6e452e3b65f0ca0</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1277,6 +1690,86 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Server</Name>
+              <Path>dir_7975903d3b303a370f8fade645ec7cb8.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Server/Auth.cs</Name>
+                <Path>da/d27/Server_2Auth_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.Server.Auth</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                    <Anchor>a4ca12a6f2772388b3c978f2d684fd5c4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                    <Anchor>a09ac883c95fe04b69fee23c9a296e209</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Request</Name>
+                    <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                    <Anchor>ad9c983f2dbf2062ff98e73da93bb45fa</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>BaseServer.cs</Name>
+                <Path>dc/d7a/BaseServer_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.Server.BaseServer</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>RequestType</Name>
+                    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                    <Anchor>a26ee430c987c07c6f6521da65cd32d59</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                    <Anchor>aff87aab56deab0c59899049dc093f7b3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                    <Anchor>a34f2158e15deb0e721702e7d263698e7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DictToJson</Name>
+                    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                    <Anchor>af55f88a43dd84a08869e85d8a9fe0db5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>JsonToStringDict</Name>
+                    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                    <Anchor>a872aa00783e9f6b0f4a15e5fc0c19f05</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Request</Name>
+                    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                    <Anchor>a5fbbdc629698f5811f2aec6573ddfe2d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ServerURL</Name>
+                    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                    <Anchor>abcf4cae09c1240a0358a7b12e3c81948</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>BaseClass.cs</Name>
               <Path>d7/d4e/BaseClass_8cs.html</Path>
             <Subnodes>
@@ -1307,61 +1800,9 @@
                 <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>GetDLCManager</Name>
-                  <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                  <Anchor>ace50726a90f632a755d8ebd9ef43a80c</Anchor>
-                 </Node>
-                 <Node>
                   <Name>Init</Name>
                   <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                   <Anchor>a240ebb6a5fa1787984b8bb0ae81636dd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>InitSubClass</Name>
-                  <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                  <Anchor>af155b8aa92f8cd58e94b8aa12a97cd76</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>_dlcManager</Name>
-                  <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                  <Anchor>ae5d522208967b6476c87b567833d3b46</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>_initializedClasses</Name>
-                  <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                  <Anchor>ab394ebde38771da414c3cc49f243f81f</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>DLCManager.cs</Name>
-              <Path>de/db7/DLCManager_8cs.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>NewDEVSharp.DLCManager</Name>
-                <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>ClassInit</Name>
-                  <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                  <Anchor>a3f759d97d3742ac549c2675f7a65c8f2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ClassName</Name>
-                  <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                  <Anchor>a311b19c4a72c2662016ce42c67828c16</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PreLoadDLCData</Name>
-                  <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                  <Anchor>a967f812b8c015e62258d134d92f88ac2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>DLCFiles</Name>
-                  <Path>de/d81/classNewDEVSharp_1_1DLCManager.html</Path>
-                  <Anchor>a035b73938d3d59e88e755362a588ee4b</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -2112,19 +2553,9 @@
                 <Path>d0/dd2/classCSharpCore.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>_Ready</Name>
-                  <Path>d0/dd2/classCSharpCore.html</Path>
-                  <Anchor>a3646911b8210aad6aa6ee546c97c1a1e</Anchor>
-                 </Node>
-                 <Node>
                   <Name>_newDEVCore</Name>
                   <Path>d0/dd2/classCSharpCore.html</Path>
                   <Anchor>a8b3cdc45f6f7621c867b5fa806aa0068</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>DlcManager</Name>
-                  <Path>d0/dd2/classCSharpCore.html</Path>
-                  <Anchor>a54fe54ffa2f62db89c72a18a771cc585</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

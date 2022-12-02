@@ -2,12 +2,20 @@ var annotated_dup =
 [
     [ "NewDEVSharp", "d7/d59/namespaceNewDEVSharp.html", [
       [ "DLC", "db/de3/namespaceNewDEVSharp_1_1DLC.html", [
-        [ "Auth", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html", null ],
-        [ "Verifier", "da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html", null ]
+        [ "Auth", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth" ],
+        [ "DLC", "de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html", "de/d21/classNewDEVSharp_1_1DLC_1_1DLC" ],
+        [ "Manager", "db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html", "db/d3a/classNewDEVSharp_1_1DLC_1_1Manager" ],
+        [ "Verifier", "da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html", "da/df3/classNewDEVSharp_1_1DLC_1_1Verifier" ]
+      ] ],
+      [ "Launcher", "d9/d11/namespaceNewDEVSharp_1_1Launcher.html", [
+        [ "Manager", "d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html", "d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager" ]
+      ] ],
+      [ "Server", "d4/df5/namespaceNewDEVSharp_1_1Server.html", [
+        [ "Auth", "db/d85/classNewDEVSharp_1_1Server_1_1Auth.html", "db/d85/classNewDEVSharp_1_1Server_1_1Auth" ],
+        [ "BaseServer", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer" ]
       ] ],
       [ "BaseClass", "d9/db7/classNewDEVSharp_1_1BaseClass.html", "d9/db7/classNewDEVSharp_1_1BaseClass" ],
-      [ "Core", "d5/d9c/classNewDEVSharp_1_1Core.html", "d5/d9c/classNewDEVSharp_1_1Core" ],
-      [ "DLCManager", "de/d81/classNewDEVSharp_1_1DLCManager.html", "de/d81/classNewDEVSharp_1_1DLCManager" ]
+      [ "Core", "d5/d9c/classNewDEVSharp_1_1Core.html", "d5/d9c/classNewDEVSharp_1_1Core" ]
     ] ],
     [ "BackgroundLoader", "d9/d5c/classBackgroundLoader.html", "d9/d5c/classBackgroundLoader" ],
     [ "BaseSave", "d0/dd0/classBaseSave.html", "d0/dd0/classBaseSave" ],

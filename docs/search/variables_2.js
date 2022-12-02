@@ -1,6 +1,9 @@
 var searchData=
 [
   ['default_5fdialog_5fresource_0',['DEFAULT_DIALOG_RESOURCE',['../d1/d1c/classDialogicSharp.html#a4346fe4d54d8b1ffcffe2ba30848e1f6',1,'DialogicSharp']]],
-  ['dlcfiles_1',['DLCFiles',['../de/d81/classNewDEVSharp_1_1DLCManager.html#a035b73938d3d59e88e755362a588ee4b',1,'NewDEVSharp::DLCManager']]],
-  ['dlcmanager_2',['DlcManager',['../d0/dd2/classCSharpCore.html#a54fe54ffa2f62db89c72a18a771cc585',1,'CSharpCore']]]
+  ['dlcbasepath_1',['DLCBasePath',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#aec3d9b9bf723f3de9de0c1449fa8cf77',1,'NewDEVSharp::DLC::DLC']]],
+  ['dlcfiles_2',['DLCFiles',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a15e8b67b25bd267e24ec7beb9db03564',1,'NewDEVSharp::DLC::DLC']]],
+  ['dlcgame_3',['DLCGame',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#adca693169d99af309340d5f19b6f2519',1,'NewDEVSharp::DLC::DLC']]],
+  ['dlcid_4',['DLCID',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a726844d7d1ca036c86bd50d3a565c986',1,'NewDEVSharp::DLC::DLC']]],
+  ['dlcname_5',['DLCName',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a19d994fedd69c4cc0e1211db90d73e3a',1,'NewDEVSharp::DLC::DLC']]]
 ];

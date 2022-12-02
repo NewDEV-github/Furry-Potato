@@ -10,12 +10,4 @@ public class CSharpCore : Node
     /// NewDEV.Core instance
     /// </summary>
     Core _newDEVCore = new Core();
-    /// <summary>
-    /// NewDEV.DLCManager instance
-    /// </summary>
-    private DLCManager DlcManager = null;
-    
-    public override void _Ready() {
-        DlcManager = _newDEVCore.GetDLCManager();
-    }
 }

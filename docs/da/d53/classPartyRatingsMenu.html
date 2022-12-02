@@ -174,10 +174,11 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >This class controls Party Ratings menu including displaying and showing rating details </p>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000003">Todo:</a></b></dt><dd><p class="startdd">Implement getting list of the clubs and assign them to party id's </p>
-<p class="enddd">Implement getting list of ratings from each party and assign them to party id's </p>
+<p class="interdd">Implement getting list of ratings from each party and assign them to party id's </p>
+<p class="enddd">Fix refreshing party lists each time window is about to be shown </p>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00009">9</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00010">10</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2ff6424f3b4b8a4319162c44f19aada4" name="a2ff6424f3b4b8a4319162c44f19aada4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ff6424f3b4b8a4319162c44f19aada4">&#9670;&#160;</a></span>_Ready()</h2>
@@ -202,9 +203,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00026">26</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00027">27</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00024">_itemList</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00025">_itemList</a>, <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00046">DisplayRatings()</a>, and <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00015">ratingsList</a>.</p>
 
 </div>
 </div>
@@ -233,9 +234,11 @@ Private Attributes</h2></td></tr>
 
 <p>Method to display ratings in the list  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00034">34</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00046">46</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00024">_itemList</a>, <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00019">ratingsClubs</a>, and <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00014">ratingsList</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00025">_itemList</a>, <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00020">ratingsClubs</a>, and <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00015">ratingsList</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00027">_Ready()</a>.</p>
 
 </div>
 </div>
@@ -262,9 +265,9 @@ Private Attributes</h2></td></tr>
 
 <p>Item list instance, used to display ratings list.  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00024">24</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00025">25</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00026">_Ready()</a>, and <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00034">DisplayRatings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00027">_Ready()</a>, and <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00046">DisplayRatings()</a>.</p>
 
 </div>
 </div>
@@ -282,9 +285,9 @@ Private Attributes</h2></td></tr>
 
 <p>This dictionary stands for {party_id: club}  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00019">19</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00020">20</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d80/PartyRatingDetails_8cs_source.html#l00014">PartyRatingDetails.DisplayDetailedRating()</a>, and <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00034">DisplayRatings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d80/PartyRatingDetails_8cs_source.html#l00014">PartyRatingDetails.DisplayDetailedRating()</a>, and <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00046">DisplayRatings()</a>.</p>
 
 </div>
 </div>
@@ -302,9 +305,9 @@ Private Attributes</h2></td></tr>
 
 <p>This dictionary stands for {party_id: rating}  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00014">14</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00015">15</a> of file <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html">PartyRatingsMenu.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00034">DisplayRatings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00027">_Ready()</a>, and <a class="el" href="../../d1/de7/PartyRatingsMenu_8cs_source.html#l00046">DisplayRatings()</a>.</p>
 
 </div>
 </div>

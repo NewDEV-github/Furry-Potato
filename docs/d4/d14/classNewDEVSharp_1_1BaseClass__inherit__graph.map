@@ -1,4 +1,10 @@
 <map id="NewDEVSharp.BaseClass" name="NewDEVSharp.BaseClass">
-<area shape="rect" id="node1" title="Base class for all other (except Core) classes" coords="11,5,186,31"/>
-<area shape="rect" id="node2" href="$de/d81/classNewDEVSharp_1_1DLCManager.html" title="Class used to manage all DLC related things in games" coords="5,79,192,104"/>
+<area shape="rect" id="node1" title="Base class for all other (except Core) classes" coords="5,129,180,155"/>
+<area shape="rect" id="node2" href="$d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html" title="Class used for user authentication for DLC&#39;s" coords="253,5,421,31"/>
+<area shape="rect" id="node3" href="$de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html" title="Basic DLC class, including some DLC info. Used for DLC legacy verification" coords="254,55,421,80"/>
+<area shape="rect" id="node4" href="$db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html" title="Class used to manage all DLC related things in games" coords="242,104,433,129"/>
+<area shape="rect" id="node5" href="$da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html" title=" " coords="247,153,428,179"/>
+<area shape="rect" id="node6" href="$d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html" title="Manages all things between games and Game Launcher" coords="228,203,447,228"/>
+<area shape="rect" id="node7" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base" coords="228,252,447,277"/>
+<area shape="rect" id="node8" href="$db/d85/classNewDEVSharp_1_1Server_1_1Auth.html" title=" " coords="495,252,673,277"/>
 </map>

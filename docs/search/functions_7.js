@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['jsontostringdict_0',['JsonToStringDict',['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a872aa00783e9f6b0f4a15e5fc0c19f05',1,'NewDEVSharp::Server::BaseServer']]]
+  ['import_0',['Import',['../d1/d1c/classDialogicSharp.html#af14f92742d12ba55495b46695bd35730',1,'DialogicSharp']]],
+  ['init_1',['Init',['../d5/d9c/classNewDEVSharp_1_1Core.html#a240ebb6a5fa1787984b8bb0ae81636dd',1,'NewDEVSharp::Core']]],
+  ['initfolderlist_2',['InitFolderList',['../df/d61/classCustomAudioLibrary.html#a12a51b4a4128035dffe700c80d736693',1,'CustomAudioLibrary']]],
+  ['inititem_3',['InitItem',['../d1/d44/classShopItemHeadphones.html#a04d29416dea3046c71675047e01881e7',1,'ShopItemHeadphones.InitItem()'],['../d1/dc3/classShopItemBase.html#a948ce034810aa4dfde1766bf2509aea8',1,'ShopItemBase.InitItem()']]],
+  ['inititems_4',['InitItems',['../d5/deb/classShopItemManager.html#a1059438d240779d6be75471ccde16824',1,'ShopItemManager']]],
+  ['isdlclegal_5',['IsDLCLegal',['../da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html#a7f0d046481e1bbbaf9e14644bd61fb3d',1,'NewDEVSharp::DLC::Verifier']]]
 ];

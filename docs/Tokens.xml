@@ -164,6 +164,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>party</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>PartyList</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -306,6 +315,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_animationPlayer</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>abed3f3542c99cb8083c41731d9ca79e6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_casualHeadphones</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -313,6 +332,16 @@
     </TokenIdentifier>
     <Path>d5/deb/classShopItemManager.html</Path>
     <Anchor>a3dbc298dd6f4c55c9223e36d8a3176c9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_colorRect</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a732628d0b3ecd74f623d676fe0dcd747</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -326,6 +355,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_currentPartyId</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a6a9b2fdac72ce9bb9f25479002152687</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_dialogic</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -333,6 +372,16 @@
     </TokenIdentifier>
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>aa083ff3f5c19d959d44677204d606fe7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_donePartys</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>aff39ae2a2d89a0ca26d16823e3e46085</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -376,6 +425,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_label</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a891e7f49f3ba77bd982389808632dbdb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_newDEVCore</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -393,6 +452,16 @@
     </TokenIdentifier>
     <Path>d9/d5c/classBackgroundLoader.html</Path>
     <Anchor>a79bbfed2880def617c8701c4ed9e5ff7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_partyRatings</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>aaf494a3d27cdae03dd4446aae4f5b824</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -436,6 +505,17 @@
     <Path>df/d61/classCustomAudioLibrary.html</Path>
     <Anchor>af9ab67b8fd226c8457761f86e2aa564c</Anchor>
     <DeclaredIn>CustomAudioLibrary.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a7b013ff8a57b99e469f55a9641209e6b</Anchor>
+    <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -594,6 +674,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>AddPartyRating</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a2ddec3078d8a491be2e5f08ec332daf8</Anchor>
+    <DeclaredIn>party.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AnimationPlayerAnimFinished</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a839e1af53c59832cccba86a3d688869a</Anchor>
+    <DeclaredIn>party.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Autosave</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instp</Type>
@@ -622,6 +724,17 @@
     <Path>d9/d5c/classBackgroundLoader.html</Path>
     <Anchor>abadf730f6aa55cbf16eabea117236a99</Anchor>
     <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CheckIfPartyWasDone</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a7eba19724b48cdf947609a80095cba21</Anchor>
+    <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -812,6 +925,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ComputePartyRewards</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a7071f0633a85b9b99a629a34459107db</Anchor>
+    <DeclaredIn>party.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CurrentTimeline</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instp</Type>
@@ -943,6 +1067,17 @@
     </TokenIdentifier>
     <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
     <Anchor>a19d994fedd69c4cc0e1211db90d73e3a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EndParty</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a6e4328785ca8d26d3b6a708a42e470d5</Anchor>
+    <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1218,6 +1353,17 @@
     <Path>d1/dc3/classShopItemBase.html</Path>
     <Anchor>a62e8c804090a6f73c5087f85834952b7</Anchor>
     <DeclaredIn>ShopItemBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetPartyRatings</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a5edc8b8b037ad51fa914da4be7f43e59</Anchor>
+    <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1499,6 +1645,37 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PartyData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a336751111debc347efcd73c87eddc799</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PartyEnded</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a14b9a1fd76d550d35d8f5420c72a4dc5</Anchor>
+    <DeclaredIn>party.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PartyIds</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a17dcbbbb8fc1a014d857f10e343d9de7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>PreLoadDLCData</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1720,6 +1897,17 @@
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>a887b2947d040e3b5285eeadb06c259f8</Anchor>
     <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>StartParty</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a6644dc2090b3ac30dca8c08c454dec45</Anchor>
+    <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

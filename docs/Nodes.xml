@@ -791,6 +791,97 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>party</Name>
+            <Path>da/d3e/classparty.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>_Ready</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a7b013ff8a57b99e469f55a9641209e6b</Anchor>
+             </Node>
+             <Node>
+              <Name>AddPartyRating</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a2ddec3078d8a491be2e5f08ec332daf8</Anchor>
+             </Node>
+             <Node>
+              <Name>AnimationPlayerAnimFinished</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a839e1af53c59832cccba86a3d688869a</Anchor>
+             </Node>
+             <Node>
+              <Name>CheckIfPartyWasDone</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a7eba19724b48cdf947609a80095cba21</Anchor>
+             </Node>
+             <Node>
+              <Name>ComputePartyRewards</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a7071f0633a85b9b99a629a34459107db</Anchor>
+             </Node>
+             <Node>
+              <Name>EndParty</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a6e4328785ca8d26d3b6a708a42e470d5</Anchor>
+             </Node>
+             <Node>
+              <Name>GetPartyRatings</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a5edc8b8b037ad51fa914da4be7f43e59</Anchor>
+             </Node>
+             <Node>
+              <Name>PartyEnded</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a14b9a1fd76d550d35d8f5420c72a4dc5</Anchor>
+             </Node>
+             <Node>
+              <Name>StartParty</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a6644dc2090b3ac30dca8c08c454dec45</Anchor>
+             </Node>
+             <Node>
+              <Name>_animationPlayer</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>abed3f3542c99cb8083c41731d9ca79e6</Anchor>
+             </Node>
+             <Node>
+              <Name>_colorRect</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a732628d0b3ecd74f623d676fe0dcd747</Anchor>
+             </Node>
+             <Node>
+              <Name>_currentPartyId</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a6a9b2fdac72ce9bb9f25479002152687</Anchor>
+             </Node>
+             <Node>
+              <Name>_donePartys</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>aff39ae2a2d89a0ca26d16823e3e46085</Anchor>
+             </Node>
+             <Node>
+              <Name>_label</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a891e7f49f3ba77bd982389808632dbdb</Anchor>
+             </Node>
+             <Node>
+              <Name>_partyRatings</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>aaf494a3d27cdae03dd4446aae4f5b824</Anchor>
+             </Node>
+             <Node>
+              <Name>PartyData</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a336751111debc347efcd73c87eddc799</Anchor>
+             </Node>
+             <Node>
+              <Name>PartyIds</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a17dcbbbb8fc1a014d857f10e343d9de7</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>PartyList</Name>
             <Path>d2/d1c/classPartyList.html</Path>
           <Subnodes>
@@ -1285,6 +1376,10 @@
              <Node>
               <Name>ShopItemManager</Name>
               <Path>d5/deb/classShopItemManager.html</Path>
+             </Node>
+             <Node>
+              <Name>party</Name>
+              <Path>da/d3e/classparty.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -2112,6 +2207,103 @@
                         <Name>LoadSave</Name>
                         <Path>d5/d5c/classLoader.html</Path>
                         <Anchor>a9011f0e536fdc4cde02557a0c3a9e78c</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>party.cs</Name>
+                    <Path>d1/daf/party_8cs.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>party</Name>
+                      <Path>da/d3e/classparty.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>_Ready</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a7b013ff8a57b99e469f55a9641209e6b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>AddPartyRating</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a2ddec3078d8a491be2e5f08ec332daf8</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>AnimationPlayerAnimFinished</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a839e1af53c59832cccba86a3d688869a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>CheckIfPartyWasDone</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a7eba19724b48cdf947609a80095cba21</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ComputePartyRewards</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a7071f0633a85b9b99a629a34459107db</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>EndParty</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a6e4328785ca8d26d3b6a708a42e470d5</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>GetPartyRatings</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a5edc8b8b037ad51fa914da4be7f43e59</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>PartyEnded</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a14b9a1fd76d550d35d8f5420c72a4dc5</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>StartParty</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a6644dc2090b3ac30dca8c08c454dec45</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_animationPlayer</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>abed3f3542c99cb8083c41731d9ca79e6</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_colorRect</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a732628d0b3ecd74f623d676fe0dcd747</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_currentPartyId</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a6a9b2fdac72ce9bb9f25479002152687</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_donePartys</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>aff39ae2a2d89a0ca26d16823e3e46085</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_label</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a891e7f49f3ba77bd982389808632dbdb</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_partyRatings</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>aaf494a3d27cdae03dd4446aae4f5b824</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>PartyData</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a336751111debc347efcd73c87eddc799</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>PartyIds</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a17dcbbbb8fc1a014d857f10e343d9de7</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>

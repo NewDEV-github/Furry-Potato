@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['preloaddlcdata_0',['PreLoadDLCData',['../db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a92e233f3645dc31183edb0bacd876b9f',1,'NewDEVSharp::DLC::Manager']]],
-  ['preloadscene_1',['PreloadScene',['../d9/d5c/classBackgroundLoader.html#a7e680d86816156d6317bc816712cd849',1,'BackgroundLoader']]]
+  ['load_0',['Load',['../d1/d1c/classDialogicSharp.html#aeff167a3beab4bd3421211f76342efdb',1,'DialogicSharp']]],
+  ['loadsave_1',['LoadSave',['../d5/d5c/classLoader.html#a9011f0e536fdc4cde02557a0c3a9e78c',1,'Loader']]],
+  ['loadsongfiles_2',['LoadSongFiles',['../df/d61/classCustomAudioLibrary.html#ad23372af6611bd8a35737b84b8cbdc5d',1,'CustomAudioLibrary']]]
 ];

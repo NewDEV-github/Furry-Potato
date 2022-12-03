@@ -13,10 +13,11 @@ var searchData=
   ['getitemmusicqualitymultiplier_10',['GetItemMusicQualityMultiplier',['../d1/d44/classShopItemHeadphones.html#a5bae7bd055a856fcf3b997a2e515b70a',1,'ShopItemHeadphones.GetItemMusicQualityMultiplier()'],['../d1/dc3/classShopItemBase.html#aa0cb2bc19d4c01e3f0182eba02df4246',1,'ShopItemBase.GetItemMusicQualityMultiplier()']]],
   ['getitemname_11',['GetItemName',['../d1/d44/classShopItemHeadphones.html#a94feb30d7140226b26a55c6f3d75abcf',1,'ShopItemHeadphones.GetItemName()'],['../d1/dc3/classShopItemBase.html#a04c1cefc217b8cdefa6cb736bad44287',1,'ShopItemBase.GetItemName()']]],
   ['getitempartyqualitymultiplier_12',['GetItemPartyQualityMultiplier',['../d1/d44/classShopItemHeadphones.html#a25b01b618d54d09ced2213ad5e9272ab',1,'ShopItemHeadphones.GetItemPartyQualityMultiplier()'],['../d1/dc3/classShopItemBase.html#a62e8c804090a6f73c5087f85834952b7',1,'ShopItemBase.GetItemPartyQualityMultiplier()']]],
-  ['getsavelastmodificationdate_13',['GetSaveLastModificationDate',['../d8/d24/classSaveManager.html#a11c2c924d2bcf942439155a7d61ca969',1,'SaveManager']]],
-  ['getsavelist_14',['GetSaveList',['../d8/d24/classSaveManager.html#aac90d1100f809b1522fa3cfb3bbb73fe',1,'SaveManager']]],
-  ['getsavenamesarray_15',['GetSaveNamesArray',['../d8/d24/classSaveManager.html#aee5f7c5120d11f65af643dc9fd4c691f',1,'SaveManager']]],
-  ['getslotnames_16',['GetSlotNames',['../d1/d1c/classDialogicSharp.html#a465c4fa45ee25c209cb58294935c00d5',1,'DialogicSharp']]],
-  ['getvariable_17',['GetVariable',['../d1/d1c/classDialogicSharp.html#a3fe12447d9b6677d4908a361a0ba5856',1,'DialogicSharp']]],
-  ['godottosystem_18',['GodotToSystem',['../dd/de5/classSaver.html#a835555666376dcf039594650f7edb333',1,'Saver']]]
+  ['getpartyratings_13',['GetPartyRatings',['../da/d3e/classparty.html#a5edc8b8b037ad51fa914da4be7f43e59',1,'party']]],
+  ['getsavelastmodificationdate_14',['GetSaveLastModificationDate',['../d8/d24/classSaveManager.html#a11c2c924d2bcf942439155a7d61ca969',1,'SaveManager']]],
+  ['getsavelist_15',['GetSaveList',['../d8/d24/classSaveManager.html#aac90d1100f809b1522fa3cfb3bbb73fe',1,'SaveManager']]],
+  ['getsavenamesarray_16',['GetSaveNamesArray',['../d8/d24/classSaveManager.html#aee5f7c5120d11f65af643dc9fd4c691f',1,'SaveManager']]],
+  ['getslotnames_17',['GetSlotNames',['../d1/d1c/classDialogicSharp.html#a465c4fa45ee25c209cb58294935c00d5',1,'DialogicSharp']]],
+  ['getvariable_18',['GetVariable',['../d1/d1c/classDialogicSharp.html#a3fe12447d9b6677d4908a361a0ba5856',1,'DialogicSharp']]],
+  ['godottosystem_19',['GodotToSystem',['../dd/de5/classSaver.html#a835555666376dcf039594650f7edb333',1,'Saver']]]
 ];

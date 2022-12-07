@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d0/dd0/classBaseSave.html" title=" " coords="5,5,85,31"/>
-<area shape="rect" id="node2" href="$d4/d14/classSaveContainer.html" title=" " coords="133,5,239,31"/>
+<area shape="rect" id="node1" href="$d0/dd0/classBaseSave.html" title="Base class for all save&#45;classes" coords="5,5,85,31"/>
+<area shape="rect" id="node2" href="$d4/d14/classSaveContainer.html" title="Class that creates save data" coords="133,5,239,31"/>
 </map>

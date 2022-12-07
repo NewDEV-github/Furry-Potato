@@ -93,9 +93,12 @@ func _on_LoadGame_pressed():
 
 
 func _on_SaveSelectMenuPopup_SaveDataPreloaded():
-	GameController.set_new_data_fields($SaveSelectMenuPopup.PreloadedSaveData["GameController"])
-	OptionController.set_new_data_fields($SaveSelectMenuPopup.PreloadedSaveData["OptionController"])
-	ShopItemController.set_new_data_fields($SaveSelectMenuPopup.PreloadedSaveData["ShopItemController"])
+	for i in $SaveSelectMenuPopup.PreloadedSaveData["GameController"]:
+		pass
+	for i in $SaveSelectMenuPopup.PreloadedSaveData["OptionController"]:
+		pass
+	for i in $SaveSelectMenuPopup.PreloadedSaveData["ShopItemController"]:
+		pass
 	get_tree().change_scene("res://scenes/game/game.tscn")
 	MjPlayer.fade_out()
 	$"VideoPlayer".fade_out()

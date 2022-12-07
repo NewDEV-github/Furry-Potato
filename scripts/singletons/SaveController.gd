@@ -38,11 +38,13 @@ func _ready():
 
 func save_game(save_name:String):
 	var data = {
-		"PartyControllerPartyData": PartyController.party_data,
-		"PartyRatings": PartyController.get_party_ratings(),
-		"ShopItemController": ShopItemController.data,
-		"OptionController": OptionController.option_data,
-		"GameController": GameController.data
+		"string_PartyControllerPartyData": PartyController.party_data,
+		"string_PartyRatings": PartyController.get_party_ratings(),
+		"string_ShopItemController": ShopItemController.data,
+		"string_OptionController": OptionController.option_data,
+		"string_GameController": GameController.GetStrings(),
+		"int_GameController": GameController.GetInts(),
+		"float_GameController": GameController.GetFloats(),
 	}
 	_save_game_state(data, save_name)
 

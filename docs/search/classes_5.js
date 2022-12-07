@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loader_0',['Loader',['../d5/d5c/classLoader.html',1,'']]]
+  ['gamecontrollercs_0',['GameControllerCS',['../d2/d54/classGameControllerCS.html',1,'']]]
 ];

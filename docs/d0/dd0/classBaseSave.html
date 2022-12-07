@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('d0/dd0/classBaseSave.html','../../'); 
   <div class="headertitle"><div class="title">BaseSave Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base class for all save-classes   
+ <a href="../../d0/dd0/classBaseSave.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for BaseSave:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -121,23 +124,27 @@ $(document).ready(function(){initNavTree('d0/dd0/classBaseSave.html','../../'); 
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../d2/d07/classBaseSave__inherit__graph.png" border="0" usemap="#aBaseSave_inherit__map" alt="Inheritance graph"/></div>
 <map name="aBaseSave_inherit__map" id="aBaseSave_inherit__map">
-<area shape="rect" title=" " coords="18,5,98,31"/>
-<area shape="rect" href="../../d4/d14/classSaveContainer.html" title=" " coords="5,79,111,104"/>
+<area shape="rect" title="Base class for all save&#45;classes" coords="18,5,98,31"/>
+<area shape="rect" href="../../d4/d14/classSaveContainer.html" title="Class that creates save data" coords="5,79,111,104"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aca1230ac02fbaef17445a6b268a0a469"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classBaseSave.html#aca1230ac02fbaef17445a6b268a0a469">SetSaveDir</a> (string baseDir)</td></tr>
+<tr class="memdesc:aca1230ac02fbaef17445a6b268a0a469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets save root directory   <a href="../../d0/dd0/classBaseSave.html#aca1230ac02fbaef17445a6b268a0a469">More...</a><br /></td></tr>
 <tr class="separator:aca1230ac02fbaef17445a6b268a0a469"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a191ddaf3a6483adb947d0da51c5ad24a"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classBaseSave.html#a191ddaf3a6483adb947d0da51c5ad24a">WriteDirectories</a> (Dictionary&lt; string, Dictionary&lt; string, string &gt; &gt; dirData)</td></tr>
+<tr class="memdesc:a191ddaf3a6483adb947d0da51c5ad24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates all necessary directories   <a href="../../d0/dd0/classBaseSave.html#a191ddaf3a6483adb947d0da51c5ad24a">More...</a><br /></td></tr>
 <tr class="separator:a191ddaf3a6483adb947d0da51c5ad24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6beb7d4e5998e22c1bf6eaf3f3e1329"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classBaseSave.html#ae6beb7d4e5998e22c1bf6eaf3f3e1329">WriteData</a> (string subfolder, System.Collections.Generic.Dictionary&lt; string, string &gt; data)</td></tr>
+<tr class="memdesc:ae6beb7d4e5998e22c1bf6eaf3f3e1329"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes passes in as arguments save data   <a href="../../d0/dd0/classBaseSave.html#ae6beb7d4e5998e22c1bf6eaf3f3e1329">More...</a><br /></td></tr>
 <tr class="separator:ae6beb7d4e5998e22c1bf6eaf3f3e1329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/d93/BaseSave_8cs_source.html#l00003">3</a> of file <a class="el" href="../../dc/d93/BaseSave_8cs_source.html">BaseSave.cs</a>.</p>
+<div class="textblock"><p >Base class for all save-classes  </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d93/BaseSave_8cs_source.html#l00006">6</a> of file <a class="el" href="../../dc/d93/BaseSave_8cs_source.html">BaseSave.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aca1230ac02fbaef17445a6b268a0a469" name="aca1230ac02fbaef17445a6b268a0a469"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca1230ac02fbaef17445a6b268a0a469">&#9670;&#160;</a></span>SetSaveDir()</h2>
@@ -162,6 +169,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets save root directory  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">baseDir</td><td>Root directory</td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="../../d4/d14/classSaveContainer.html#a086cd28c26e8595b845c29671b74461e">SaveContainer</a>.</p>
 
@@ -201,6 +216,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Writes passes in as arguments save data  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subfolder</td><td>Subfolder where data will be saved to</td></tr>
+    <tr><td class="paramname">data</td><td>Dictionary of data</td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implemented in <a class="el" href="../../d4/d14/classSaveContainer.html#aa0144b51a67285e7fe6e16c77906ca07">SaveContainer</a>.</p>
 
 </div>
@@ -228,6 +252,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Creates all necessary directories  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dirData</td><td>Data to create directories from</td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="../../d4/d14/classSaveContainer.html#a501218accd67d0df40b3c7ac0b312d1c">SaveContainer</a>.</p>
 

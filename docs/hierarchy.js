@@ -21,6 +21,7 @@ var hierarchy =
     ] ],
     [ "NewDEVSharp.Core", "d5/d9c/classNewDEVSharp_1_1Core.html", null ],
     [ "DialogicSharp", "d1/d1c/classDialogicSharp.html", null ],
+    [ "NewDEVSharp.Collections.DictionaryConverter", "d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html", null ],
     [ "FolderBase", "dd/d22/classFolderBase.html", [
       [ "FolderSystemDocuments", "dc/de4/classFolderSystemDocuments.html", null ],
       [ "FolderSystemMusic", "d0/d71/classFolderSystemMusic.html", null ]
@@ -30,7 +31,9 @@ var hierarchy =
     ] ],
     [ "Node", null, [
       [ "BackgroundLoader", "d9/d5c/classBackgroundLoader.html", null ],
-      [ "CSharpCore", "d0/dd2/classCSharpCore.html", null ],
+      [ "CSharpCore", "d0/dd2/classCSharpCore.html", [
+        [ "GameControllerCS", "d2/d54/classGameControllerCS.html", null ]
+      ] ],
       [ "Computer", "d5/de3/classComputer.html", null ],
       [ "Loader", "d5/d5c/classLoader.html", null ],
       [ "Saver", "dd/de5/classSaver.html", null ],

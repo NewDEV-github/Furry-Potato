@@ -101,6 +101,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::Collections::DictionaryConverter</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.Collections.DictionaryConverter</Scope>
+    </TokenIdentifier>
+    <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewDEVSharp::DLC::DLC</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -134,6 +143,15 @@
       <Scope>FolderSystemMusic</Scope>
     </TokenIdentifier>
     <Path>d0/d71/classFolderSystemMusic.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GameControllerCS</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -281,6 +299,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::Collections</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>NewDEVSharp::Collections</Scope>
+    </TokenIdentifier>
+    <Path>d5/d09/namespaceNewDEVSharp_1_1Collections.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewDEVSharp::DLC</Name>
       <APILanguage>csharp</APILanguage>
       <Type>ns</Type>
@@ -365,6 +392,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_data</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a33b1dd8531d531cefedd1f5de3346594</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_dialogic</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -392,6 +429,16 @@
     </TokenIdentifier>
     <Path>df/d61/classCustomAudioLibrary.html</Path>
     <Anchor>aa524b5f12078f49c10704ff1b17bf521</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_intData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a76610ccbff728958d0932648b4134375</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -435,13 +482,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>_newDEVCore</Name>
+      <Name>_multipliers</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
-      <Scope>CSharpCore</Scope>
+      <Scope>GameControllerCS</Scope>
     </TokenIdentifier>
-    <Path>d0/dd2/classCSharpCore.html</Path>
-    <Anchor>a8b3cdc45f6f7621c867b5fa806aa0068</Anchor>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a082da5042ec92cca772c86c265a8878e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -671,6 +718,28 @@
     </TokenIdentifier>
     <Path>d9/d5c/classBackgroundLoader.html</Path>
     <Anchor>a98c52563f03603667fdff76551eeb6c8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AddExperience</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a5932249ba6a04147d10fb20b72b47d85</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AddMoney</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>ad7a99ffa64342f56a72b3422f0200a03</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -936,6 +1005,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CoreInstance</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>CSharpCore</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd2/classCSharpCore.html</Path>
+    <Anchor>a2b529f7000e90fbe3fb14204bedd11fa</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CurrentSaveName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>aa6944ebfc334165e26400938f18a06c7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CurrentTimeline</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instp</Type>
@@ -1114,6 +1203,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetExperience</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a21103c0c036ba54b19e31c34ec42986b</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetFilesInFolder</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1147,6 +1247,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetFloats</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a9ca187c7d782898efb419497b12195c5</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetFolderPath</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1177,6 +1288,17 @@
     <Path>d0/d71/classFolderSystemMusic.html</Path>
     <Anchor>abe6862f166cab58e72c0f334ee0a92e3</Anchor>
     <DeclaredIn>FolderSystemMusic.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetInts</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a92817942b3098bfe5ea42fa0b0827b3a</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1356,6 +1478,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetMoney</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a4df3b4d82e76f16e4e50e158e9c9efca</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetPartyRatings</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1411,6 +1544,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetStrings</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>acb9e1e3ede1761db2fff9daf4c2e1e5a</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetVariable</Name>
       <APILanguage>csharp</APILanguage>
       <Type>clm</Type>
@@ -1425,11 +1569,11 @@
       <Name>GodotToSystem</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
-      <Scope>Saver</Scope>
+      <Scope>NewDEVSharp.Collections.DictionaryConverter</Scope>
     </TokenIdentifier>
-    <Path>dd/de5/classSaver.html</Path>
-    <Anchor>a835555666376dcf039594650f7edb333</Anchor>
-    <DeclaredIn>Saver.cs</DeclaredIn>
+    <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+    <Anchor>a75c9261dda3fcef4608ecb8556630088</Anchor>
+    <DeclaredIn>DictionaryConverter.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1845,6 +1989,72 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SetDJName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a6f7ce8581a2366145f856d9c4b062644</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetNewEmailDomain</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>ace64e7363a87d20322f0dfc13a6fced8</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetNewIntsDataFields</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a4526b215b6cccad220f6a6ac56d4162c</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetNewMultiplierData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a1e01c79121a1580136897bd7c6fbad76</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetNewMultiplierValue</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a6f8734fda298f35d3943eeb77f94ec92</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetNewStringsDataFields</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>ae14f5c8ae710a9fe6a9ce47b3de7432e</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SetSaveDir</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1897,6 +2107,17 @@
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>a887b2947d040e3b5285eeadb06c259f8</Anchor>
     <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>StartNewGame</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GameControllerCS</Scope>
+    </TokenIdentifier>
+    <Path>d2/d54/classGameControllerCS.html</Path>
+    <Anchor>a8074f4196e759bd7ae80bf389872b479</Anchor>
+    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

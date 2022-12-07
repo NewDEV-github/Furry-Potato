@@ -22,6 +22,23 @@
             <Path>d7/d59/namespaceNewDEVSharp.html</Path>
           <Subnodes>
              <Node>
+              <Name>Collections</Name>
+              <Path>d5/d09/namespaceNewDEVSharp_1_1Collections.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>DictionaryConverter</Name>
+                <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>GodotToSystem</Name>
+                  <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                  <Anchor>a75c9261dda3fcef4608ecb8556630088</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>DLC</Name>
               <Path>db/de3/namespaceNewDEVSharp_1_1DLC.html</Path>
             <Subnodes>
@@ -261,6 +278,23 @@
             <Name>NewDEVSharp</Name>
             <Path>d7/d59/namespaceNewDEVSharp.html</Path>
           <Subnodes>
+             <Node>
+              <Name>Collections</Name>
+              <Path>d5/d09/namespaceNewDEVSharp_1_1Collections.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>DictionaryConverter</Name>
+                <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>GodotToSystem</Name>
+                  <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                  <Anchor>a75c9261dda3fcef4608ecb8556630088</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
              <Node>
               <Name>DLC</Name>
               <Path>db/de3/namespaceNewDEVSharp_1_1DLC.html</Path>
@@ -588,9 +622,9 @@
             <Path>d0/dd2/classCSharpCore.html</Path>
           <Subnodes>
              <Node>
-              <Name>_newDEVCore</Name>
+              <Name>CoreInstance</Name>
               <Path>d0/dd2/classCSharpCore.html</Path>
-              <Anchor>a8b3cdc45f6f7621c867b5fa806aa0068</Anchor>
+              <Anchor>a2b529f7000e90fbe3fb14204bedd11fa</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -776,6 +810,102 @@
               <Name>GetFolderPath</Name>
               <Path>d0/d71/classFolderSystemMusic.html</Path>
               <Anchor>abe6862f166cab58e72c0f334ee0a92e3</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>GameControllerCS</Name>
+            <Path>d2/d54/classGameControllerCS.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>AddExperience</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a5932249ba6a04147d10fb20b72b47d85</Anchor>
+             </Node>
+             <Node>
+              <Name>AddMoney</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>ad7a99ffa64342f56a72b3422f0200a03</Anchor>
+             </Node>
+             <Node>
+              <Name>GetExperience</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a21103c0c036ba54b19e31c34ec42986b</Anchor>
+             </Node>
+             <Node>
+              <Name>GetFloats</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a9ca187c7d782898efb419497b12195c5</Anchor>
+             </Node>
+             <Node>
+              <Name>GetInts</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a92817942b3098bfe5ea42fa0b0827b3a</Anchor>
+             </Node>
+             <Node>
+              <Name>GetMoney</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a4df3b4d82e76f16e4e50e158e9c9efca</Anchor>
+             </Node>
+             <Node>
+              <Name>GetStrings</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>acb9e1e3ede1761db2fff9daf4c2e1e5a</Anchor>
+             </Node>
+             <Node>
+              <Name>SetDJName</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a6f7ce8581a2366145f856d9c4b062644</Anchor>
+             </Node>
+             <Node>
+              <Name>SetNewEmailDomain</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>ace64e7363a87d20322f0dfc13a6fced8</Anchor>
+             </Node>
+             <Node>
+              <Name>SetNewIntsDataFields</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a4526b215b6cccad220f6a6ac56d4162c</Anchor>
+             </Node>
+             <Node>
+              <Name>SetNewMultiplierData</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a1e01c79121a1580136897bd7c6fbad76</Anchor>
+             </Node>
+             <Node>
+              <Name>SetNewMultiplierValue</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a6f8734fda298f35d3943eeb77f94ec92</Anchor>
+             </Node>
+             <Node>
+              <Name>SetNewStringsDataFields</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>ae14f5c8ae710a9fe6a9ce47b3de7432e</Anchor>
+             </Node>
+             <Node>
+              <Name>StartNewGame</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a8074f4196e759bd7ae80bf389872b479</Anchor>
+             </Node>
+             <Node>
+              <Name>_data</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a33b1dd8531d531cefedd1f5de3346594</Anchor>
+             </Node>
+             <Node>
+              <Name>_intData</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a76610ccbff728958d0932648b4134375</Anchor>
+             </Node>
+             <Node>
+              <Name>_multipliers</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a082da5042ec92cca772c86c265a8878e</Anchor>
+             </Node>
+             <Node>
+              <Name>CurrentSaveName</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>aa6944ebfc334165e26400938f18a06c7</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1014,11 +1144,6 @@
               <Name>_Ready</Name>
               <Path>dd/de5/classSaver.html</Path>
               <Anchor>aa3f3decdf70bec429ed0323061681e3c</Anchor>
-             </Node>
-             <Node>
-              <Name>GodotToSystem</Name>
-              <Path>dd/de5/classSaver.html</Path>
-              <Anchor>a835555666376dcf039594650f7edb333</Anchor>
              </Node>
              <Node>
               <Name>SaveGame</Name>
@@ -1326,6 +1451,10 @@
             <Path>d1/d1c/classDialogicSharp.html</Path>
            </Node>
            <Node>
+            <Name>NewDEVSharp.Collections.DictionaryConverter</Name>
+            <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+           </Node>
+           <Node>
             <Name>FolderBase</Name>
             <Path>dd/d22/classFolderBase.html</Path>
           <Subnodes>
@@ -1360,6 +1489,12 @@
              <Node>
               <Name>CSharpCore</Name>
               <Path>d0/dd2/classCSharpCore.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>GameControllerCS</Name>
+                <Path>d2/d54/classGameControllerCS.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>Computer</Name>
@@ -1583,6 +1718,29 @@
             <Name>NewDEVSharp</Name>
             <Path>dir_077579c9fc193daa8c02eb26cdbdc4f8.html</Path>
           <Subnodes>
+             <Node>
+              <Name>Collections</Name>
+              <Path>dir_7cf881699d490fc097944cd8bbf11985.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>DictionaryConverter.cs</Name>
+                <Path>d0/d4d/DictionaryConverter_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.Collections.DictionaryConverter</Name>
+                  <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>GodotToSystem</Name>
+                    <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                    <Anchor>a75c9261dda3fcef4608ecb8556630088</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
              <Node>
               <Name>DLC</Name>
               <Path>dir_44e9b0a5d26986f336aff7e54ef3fc7f.html</Path>
@@ -2380,11 +2538,6 @@
                         <Anchor>aa3f3decdf70bec429ed0323061681e3c</Anchor>
                        </Node>
                        <Node>
-                        <Name>GodotToSystem</Name>
-                        <Path>dd/de5/classSaver.html</Path>
-                        <Anchor>a835555666376dcf039594650f7edb333</Anchor>
-                       </Node>
-                       <Node>
                         <Name>SaveGame</Name>
                         <Path>dd/de5/classSaver.html</Path>
                         <Anchor>af4af9127736384d02d34228629b646d3</Anchor>
@@ -2737,6 +2890,114 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>singletons</Name>
+              <Path>dir_ee99fe4686a494042e46813d9c2896fe.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>GameControllerCS.cs</Name>
+                <Path>d0/de8/GameControllerCS_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>GameControllerCS</Name>
+                  <Path>d2/d54/classGameControllerCS.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>AddExperience</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a5932249ba6a04147d10fb20b72b47d85</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>AddMoney</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>ad7a99ffa64342f56a72b3422f0200a03</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetExperience</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a21103c0c036ba54b19e31c34ec42986b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetFloats</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a9ca187c7d782898efb419497b12195c5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetInts</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a92817942b3098bfe5ea42fa0b0827b3a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetMoney</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a4df3b4d82e76f16e4e50e158e9c9efca</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetStrings</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>acb9e1e3ede1761db2fff9daf4c2e1e5a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetDJName</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a6f7ce8581a2366145f856d9c4b062644</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetNewEmailDomain</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>ace64e7363a87d20322f0dfc13a6fced8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetNewIntsDataFields</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a4526b215b6cccad220f6a6ac56d4162c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetNewMultiplierData</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a1e01c79121a1580136897bd7c6fbad76</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetNewMultiplierValue</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a6f8734fda298f35d3943eeb77f94ec92</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetNewStringsDataFields</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>ae14f5c8ae710a9fe6a9ce47b3de7432e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>StartNewGame</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a8074f4196e759bd7ae80bf389872b479</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_data</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a33b1dd8531d531cefedd1f5de3346594</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_intData</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a76610ccbff728958d0932648b4134375</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_multipliers</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a082da5042ec92cca772c86c265a8878e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CurrentSaveName</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>aa6944ebfc334165e26400938f18a06c7</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>CSharpCore.cs</Name>
               <Path>dd/ddb/CSharpCore_8cs.html</Path>
             <Subnodes>
@@ -2745,9 +3006,9 @@
                 <Path>d0/dd2/classCSharpCore.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>_newDEVCore</Name>
+                  <Name>CoreInstance</Name>
                   <Path>d0/dd2/classCSharpCore.html</Path>
-                  <Anchor>a8b3cdc45f6f7621c867b5fa806aa0068</Anchor>
+                  <Anchor>a2b529f7000e90fbe3fb14204bedd11fa</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

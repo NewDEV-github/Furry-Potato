@@ -1,5 +1,6 @@
 var namespaceNewDEVSharp =
 [
+    [ "Collections", "d5/d09/namespaceNewDEVSharp_1_1Collections.html", "d5/d09/namespaceNewDEVSharp_1_1Collections" ],
     [ "DLC", "db/de3/namespaceNewDEVSharp_1_1DLC.html", "db/de3/namespaceNewDEVSharp_1_1DLC" ],
     [ "Launcher", "d9/d11/namespaceNewDEVSharp_1_1Launcher.html", "d9/d11/namespaceNewDEVSharp_1_1Launcher" ],
     [ "Server", "d4/df5/namespaceNewDEVSharp_1_1Server.html", "d4/df5/namespaceNewDEVSharp_1_1Server" ],

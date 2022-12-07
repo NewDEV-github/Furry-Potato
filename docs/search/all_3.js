@@ -11,9 +11,11 @@ var searchData=
   ['computer_2ecs_8',['Computer.cs',['../d3/d6c/Computer_8cs.html',1,'']]],
   ['core_9',['Core',['../d5/d9c/classNewDEVSharp_1_1Core.html',1,'NewDEVSharp']]],
   ['core_2ecs_10',['Core.cs',['../db/df2/Core_8cs.html',1,'']]],
-  ['csharpcore_11',['CSharpCore',['../d0/dd2/classCSharpCore.html',1,'']]],
-  ['csharpcore_2ecs_12',['CSharpCore.cs',['../dd/ddb/CSharpCore_8cs.html',1,'']]],
-  ['currenttimeline_13',['CurrentTimeline',['../d1/d1c/classDialogicSharp.html#aaa555629496915958944ac49bfe3f8a2',1,'DialogicSharp']]],
-  ['customaudiolibrary_14',['CustomAudioLibrary',['../df/d61/classCustomAudioLibrary.html',1,'']]],
-  ['customaudiolibrary_2ecs_15',['CustomAudioLibrary.cs',['../d7/df3/CustomAudioLibrary_8cs.html',1,'']]]
+  ['coreinstance_11',['CoreInstance',['../d0/dd2/classCSharpCore.html#a2b529f7000e90fbe3fb14204bedd11fa',1,'CSharpCore']]],
+  ['csharpcore_12',['CSharpCore',['../d0/dd2/classCSharpCore.html',1,'']]],
+  ['csharpcore_2ecs_13',['CSharpCore.cs',['../dd/ddb/CSharpCore_8cs.html',1,'']]],
+  ['currentsavename_14',['CurrentSaveName',['../d2/d54/classGameControllerCS.html#aa6944ebfc334165e26400938f18a06c7',1,'GameControllerCS']]],
+  ['currenttimeline_15',['CurrentTimeline',['../d1/d1c/classDialogicSharp.html#aaa555629496915958944ac49bfe3f8a2',1,'DialogicSharp']]],
+  ['customaudiolibrary_16',['CustomAudioLibrary',['../df/d61/classCustomAudioLibrary.html',1,'']]],
+  ['customaudiolibrary_2ecs_17',['CustomAudioLibrary.cs',['../d7/df3/CustomAudioLibrary_8cs.html',1,'']]]
 ];

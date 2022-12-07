@@ -1,0 +1,6 @@
+<map id="GameControllerCS" name="GameControllerCS">
+<area shape="rect" id="node1" title="Game Core in C#, used for doing C# things in core, that can&#39;t be done in Godot at game core" coords="26,168,157,193"/>
+<area shape="rect" id="node2" href="$d0/dd2/classCSharpCore.html" title="Game Core in C#, used for doing C# things in core, that can&#39;t be done in Godot at game core" coords="45,93,137,119"/>
+<area shape="rect" id="node3" title=" " coords="5,5,57,31"/>
+<area shape="rect" id="node4" href="$d5/d9c/classNewDEVSharp_1_1Core.html" title="Core class used to hold and manage all of the properties" coords="82,5,221,31"/>
+</map>

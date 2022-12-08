@@ -4,6 +4,7 @@ var hierarchy =
       [ "CustomAudioLibrary", "df/d61/classCustomAudioLibrary.html", null ]
     ] ],
     [ "NewDEVSharp.BaseClass", "d9/db7/classNewDEVSharp_1_1BaseClass.html", [
+      [ "NewDEVSharp.Collections.DictionaryConverter", "d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html", null ],
       [ "NewDEVSharp.DLC.Auth", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html", null ],
       [ "NewDEVSharp.DLC.DLC", "de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html", null ],
       [ "NewDEVSharp.DLC.Manager", "db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html", null ],
@@ -21,7 +22,6 @@ var hierarchy =
     ] ],
     [ "NewDEVSharp.Core", "d5/d9c/classNewDEVSharp_1_1Core.html", null ],
     [ "DialogicSharp", "d1/d1c/classDialogicSharp.html", null ],
-    [ "NewDEVSharp.Collections.DictionaryConverter", "d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html", null ],
     [ "FolderBase", "dd/d22/classFolderBase.html", [
       [ "FolderSystemDocuments", "dc/de4/classFolderSystemDocuments.html", null ],
       [ "FolderSystemMusic", "d0/d71/classFolderSystemMusic.html", null ]

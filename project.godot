@@ -111,6 +111,7 @@ config/windows_native_icon="res://icon.ico"
 
 [autoload]
 
+PartyCS="*res://scripts/scenes/game/other/party.cs"
 PartyController="*res://scenes/game/other/party.tscn"
 LoadingSavingDataIcon="*res://scenes/loading_saving_data_icon.tscn"
 Globals="*res://scripts/singletons/Globals.gd"

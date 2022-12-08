@@ -46,6 +46,7 @@ var current_party_id = ''
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func start_party(id:String):
 	current_party_id = id
+	PartyCS.CurrentPartyId = id
 	$CanvasLayer/Label.show()
 	$CanvasLayer/ColorRect.show()
 	$CanvasLayer/AnimationPlayer.play("party")
@@ -53,9 +54,9 @@ func start_party(id:String):
 func compute_party_rewards(id:String):
 	var default_money = party_data[id+"_base_price"]
 	var default_exp = party_data[id+"_base_experience"]
-	var money_multi = GameController.data["party_money_earnings_multiplier"]
-	var exp_multi = GameController.data["party_experience_earnings_multiplier"]
-	var music_quality = GameController.data["party_music_quality_multiplier"]
+	var money_multi = GameController.GetFloats()["party_money_earnings_multiplier"]
+	var exp_multi = GameController.GetFloats()["party_experience_earnings_multiplier"]
+	var music_quality = GameController.GetFloats()["party_music_quality_multiplier"]
 	var computed_money = default_money
 	var computed_exp = default_exp
 	if money_multi > 0:
@@ -69,12 +70,12 @@ func _on_AnimationPlayer_animation_finished(anim_name):
 	$CanvasLayer/ColorRect.hide()
 	$CanvasLayer/Label.hide()
 	if anim_name == 'party':
-		end_party()
+		PartyCS.EndParty()
 
 func end_party():
 	var party_rewards = compute_party_rewards(current_party_id)
 	emit_signal("party_ended", current_party_id, party_rewards["money"], party_rewards["exp"], party_rewards["music_quality"])
-	add_party_rating(current_party_id, party_rewards["exp"], party_rewards["money"], party_rewards["music_quality"], GameController.data["party_experience_earnings_multiplier"], GameController.data["party_money_earnings_multiplier"], GameController.data["party_music_quality_multiplier"])
+	add_party_rating(current_party_id, party_rewards["exp"], party_rewards["money"], party_rewards["music_quality"], GameController.GetFloats()["party_experience_earnings_multiplier"], GameController.GetFloats()["party_money_earnings_multiplier"], GameController.GetFloats()["party_music_quality_multiplier"])
 	done_partys.append(str(current_party_id))
 	party_ids.remove(party_ids.find(str(current_party_id)))
 

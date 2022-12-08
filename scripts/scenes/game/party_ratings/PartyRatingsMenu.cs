@@ -25,10 +25,10 @@ public class PartyRatingsMenu : WindowDialog {
     private PartyList _itemList;
     
     public override void _Ready() {
-        Control partyManager = GetNode<Control>("/root/PartyController");
-        int[] donePartys = partyManager.Get("done_partys") as int[];
-        Godot.Collections.Dictionary<string, int> partyData = (Godot.Collections.Dictionary<string, int>)partyManager.Get("party_data");
-        Godot.Collections.Dictionary<string, string> partyRatings = (Godot.Collections.Dictionary<string, string>)partyManager.Get("party_ratings");
+        var partyManager = GetNode<party>("/root/PartyCS");
+        string[] donePartys = partyManager.DonePartys as string[];
+        Godot.Collections.Dictionary<string, int> partyData = partyManager.PartyData;
+        Godot.Collections.Dictionary<string, string> partyRatings = partyManager.GetPartyRatings();
   
         foreach (var i  in donePartys) {
             ratingsList.Add(i.ToString(), partyRatings[i.ToString() + "_m_quality"]);

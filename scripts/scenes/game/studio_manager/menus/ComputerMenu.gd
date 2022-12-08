@@ -43,4 +43,4 @@ func _on_EmailDomainEdit_text_changed(new_text):
 			err = err_spaces
 	else:
 		err = "Email domain is okay"
-		GameController.set_new_email_domain(new_text)
+		GameController.SetNewEmailDomain(new_text)

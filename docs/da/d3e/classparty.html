@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('da/d3e/classparty.html','../../'); ini
 </div><!--header-->
 <div class="contents">
 
-<p>PartyController singleton  
+<p>PartyController singleton   
  <a href="../../da/d3e/classparty.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for party:</div>
@@ -145,8 +145,6 @@ $(document).ready(function(){initNavTree('da/d3e/classparty.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7b013ff8a57b99e469f55a9641209e6b"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a7b013ff8a57b99e469f55a9641209e6b">_Ready</a> ()</td></tr>
-<tr class="separator:a7b013ff8a57b99e469f55a9641209e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6644dc2090b3ac30dca8c08c454dec45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a6644dc2090b3ac30dca8c08c454dec45">StartParty</a> (string id)</td></tr>
 <tr class="memdesc:a6644dc2090b3ac30dca8c08c454dec45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts party   <a href="../../da/d3e/classparty.html#a6644dc2090b3ac30dca8c08c454dec45">More...</a><br /></td></tr>
 <tr class="separator:a6644dc2090b3ac30dca8c08c454dec45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,21 +157,27 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:afb411a2a022612decf5ba18c063a3efc"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#afb411a2a022612decf5ba18c063a3efc">CurrentPartyId</a> = &quot;&quot;</td></tr>
+<tr class="memdesc:afb411a2a022612decf5ba18c063a3efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds string id of currently played party   <a href="../../da/d3e/classparty.html#afb411a2a022612decf5ba18c063a3efc">More...</a><br /></td></tr>
+<tr class="separator:afb411a2a022612decf5ba18c063a3efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2d2303ecfb5da0adcad3c3d7672e48f"><td class="memItemLeft" align="right" valign="top">readonly string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#ac2d2303ecfb5da0adcad3c3d7672e48f">DonePartys</a> = new string[] { }</td></tr>
+<tr class="memdesc:ac2d2303ecfb5da0adcad3c3d7672e48f"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all done partys   <a href="../../da/d3e/classparty.html#ac2d2303ecfb5da0adcad3c3d7672e48f">More...</a><br /></td></tr>
+<tr class="separator:ac2d2303ecfb5da0adcad3c3d7672e48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17dcbbbb8fc1a014d857f10e343d9de7"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a17dcbbbb8fc1a014d857f10e343d9de7">PartyIds</a> = { &quot;0&quot;, &quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;,}</td></tr>
 <tr class="memdesc:a17dcbbbb8fc1a014d857f10e343d9de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all partys' id's   <a href="../../da/d3e/classparty.html#a17dcbbbb8fc1a014d857f10e343d9de7">More...</a><br /></td></tr>
 <tr class="separator:a17dcbbbb8fc1a014d857f10e343d9de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a336751111debc347efcd73c87eddc799"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a336751111debc347efcd73c87eddc799">PartyData</a></td></tr>
+<tr class="memdesc:a336751111debc347efcd73c87eddc799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains data of all of the partys   <a href="../../da/d3e/classparty.html#a336751111debc347efcd73c87eddc799">More...</a><br /></td></tr>
+<tr class="separator:a336751111debc347efcd73c87eddc799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a14b9a1fd76d550d35d8f5420c72a4dc5"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a14b9a1fd76d550d35d8f5420c72a4dc5">PartyEnded</a> (int id, int money, int experience, int musicQuality)</td></tr>
 <tr class="memdesc:a14b9a1fd76d550d35d8f5420c72a4dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">PartyEnded signal. Emitted with parameters, when party has finished.  <a href="../../da/d3e/classparty.html#a14b9a1fd76d550d35d8f5420c72a4dc5">More...</a><br /></td></tr>
 <tr class="separator:a14b9a1fd76d550d35d8f5420c72a4dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7071f0633a85b9b99a629a34459107db"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a7071f0633a85b9b99a629a34459107db">ComputePartyRewards</a> (string id)</td></tr>
-<tr class="memdesc:a7071f0633a85b9b99a629a34459107db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates rewards for party   <a href="../../da/d3e/classparty.html#a7071f0633a85b9b99a629a34459107db">More...</a><br /></td></tr>
-<tr class="separator:a7071f0633a85b9b99a629a34459107db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a839e1af53c59832cccba86a3d688869a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a839e1af53c59832cccba86a3d688869a">AnimationPlayerAnimFinished</a> (string animName)</td></tr>
-<tr class="memdesc:a839e1af53c59832cccba86a3d688869a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for AnimationPlayer's '_on_animation_finished' signal   <a href="../../da/d3e/classparty.html#a839e1af53c59832cccba86a3d688869a">More...</a><br /></td></tr>
-<tr class="separator:a839e1af53c59832cccba86a3d688869a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a579831227fe62983c7bb4b97c21159b7"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a579831227fe62983c7bb4b97c21159b7">ComputePartyRewards</a> (string id)</td></tr>
+<tr class="memdesc:a579831227fe62983c7bb4b97c21159b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates rewards for party   <a href="../../da/d3e/classparty.html#a579831227fe62983c7bb4b97c21159b7">More...</a><br /></td></tr>
+<tr class="separator:a579831227fe62983c7bb4b97c21159b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e4328785ca8d26d3b6a708a42e470d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a6e4328785ca8d26d3b6a708a42e470d5">EndParty</a> ()</td></tr>
 <tr class="memdesc:a6e4328785ca8d26d3b6a708a42e470d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method ends party executing required callbacks   <a href="../../da/d3e/classparty.html#a6e4328785ca8d26d3b6a708a42e470d5">More...</a><br /></td></tr>
 <tr class="separator:a6e4328785ca8d26d3b6a708a42e470d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,63 +187,15 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:abed3f3542c99cb8083c41731d9ca79e6"><td class="memItemLeft" align="right" valign="top">AnimationPlayer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#abed3f3542c99cb8083c41731d9ca79e6">_animationPlayer</a></td></tr>
-<tr class="memdesc:abed3f3542c99cb8083c41731d9ca79e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">AnimationPlayer node instance   <a href="../../da/d3e/classparty.html#abed3f3542c99cb8083c41731d9ca79e6">More...</a><br /></td></tr>
-<tr class="separator:abed3f3542c99cb8083c41731d9ca79e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a9b2fdac72ce9bb9f25479002152687"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a6a9b2fdac72ce9bb9f25479002152687">_currentPartyId</a> = &quot;&quot;</td></tr>
-<tr class="memdesc:a6a9b2fdac72ce9bb9f25479002152687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds string id of currently played party   <a href="../../da/d3e/classparty.html#a6a9b2fdac72ce9bb9f25479002152687">More...</a><br /></td></tr>
-<tr class="separator:a6a9b2fdac72ce9bb9f25479002152687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a891e7f49f3ba77bd982389808632dbdb"><td class="memItemLeft" align="right" valign="top">Label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a891e7f49f3ba77bd982389808632dbdb">_label</a></td></tr>
-<tr class="memdesc:a891e7f49f3ba77bd982389808632dbdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Label instance   <a href="../../da/d3e/classparty.html#a891e7f49f3ba77bd982389808632dbdb">More...</a><br /></td></tr>
-<tr class="separator:a891e7f49f3ba77bd982389808632dbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a732628d0b3ecd74f623d676fe0dcd747"><td class="memItemLeft" align="right" valign="top">ColorRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a732628d0b3ecd74f623d676fe0dcd747">_colorRect</a></td></tr>
-<tr class="memdesc:a732628d0b3ecd74f623d676fe0dcd747"><td class="mdescLeft">&#160;</td><td class="mdescRight">ColorRect instance   <a href="../../da/d3e/classparty.html#a732628d0b3ecd74f623d676fe0dcd747">More...</a><br /></td></tr>
-<tr class="separator:a732628d0b3ecd74f623d676fe0dcd747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff39ae2a2d89a0ca26d16823e3e46085"><td class="memItemLeft" align="right" valign="top">readonly string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#aff39ae2a2d89a0ca26d16823e3e46085">_donePartys</a> = new string[] { }</td></tr>
-<tr class="memdesc:aff39ae2a2d89a0ca26d16823e3e46085"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all done partys   <a href="../../da/d3e/classparty.html#aff39ae2a2d89a0ca26d16823e3e46085">More...</a><br /></td></tr>
-<tr class="separator:aff39ae2a2d89a0ca26d16823e3e46085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf494a3d27cdae03dd4446aae4f5b824"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#aaf494a3d27cdae03dd4446aae4f5b824">_partyRatings</a> = new Dictionary&lt;string, string&gt;()</td></tr>
 <tr class="memdesc:aaf494a3d27cdae03dd4446aae4f5b824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains data of all party ratings   <a href="../../da/d3e/classparty.html#aaf494a3d27cdae03dd4446aae4f5b824">More...</a><br /></td></tr>
 <tr class="separator:aaf494a3d27cdae03dd4446aae4f5b824"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a336751111debc347efcd73c87eddc799"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3e/classparty.html#a336751111debc347efcd73c87eddc799">PartyData</a></td></tr>
-<tr class="memdesc:a336751111debc347efcd73c87eddc799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains data of all of the partys   <a href="../../da/d3e/classparty.html#a336751111debc347efcd73c87eddc799">More...</a><br /></td></tr>
-<tr class="separator:a336751111debc347efcd73c87eddc799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >PartyController singleton </p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000003">Todo:</a></b></dt><dd>needs GameController to be rewritten to C# to work properly </dd></dl>
+<div class="textblock"><p >PartyController singleton  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00010">10</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00009">9</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7b013ff8a57b99e469f55a9641209e6b" name="a7b013ff8a57b99e469f55a9641209e6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b013ff8a57b99e469f55a9641209e6b">&#9670;&#160;</a></span>_Ready()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void party._Ready </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00084">84</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00022">_animationPlayer</a>, <a class="el" href="../../d1/daf/party_8cs_source.html#l00037">_colorRect</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00032">_label</a>.</p>
-
-</div>
-</div>
 <a id="a2ddec3078d8a491be2e5f08ec332daf8" name="a2ddec3078d8a491be2e5f08ec332daf8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ddec3078d8a491be2e5f08ec332daf8">&#9670;&#160;</a></span>AddPartyRating()</h2>
 
@@ -283,49 +239,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00170">170</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00132">132</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00052">_partyRatings</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00036">_partyRatings</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00152">EndParty()</a>.</p>
-
-</div>
-</div>
-<a id="a839e1af53c59832cccba86a3d688869a" name="a839e1af53c59832cccba86a3d688869a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a839e1af53c59832cccba86a3d688869a">&#9670;&#160;</a></span>AnimationPlayerAnimFinished()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void party.AnimationPlayerAnimFinished </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>animName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Callback for AnimationPlayer's '_on_animation_finished' signal  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">animName</td><td>Name of finished animation</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00139">139</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00037">_colorRect</a>, <a class="el" href="../../d1/daf/party_8cs_source.html#l00032">_label</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00152">EndParty()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00113">EndParty()</a>.</p>
 
 </div>
 </div>
@@ -362,14 +280,14 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true or false</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00185">185</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00147">147</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00042">_donePartys</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00026">DonePartys</a>.</p>
 
 </div>
 </div>
-<a id="a7071f0633a85b9b99a629a34459107db" name="a7071f0633a85b9b99a629a34459107db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7071f0633a85b9b99a629a34459107db">&#9670;&#160;</a></span>ComputePartyRewards()</h2>
+<a id="a579831227fe62983c7bb4b97c21159b7" name="a579831227fe62983c7bb4b97c21159b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a579831227fe62983c7bb4b97c21159b7">&#9670;&#160;</a></span>ComputePartyRewards()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -378,7 +296,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt; string, int &gt; party.ComputePartyRewards </td>
+          <td class="memname">Dictionary&lt; string, float &gt; party.ComputePartyRewards </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -400,13 +318,12 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Dictionary of calculated data</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000005">Todo:</a></b></dt><dd>Rewrite GameController to C# to properly access it's variables </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00110">110</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00082">82</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00057">PartyData</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00041">PartyData</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00152">EndParty()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00113">EndParty()</a>.</p>
 
 </div>
 </div>
@@ -440,13 +357,10 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000006">Todo:</a></b></dt><dd>Add getting data from GameController singleton when it will be rewritten to C# </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00152">152</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00113">113</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00027">_currentPartyId</a>, <a class="el" href="../../d1/daf/party_8cs_source.html#l00170">AddPartyRating()</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00110">ComputePartyRewards()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00139">AnimationPlayerAnimFinished()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00132">AddPartyRating()</a>, <a class="el" href="../../d1/daf/party_8cs_source.html#l00082">ComputePartyRewards()</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00021">CurrentPartyId</a>.</p>
 
 </div>
 </div>
@@ -476,9 +390,9 @@ Private Attributes</h2></td></tr>
 <p>Returns ratings of all done partys  </p>
 <dl class="section return"><dt>Returns</dt><dd>Dictionary of rating data</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00193">193</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00155">155</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00052">_partyRatings</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00036">_partyRatings</a>.</p>
 
 </div>
 </div>
@@ -529,7 +443,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>PartyEnded signal. Emitted with parameters, when party has finished. </p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000004">Todo:</a></b></dt><dd>change signal name in the rest of code from "party_ended" to "PartyEnded" </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000003">Todo:</a></b></dt><dd>change signal name in the rest of code from "party_ended" to "PartyEnded" </dd></dl>
 
 </div>
 </div>
@@ -565,153 +479,13 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00097">97</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00073">73</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00022">_animationPlayer</a>, <a class="el" href="../../d1/daf/party_8cs_source.html#l00037">_colorRect</a>, <a class="el" href="../../d1/daf/party_8cs_source.html#l00027">_currentPartyId</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00032">_label</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/daf/party_8cs_source.html#l00021">CurrentPartyId</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="abed3f3542c99cb8083c41731d9ca79e6" name="abed3f3542c99cb8083c41731d9ca79e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abed3f3542c99cb8083c41731d9ca79e6">&#9670;&#160;</a></span>_animationPlayer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">AnimationPlayer party._animationPlayer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>AnimationPlayer node instance  </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00022">22</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00084">_Ready()</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00097">StartParty()</a>.</p>
-
-</div>
-</div>
-<a id="a732628d0b3ecd74f623d676fe0dcd747" name="a732628d0b3ecd74f623d676fe0dcd747"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a732628d0b3ecd74f623d676fe0dcd747">&#9670;&#160;</a></span>_colorRect</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ColorRect party._colorRect</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>ColorRect instance  </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00037">37</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00084">_Ready()</a>, <a class="el" href="../../d1/daf/party_8cs_source.html#l00139">AnimationPlayerAnimFinished()</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00097">StartParty()</a>.</p>
-
-</div>
-</div>
-<a id="a6a9b2fdac72ce9bb9f25479002152687" name="a6a9b2fdac72ce9bb9f25479002152687"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a9b2fdac72ce9bb9f25479002152687">&#9670;&#160;</a></span>_currentPartyId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">string party._currentPartyId = &quot;&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Holds string id of currently played party  </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00027">27</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00152">EndParty()</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00097">StartParty()</a>.</p>
-
-</div>
-</div>
-<a id="aff39ae2a2d89a0ca26d16823e3e46085" name="aff39ae2a2d89a0ca26d16823e3e46085"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff39ae2a2d89a0ca26d16823e3e46085">&#9670;&#160;</a></span>_donePartys</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">readonly string [] party._donePartys = new string[] { }</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List of all done partys  </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00042">42</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00185">CheckIfPartyWasDone()</a>.</p>
-
-</div>
-</div>
-<a id="a891e7f49f3ba77bd982389808632dbdb" name="a891e7f49f3ba77bd982389808632dbdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a891e7f49f3ba77bd982389808632dbdb">&#9670;&#160;</a></span>_label</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Label party._label</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Label instance  </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00032">32</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00084">_Ready()</a>, <a class="el" href="../../d1/daf/party_8cs_source.html#l00139">AnimationPlayerAnimFinished()</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00097">StartParty()</a>.</p>
-
-</div>
-</div>
 <a id="aaf494a3d27cdae03dd4446aae4f5b824" name="aaf494a3d27cdae03dd4446aae4f5b824"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf494a3d27cdae03dd4446aae4f5b824">&#9670;&#160;</a></span>_partyRatings</h2>
 
@@ -734,9 +508,49 @@ Private Attributes</h2></td></tr>
 
 <p>Contains data of all party ratings  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00052">52</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00036">36</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00170">AddPartyRating()</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00193">GetPartyRatings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00132">AddPartyRating()</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00155">GetPartyRatings()</a>.</p>
+
+</div>
+</div>
+<a id="afb411a2a022612decf5ba18c063a3efc" name="afb411a2a022612decf5ba18c063a3efc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb411a2a022612decf5ba18c063a3efc">&#9670;&#160;</a></span>CurrentPartyId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string party.CurrentPartyId = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Holds string id of currently played party  </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00021">21</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00113">EndParty()</a>, and <a class="el" href="../../d1/daf/party_8cs_source.html#l00073">StartParty()</a>.</p>
+
+</div>
+</div>
+<a id="ac2d2303ecfb5da0adcad3c3d7672e48f" name="ac2d2303ecfb5da0adcad3c3d7672e48f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2d2303ecfb5da0adcad3c3d7672e48f">&#9670;&#160;</a></span>DonePartys</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly string [] party.DonePartys = new string[] { }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List of all done partys  </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00026">26</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00147">CheckIfPartyWasDone()</a>.</p>
 
 </div>
 </div>
@@ -745,19 +559,11 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">readonly Dictionary&lt;string, int&gt; party.PartyData</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Dictionary&lt;string, int&gt;() {</div>
 <div class="line">        [<span class="stringliteral">&quot;0_club_id&quot;</span>] = 0,</div>
@@ -789,9 +595,9 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p>Contains data of all of the partys  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00057">57</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00041">41</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00110">ComputePartyRewards()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/daf/party_8cs_source.html#l00082">ComputePartyRewards()</a>.</p>
 
 </div>
 </div>
@@ -809,7 +615,7 @@ Private Attributes</h2></td></tr>
 
 <p>List of all partys' id's  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00047">47</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/daf/party_8cs_source.html#l00031">31</a> of file <a class="el" href="../../d1/daf/party_8cs_source.html">party.cs</a>.</p>
 
 </div>
 </div>

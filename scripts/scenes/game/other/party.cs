@@ -5,7 +5,6 @@ using Godot.Collections;
 
 /// <summary>
 /// PartyController singleton
-/// @todo needs GameController to be rewritten to C# to work properly
 /// </summary>
 public class party : Node {
     
@@ -15,31 +14,16 @@ public class party : Node {
     /// </summary>
     [Signal]
     delegate void PartyEnded(int id, int money, int experience, int musicQuality);
-	
-    /// <summary>
-	/// AnimationPlayer node instance
-	/// </summary>
-    private AnimationPlayer _animationPlayer;
     
     /// <summary>
     /// Holds string id of currently played party
     /// </summary>
-    private string _currentPartyId = "";
-    
-    /// <summary>
-    /// Label instance
-    /// </summary>
-    private Label _label;
-    
-    /// <summary>
-    /// ColorRect instance
-    /// </summary>
-    private ColorRect _colorRect;
+    public string CurrentPartyId = "";
     
     /// <summary>
     /// List of all done partys
     /// </summary>
-    private readonly string[] _donePartys = new string[] { };
+    public readonly string[] DonePartys = new string[] { };
     
     /// <summary>
     /// List of all partys' id's
@@ -54,7 +38,7 @@ public class party : Node {
     /// <summary>
     /// Contains data of all of the partys
     /// </summary>
-    private readonly Dictionary<string, int> PartyData = new Dictionary<string, int>() {
+    public readonly Dictionary<string, int> PartyData = new Dictionary<string, int>() {
         ["0_club_id"] = 0,
         ["0_base_price"] = 1000,
         ["0_base_experience"] = 100,
@@ -81,24 +65,13 @@ public class party : Node {
         ["4_req_experience"] = 450,
         
     };
-    public override void _Ready() {
-	    _label = (Label)GetNode("CanvasLayer/Label");
-	    _colorRect = (ColorRect)GetNode("CanvasLayer/ColorRect");
-	    _animationPlayer = (AnimationPlayer)GetNode("CanvasLayer/AnimationPlayer");
-
-	    _label.Hide();
-	    _colorRect.Hide();
-    }
 
     /// <summary>
     /// Starts party
     /// </summary>
     /// <param name="id">Party id</param>
     public void StartParty(string id) {
-	    _currentPartyId = id;
-	    _label.Show();
-	    _colorRect.Show();
-	    _animationPlayer.Play("party");
+	    CurrentPartyId = id;
     }
 
     /// <summary>
@@ -106,16 +79,17 @@ public class party : Node {
     /// </summary>
     /// <param name="id">Party id</param>
     /// <returns>Dictionary of calculated data</returns>
-    /// @todo Rewrite GameController to C# to properly access it's variables
-    Dictionary<string, int> ComputePartyRewards(string id) {
-	    
+    Dictionary<string, float> ComputePartyRewards(string id) {
+	    Console.WriteLine($"Party number {id}");
+	    Console.WriteLine(PartyData.ToString());
+	    var gameCCS = GetNode<GameControllerCS>("/root/GameController");
 	    int defaultMoney = PartyData[id + "_base_price"];
 	    int defaultExp = PartyData[id + "_base_experience"];
-	    int moneyMulti = 0;
-	    int expMulti = 0;
-	    int musicQualityMulti = 0;
-	    int computedMoney = defaultMoney;
-	    int computedExp = defaultExp;
+	    float moneyMulti = gameCCS.GetFloats()["party_money_earnings_multiplier"];
+	    float expMulti = gameCCS.GetFloats()["party_experience_earnings_multiplier"];
+	    float musicQualityMulti = gameCCS.GetFloats()["party_music_quality_multiplier"];
+	    float computedMoney = defaultMoney;
+	    float computedExp = defaultExp;
 
 	    if (moneyMulti > 0) {
 		    computedMoney = defaultMoney + (defaultMoney * moneyMulti);
@@ -124,7 +98,7 @@ public class party : Node {
 	    if (expMulti > 0) {
 		    computedExp = defaultExp + (defaultExp * expMulti);
 	    }
-	    Dictionary<string, int> returnData = new Dictionary<string, int>() {
+	    Dictionary<string, float> returnData = new Dictionary<string, float>() {
 		    ["money"] = computedMoney,
 		    ["exp"] = computedExp,
 		    ["music_quality"] = musicQualityMulti
@@ -133,32 +107,20 @@ public class party : Node {
     }
 
     /// <summary>
-    /// Callback for AnimationPlayer's '_on_animation_finished' signal
-    /// </summary>
-    /// <param name="animName">Name of finished animation</param>
-    void AnimationPlayerAnimFinished(string animName) {
-	    _colorRect.Hide();
-	    _label.Hide();
-	    if (animName == "party") {
-		    EndParty();
-	    }
-    }
-
-    /// <summary>
     /// Method ends party executing required callbacks
     /// </summary>
     /// <exception cref="ArgumentNullException">Null exception whether PartyRewards weren't computed properly</exception>
-    /// @todo Add getting data from GameController singleton when it will be rewritten to C#
     void EndParty() {
-	    Dictionary<string, int> partyRewards = ComputePartyRewards(_currentPartyId) ?? throw new ArgumentNullException("ComputePartyRewards(_currentPartyId)");
-	    EmitSignal("PartyEnded", _currentPartyId, partyRewards["money"], partyRewards["exp"], partyRewards["music_quality"]);
-	    AddPartyRating(_currentPartyId, new Dictionary<string, string>() {
+	    var gameCCS = GetNode<GameControllerCS>("/root/GameController");
+	    Dictionary<string, float> partyRewards = ComputePartyRewards(CurrentPartyId) ?? throw new ArgumentNullException("ComputePartyRewards(CurrentPartyId)");
+	    EmitSignal("PartyEnded", CurrentPartyId, partyRewards["money"], partyRewards["exp"], partyRewards["music_quality"]);
+	    AddPartyRating(CurrentPartyId, new Dictionary<string, string>() {
 		    ["experience"] = partyRewards["exp"].ToString(),
 		    ["money"] = partyRewards["money"].ToString(),
 		    ["m_quality"] = partyRewards["music_quality"].ToString(),
-		    //["exp_boost"] = GameController.data["party_experience_earnings_multiplier"],
-		    //["money_boost"] = GameController.data["party_money_earnings_multiplier"],
-		    //["m_quality_boost"] = GameController.data["party_music_quality_multiplier"]
+		    ["exp_boost"] = gameCCS.GetFloats()["party_experience_earnings_multiplier"].ToString(),
+		    ["money_boost"] = gameCCS.GetFloats()["party_money_earnings_multiplier"].ToString(),
+		    ["m_quality_boost"] = gameCCS.GetFloats()["party_music_quality_multiplier"].ToString()
 	    });
     }
 
@@ -183,7 +145,7 @@ public class party : Node {
     /// <param name="id">Party id</param>
     /// <returns>true or false</returns>
     public bool CheckIfPartyWasDone(string id) {
-	    return _donePartys.Contains(id);
+	    return DonePartys.Contains(id);
     }
 
     /// <summary>

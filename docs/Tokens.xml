@@ -342,16 +342,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>_animationPlayer</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>abed3f3542c99cb8083c41731d9ca79e6</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>_casualHeadphones</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -362,16 +352,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>_colorRect</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a732628d0b3ecd74f623d676fe0dcd747</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>_currentItemListId</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -379,16 +359,6 @@
     </TokenIdentifier>
     <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
     <Anchor>a5a1512146616c6a68db275873d5d50ed</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_currentPartyId</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a6a9b2fdac72ce9bb9f25479002152687</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -409,16 +379,6 @@
     </TokenIdentifier>
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>aa083ff3f5c19d959d44677204d606fe7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_donePartys</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>aff39ae2a2d89a0ca26d16823e3e46085</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -469,16 +429,6 @@
     </TokenIdentifier>
     <Path>d5/deb/classShopItemManager.html</Path>
     <Anchor>a53a4535e5cefc028bb34c96c882d0daa</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_label</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a891e7f49f3ba77bd982389808632dbdb</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -552,17 +502,6 @@
     <Path>df/d61/classCustomAudioLibrary.html</Path>
     <Anchor>af9ab67b8fd226c8457761f86e2aa564c</Anchor>
     <DeclaredIn>CustomAudioLibrary.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a7b013ff8a57b99e469f55a9641209e6b</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -754,17 +693,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>AnimationPlayerAnimFinished</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a839e1af53c59832cccba86a3d688869a</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Autosave</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instp</Type>
@@ -815,6 +743,17 @@
     <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
     <Anchor>ad3900086b3e153a5972e0e55c9220f16</Anchor>
     <DeclaredIn>BaseClass.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassInit</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Collections.DictionaryConverter</Scope>
+    </TokenIdentifier>
+    <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+    <Anchor>ab264c4ca410ea3216e20e68906f64fc2</Anchor>
+    <DeclaredIn>DictionaryConverter.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -903,6 +842,17 @@
     <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
     <Anchor>a3158680cba44dd1a8000fc72ad9e1650</Anchor>
     <DeclaredIn>BaseClass.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Collections.DictionaryConverter</Scope>
+    </TokenIdentifier>
+    <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+    <Anchor>ab8270232ff19ccb34a803a7ee6952fff</Anchor>
+    <DeclaredIn>DictionaryConverter.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1000,7 +950,7 @@
       <Scope>party</Scope>
     </TokenIdentifier>
     <Path>da/d3e/classparty.html</Path>
-    <Anchor>a7071f0633a85b9b99a629a34459107db</Anchor>
+    <Anchor>a579831227fe62983c7bb4b97c21159b7</Anchor>
     <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
@@ -1012,6 +962,16 @@
     </TokenIdentifier>
     <Path>d0/dd2/classCSharpCore.html</Path>
     <Anchor>a2b529f7000e90fbe3fb14204bedd11fa</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CurrentPartyId</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>afb411a2a022612decf5ba18c063a3efc</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1156,6 +1116,16 @@
     </TokenIdentifier>
     <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
     <Anchor>a19d994fedd69c4cc0e1211db90d73e3a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DonePartys</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>ac2d2303ecfb5da0adcad3c3d7672e48f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

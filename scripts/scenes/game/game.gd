@@ -67,7 +67,7 @@ func _ready():
 	else:
 		audio_files = in_game_audio_files
 	
-	GameController.start_new_game()
+	GameController.StartNewGame()
 	Globals.connect("furry",self,  "on_warning")
 	dft_file.open("user://dft_setting", File.READ)
 	if str(dft_file.get_line()) == "True":
@@ -111,7 +111,7 @@ func _start_2nd_dialog():
 	add_child(new_dialog)
 
 func _process(delta):
-	$MoneyAndExperience.text="Money: " + str(GameController.get_money()) +"\n\nExperience: " + str(GameController.get_experience())
+	$MoneyAndExperience.text="Money: " + str(GameController.GetInts()["money"]) +"\n\nExperience: " + str(GameController.GetInts()["experience"])
 	if Input.is_action_just_pressed("ui_cancel"):
 		if !$PauseMenu.visible:
 			fade_out()
@@ -156,9 +156,9 @@ func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp, pa
 	else:
 		$PartyResults.popup_centered()
 	print("Recived %s money" % str(party_rewards_money))
-	GameController.add_money(party_rewards_money)
+	GameController.AddMoney(party_rewards_money)
 	print("Recived %s exp" % str(party_rewards_exp))
-	GameController.add_experience(party_rewards_exp)
+	GameController.AddExperience(party_rewards_exp)
 	$Manager/menus/EmailMenu/EmailControl.check_emails()
 
 func _render_party_results(club_name, new_money, new_exp, new_mq):

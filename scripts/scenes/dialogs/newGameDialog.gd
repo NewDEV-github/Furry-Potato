@@ -19,8 +19,8 @@ func _ready():
 func _on_Button_pressed():
 	$VBoxContainer/ErrorLabel.text = ""
 	if save_name_check($VBoxContainer/LineEdit.text) == true:
-		GameController.current_save_name = $VBoxContainer/LineEdit.text
-		SaveController.save_game(GameController.current_save_name)
+		GameController.CurrentSaveName = $VBoxContainer/LineEdit.text
+		SaveController.save_game(GameController.CurrentSaveName)
 		get_tree().change_scene("res://scenes/game/game.tscn")
 		MjPlayer.fade_out()
 		$"../VideoPlayer".fade_out()

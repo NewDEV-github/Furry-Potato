@@ -55,10 +55,10 @@ func _prerender_emails():
 
 
 func check_emails():
-	var current_experience = GameController.get_experience()
+	var current_experience = GameController.GetInts()["experience"]
 	print("Current experience is: " + str(current_experience))
-	var all_partys = PartyController.party_ids
-	var all_partys_data = PartyController.party_data
+	var all_partys = PartyCS.PartyIds
+	var all_partys_data = PartyCS.PartyData
 	for i in all_partys:
 		print("party id: " + i)
 		print("minimum exp: " + str(all_partys_data[i + "_req_experience"]))
@@ -67,8 +67,8 @@ func check_emails():
 			var club_id = all_partys_data[i+"_club_id"]
 			var party_club = ClubController.club_data[str(club_id)+"_name"]
 			if PartyController.check_if_party_was_done(i) == false:
-				var p_email = str(GameController.data["DJName"]).to_lower().replace(' ', '_')
-				var p_domain = str(GameController.data["PlayerEmailDomain"])
+				var p_email = str(GameController.GetStrings()["DJName"]).to_lower().replace(' ', '_')
+				var p_domain = str(GameController.GetStrings()["PlayerEmailDomain"])
 				addEmail("Party at: " + party_club, "Party is going on in " + party_club, "Hey, as I said, party is going on in " + party_club + "\n\nPrice is pretty, pretty nice, should I say to the club manager,\nthat You'll be DJ that night?", p_email + "@" + p_domain, "dos@furry.potato", "party_email", i)
 	_prerender_emails()
 func _on_EmailList_item_activated(index):
@@ -85,7 +85,7 @@ func _on_EmailList_item_activated(index):
 		print(email_party_ids[item_text])
 		
 		$"../EmailPreview/VBoxContainer/GoPartyButton".connect("pressed", self, "_on_GoPartyButton_pressed", [tmp_party_id])
-		if PartyController.check_if_party_was_done(tmp_party_id) == false:
+		if PartyCS.CheckIfPartyWasDone(tmp_party_id) == false:
 			$"../EmailPreview/VBoxContainer/GoPartyButton".show()
 		else:
 			$"../EmailPreview/VBoxContainer/GoPartyButton".hide()

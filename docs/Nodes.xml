@@ -30,6 +30,16 @@
                 <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
               <Subnodes>
                  <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                  <Anchor>ab264c4ca410ea3216e20e68906f64fc2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                  <Anchor>ab8270232ff19ccb34a803a7ee6952fff</Anchor>
+                 </Node>
+                 <Node>
                   <Name>GodotToSystem</Name>
                   <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
                   <Anchor>a75c9261dda3fcef4608ecb8556630088</Anchor>
@@ -286,6 +296,16 @@
                 <Name>DictionaryConverter</Name>
                 <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
               <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                  <Anchor>ab264c4ca410ea3216e20e68906f64fc2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                  <Anchor>ab8270232ff19ccb34a803a7ee6952fff</Anchor>
+                 </Node>
                  <Node>
                   <Name>GodotToSystem</Name>
                   <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
@@ -925,19 +945,9 @@
             <Path>da/d3e/classparty.html</Path>
           <Subnodes>
              <Node>
-              <Name>_Ready</Name>
-              <Path>da/d3e/classparty.html</Path>
-              <Anchor>a7b013ff8a57b99e469f55a9641209e6b</Anchor>
-             </Node>
-             <Node>
               <Name>AddPartyRating</Name>
               <Path>da/d3e/classparty.html</Path>
               <Anchor>a2ddec3078d8a491be2e5f08ec332daf8</Anchor>
-             </Node>
-             <Node>
-              <Name>AnimationPlayerAnimFinished</Name>
-              <Path>da/d3e/classparty.html</Path>
-              <Anchor>a839e1af53c59832cccba86a3d688869a</Anchor>
              </Node>
              <Node>
               <Name>CheckIfPartyWasDone</Name>
@@ -947,7 +957,7 @@
              <Node>
               <Name>ComputePartyRewards</Name>
               <Path>da/d3e/classparty.html</Path>
-              <Anchor>a7071f0633a85b9b99a629a34459107db</Anchor>
+              <Anchor>a579831227fe62983c7bb4b97c21159b7</Anchor>
              </Node>
              <Node>
               <Name>EndParty</Name>
@@ -970,34 +980,19 @@
               <Anchor>a6644dc2090b3ac30dca8c08c454dec45</Anchor>
              </Node>
              <Node>
-              <Name>_animationPlayer</Name>
-              <Path>da/d3e/classparty.html</Path>
-              <Anchor>abed3f3542c99cb8083c41731d9ca79e6</Anchor>
-             </Node>
-             <Node>
-              <Name>_colorRect</Name>
-              <Path>da/d3e/classparty.html</Path>
-              <Anchor>a732628d0b3ecd74f623d676fe0dcd747</Anchor>
-             </Node>
-             <Node>
-              <Name>_currentPartyId</Name>
-              <Path>da/d3e/classparty.html</Path>
-              <Anchor>a6a9b2fdac72ce9bb9f25479002152687</Anchor>
-             </Node>
-             <Node>
-              <Name>_donePartys</Name>
-              <Path>da/d3e/classparty.html</Path>
-              <Anchor>aff39ae2a2d89a0ca26d16823e3e46085</Anchor>
-             </Node>
-             <Node>
-              <Name>_label</Name>
-              <Path>da/d3e/classparty.html</Path>
-              <Anchor>a891e7f49f3ba77bd982389808632dbdb</Anchor>
-             </Node>
-             <Node>
               <Name>_partyRatings</Name>
               <Path>da/d3e/classparty.html</Path>
               <Anchor>aaf494a3d27cdae03dd4446aae4f5b824</Anchor>
+             </Node>
+             <Node>
+              <Name>CurrentPartyId</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>afb411a2a022612decf5ba18c063a3efc</Anchor>
+             </Node>
+             <Node>
+              <Name>DonePartys</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>ac2d2303ecfb5da0adcad3c3d7672e48f</Anchor>
              </Node>
              <Node>
               <Name>PartyData</Name>
@@ -1391,6 +1386,10 @@
             <Path>d9/db7/classNewDEVSharp_1_1BaseClass.html</Path>
           <Subnodes>
              <Node>
+              <Name>NewDEVSharp.Collections.DictionaryConverter</Name>
+              <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+             </Node>
+             <Node>
               <Name>NewDEVSharp.DLC.Auth</Name>
               <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
              </Node>
@@ -1449,10 +1448,6 @@
            <Node>
             <Name>DialogicSharp</Name>
             <Path>d1/d1c/classDialogicSharp.html</Path>
-           </Node>
-           <Node>
-            <Name>NewDEVSharp.Collections.DictionaryConverter</Name>
-            <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
            </Node>
            <Node>
             <Name>FolderBase</Name>
@@ -1730,6 +1725,16 @@
                   <Name>NewDEVSharp.Collections.DictionaryConverter</Name>
                   <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
                 <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                    <Anchor>ab264c4ca410ea3216e20e68906f64fc2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
+                    <Anchor>ab8270232ff19ccb34a803a7ee6952fff</Anchor>
+                   </Node>
                    <Node>
                     <Name>GodotToSystem</Name>
                     <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
@@ -2379,19 +2384,9 @@
                       <Path>da/d3e/classparty.html</Path>
                     <Subnodes>
                        <Node>
-                        <Name>_Ready</Name>
-                        <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a7b013ff8a57b99e469f55a9641209e6b</Anchor>
-                       </Node>
-                       <Node>
                         <Name>AddPartyRating</Name>
                         <Path>da/d3e/classparty.html</Path>
                         <Anchor>a2ddec3078d8a491be2e5f08ec332daf8</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>AnimationPlayerAnimFinished</Name>
-                        <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a839e1af53c59832cccba86a3d688869a</Anchor>
                        </Node>
                        <Node>
                         <Name>CheckIfPartyWasDone</Name>
@@ -2401,7 +2396,7 @@
                        <Node>
                         <Name>ComputePartyRewards</Name>
                         <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a7071f0633a85b9b99a629a34459107db</Anchor>
+                        <Anchor>a579831227fe62983c7bb4b97c21159b7</Anchor>
                        </Node>
                        <Node>
                         <Name>EndParty</Name>
@@ -2424,34 +2419,19 @@
                         <Anchor>a6644dc2090b3ac30dca8c08c454dec45</Anchor>
                        </Node>
                        <Node>
-                        <Name>_animationPlayer</Name>
-                        <Path>da/d3e/classparty.html</Path>
-                        <Anchor>abed3f3542c99cb8083c41731d9ca79e6</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>_colorRect</Name>
-                        <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a732628d0b3ecd74f623d676fe0dcd747</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>_currentPartyId</Name>
-                        <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a6a9b2fdac72ce9bb9f25479002152687</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>_donePartys</Name>
-                        <Path>da/d3e/classparty.html</Path>
-                        <Anchor>aff39ae2a2d89a0ca26d16823e3e46085</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>_label</Name>
-                        <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a891e7f49f3ba77bd982389808632dbdb</Anchor>
-                       </Node>
-                       <Node>
                         <Name>_partyRatings</Name>
                         <Path>da/d3e/classparty.html</Path>
                         <Anchor>aaf494a3d27cdae03dd4446aae4f5b824</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>CurrentPartyId</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>afb411a2a022612decf5ba18c063a3efc</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DonePartys</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>ac2d2303ecfb5da0adcad3c3d7672e48f</Anchor>
                        </Node>
                        <Node>
                         <Name>PartyData</Name>

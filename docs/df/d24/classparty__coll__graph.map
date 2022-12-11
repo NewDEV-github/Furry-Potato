@@ -1,4 +1,5 @@
 <map id="party" name="party">
-<area shape="rect" id="node1" title="PartyController singleton" coords="6,79,57,104"/>
+<area shape="rect" id="node1" title="PartyController singleton" coords="45,108,95,133"/>
 <area shape="rect" id="node2" title=" " coords="5,5,57,31"/>
+<area shape="rect" id="node3" title=" " coords="81,5,139,31"/>
 </map>

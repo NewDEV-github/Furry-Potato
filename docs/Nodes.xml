@@ -898,6 +898,11 @@
               <Anchor>a6f8734fda298f35d3943eeb77f94ec92</Anchor>
              </Node>
              <Node>
+              <Name>SetNewSaveName</Name>
+              <Path>d2/d54/classGameControllerCS.html</Path>
+              <Anchor>a09b25d9e39e3131c4aacf1df237d01b4</Anchor>
+             </Node>
+             <Node>
               <Name>SetNewStringsDataFields</Name>
               <Path>d2/d54/classGameControllerCS.html</Path>
               <Anchor>ae14f5c8ae710a9fe6a9ce47b3de7432e</Anchor>
@@ -947,7 +952,7 @@
              <Node>
               <Name>AddPartyRating</Name>
               <Path>da/d3e/classparty.html</Path>
-              <Anchor>a2ddec3078d8a491be2e5f08ec332daf8</Anchor>
+              <Anchor>a93d70d26681282d87a7df498e3c6988f</Anchor>
              </Node>
              <Node>
               <Name>CheckIfPartyWasDone</Name>
@@ -957,7 +962,7 @@
              <Node>
               <Name>ComputePartyRewards</Name>
               <Path>da/d3e/classparty.html</Path>
-              <Anchor>a579831227fe62983c7bb4b97c21159b7</Anchor>
+              <Anchor>a7578ac813cb5175ccdae114682bd7484</Anchor>
              </Node>
              <Node>
               <Name>EndParty</Name>
@@ -965,9 +970,14 @@
               <Anchor>a6e4328785ca8d26d3b6a708a42e470d5</Anchor>
              </Node>
              <Node>
+              <Name>GetClubNameByParty</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>a32c24b66f1959fc1696ea0496b63ad87</Anchor>
+             </Node>
+             <Node>
               <Name>GetPartyRatings</Name>
               <Path>da/d3e/classparty.html</Path>
-              <Anchor>a5edc8b8b037ad51fa914da4be7f43e59</Anchor>
+              <Anchor>abc21dcd5624f99209bc8b42f16d8cc19</Anchor>
              </Node>
              <Node>
               <Name>PartyEnded</Name>
@@ -982,7 +992,7 @@
              <Node>
               <Name>_partyRatings</Name>
               <Path>da/d3e/classparty.html</Path>
-              <Anchor>aaf494a3d27cdae03dd4446aae4f5b824</Anchor>
+              <Anchor>abaa2ad2c71c59037e49f88debe0dcc1f</Anchor>
              </Node>
              <Node>
               <Name>CurrentPartyId</Name>
@@ -992,12 +1002,12 @@
              <Node>
               <Name>DonePartys</Name>
               <Path>da/d3e/classparty.html</Path>
-              <Anchor>ac2d2303ecfb5da0adcad3c3d7672e48f</Anchor>
+              <Anchor>abab5d057b0191a31a79349fdff6d52cd</Anchor>
              </Node>
              <Node>
               <Name>PartyData</Name>
               <Path>da/d3e/classparty.html</Path>
-              <Anchor>a336751111debc347efcd73c87eddc799</Anchor>
+              <Anchor>a846c4cc26f9399266fb338f02813ec7d</Anchor>
              </Node>
              <Node>
               <Name>PartyIds</Name>
@@ -1038,6 +1048,11 @@
             <Path>da/d53/classPartyRatingsMenu.html</Path>
           <Subnodes>
              <Node>
+              <Name>_on_PartyRatingsMenu_about_to_show</Name>
+              <Path>da/d53/classPartyRatingsMenu.html</Path>
+              <Anchor>a658be4c0d79fedf8dd736fc1e1ae1c47</Anchor>
+             </Node>
+             <Node>
               <Name>_Ready</Name>
               <Path>da/d53/classPartyRatingsMenu.html</Path>
               <Anchor>a2ff6424f3b4b8a4319162c44f19aada4</Anchor>
@@ -1051,6 +1066,16 @@
               <Name>_itemList</Name>
               <Path>da/d53/classPartyRatingsMenu.html</Path>
               <Anchor>aa7341867395b0cad2f1e4047b541d3ae</Anchor>
+             </Node>
+             <Node>
+              <Name>partyData</Name>
+              <Path>da/d53/classPartyRatingsMenu.html</Path>
+              <Anchor>ad98fa994611fd6fb9c65d86fd5994716</Anchor>
+             </Node>
+             <Node>
+              <Name>partyRatings</Name>
+              <Path>da/d53/classPartyRatingsMenu.html</Path>
+              <Anchor>abf04d568112d8c11ec4f1d01b50d52da</Anchor>
              </Node>
              <Node>
               <Name>ratingsClubs</Name>
@@ -2386,7 +2411,7 @@
                        <Node>
                         <Name>AddPartyRating</Name>
                         <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a2ddec3078d8a491be2e5f08ec332daf8</Anchor>
+                        <Anchor>a93d70d26681282d87a7df498e3c6988f</Anchor>
                        </Node>
                        <Node>
                         <Name>CheckIfPartyWasDone</Name>
@@ -2396,7 +2421,7 @@
                        <Node>
                         <Name>ComputePartyRewards</Name>
                         <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a579831227fe62983c7bb4b97c21159b7</Anchor>
+                        <Anchor>a7578ac813cb5175ccdae114682bd7484</Anchor>
                        </Node>
                        <Node>
                         <Name>EndParty</Name>
@@ -2404,9 +2429,14 @@
                         <Anchor>a6e4328785ca8d26d3b6a708a42e470d5</Anchor>
                        </Node>
                        <Node>
+                        <Name>GetClubNameByParty</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>a32c24b66f1959fc1696ea0496b63ad87</Anchor>
+                       </Node>
+                       <Node>
                         <Name>GetPartyRatings</Name>
                         <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a5edc8b8b037ad51fa914da4be7f43e59</Anchor>
+                        <Anchor>abc21dcd5624f99209bc8b42f16d8cc19</Anchor>
                        </Node>
                        <Node>
                         <Name>PartyEnded</Name>
@@ -2421,7 +2451,7 @@
                        <Node>
                         <Name>_partyRatings</Name>
                         <Path>da/d3e/classparty.html</Path>
-                        <Anchor>aaf494a3d27cdae03dd4446aae4f5b824</Anchor>
+                        <Anchor>abaa2ad2c71c59037e49f88debe0dcc1f</Anchor>
                        </Node>
                        <Node>
                         <Name>CurrentPartyId</Name>
@@ -2431,12 +2461,12 @@
                        <Node>
                         <Name>DonePartys</Name>
                         <Path>da/d3e/classparty.html</Path>
-                        <Anchor>ac2d2303ecfb5da0adcad3c3d7672e48f</Anchor>
+                        <Anchor>abab5d057b0191a31a79349fdff6d52cd</Anchor>
                        </Node>
                        <Node>
                         <Name>PartyData</Name>
                         <Path>da/d3e/classparty.html</Path>
-                        <Anchor>a336751111debc347efcd73c87eddc799</Anchor>
+                        <Anchor>a846c4cc26f9399266fb338f02813ec7d</Anchor>
                        </Node>
                        <Node>
                         <Name>PartyIds</Name>
@@ -2590,6 +2620,11 @@
                       <Path>da/d53/classPartyRatingsMenu.html</Path>
                     <Subnodes>
                        <Node>
+                        <Name>_on_PartyRatingsMenu_about_to_show</Name>
+                        <Path>da/d53/classPartyRatingsMenu.html</Path>
+                        <Anchor>a658be4c0d79fedf8dd736fc1e1ae1c47</Anchor>
+                       </Node>
+                       <Node>
                         <Name>_Ready</Name>
                         <Path>da/d53/classPartyRatingsMenu.html</Path>
                         <Anchor>a2ff6424f3b4b8a4319162c44f19aada4</Anchor>
@@ -2603,6 +2638,16 @@
                         <Name>_itemList</Name>
                         <Path>da/d53/classPartyRatingsMenu.html</Path>
                         <Anchor>aa7341867395b0cad2f1e4047b541d3ae</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>partyData</Name>
+                        <Path>da/d53/classPartyRatingsMenu.html</Path>
+                        <Anchor>ad98fa994611fd6fb9c65d86fd5994716</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>partyRatings</Name>
+                        <Path>da/d53/classPartyRatingsMenu.html</Path>
+                        <Anchor>abf04d568112d8c11ec4f1d01b50d52da</Anchor>
                        </Node>
                        <Node>
                         <Name>ratingsClubs</Name>
@@ -2940,6 +2985,11 @@
                     <Name>SetNewMultiplierValue</Name>
                     <Path>d2/d54/classGameControllerCS.html</Path>
                     <Anchor>a6f8734fda298f35d3943eeb77f94ec92</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetNewSaveName</Name>
+                    <Path>d2/d54/classGameControllerCS.html</Path>
+                    <Anchor>a09b25d9e39e3131c4aacf1df237d01b4</Anchor>
                    </Node>
                    <Node>
                     <Name>SetNewStringsDataFields</Name>

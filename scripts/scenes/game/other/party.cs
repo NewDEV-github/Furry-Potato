@@ -1,7 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using Godot;
-using Godot.Collections;
 
 /// <summary>
 /// PartyController singleton
@@ -10,7 +10,6 @@ public class party : Node {
     
     /// <summary>
     /// PartyEnded signal. Emitted with parameters, when party has finished.
-    /// @todo change signal name in the rest of code from "party_ended" to "PartyEnded"
     /// </summary>
     [Signal]
     delegate void PartyEnded(int id, int money, int experience, int musicQuality);
@@ -23,7 +22,7 @@ public class party : Node {
     /// <summary>
     /// List of all done partys
     /// </summary>
-    public readonly string[] DonePartys = new string[] { };
+    public string[] DonePartys = new string[] { };
     
     /// <summary>
     /// List of all partys' id's
@@ -33,12 +32,12 @@ public class party : Node {
     /// <summary>
     /// Contains data of all party ratings
     /// </summary>
-    private readonly Dictionary<string, string> _partyRatings = new Dictionary<string, string>();
+    private readonly Godot.Collections.Dictionary<string, string> _partyRatings = new Godot.Collections.Dictionary<string, string>();
 	
     /// <summary>
     /// Contains data of all of the partys
     /// </summary>
-    public readonly Dictionary<string, int> PartyData = new Dictionary<string, int>() {
+    public readonly Godot.Collections.Dictionary<string, int> PartyData = new Godot.Collections.Dictionary<string, int>() {
         ["0_club_id"] = 0,
         ["0_base_price"] = 1000,
         ["0_base_experience"] = 100,
@@ -79,7 +78,7 @@ public class party : Node {
     /// </summary>
     /// <param name="id">Party id</param>
     /// <returns>Dictionary of calculated data</returns>
-    Dictionary<string, float> ComputePartyRewards(string id) {
+    Godot.Collections.Dictionary<string, float> ComputePartyRewards(string id) {
 	    Console.WriteLine($"Party number {id}");
 	    Console.WriteLine(PartyData.ToString());
 	    var gameCCS = GetNode<GameControllerCS>("/root/GameController");
@@ -98,7 +97,8 @@ public class party : Node {
 	    if (expMulti > 0) {
 		    computedExp = defaultExp + (defaultExp * expMulti);
 	    }
-	    Dictionary<string, float> returnData = new Dictionary<string, float>() {
+
+	    Godot.Collections.Dictionary<string, float> returnData = new Godot.Collections.Dictionary<string, float>() {
 		    ["money"] = computedMoney,
 		    ["exp"] = computedExp,
 		    ["music_quality"] = musicQualityMulti
@@ -112,9 +112,9 @@ public class party : Node {
     /// <exception cref="ArgumentNullException">Null exception whether PartyRewards weren't computed properly</exception>
     void EndParty() {
 	    var gameCCS = GetNode<GameControllerCS>("/root/GameController");
-	    Dictionary<string, float> partyRewards = ComputePartyRewards(CurrentPartyId) ?? throw new ArgumentNullException("ComputePartyRewards(CurrentPartyId)");
+	    Godot.Collections.Dictionary<string, float> partyRewards = ComputePartyRewards(CurrentPartyId) ?? throw new ArgumentNullException("ComputePartyRewards(CurrentPartyId)");
 	    EmitSignal("PartyEnded", CurrentPartyId, partyRewards["money"], partyRewards["exp"], partyRewards["music_quality"]);
-	    AddPartyRating(CurrentPartyId, new Dictionary<string, string>() {
+	    AddPartyRating(CurrentPartyId, new Godot.Collections.Dictionary<string, string>() {
 		    ["experience"] = partyRewards["exp"].ToString(),
 		    ["money"] = partyRewards["money"].ToString(),
 		    ["m_quality"] = partyRewards["music_quality"].ToString(),
@@ -122,6 +122,14 @@ public class party : Node {
 		    ["money_boost"] = gameCCS.GetFloats()["party_money_earnings_multiplier"].ToString(),
 		    ["m_quality_boost"] = gameCCS.GetFloats()["party_music_quality_multiplier"].ToString()
 	    });
+	    var myList = new List<string>();
+		myList.Add(CurrentPartyId);
+	    
+		foreach (var doneParty in DonePartys) {
+		    myList.Add(doneParty);
+	    }
+
+	    DonePartys = myList.ToArray();
     }
 
     /// <summary>
@@ -129,7 +137,7 @@ public class party : Node {
     /// </summary>
     /// <param name="partyId">Party id</param>
     /// <param name="ratingData">Rating data</param>
-    void AddPartyRating(string partyId, Dictionary<string, string> ratingData) {
+    void AddPartyRating(string partyId, Godot.Collections.Dictionary<string, string> ratingData) {
 	    _partyRatings.Add(partyId, ratingData["m_quality"]);
 	    _partyRatings.Add(partyId + "_exp", ratingData["experience"]);
 	    _partyRatings.Add(partyId + "_money", ratingData["money"]);
@@ -152,7 +160,18 @@ public class party : Node {
     /// Returns ratings of all done partys
     /// </summary>
     /// <returns>Dictionary of rating data</returns>
-    public Dictionary<string, string> GetPartyRatings() {
+    public Godot.Collections.Dictionary<string, string> GetPartyRatings() {
 	    return _partyRatings;
+    }
+
+     
+    /// <summary>
+    /// Gives us club name by party id
+    /// </summary>
+    /// <param name="partyId">Id of the party</param>
+    /// <returns>Club name</returns>
+    /// @todo Make this really returning club name, not it's id
+    public string GetClubNameByParty(string partyId) {
+	    return PartyData[partyId + "_club_id"].ToString();
     }
 }

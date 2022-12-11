@@ -93,12 +93,22 @@ func _on_LoadGame_pressed():
 
 
 func _on_SaveSelectMenuPopup_SaveDataPreloaded():
-	for i in $SaveSelectMenuPopup.PreloadedSaveData["GameController"]:
-		pass
-	for i in $SaveSelectMenuPopup.PreloadedSaveData["OptionController"]:
-		pass
-	for i in $SaveSelectMenuPopup.PreloadedSaveData["ShopItemController"]:
-		pass
+	
+	var new_float_data = {}
+	var new_int_data = {}
+	
+	print($SaveSelectMenuPopup.PreloadedSaveData)
+	GameController.SetNewSaveName($SaveSelectMenuPopup.PreloadedSaveData["saveName"]["saveName"])
+	GameController.SetNewStringsDataFields($SaveSelectMenuPopup.PreloadedSaveData["string_GameController"])
+	
+	for i in $SaveSelectMenuPopup.PreloadedSaveData["int_GameController"]:
+		new_int_data[i] = int($SaveSelectMenuPopup.PreloadedSaveData["int_GameController"][i])
+	GameController.SetNewIntsDataFields(new_int_data)
+	
+	for i in $SaveSelectMenuPopup.PreloadedSaveData["float_GameController"]:
+		new_float_data[i] = float($SaveSelectMenuPopup.PreloadedSaveData["float_GameController"][i])
+	GameController.SetNewMultiplierData(new_float_data)
+	
 	get_tree().change_scene("res://scenes/game/game.tscn")
 	MjPlayer.fade_out()
 	$"VideoPlayer".fade_out()

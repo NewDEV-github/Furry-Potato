@@ -14,6 +14,6 @@ public class PartyList : ItemList
     /// </summary>
     /// <param name="id">Id of the rating</param>
     public void DisplayDetail(int id) {
-        GetNode<PartyRatingDetails>("PartyRatingDetails").DisplayDetailedRating(id.ToString());
+        GetNode<PartyRatingDetails>("../Details").DisplayDetailedRating(id.ToString());
     }
 }

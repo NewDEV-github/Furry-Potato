@@ -66,8 +66,10 @@ func _ready():
 			audio_files = Array($AudioStreamPlayer.LoadSongFiles())
 	else:
 		audio_files = in_game_audio_files
-	
-	GameController.StartNewGame()
+	print(GameController.CurrentSaveName)
+	##if this is new save, we can assume that we have to crate new data in game controller, otherwise - we do not touch it
+	if GameController.CurrentSaveName == "NewSave":
+		GameController.StartNewGame()
 	Globals.connect("furry",self,  "on_warning")
 	dft_file.open("user://dft_setting", File.READ)
 	if str(dft_file.get_line()) == "True":
@@ -79,7 +81,7 @@ func _ready():
 	fade_in()
 	start_dialog.connect("dialogic_signal", self, "dialog_listener")
 	$Manager/menus/NewNameMenu.connect("new_name_ready", self, "_start_2nd_dialog")
-	PartyController.connect("party_ended", self, "on_party_ended")
+	PartyCS.connect("PartyEnded", self, "on_party_ended")
 	add_child(start_dialog)
 func play_random_song():
 	randomize()
@@ -139,7 +141,7 @@ func _on_PauseMenu_visibility_changed():
 func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp, party_rewards_music_quality):
 	$Manager/menus/EmailMenu/EmailPreview.hide()
 	$Manager/menus/EmailMenu.hide()
-	var c_n = ClubController.club_data[str(PartyController.party_data[current_party_id+"_club_id"])+"_name"]
+	var c_n = ClubController.club_data[str(PartyCS.PartyData[current_party_id+"_club_id"])+"_name"]
 	_render_party_results(c_n, party_rewards_money, party_rewards_exp, party_rewards_music_quality)
 	if str(current_party_id) == '0':
 		var dialog = Dialogic.start('first_party_end')
@@ -160,6 +162,7 @@ func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp, pa
 	print("Recived %s exp" % str(party_rewards_exp))
 	GameController.AddExperience(party_rewards_exp)
 	$Manager/menus/EmailMenu/EmailControl.check_emails()
+	$Manager/menus/PartyRatingsMenu.DisplayRatings()
 
 func _render_party_results(club_name, new_money, new_exp, new_mq):
 	var base_string = "Party at %s\n\nRecived money: %s\nRecived experience: %s\n\n\nMusic quality in audition's opinion: %s" % [club_name, new_money, new_exp, new_mq]

@@ -1,6 +1,7 @@
 <map id="PartyRatingsMenu" name="PartyRatingsMenu">
-<area shape="rect" id="node1" title="This class controls Party Ratings menu including displaying and showing rating details" coords="31,168,161,193"/>
+<area shape="rect" id="node1" title="This class controls Party Ratings menu including displaying and showing rating details" coords="106,183,235,208"/>
 <area shape="rect" id="node2" title=" " coords="5,80,109,105"/>
 <area shape="rect" id="node3" href="$d2/d1c/classPartyList.html" title=" " coords="133,80,208,105"/>
 <area shape="rect" id="node4" title=" " coords="137,5,205,31"/>
+<area shape="rect" id="node5" title=" " coords="233,80,290,105"/>
 </map>

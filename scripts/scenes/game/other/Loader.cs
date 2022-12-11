@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using System.IO;
 using Godot.Collections;
 
 
@@ -24,9 +25,15 @@ public class Loader : Node {
             foreach (var file in fileList) {
                 tempReturnVal.Add(System.IO.Path.GetFileNameWithoutExtension(file), System.IO.File.ReadAllText(file));
             }
-
             returnVar.Add(dirBaseName, tempReturnVal);
         }
+        
+        //Return to game current save name for save overriding etc.
+        Godot.Collections.Dictionary<string, string> saveName = new Dictionary<string, string>() {
+            ["saveName"] = new DirectoryInfo(saveDir).Name,
+        };
+        
+        returnVar.Add("saveName", saveName);
         return returnVar;
     }
 }

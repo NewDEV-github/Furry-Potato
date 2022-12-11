@@ -1,3 +1,4 @@
+using System;
 using Godot;
 using Godot.Collections;
 using NewDEVSharp;
@@ -42,6 +43,7 @@ public class GameControllerCS : CSharpCore {
         /// <param name="newData">New data to set</param>
         public void SetNewIntsDataFields(Dictionary<string, int> newData) {
                 _intData = newData;
+                Console.WriteLine($"New int data is {_intData}");
         }
         
         /// <summary>
@@ -50,6 +52,7 @@ public class GameControllerCS : CSharpCore {
         /// <param name="newData">New data to set</param>
         public void SetNewStringsDataFields(Dictionary<string, string> newData) {
                 _data = newData;
+                Console.WriteLine($"New data is {_data}");
         }
 
         /// <summary>
@@ -58,6 +61,7 @@ public class GameControllerCS : CSharpCore {
         /// <param name="multiData">New data to set</param>
         public void SetNewMultiplierData(Dictionary<string, float> multiData) {
                 _multipliers = multiData;
+                Console.WriteLine($"New float data is {_multipliers}");
         }
         
         /// <summary>
@@ -121,6 +125,7 @@ public class GameControllerCS : CSharpCore {
         /// Starts new game by setting everywhere default values
         /// </summary>
         public void StartNewGame() {
+                Console.WriteLine("Starting new game...");
                 _intData = new Dictionary<string, int>() {
                         ["money"] = 0,
                         ["experience"] = 0
@@ -159,5 +164,10 @@ public class GameControllerCS : CSharpCore {
         /// <returns>_multipliers dictionary</returns>
         public Dictionary<string, float> GetFloats() {
                 return _multipliers;
+        }
+
+        public void SetNewSaveName(string newName) {
+                CurrentSaveName = newName;
+                Console.WriteLine($"New save name is {CurrentSaveName}");
         }
 }

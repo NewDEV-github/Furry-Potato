@@ -12,6 +12,7 @@ var classGameControllerCS =
     [ "SetNewIntsDataFields", "d2/d54/classGameControllerCS.html#a4526b215b6cccad220f6a6ac56d4162c", null ],
     [ "SetNewMultiplierData", "d2/d54/classGameControllerCS.html#a1e01c79121a1580136897bd7c6fbad76", null ],
     [ "SetNewMultiplierValue", "d2/d54/classGameControllerCS.html#a6f8734fda298f35d3943eeb77f94ec92", null ],
+    [ "SetNewSaveName", "d2/d54/classGameControllerCS.html#a09b25d9e39e3131c4aacf1df237d01b4", null ],
     [ "SetNewStringsDataFields", "d2/d54/classGameControllerCS.html#ae14f5c8ae710a9fe6a9ce47b3de7432e", null ],
     [ "StartNewGame", "d2/d54/classGameControllerCS.html#a8074f4196e759bd7ae80bf389872b479", null ],
     [ "_data", "d2/d54/classGameControllerCS.html#a33b1dd8531d531cefedd1f5de3346594", null ],

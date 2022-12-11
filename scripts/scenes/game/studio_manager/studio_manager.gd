@@ -46,4 +46,4 @@ func _on_DataMenu_pressed():
 
 
 func _on_SaveButton_pressed():
-	SaveController.save_game(GameController.current_save_name)
+	SaveController.save_game(GameController.CurrentSaveName)

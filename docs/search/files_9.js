@@ -1,11 +1,5 @@
 var searchData=
 [
-  ['auth_2ecs_0',['Auth.cs',['../da/d27/Server_2Auth_8cs.html',1,'']]],
-  ['savecontainer_2ecs_1',['SaveContainer.cs',['../d2/d5e/SaveContainer_8cs.html',1,'']]],
-  ['savemanager_2ecs_2',['SaveManager.cs',['../d2/de6/SaveManager_8cs.html',1,'']]],
-  ['saver_2ecs_3',['Saver.cs',['../de/df4/Saver_8cs.html',1,'']]],
-  ['saveselectmenupopup_2ecs_4',['SaveSelectMenuPopup.cs',['../de/d79/SaveSelectMenuPopup_8cs.html',1,'']]],
-  ['shopitembase_2ecs_5',['ShopItemBase.cs',['../d1/dfb/ShopItemBase_8cs.html',1,'']]],
-  ['shopitemheadphones_2ecs_6',['ShopItemHeadphones.cs',['../d2/de5/ShopItemHeadphones_8cs.html',1,'']]],
-  ['shopitemmanager_2ecs_7',['ShopItemManager.cs',['../d4/de5/ShopItemManager_8cs.html',1,'']]]
+  ['_2enetframework_2cversion_3dv4_2e7_2e2_2eassemblyattributes_2ecs_0',['.NETFramework,Version=v4.7.2.AssemblyAttributes.cs',['../db/d0e/Release_2_8NETFramework_00Version_0av4_87_82_8AssemblyAttributes_8cs.html',1,'']]],
+  ['_2enetframework_2cversion_3dv4_2e8_2eassemblyattributes_2ecs_1',['.NETFramework,Version=v4.8.AssemblyAttributes.cs',['../de/dd6/Release_2_8NETFramework_00Version_0av4_88_8AssemblyAttributes_8cs.html',1,'']]]
 ];

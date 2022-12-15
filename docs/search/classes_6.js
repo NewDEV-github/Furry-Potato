@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loader_0',['Loader',['../d5/d5c/classLoader.html',1,'']]]
+  ['iconfrommp3_0',['IconFromMp3',['../da/dec/classIconFromMp3.html',1,'']]]
 ];

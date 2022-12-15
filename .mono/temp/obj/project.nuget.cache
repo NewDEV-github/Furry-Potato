@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+3jIOnKhZnt1j1IW9scjmJkVmfbiUQO8vJKhBJ2sAqa9ZA85lSFRwToh+RXq6AePDk8Kt8rwaUKeXgUb0ow9Cg==",
+  "dgSpecHash": "YlWMYEo3UaYoaKKcJXiIGp8QoHYFUv8BVvr8Z4js9s2JZQOlc6Ku6Wcpj+LcpcmVC5PDARi4mLhcra9uOVwn8g==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\Furry-Potato\\Furry Potato.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DoS\\.nuget\\packages\\jetbrains.annotations\\2022.3.1\\jetbrains.annotations.2022.3.1.nupkg.sha512",
     "C:\\Users\\DoS\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
-    "C:\\Users\\DoS\\.nuget\\packages\\newtonsoft.json.bson\\1.0.3-beta1\\newtonsoft.json.bson.1.0.3-beta1.nupkg.sha512"
+    "C:\\Users\\DoS\\.nuget\\packages\\newtonsoft.json.bson\\1.0.3-beta1\\newtonsoft.json.bson.1.0.3-beta1.nupkg.sha512",
+    "C:\\Users\\DoS\\.nuget\\packages\\taglibsharp\\2.3.0\\taglibsharp.2.3.0.nupkg.sha512"
   ],
   "logs": []
 }

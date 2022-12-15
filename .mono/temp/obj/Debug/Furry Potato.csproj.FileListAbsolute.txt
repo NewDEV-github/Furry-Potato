@@ -13,3 +13,4 @@ D:\GitHub\Furry-Potato\.mono\temp\obj\Debug\Furry Potato.csproj.CopyComplete
 D:\GitHub\Furry-Potato\.mono\temp\bin\Debug\NewDEVSharp.dll
 D:\GitHub\Furry-Potato\.mono\temp\bin\Debug\NewDEVSharp.pdb
 D:\GitHub\Furry-Potato\.mono\temp\bin\Debug\JetBrains.Annotations.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\Debug\TagLibSharp.dll

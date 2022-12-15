@@ -38,6 +38,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::DLC::BaseDLC</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.DLC.BaseDLC</Scope>
+    </TokenIdentifier>
+    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>BaseSave</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -89,6 +98,15 @@
       <Scope>CustomAudioLibrary</Scope>
     </TokenIdentifier>
     <Path>df/d61/classCustomAudioLibrary.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::Utils::MP3::DataTags</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -152,6 +170,15 @@
       <Scope>GameControllerCS</Scope>
     </TokenIdentifier>
     <Path>d2/d54/classGameControllerCS.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>IconFromMp3</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>IconFromMp3</Scope>
+    </TokenIdentifier>
+    <Path>da/dec/classIconFromMp3.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -335,6 +362,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::Utils</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>NewDEVSharp::Utils</Scope>
+    </TokenIdentifier>
+    <Path>df/d2b/namespaceNewDEVSharp_1_1Utils.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::Utils::MP3</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>NewDEVSharp::Utils::MP3</Scope>
+    </TokenIdentifier>
+    <Path>dc/dbf/namespaceNewDEVSharp_1_1Utils_1_1MP3.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>todo</Name>
       <APILanguage>unknown</APILanguage>
     </TokenIdentifier>
@@ -480,6 +525,17 @@
     </TokenIdentifier>
     <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
     <Anchor>ad7259fc2ebb41c07d7db8abf7a0e3261</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>IconFromMp3</Scope>
+    </TokenIdentifier>
+    <Path>da/dec/classIconFromMp3.html</Path>
+    <Anchor>ad127e31abe98bbb37b49b0699e7f1dca</Anchor>
+    <DeclaredIn>IconFromMP3.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -701,6 +757,28 @@
     <Path>da/d3e/classparty.html</Path>
     <Anchor>a93d70d26681282d87a7df498e3c6988f</Anchor>
     <DeclaredIn>party.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Album</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+    <Anchor>aeddf5f0614dfbb7e0f6eef7a34f179d9</Anchor>
+    <DeclaredIn>DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Author</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+    <Anchor>a64d9bb3cfc69a0005d98941da9ca8977</Anchor>
+    <DeclaredIn>DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -963,6 +1041,17 @@
     <Path>da/d3e/classparty.html</Path>
     <Anchor>a7578ac813cb5175ccdae114682bd7484</Anchor>
     <DeclaredIn>party.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Copyright</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+    <Anchor>ae1e4dbf56c26b32adf4941f3e8ea7468</Anchor>
+    <DeclaredIn>DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1580,6 +1669,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Image</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+    <Anchor>af37e5818ef49f09b3d66c955362648ad</Anchor>
+    <DeclaredIn>DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Import</Name>
       <APILanguage>csharp</APILanguage>
       <Type>clm</Type>
@@ -1756,6 +1856,28 @@
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>aeff167a3beab4bd3421211f76342efdb</Anchor>
     <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LoadDLCDataFromPath</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.DLC.DLC</Scope>
+    </TokenIdentifier>
+    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+    <Anchor>a37e54a58d621b08732fe3d67bb2ca340</Anchor>
+    <DeclaredIn>DLC.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LoadImageFromAudio</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>IconFromMp3</Scope>
+    </TokenIdentifier>
+    <Path>da/dec/classIconFromMp3.html</Path>
+    <Anchor>a1454aa0e3df9f9f31d95764d36a48570</Anchor>
+    <DeclaredIn>IconFromMP3.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2177,6 +2299,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Title</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+    <Anchor>a50bd72c1b312c72210129d65d0ab8693</Anchor>
+    <DeclaredIn>DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>WriteData</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2251,6 +2384,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>File</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d1/db4/DataTags_8cs.html</Path>
+    <Anchor>a391d82177498262e5e2260b76c9de0bc</Anchor>
+    <DeclaredIn>DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GC</Name>
       <APILanguage>csharp</APILanguage>
       <Type>tdef</Type>
@@ -2258,5 +2401,15 @@
     <Path>de/d97/DialogicSharp_8cs.html</Path>
     <Anchor>a3f6cb3bf7085d407291ab9a356db1549</Anchor>
     <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Image</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d7/d10/IconFromMP3_8cs.html</Path>
+    <Anchor>addd86478e6b382b41e2273e6135d05e6</Anchor>
+    <DeclaredIn>IconFromMP3.cs</DeclaredIn>
   </Token>
 </Tokens>

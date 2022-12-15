@@ -1,6 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " coords="5,55,109,80"/>
-<area shape="rect" id="node2" href="$d6/d32/classPartyRatingDetails.html" title="Class used to display detailed information about rating" coords="170,5,301,31"/>
-<area shape="rect" id="node3" href="$da/d53/classPartyRatingsMenu.html" title="This class controls Party Ratings menu including displaying and showing rating details" coords="171,55,300,80"/>
-<area shape="rect" id="node4" href="$dd/d61/classSaveSelectMenuPopup.html" title="Class used by save menu popup" coords="157,104,313,129"/>
+<area shape="rect" id="node1" title=" " coords="5,5,97,31"/>
+<area shape="rect" id="node2" href="$da/dec/classIconFromMp3.html" title=" " coords="145,5,247,31"/>
 </map>

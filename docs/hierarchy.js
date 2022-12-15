@@ -6,7 +6,9 @@ var hierarchy =
     [ "NewDEVSharp.BaseClass", "d9/db7/classNewDEVSharp_1_1BaseClass.html", [
       [ "NewDEVSharp.Collections.DictionaryConverter", "d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html", null ],
       [ "NewDEVSharp.DLC.Auth", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html", null ],
-      [ "NewDEVSharp.DLC.DLC", "de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html", null ],
+      [ "NewDEVSharp.DLC.DLC", "de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html", [
+        [ "NewDEVSharp.DLC.BaseDLC", "d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html", null ]
+      ] ],
       [ "NewDEVSharp.DLC.Manager", "db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html", null ],
       [ "NewDEVSharp.DLC.Verifier", "da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html", null ],
       [ "NewDEVSharp.Launcher.Manager", "d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html", null ],
@@ -21,6 +23,7 @@ var hierarchy =
       [ "SaveManager", "d8/d24/classSaveManager.html", null ]
     ] ],
     [ "NewDEVSharp.Core", "d5/d9c/classNewDEVSharp_1_1Core.html", null ],
+    [ "NewDEVSharp.Utils.MP3.DataTags", "da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html", null ],
     [ "DialogicSharp", "d1/d1c/classDialogicSharp.html", null ],
     [ "FolderBase", "dd/d22/classFolderBase.html", [
       [ "FolderSystemDocuments", "dc/de4/classFolderSystemDocuments.html", null ],
@@ -42,6 +45,9 @@ var hierarchy =
     ] ],
     [ "ShopItemBase", "d1/dc3/classShopItemBase.html", [
       [ "ShopItemHeadphones", "d1/d44/classShopItemHeadphones.html", null ]
+    ] ],
+    [ "TextureRect", null, [
+      [ "IconFromMp3", "da/dec/classIconFromMp3.html", null ]
     ] ],
     [ "WindowDialog", null, [
       [ "PartyRatingDetails", "d6/d32/classPartyRatingDetails.html", null ],

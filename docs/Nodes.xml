@@ -69,6 +69,10 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>BaseDLC</Name>
+                <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+               </Node>
+               <Node>
                 <Name>DLC</Name>
                 <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
               <Subnodes>
@@ -81,6 +85,11 @@
                   <Name>ClassName</Name>
                   <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
                   <Anchor>a08c24ac8e56cbf347f4bbbdaeff20f03</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>LoadDLCDataFromPath</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a37e54a58d621b08732fe3d67bb2ca340</Anchor>
                  </Node>
                  <Node>
                   <Name>DLCBasePath</Name>
@@ -238,6 +247,49 @@
                   <Name>ServerURL</Name>
                   <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
                   <Anchor>abcf4cae09c1240a0358a7b12e3c81948</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Utils</Name>
+              <Path>df/d2b/namespaceNewDEVSharp_1_1Utils.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>MP3</Name>
+                <Path>dc/dbf/namespaceNewDEVSharp_1_1Utils_1_1MP3.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DataTags</Name>
+                  <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>Album</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>aeddf5f0614dfbb7e0f6eef7a34f179d9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Author</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>a64d9bb3cfc69a0005d98941da9ca8977</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Copyright</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>ae1e4dbf56c26b32adf4941f3e8ea7468</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Image</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>af37e5818ef49f09b3d66c955362648ad</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Title</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>a50bd72c1b312c72210129d65d0ab8693</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>
@@ -336,6 +388,10 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>BaseDLC</Name>
+                <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+               </Node>
+               <Node>
                 <Name>DLC</Name>
                 <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
               <Subnodes>
@@ -348,6 +404,11 @@
                   <Name>ClassName</Name>
                   <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
                   <Anchor>a08c24ac8e56cbf347f4bbbdaeff20f03</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>LoadDLCDataFromPath</Name>
+                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                  <Anchor>a37e54a58d621b08732fe3d67bb2ca340</Anchor>
                  </Node>
                  <Node>
                   <Name>DLCBasePath</Name>
@@ -505,6 +566,49 @@
                   <Name>ServerURL</Name>
                   <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
                   <Anchor>abcf4cae09c1240a0358a7b12e3c81948</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Utils</Name>
+              <Path>df/d2b/namespaceNewDEVSharp_1_1Utils.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>MP3</Name>
+                <Path>dc/dbf/namespaceNewDEVSharp_1_1Utils_1_1MP3.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DataTags</Name>
+                  <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>Album</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>aeddf5f0614dfbb7e0f6eef7a34f179d9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Author</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>a64d9bb3cfc69a0005d98941da9ca8977</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Copyright</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>ae1e4dbf56c26b32adf4941f3e8ea7468</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Image</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>af37e5818ef49f09b3d66c955362648ad</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Title</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>a50bd72c1b312c72210129d65d0ab8693</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>
@@ -931,6 +1035,22 @@
               <Name>CurrentSaveName</Name>
               <Path>d2/d54/classGameControllerCS.html</Path>
               <Anchor>aa6944ebfc334165e26400938f18a06c7</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>IconFromMp3</Name>
+            <Path>da/dec/classIconFromMp3.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>_Ready</Name>
+              <Path>da/dec/classIconFromMp3.html</Path>
+              <Anchor>ad127e31abe98bbb37b49b0699e7f1dca</Anchor>
+             </Node>
+             <Node>
+              <Name>LoadImageFromAudio</Name>
+              <Path>da/dec/classIconFromMp3.html</Path>
+              <Anchor>a1454aa0e3df9f9f31d95764d36a48570</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1421,6 +1541,12 @@
              <Node>
               <Name>NewDEVSharp.DLC.DLC</Name>
               <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>NewDEVSharp.DLC.BaseDLC</Name>
+                <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>NewDEVSharp.DLC.Manager</Name>
@@ -1469,6 +1595,10 @@
            <Node>
             <Name>NewDEVSharp.Core</Name>
             <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+           </Node>
+           <Node>
+            <Name>NewDEVSharp.Utils.MP3.DataTags</Name>
+            <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
            </Node>
            <Node>
             <Name>DialogicSharp</Name>
@@ -1545,6 +1675,16 @@
              <Node>
               <Name>ShopItemHeadphones</Name>
               <Path>d1/d44/classShopItemHeadphones.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>TextureRect</Name>
+            <Path></Path>
+          <Subnodes>
+             <Node>
+              <Name>IconFromMp3</Name>
+              <Path>da/dec/classIconFromMp3.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -1798,6 +1938,16 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>BaseDLC.cs</Name>
+                <Path>d6/de2/BaseDLC_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.DLC.BaseDLC</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>DLC.cs</Name>
                 <Path>d0/dd9/DLC_8cs.html</Path>
               <Subnodes>
@@ -1814,6 +1964,11 @@
                     <Name>ClassName</Name>
                     <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
                     <Anchor>a08c24ac8e56cbf347f4bbbdaeff20f03</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>LoadDLCDataFromPath</Name>
+                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
+                    <Anchor>a37e54a58d621b08732fe3d67bb2ca340</Anchor>
                    </Node>
                    <Node>
                     <Name>DLCBasePath</Name>
@@ -2045,6 +2200,60 @@
                     <Name>ServerURL</Name>
                     <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
                     <Anchor>abcf4cae09c1240a0358a7b12e3c81948</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Utils</Name>
+              <Path>dir_48028894003760a526b72b9e7b21af49.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>MP3</Name>
+                <Path>dir_3b60e26a606f70fd5d160ff6b0002bf6.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DataTags.cs</Name>
+                  <Path>d1/db4/DataTags_8cs.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>NewDEVSharp.Utils.MP3.DataTags</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>Album</Name>
+                      <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                      <Anchor>aeddf5f0614dfbb7e0f6eef7a34f179d9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Author</Name>
+                      <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                      <Anchor>a64d9bb3cfc69a0005d98941da9ca8977</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Copyright</Name>
+                      <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                      <Anchor>ae1e4dbf56c26b32adf4941f3e8ea7468</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Image</Name>
+                      <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                      <Anchor>af37e5818ef49f09b3d66c955362648ad</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Title</Name>
+                      <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                      <Anchor>a50bd72c1b312c72210129d65d0ab8693</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>File</Name>
+                    <Path>d1/db4/DataTags_8cs.html</Path>
+                    <Anchor>a391d82177498262e5e2260b76c9de0bc</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2855,6 +3064,33 @@
                       </Subnodes>
                      </Node>
                     </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>IconFromMP3.cs</Name>
+                  <Path>d7/d10/IconFromMP3_8cs.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>IconFromMp3</Name>
+                    <Path>da/dec/classIconFromMp3.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>_Ready</Name>
+                      <Path>da/dec/classIconFromMp3.html</Path>
+                      <Anchor>ad127e31abe98bbb37b49b0699e7f1dca</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>LoadImageFromAudio</Name>
+                      <Path>da/dec/classIconFromMp3.html</Path>
+                      <Anchor>a1454aa0e3df9f9f31d95764d36a48570</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>Image</Name>
+                    <Path>d7/d10/IconFromMP3_8cs.html</Path>
+                    <Anchor>addd86478e6b382b41e2273e6135d05e6</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>

@@ -1,0 +1,5 @@
+<map id="NewDEVSharp.DLC.BaseDLC" name="NewDEVSharp.DLC.BaseDLC">
+<area shape="rect" id="node1" title=" " coords="5,152,201,177"/>
+<area shape="rect" id="node2" href="$de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html" title="Basic DLC class, including some DLC info. Used for DLC legacy verification" coords="80,79,127,104"/>
+<area shape="rect" id="node3" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="61,5,146,31"/>
+</map>

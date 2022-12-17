@@ -772,6 +772,11 @@
               <Anchor>ad23372af6611bd8a35737b84b8cbdc5d</Anchor>
              </Node>
              <Node>
+              <Name>_dataTags</Name>
+              <Path>df/d61/classCustomAudioLibrary.html</Path>
+              <Anchor>aae06acc634f16128dfbe8a5a580d6f42</Anchor>
+             </Node>
+             <Node>
               <Name>_folderList</Name>
               <Path>df/d61/classCustomAudioLibrary.html</Path>
               <Anchor>aa524b5f12078f49c10704ff1b17bf521</Anchor>
@@ -1035,22 +1040,6 @@
               <Name>CurrentSaveName</Name>
               <Path>d2/d54/classGameControllerCS.html</Path>
               <Anchor>aa6944ebfc334165e26400938f18a06c7</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>IconFromMp3</Name>
-            <Path>da/dec/classIconFromMp3.html</Path>
-          <Subnodes>
-             <Node>
-              <Name>_Ready</Name>
-              <Path>da/dec/classIconFromMp3.html</Path>
-              <Anchor>ad127e31abe98bbb37b49b0699e7f1dca</Anchor>
-             </Node>
-             <Node>
-              <Name>LoadImageFromAudio</Name>
-              <Path>da/dec/classIconFromMp3.html</Path>
-              <Anchor>a1454aa0e3df9f9f31d95764d36a48570</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1675,16 +1664,6 @@
              <Node>
               <Name>ShopItemHeadphones</Name>
               <Path>d1/d44/classShopItemHeadphones.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>TextureRect</Name>
-            <Path></Path>
-          <Subnodes>
-             <Node>
-              <Name>IconFromMp3</Name>
-              <Path>da/dec/classIconFromMp3.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -2418,6 +2397,11 @@
                           <Anchor>ad23372af6611bd8a35737b84b8cbdc5d</Anchor>
                          </Node>
                          <Node>
+                          <Name>_dataTags</Name>
+                          <Path>df/d61/classCustomAudioLibrary.html</Path>
+                          <Anchor>aae06acc634f16128dfbe8a5a580d6f42</Anchor>
+                         </Node>
+                         <Node>
                           <Name>_folderList</Name>
                           <Path>df/d61/classCustomAudioLibrary.html</Path>
                           <Anchor>aa524b5f12078f49c10704ff1b17bf521</Anchor>
@@ -3064,33 +3048,6 @@
                       </Subnodes>
                      </Node>
                     </Subnodes>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>IconFromMP3.cs</Name>
-                  <Path>d7/d10/IconFromMP3_8cs.html</Path>
-                <Subnodes>
-                   <Node>
-                    <Name>IconFromMp3</Name>
-                    <Path>da/dec/classIconFromMp3.html</Path>
-                  <Subnodes>
-                     <Node>
-                      <Name>_Ready</Name>
-                      <Path>da/dec/classIconFromMp3.html</Path>
-                      <Anchor>ad127e31abe98bbb37b49b0699e7f1dca</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>LoadImageFromAudio</Name>
-                      <Path>da/dec/classIconFromMp3.html</Path>
-                      <Anchor>a1454aa0e3df9f9f31d95764d36a48570</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>Image</Name>
-                    <Path>d7/d10/IconFromMP3_8cs.html</Path>
-                    <Anchor>addd86478e6b382b41e2273e6135d05e6</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>

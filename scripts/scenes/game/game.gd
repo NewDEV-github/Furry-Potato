@@ -83,10 +83,12 @@ func _ready():
 	$Manager/menus/NewNameMenu.connect("new_name_ready", self, "_start_2nd_dialog")
 	PartyCS.connect("PartyEnded", self, "on_party_ended")
 	add_child(start_dialog)
+	$PauseMenu/Options.load_data()
 func play_random_song():
 	randomize()
 	var song_file = audio_files[randi()%audio_files.size()]
 	$AudioStreamPlayer.stream = _load_audio_file(song_file)
+	load_music_album_cover_art(song_file)
 	$AudioStreamPlayer.play()
 	if song_titles.has(song_file) && song_authors.has(song_file):
 		Player.set_title(song_titles[song_file], song_authors[song_file])
@@ -204,3 +206,21 @@ func _load_audio_file(path: String):
 #		stream.stereo = false
 	# return this stream
 	return stream
+
+
+func load_music_album_cover_art(path: String):
+	var file = path.get_file()
+	var f = File.new()
+	if f.file_exists("user://cache/" + file + ".jpg"):
+		$AnimatedIcon.hide()
+		var image = Image.new()
+		var err = image.load("user://cache/" + file + ".jpg")
+		if err != OK:
+			pass
+		var tex = ImageTexture.new()
+		tex.create_from_image(image, 0)
+		$IconFromMP3.texture = tex
+		$IconFromMP3.show()
+	else:
+		$IconFromMP3.hide()
+		$AnimatedIcon.show()

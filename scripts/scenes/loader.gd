@@ -13,6 +13,9 @@ func _ready():
 
 
 func load_game():
+	var dir = Directory.new()
+	if not dir.dir_exists("user://cache"):
+		dir.make_dir_recursive("user://cache")
 	if Globals.enable_protogen_technology_bool:
 		if str(ProtogenTechnologyCore.new().init_sdk(1)) == "init_d":
 			Globals.proto_tech_initialized = true

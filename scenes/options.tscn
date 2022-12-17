@@ -5,6 +5,7 @@
 [ext_resource path="res://assets/themes/new_gui/neon.tres" type="Theme" id=3]
 
 [node name="Control" type="WindowDialog"]
+visible = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -26,7 +27,7 @@ margin_right = -10.0
 margin_bottom = -20.0
 
 [node name="left" type="VBoxContainer" parent="splitter"]
-margin_right = 424.0
+margin_right = 416.0
 margin_bottom = 444.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -34,56 +35,64 @@ custom_constants/separation = 11
 alignment = 1
 
 [node name="discord_avatar" type="CheckButton" parent="splitter/left"]
-margin_top = 9.0
-margin_right = 424.0
-margin_bottom = 49.0
+margin_top = 41.0
+margin_right = 416.0
+margin_bottom = 81.0
 text = "Use Discord avatar as loading/saving icon *"
 
 [node name="vsync" type="CheckButton" parent="splitter/left"]
-margin_top = 60.0
-margin_right = 424.0
-margin_bottom = 100.0
+visible = false
+margin_top = 85.0
+margin_right = 416.0
+margin_bottom = 125.0
 text = "VSync"
 
 [node name="vsync_compositor" type="CheckButton" parent="splitter/left"]
+visible = false
 margin_top = 111.0
-margin_right = 424.0
+margin_right = 416.0
 margin_bottom = 151.0
 text = "VSync via compositor"
 
 [node name="enableProtogenTechnology" type="CheckButton" parent="splitter/left"]
-margin_top = 162.0
-margin_right = 424.0
-margin_bottom = 202.0
+margin_top = 92.0
+margin_right = 416.0
+margin_bottom = 132.0
 text = "Enable Protogen technology"
 
 [node name="UseDifferentCharacterSet" type="CheckButton" parent="splitter/left"]
-margin_top = 213.0
-margin_right = 424.0
-margin_bottom = 253.0
+margin_top = 143.0
+margin_right = 416.0
+margin_bottom = 183.0
 text = "Use different character set *"
 
 [node name="HSeparator" type="HSeparator" parent="splitter/left"]
-margin_top = 264.0
-margin_right = 424.0
-margin_bottom = 268.0
+margin_top = 194.0
+margin_right = 416.0
+margin_bottom = 198.0
+
+[node name="CacheClear" type="Button" parent="splitter/left"]
+margin_top = 209.0
+margin_right = 416.0
+margin_bottom = 236.0
+text = "CLear game's cache data"
 
 [node name="NicenseButton" type="Button" parent="splitter/left"]
-margin_top = 279.0
-margin_right = 424.0
-margin_bottom = 306.0
+margin_top = 247.0
+margin_right = 416.0
+margin_bottom = 274.0
 text = "Copyright & Licenses"
 script = ExtResource( 2 )
 
 [node name="HSeparator2" type="HSeparator" parent="splitter/left"]
-margin_top = 317.0
-margin_right = 424.0
-margin_bottom = 321.0
+margin_top = 285.0
+margin_right = 416.0
+margin_bottom = 289.0
 
 [node name="Label" type="Label" parent="splitter/left"]
-margin_top = 332.0
-margin_right = 424.0
-margin_bottom = 435.0
+margin_top = 300.0
+margin_right = 416.0
+margin_bottom = 403.0
 text = "
 WARNING!!!
 
@@ -91,7 +100,7 @@ Options marked with star sign (\"*\") will require game restart to work!"
 autowrap = true
 
 [node name="right" type="VBoxContainer" parent="splitter"]
-margin_left = 428.0
+margin_left = 420.0
 margin_right = 853.0
 margin_bottom = 444.0
 size_flags_horizontal = 3
@@ -99,22 +108,44 @@ size_flags_vertical = 3
 alignment = 1
 
 [node name="Label" type="Label" parent="splitter/right"]
-margin_top = 168.0
-margin_right = 425.0
-margin_bottom = 187.0
+margin_top = 143.0
+margin_right = 433.0
+margin_bottom = 162.0
 text = "Music"
+align = 1
 
 [node name="EnableCustomMusicLibrary" type="CheckButton" parent="splitter/right"]
-margin_top = 191.0
-margin_right = 425.0
-margin_bottom = 231.0
+margin_top = 166.0
+margin_right = 433.0
+margin_bottom = 206.0
 text = "Custom music library *"
 
 [node name="MixWithBuiltinSongs" type="CheckButton" parent="splitter/right"]
-margin_top = 235.0
-margin_right = 425.0
-margin_bottom = 275.0
+margin_top = 210.0
+margin_right = 433.0
+margin_bottom = 250.0
 text = "Play custom library alongside with built-in songs *"
+
+[node name="HSeparator" type="HSeparator" parent="splitter/right"]
+margin_top = 254.0
+margin_right = 433.0
+margin_bottom = 258.0
+
+[node name="Label2" type="Label" parent="splitter/right"]
+margin_top = 262.0
+margin_right = 433.0
+margin_bottom = 281.0
+text = "Audio - Master volume"
+align = 1
+
+[node name="MasterVolume" type="HSlider" parent="splitter/right"]
+margin_top = 285.0
+margin_right = 433.0
+margin_bottom = 301.0
+min_value = -80.0
+max_value = 20.0
+tick_count = 100
+ticks_on_borders = true
 
 [node name="Button" type="Button" parent="."]
 visible = false
@@ -132,6 +163,8 @@ text = "SAVE"
 [connection signal="toggled" from="splitter/left/vsync_compositor" to="." method="_on_vsync_compositor_toggled"]
 [connection signal="toggled" from="splitter/left/enableProtogenTechnology" to="." method="_on_enableProtogenTechnology_toggled"]
 [connection signal="toggled" from="splitter/left/UseDifferentCharacterSet" to="." method="_on_UseDifferentCharacterSet_toggled"]
+[connection signal="pressed" from="splitter/left/CacheClear" to="." method="_on_CacheClear_pressed"]
 [connection signal="toggled" from="splitter/right/EnableCustomMusicLibrary" to="." method="_on_EnableCustomMusicLibrary_toggled"]
 [connection signal="toggled" from="splitter/right/MixWithBuiltinSongs" to="." method="_on_MixWithBuiltinSongs_toggled"]
+[connection signal="value_changed" from="splitter/right/MasterVolume" to="." method="_on_MasterVolume_value_changed"]
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

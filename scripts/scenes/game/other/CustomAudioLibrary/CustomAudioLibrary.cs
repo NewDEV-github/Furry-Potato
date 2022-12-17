@@ -1,7 +1,10 @@
 using System;
+using System.Drawing;
 using System.Linq;
 using Godot;
 using Godot.Collections;
+using NewDEVSharp.Utils.MP3;
+using TagLib;
 
 /// <summary>
 /// Class used to manage all actions related to playing music from user's PC
@@ -10,19 +13,19 @@ public class CustomAudioLibrary : AudioStreamPlayer {
     // List of folders
     private readonly FolderBase _systemMusic = new FolderSystemMusic();
     private readonly FolderBase _systemDocuments = new FolderSystemDocuments();
-    
+    private readonly DataTags _dataTags = new DataTags();
     /// <summary>
     /// Dictionary of folders to look for music files
     /// </summary>
     private readonly Dictionary<string, string> _folderList = new Dictionary<string, string>();
-
+    
     /// <summary>
     /// Called to initialize folder list
     /// </summary>
     void InitFolderList() {
         _folderList.Add("SystemMusic", "_systemMusic");
         _folderList.Add("SystemDocuments", "_systemDocuments");
-
+    
     }
     
     public override void _Ready() {
@@ -52,6 +55,20 @@ public class CustomAudioLibrary : AudioStreamPlayer {
                         if (System.IO.Path.GetExtension(fileName) == ".mp3" || System.IO.Path.GetExtension(fileName) == ".ogg") {
                             returnFiles = returnFiles.Concat(new string[] { fileName }).ToArray();
                             Console.WriteLine($"Found {fileName}");
+                            IPicture img = _dataTags.Image(fileName);
+                            if (img != null) {
+                                string mime = img.MimeType;
+                                Console.WriteLine($"Image mime-type is {mime}");
+                                System.Drawing.Image picturePicture =
+                                    (Bitmap)((new ImageConverter()).ConvertFrom(img.Data.Data));
+                                if (mime == "image/jpeg") {
+                                    picturePicture?.Save(Godot.OS.GetUserDataDir() +
+                                                         $"/cache/{fileName.GetFile()}.jpg");
+                                } else if (mime == "image/png") {
+                                    picturePicture?.Save(Godot.OS.GetUserDataDir() +
+                                                         $"/cache/{fileName.GetFile()}.png");
+                                }
+                            }
                         }
                     }
                 } else {

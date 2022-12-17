@@ -46,9 +46,6 @@ var hierarchy =
     [ "ShopItemBase", "d1/dc3/classShopItemBase.html", [
       [ "ShopItemHeadphones", "d1/d44/classShopItemHeadphones.html", null ]
     ] ],
-    [ "TextureRect", null, [
-      [ "IconFromMp3", "da/dec/classIconFromMp3.html", null ]
-    ] ],
     [ "WindowDialog", null, [
       [ "PartyRatingDetails", "d6/d32/classPartyRatingDetails.html", null ],
       [ "PartyRatingsMenu", "da/d53/classPartyRatingsMenu.html", null ],

@@ -173,15 +173,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>IconFromMp3</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>IconFromMp3</Scope>
-    </TokenIdentifier>
-    <Path>da/dec/classIconFromMp3.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Loader</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -417,6 +408,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_dataTags</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>CustomAudioLibrary</Scope>
+    </TokenIdentifier>
+    <Path>df/d61/classCustomAudioLibrary.html</Path>
+    <Anchor>aae06acc634f16128dfbe8a5a580d6f42</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_dialogic</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -525,17 +526,6 @@
     </TokenIdentifier>
     <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
     <Anchor>ad7259fc2ebb41c07d7db8abf7a0e3261</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>IconFromMp3</Scope>
-    </TokenIdentifier>
-    <Path>da/dec/classIconFromMp3.html</Path>
-    <Anchor>ad127e31abe98bbb37b49b0699e7f1dca</Anchor>
-    <DeclaredIn>IconFromMP3.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1870,17 +1860,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>LoadImageFromAudio</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>IconFromMp3</Scope>
-    </TokenIdentifier>
-    <Path>da/dec/classIconFromMp3.html</Path>
-    <Anchor>a1454aa0e3df9f9f31d95764d36a48570</Anchor>
-    <DeclaredIn>IconFromMP3.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>LoadSave</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2401,15 +2380,5 @@
     <Path>de/d97/DialogicSharp_8cs.html</Path>
     <Anchor>a3f6cb3bf7085d407291ab9a356db1549</Anchor>
     <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Image</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>tdef</Type>
-    </TokenIdentifier>
-    <Path>d7/d10/IconFromMP3_8cs.html</Path>
-    <Anchor>addd86478e6b382b41e2273e6135d05e6</Anchor>
-    <DeclaredIn>IconFromMP3.cs</DeclaredIn>
   </Token>
 </Tokens>

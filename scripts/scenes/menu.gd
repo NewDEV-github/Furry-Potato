@@ -109,6 +109,8 @@ func _on_SaveSelectMenuPopup_SaveDataPreloaded():
 		new_float_data[i] = float($SaveSelectMenuPopup.PreloadedSaveData["float_GameController"][i])
 	GameController.SetNewMultiplierData(new_float_data)
 	
+	OptionController.set_new_data_fields($SaveSelectMenuPopup.PreloadedSaveData["string_OptionController"])
+	
 	get_tree().change_scene("res://scenes/game/game.tscn")
 	MjPlayer.fade_out()
 	$"VideoPlayer".fade_out()

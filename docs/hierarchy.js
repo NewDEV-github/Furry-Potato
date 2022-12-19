@@ -14,7 +14,8 @@ var hierarchy =
       [ "NewDEVSharp.Launcher.Manager", "d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html", null ],
       [ "NewDEVSharp.Server.BaseServer", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html", [
         [ "NewDEVSharp.Server.Auth", "db/d85/classNewDEVSharp_1_1Server_1_1Auth.html", null ]
-      ] ]
+      ] ],
+      [ "NewDEVSharp.Utils.MP3.DataTags", "da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html", null ]
     ] ],
     [ "BaseSave", "d0/dd0/classBaseSave.html", [
       [ "SaveContainer", "d4/d14/classSaveContainer.html", null ]
@@ -23,7 +24,6 @@ var hierarchy =
       [ "SaveManager", "d8/d24/classSaveManager.html", null ]
     ] ],
     [ "NewDEVSharp.Core", "d5/d9c/classNewDEVSharp_1_1Core.html", null ],
-    [ "NewDEVSharp.Utils.MP3.DataTags", "da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html", null ],
     [ "DialogicSharp", "d1/d1c/classDialogicSharp.html", null ],
     [ "FolderBase", "dd/d22/classFolderBase.html", [
       [ "FolderSystemDocuments", "dc/de4/classFolderSystemDocuments.html", null ],

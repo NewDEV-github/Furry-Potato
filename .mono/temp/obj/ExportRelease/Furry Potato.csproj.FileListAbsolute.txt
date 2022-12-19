@@ -13,3 +13,4 @@ D:\GitHub\Furry-Potato\.mono\temp\obj\ExportRelease\Furry Potato.csproj.CoreComp
 D:\GitHub\Furry-Potato\.mono\temp\obj\ExportRelease\Furry Potato.csproj.CopyComplete
 D:\GitHub\Furry-Potato\.mono\temp\obj\ExportRelease\Furry Potato.dll
 D:\GitHub\Furry-Potato\.mono\temp\obj\ExportRelease\Furry Potato.pdb
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\TagLibSharp.dll

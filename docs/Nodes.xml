@@ -275,6 +275,16 @@
                     <Anchor>a64d9bb3cfc69a0005d98941da9ca8977</Anchor>
                    </Node>
                    <Node>
+                    <Name>ClassInit</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>a5cc69fb2d2404c58b769d7e2e826a23a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>a3412e41e46945188d3523b1ecf1d5324</Anchor>
+                   </Node>
+                   <Node>
                     <Name>Copyright</Name>
                     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
                     <Anchor>ae1e4dbf56c26b32adf4941f3e8ea7468</Anchor>
@@ -592,6 +602,16 @@
                     <Name>Author</Name>
                     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
                     <Anchor>a64d9bb3cfc69a0005d98941da9ca8977</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>a5cc69fb2d2404c58b769d7e2e826a23a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>a3412e41e46945188d3523b1ecf1d5324</Anchor>
                    </Node>
                    <Node>
                     <Name>Copyright</Name>
@@ -1559,6 +1579,10 @@
                </Node>
               </Subnodes>
              </Node>
+             <Node>
+              <Name>NewDEVSharp.Utils.MP3.DataTags</Name>
+              <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -1584,10 +1608,6 @@
            <Node>
             <Name>NewDEVSharp.Core</Name>
             <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-           </Node>
-           <Node>
-            <Name>NewDEVSharp.Utils.MP3.DataTags</Name>
-            <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
            </Node>
            <Node>
             <Name>DialogicSharp</Name>
@@ -2211,6 +2231,16 @@
                       <Name>Author</Name>
                       <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
                       <Anchor>a64d9bb3cfc69a0005d98941da9ca8977</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ClassInit</Name>
+                      <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                      <Anchor>a5cc69fb2d2404c58b769d7e2e826a23a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ClassName</Name>
+                      <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                      <Anchor>a3412e41e46945188d3523b1ecf1d5324</Anchor>
                      </Node>
                      <Node>
                       <Name>Copyright</Name>

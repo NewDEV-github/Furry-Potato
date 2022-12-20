@@ -1,5 +1,6 @@
 <map id="NewDEVSharp.Utils.OGG.DataTags" name="NewDEVSharp.Utils.OGG.DataTags">
-<area shape="rect" id="node1" title="Class for holding ogg Data Types" coords="5,152,236,177"/>
-<area shape="rect" id="node2" href="$dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html" title=" " coords="79,79,162,104"/>
-<area shape="rect" id="node3" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="78,5,163,31"/>
+<area shape="rect" id="node1" title="Class for holding ogg Data Types" coords="5,168,236,193"/>
+<area shape="rect" id="node2" href="$dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html" title=" " coords="79,93,162,119"/>
+<area shape="rect" id="node3" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="10,5,95,31"/>
+<area shape="rect" id="node4" href="$d5/d9c/classNewDEVSharp_1_1Core.html" title="Core class used to hold and manage all of the properties" coords="119,5,258,31"/>
 </map>

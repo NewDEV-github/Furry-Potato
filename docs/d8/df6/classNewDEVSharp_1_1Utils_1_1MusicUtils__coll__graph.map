@@ -1,4 +1,5 @@
 <map id="NewDEVSharp.Utils.MusicUtils" name="NewDEVSharp.Utils.MusicUtils">
-<area shape="rect" id="node1" title=" " coords="5,79,208,104"/>
-<area shape="rect" id="node2" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="64,5,149,31"/>
+<area shape="rect" id="node1" title=" " coords="15,93,217,119"/>
+<area shape="rect" id="node2" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="5,5,91,31"/>
+<area shape="rect" id="node3" href="$d5/d9c/classNewDEVSharp_1_1Core.html" title="Core class used to hold and manage all of the properties" coords="115,5,253,31"/>
 </map>

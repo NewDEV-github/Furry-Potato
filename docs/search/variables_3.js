@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['extension_0',['extension',['../dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html#a8b642e27af2f3f09840bfba1453c9ef7',1,'NewDEVSharp::Utils::MusicUtils']]]
+  ['extension_0',['Extension',['../dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html#af8b7a1945fe1358efe6b30a08f9f4b50',1,'NewDEVSharp::Utils::MusicUtils']]]
 ];

@@ -458,9 +458,14 @@
                   <Anchor>a912e47a2260be0e83b3b831cf8a2b0df</Anchor>
                  </Node>
                  <Node>
-                  <Name>extension</Name>
+                  <Name>Core</Name>
                   <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
-                  <Anchor>a8b642e27af2f3f09840bfba1453c9ef7</Anchor>
+                  <Anchor>a7e8c6bf4935983d089e321d2019a6835</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Extension</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>af8b7a1945fe1358efe6b30a08f9f4b50</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -490,6 +495,11 @@
                 <Name>Init</Name>
                 <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                 <Anchor>a240ebb6a5fa1787984b8bb0ae81636dd</Anchor>
+               </Node>
+               <Node>
+                <Name>InitFmod</Name>
+                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+                <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -948,9 +958,14 @@
                   <Anchor>a912e47a2260be0e83b3b831cf8a2b0df</Anchor>
                  </Node>
                  <Node>
-                  <Name>extension</Name>
+                  <Name>Core</Name>
                   <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
-                  <Anchor>a8b642e27af2f3f09840bfba1453c9ef7</Anchor>
+                  <Anchor>a7e8c6bf4935983d089e321d2019a6835</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Extension</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>af8b7a1945fe1358efe6b30a08f9f4b50</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -980,6 +995,11 @@
                 <Name>Init</Name>
                 <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                 <Anchor>a240ebb6a5fa1787984b8bb0ae81636dd</Anchor>
+               </Node>
+               <Node>
+                <Name>InitFmod</Name>
+                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+                <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2857,9 +2877,14 @@
                     <Anchor>a912e47a2260be0e83b3b831cf8a2b0df</Anchor>
                    </Node>
                    <Node>
-                    <Name>extension</Name>
+                    <Name>Core</Name>
                     <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
-                    <Anchor>a8b642e27af2f3f09840bfba1453c9ef7</Anchor>
+                    <Anchor>a7e8c6bf4935983d089e321d2019a6835</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Extension</Name>
+                    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                    <Anchor>af8b7a1945fe1358efe6b30a08f9f4b50</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2901,6 +2926,11 @@
                   <Name>Init</Name>
                   <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                   <Anchor>a240ebb6a5fa1787984b8bb0ae81636dd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>InitFmod</Name>
+                  <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+                  <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

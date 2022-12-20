@@ -10,7 +10,7 @@ var searchData=
   ['computer_7',['Computer',['../d5/de3/classComputer.html',1,'']]],
   ['computer_2ecs_8',['Computer.cs',['../d3/d6c/Computer_8cs.html',1,'']]],
   ['copyright_9',['Copyright',['../da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html#ae1e4dbf56c26b32adf4941f3e8ea7468',1,'NewDEVSharp.Utils.MP3.DataTags.Copyright()'],['../de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html#ae9e4a32e6478a9219e23f9dbcb91adff',1,'NewDEVSharp.Utils.OGG.DataTags.Copyright()'],['../d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html#a2366735b2402e77fefd490237947908d',1,'NewDEVSharp.Utils.WAV.DataTags.Copyright()']]],
-  ['core_10',['Core',['../d5/d9c/classNewDEVSharp_1_1Core.html',1,'NewDEVSharp']]],
+  ['core_10',['Core',['../dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html#a7e8c6bf4935983d089e321d2019a6835',1,'NewDEVSharp.Utils.MusicUtils.Core()'],['../d5/d9c/classNewDEVSharp_1_1Core.html',1,'NewDEVSharp.Core']]],
   ['core_2ecs_11',['Core.cs',['../db/df2/Core_8cs.html',1,'']]],
   ['coreinstance_12',['CoreInstance',['../d0/dd2/classCSharpCore.html#a2b529f7000e90fbe3fb14204bedd11fa',1,'CSharpCore']]],
   ['csharpcore_13',['CSharpCore',['../d0/dd2/classCSharpCore.html',1,'']]],

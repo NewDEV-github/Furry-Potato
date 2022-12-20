@@ -1275,6 +1275,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Core</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.Utils.MusicUtils</Scope>
+    </TokenIdentifier>
+    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+    <Anchor>a7e8c6bf4935983d089e321d2019a6835</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CoreInstance</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -1482,13 +1492,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>extension</Name>
+      <Name>Extension</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
       <Scope>NewDEVSharp.Utils.MusicUtils</Scope>
     </TokenIdentifier>
     <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
-    <Anchor>a8b642e27af2f3f09840bfba1453c9ef7</Anchor>
+    <Anchor>af8b7a1945fe1358efe6b30a08f9f4b50</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1965,6 +1975,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InitFmod</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Core</Scope>
+    </TokenIdentifier>
+    <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+    <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
+    <DeclaredIn>Core.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>InitFolderList</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2155,16 +2176,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>partyData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>ad98fa994611fd6fb9c65d86fd5994716</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>PartyData</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -2172,6 +2183,16 @@
     </TokenIdentifier>
     <Path>da/d3e/classparty.html</Path>
     <Anchor>a846c4cc26f9399266fb338f02813ec7d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>partyData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>PartyRatingsMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d53/classPartyRatingsMenu.html</Path>
+    <Anchor>ad98fa994611fd6fb9c65d86fd5994716</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

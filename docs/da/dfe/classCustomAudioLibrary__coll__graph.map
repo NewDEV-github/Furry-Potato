@@ -1,7 +1,8 @@
 <map id="CustomAudioLibrary" name="CustomAudioLibrary">
-<area shape="rect" id="node1" title="Class used to manage all actions related to playing music from user&#39;s PC" coords="139,183,278,208"/>
-<area shape="rect" id="node2" title=" " coords="5,80,140,105"/>
-<area shape="rect" id="node3" href="$dd/d22/classFolderBase.html" title="Basic abstract class for folders in" coords="165,80,253,105"/>
-<area shape="rect" id="node4" href="$da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html" title="Class for holding MP3 Data Types" coords="277,80,505,105"/>
-<area shape="rect" id="node5" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="349,5,434,31"/>
+<area shape="rect" id="node1" title="Class used to manage all actions related to playing music from user&#39;s PC" coords="139,257,278,283"/>
+<area shape="rect" id="node2" title=" " coords="5,155,140,180"/>
+<area shape="rect" id="node3" href="$dd/d22/classFolderBase.html" title="Basic abstract class for folders in" coords="165,155,253,180"/>
+<area shape="rect" id="node4" href="$da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html" title="Class for holding MP3 Data Types" coords="277,155,505,180"/>
+<area shape="rect" id="node5" href="$dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html" title=" " coords="350,80,433,105"/>
+<area shape="rect" id="node6" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="349,5,434,31"/>
 </map>

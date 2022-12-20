@@ -101,12 +101,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::Server::DataBase</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.Server.DataBase</Scope>
+    </TokenIdentifier>
+    <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewDEVSharp::Utils::MP3::DataTags</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
       <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::Utils::OGG::DataTags</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.Utils.OGG.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::Utils::WAV::DataTags</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.Utils.WAV.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -197,6 +224,15 @@
       <Scope>NewDEVSharp.Launcher.Manager</Scope>
     </TokenIdentifier>
     <Path>d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::Utils::MusicUtils</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.Utils.MusicUtils</Scope>
+    </TokenIdentifier>
+    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -368,6 +404,24 @@
       <Scope>NewDEVSharp::Utils::MP3</Scope>
     </TokenIdentifier>
     <Path>dc/dbf/namespaceNewDEVSharp_1_1Utils_1_1MP3.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::Utils::OGG</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>NewDEVSharp::Utils::OGG</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3a/namespaceNewDEVSharp_1_1Utils_1_1OGG.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::Utils::WAV</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>NewDEVSharp::Utils::WAV</Scope>
+    </TokenIdentifier>
+    <Path>dc/d04/namespaceNewDEVSharp_1_1Utils_1_1WAV.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -757,7 +811,29 @@
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
     <Anchor>aeddf5f0614dfbb7e0f6eef7a34f179d9</Anchor>
-    <DeclaredIn>DataTags.cs</DeclaredIn>
+    <DeclaredIn>MP3/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Album</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.OGG.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+    <Anchor>adebd0cd880fb3f7bd76e25355cdd548c</Anchor>
+    <DeclaredIn>OGG/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Album</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.WAV.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+    <Anchor>a91b2c55d33bf1e0f44802fc2f41854d6</Anchor>
+    <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -768,7 +844,29 @@
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
     <Anchor>a64d9bb3cfc69a0005d98941da9ca8977</Anchor>
-    <DeclaredIn>DataTags.cs</DeclaredIn>
+    <DeclaredIn>MP3/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Author</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.OGG.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+    <Anchor>a9053dee45d36281240e01aa2e3333993</Anchor>
+    <DeclaredIn>OGG/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Author</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.WAV.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+    <Anchor>a6dfcc3b2afc1c05955743764ebd2c539</Anchor>
+    <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -916,11 +1014,55 @@
       <Name>ClassInit</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
+      <Scope>NewDEVSharp.Server.DataBase</Scope>
+    </TokenIdentifier>
+    <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+    <Anchor>ada3b669bf49a89b8cee08668116cb6c8</Anchor>
+    <DeclaredIn>DataBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassInit</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
       <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
     <Anchor>a5cc69fb2d2404c58b769d7e2e826a23a</Anchor>
-    <DeclaredIn>DataTags.cs</DeclaredIn>
+    <DeclaredIn>MP3/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassInit</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MusicUtils</Scope>
+    </TokenIdentifier>
+    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+    <Anchor>a2c9d482bf3f824439d701f2eecfbc9b6</Anchor>
+    <DeclaredIn>MusicUtils.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassInit</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.OGG.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+    <Anchor>aa54cb46a75db67cf071e0b69e6e707b7</Anchor>
+    <DeclaredIn>OGG/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassInit</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.WAV.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+    <Anchor>ad309d80727d8ebec0e5b96609c6b8b2d</Anchor>
+    <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1026,11 +1168,55 @@
       <Name>ClassName</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
+      <Scope>NewDEVSharp.Server.DataBase</Scope>
+    </TokenIdentifier>
+    <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+    <Anchor>a125b6aaeca6f0fa68f148e9d7991ebe9</Anchor>
+    <DeclaredIn>DataBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
       <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
     <Anchor>a3412e41e46945188d3523b1ecf1d5324</Anchor>
-    <DeclaredIn>DataTags.cs</DeclaredIn>
+    <DeclaredIn>MP3/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MusicUtils</Scope>
+    </TokenIdentifier>
+    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+    <Anchor>a7441170f3955bf4df6384671245924c4</Anchor>
+    <DeclaredIn>MusicUtils.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.OGG.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+    <Anchor>a70483a2080277028d0b93c8f737cc507</Anchor>
+    <DeclaredIn>OGG/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.WAV.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+    <Anchor>a4103f161669a081407f38db32226f205</Anchor>
+    <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1063,7 +1249,29 @@
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
     <Anchor>ae1e4dbf56c26b32adf4941f3e8ea7468</Anchor>
-    <DeclaredIn>DataTags.cs</DeclaredIn>
+    <DeclaredIn>MP3/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Copyright</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.OGG.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+    <Anchor>ae9e4a32e6478a9219e23f9dbcb91adff</Anchor>
+    <DeclaredIn>OGG/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Copyright</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.WAV.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+    <Anchor>a2366735b2402e77fefd490237947908d</Anchor>
+    <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1274,6 +1482,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>extension</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.Utils.MusicUtils</Scope>
+    </TokenIdentifier>
+    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+    <Anchor>a8b642e27af2f3f09840bfba1453c9ef7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetClubNameByParty</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1304,6 +1522,17 @@
     <Path>d2/d54/classGameControllerCS.html</Path>
     <Anchor>a21103c0c036ba54b19e31c34ec42986b</Anchor>
     <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetExtension</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MusicUtils</Scope>
+    </TokenIdentifier>
+    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+    <Anchor>a7c658aadbeadf3bccd00db4cd6914592</Anchor>
+    <DeclaredIn>MusicUtils.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1688,7 +1917,29 @@
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
     <Anchor>af37e5818ef49f09b3d66c955362648ad</Anchor>
-    <DeclaredIn>DataTags.cs</DeclaredIn>
+    <DeclaredIn>MP3/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Image</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.OGG.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+    <Anchor>a59182edb9b61529b64f584fb5bad0ef4</Anchor>
+    <DeclaredIn>OGG/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Image</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.WAV.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+    <Anchor>a6672f25e8abfc2f963842cb8f882fb93</Anchor>
+    <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1904,16 +2155,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>PartyData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a846c4cc26f9399266fb338f02813ec7d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>partyData</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -1921,6 +2162,16 @@
     </TokenIdentifier>
     <Path>da/d53/classPartyRatingsMenu.html</Path>
     <Anchor>ad98fa994611fd6fb9c65d86fd5994716</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PartyData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a846c4cc26f9399266fb338f02813ec7d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2029,6 +2280,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Request</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Server.DataBase</Scope>
+    </TokenIdentifier>
+    <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+    <Anchor>a33e8574334d2d529fd3c9a5a90b88195</Anchor>
+    <DeclaredIn>DataBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RequestType</Name>
       <APILanguage>csharp</APILanguage>
       <Type>enum</Type>
@@ -2132,6 +2394,50 @@
     <Path>d2/d54/classGameControllerCS.html</Path>
     <Anchor>a6f7ce8581a2366145f856d9c4b062644</Anchor>
     <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetExtension</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+    <Anchor>aa9ce2fc57bca4c09e23d762151089c92</Anchor>
+    <DeclaredIn>MP3/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetExtension</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.MusicUtils</Scope>
+    </TokenIdentifier>
+    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+    <Anchor>a912e47a2260be0e83b3b831cf8a2b0df</Anchor>
+    <DeclaredIn>MusicUtils.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetExtension</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.OGG.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+    <Anchor>afabad1e9cb2a8106f44b2024a6e6041c</Anchor>
+    <DeclaredIn>OGG/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetExtension</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.WAV.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+    <Anchor>acaa0f762661fabbeaeb7c8fb4bd24220</Anchor>
+    <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2307,7 +2613,29 @@
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
     <Anchor>a50bd72c1b312c72210129d65d0ab8693</Anchor>
-    <DeclaredIn>DataTags.cs</DeclaredIn>
+    <DeclaredIn>MP3/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Title</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.OGG.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+    <Anchor>a6a8f9495a2ffbd7b769c8fe8ef856556</Anchor>
+    <DeclaredIn>OGG/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Title</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.WAV.DataTags</Scope>
+    </TokenIdentifier>
+    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+    <Anchor>a6337fdfc87dc209f30bddc9d418dac80</Anchor>
+    <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2389,9 +2717,29 @@
       <APILanguage>csharp</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d1/db4/DataTags_8cs.html</Path>
+    <Path>de/d85/MP3_2DataTags_8cs.html</Path>
     <Anchor>a391d82177498262e5e2260b76c9de0bc</Anchor>
-    <DeclaredIn>DataTags.cs</DeclaredIn>
+    <DeclaredIn>MP3/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>File</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d8/d02/OGG_2DataTags_8cs.html</Path>
+    <Anchor>a391d82177498262e5e2260b76c9de0bc</Anchor>
+    <DeclaredIn>OGG/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>File</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dd5/WAV_2DataTags_8cs.html</Path>
+    <Anchor>a391d82177498262e5e2260b76c9de0bc</Anchor>
+    <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -1,10 +1,19 @@
 var searchData=
 [
-  ['_2enetframework_2cversion_3dv4_2e7_2e2_2eassemblyattributes_2ecs_0',['.NETFramework,Version=v4.7.2.AssemblyAttributes.cs',['../db/d0e/Release_2_8NETFramework_00Version_0av4_87_82_8AssemblyAttributes_8cs.html',1,'']]],
-  ['_2enetframework_2cversion_3dv4_2e8_2eassemblyattributes_2ecs_1',['.NETFramework,Version=v4.8.AssemblyAttributes.cs',['../de/dd6/Release_2_8NETFramework_00Version_0av4_88_8AssemblyAttributes_8cs.html',1,'']]],
-  ['ratingsclubs_2',['ratingsClubs',['../da/d53/classPartyRatingsMenu.html#ad88e627d45ac700286950a3b8f9970c9',1,'PartyRatingsMenu']]],
-  ['ratingslist_3',['ratingsList',['../da/d53/classPartyRatingsMenu.html#abad846152d311eed6a62779eb08897bd',1,'PartyRatingsMenu']]],
-  ['request_4',['Request',['../db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#ad9c983f2dbf2062ff98e73da93bb45fa',1,'NewDEVSharp.Server.Auth.Request()'],['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a5fbbdc629698f5811f2aec6573ddfe2d',1,'NewDEVSharp.Server.BaseServer.Request(RequestType requestType, string jsonData=&quot;none&quot;)']]],
-  ['requesttype_5',['RequestType',['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a26ee430c987c07c6f6521da65cd32d59',1,'NewDEVSharp::Server::BaseServer']]],
-  ['resetsaves_6',['ResetSaves',['../d1/d1c/classDialogicSharp.html#a32b64065097ff481c6866967d716fdff',1,'DialogicSharp']]]
+  ['party_0',['party',['../da/d3e/classparty.html',1,'']]],
+  ['party_2ecs_1',['party.cs',['../d1/daf/party_8cs.html',1,'']]],
+  ['partydata_2',['partyData',['../da/d53/classPartyRatingsMenu.html#ad98fa994611fd6fb9c65d86fd5994716',1,'PartyRatingsMenu']]],
+  ['partydata_3',['PartyData',['../da/d3e/classparty.html#a846c4cc26f9399266fb338f02813ec7d',1,'party']]],
+  ['partyended_4',['PartyEnded',['../da/d3e/classparty.html#a14b9a1fd76d550d35d8f5420c72a4dc5',1,'party']]],
+  ['partyids_5',['PartyIds',['../da/d3e/classparty.html#a17dcbbbb8fc1a014d857f10e343d9de7',1,'party']]],
+  ['partylist_6',['PartyList',['../d2/d1c/classPartyList.html',1,'']]],
+  ['partylist_2ecs_7',['PartyList.cs',['../db/dbf/PartyList_8cs.html',1,'']]],
+  ['partyratingdetails_8',['PartyRatingDetails',['../d6/d32/classPartyRatingDetails.html',1,'']]],
+  ['partyratingdetails_2ecs_9',['PartyRatingDetails.cs',['../dd/d80/PartyRatingDetails_8cs.html',1,'']]],
+  ['partyratings_10',['partyRatings',['../da/d53/classPartyRatingsMenu.html#abf04d568112d8c11ec4f1d01b50d52da',1,'PartyRatingsMenu']]],
+  ['partyratingsmenu_11',['PartyRatingsMenu',['../da/d53/classPartyRatingsMenu.html',1,'']]],
+  ['partyratingsmenu_2ecs_12',['PartyRatingsMenu.cs',['../d1/de7/PartyRatingsMenu_8cs.html',1,'']]],
+  ['preloaddlcdata_13',['PreLoadDLCData',['../db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a92e233f3645dc31183edb0bacd876b9f',1,'NewDEVSharp::DLC::Manager']]],
+  ['preloadedsavedata_14',['PreloadedSaveData',['../dd/d61/classSaveSelectMenuPopup.html#aab7c957db2254f88a3b446d221f3af0e',1,'SaveSelectMenuPopup']]],
+  ['preloadscene_15',['PreloadScene',['../d9/d5c/classBackgroundLoader.html#a7e680d86816156d6317bc816712cd849',1,'BackgroundLoader']]]
 ];

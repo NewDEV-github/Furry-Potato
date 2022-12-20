@@ -250,6 +250,27 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>DataBase</Name>
+                <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                  <Anchor>ada3b669bf49a89b8cee08668116cb6c8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                  <Anchor>a125b6aaeca6f0fa68f148e9d7991ebe9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Request</Name>
+                  <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                  <Anchor>a33e8574334d2d529fd3c9a5a90b88195</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -295,11 +316,151 @@
                     <Anchor>af37e5818ef49f09b3d66c955362648ad</Anchor>
                    </Node>
                    <Node>
+                    <Name>SetExtension</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>aa9ce2fc57bca4c09e23d762151089c92</Anchor>
+                   </Node>
+                   <Node>
                     <Name>Title</Name>
                     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
                     <Anchor>a50bd72c1b312c72210129d65d0ab8693</Anchor>
                    </Node>
                   </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>OGG</Name>
+                <Path>d2/d3a/namespaceNewDEVSharp_1_1Utils_1_1OGG.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DataTags</Name>
+                  <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>Album</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>adebd0cd880fb3f7bd76e25355cdd548c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Author</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>a9053dee45d36281240e01aa2e3333993</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>aa54cb46a75db67cf071e0b69e6e707b7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>a70483a2080277028d0b93c8f737cc507</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Copyright</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>ae9e4a32e6478a9219e23f9dbcb91adff</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Image</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>a59182edb9b61529b64f584fb5bad0ef4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetExtension</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>afabad1e9cb2a8106f44b2024a6e6041c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Title</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>a6a8f9495a2ffbd7b769c8fe8ef856556</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>WAV</Name>
+                <Path>dc/d04/namespaceNewDEVSharp_1_1Utils_1_1WAV.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DataTags</Name>
+                  <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>Album</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a91b2c55d33bf1e0f44802fc2f41854d6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Author</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a6dfcc3b2afc1c05955743764ebd2c539</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>ad309d80727d8ebec0e5b96609c6b8b2d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a4103f161669a081407f38db32226f205</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Copyright</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a2366735b2402e77fefd490237947908d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Image</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a6672f25e8abfc2f963842cb8f882fb93</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetExtension</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>acaa0f762661fabbeaeb7c8fb4bd24220</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Title</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a6337fdfc87dc209f30bddc9d418dac80</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>MusicUtils</Name>
+                <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a2c9d482bf3f824439d701f2eecfbc9b6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a7441170f3955bf4df6384671245924c4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetExtension</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a7c658aadbeadf3bccd00db4cd6914592</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetExtension</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a912e47a2260be0e83b3b831cf8a2b0df</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>extension</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a8b642e27af2f3f09840bfba1453c9ef7</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -579,6 +740,27 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>DataBase</Name>
+                <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                  <Anchor>ada3b669bf49a89b8cee08668116cb6c8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                  <Anchor>a125b6aaeca6f0fa68f148e9d7991ebe9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Request</Name>
+                  <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                  <Anchor>a33e8574334d2d529fd3c9a5a90b88195</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -624,11 +806,151 @@
                     <Anchor>af37e5818ef49f09b3d66c955362648ad</Anchor>
                    </Node>
                    <Node>
+                    <Name>SetExtension</Name>
+                    <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                    <Anchor>aa9ce2fc57bca4c09e23d762151089c92</Anchor>
+                   </Node>
+                   <Node>
                     <Name>Title</Name>
                     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
                     <Anchor>a50bd72c1b312c72210129d65d0ab8693</Anchor>
                    </Node>
                   </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>OGG</Name>
+                <Path>d2/d3a/namespaceNewDEVSharp_1_1Utils_1_1OGG.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DataTags</Name>
+                  <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>Album</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>adebd0cd880fb3f7bd76e25355cdd548c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Author</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>a9053dee45d36281240e01aa2e3333993</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>aa54cb46a75db67cf071e0b69e6e707b7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>a70483a2080277028d0b93c8f737cc507</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Copyright</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>ae9e4a32e6478a9219e23f9dbcb91adff</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Image</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>a59182edb9b61529b64f584fb5bad0ef4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetExtension</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>afabad1e9cb2a8106f44b2024a6e6041c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Title</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                    <Anchor>a6a8f9495a2ffbd7b769c8fe8ef856556</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>WAV</Name>
+                <Path>dc/d04/namespaceNewDEVSharp_1_1Utils_1_1WAV.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DataTags</Name>
+                  <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>Album</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a91b2c55d33bf1e0f44802fc2f41854d6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Author</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a6dfcc3b2afc1c05955743764ebd2c539</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>ad309d80727d8ebec0e5b96609c6b8b2d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a4103f161669a081407f38db32226f205</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Copyright</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a2366735b2402e77fefd490237947908d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Image</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a6672f25e8abfc2f963842cb8f882fb93</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetExtension</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>acaa0f762661fabbeaeb7c8fb4bd24220</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Title</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                    <Anchor>a6337fdfc87dc209f30bddc9d418dac80</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>MusicUtils</Name>
+                <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a2c9d482bf3f824439d701f2eecfbc9b6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a7441170f3955bf4df6384671245924c4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetExtension</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a7c658aadbeadf3bccd00db4cd6914592</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetExtension</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a912e47a2260be0e83b3b831cf8a2b0df</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>extension</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                  <Anchor>a8b642e27af2f3f09840bfba1453c9ef7</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1577,11 +1899,29 @@
                 <Name>NewDEVSharp.Server.Auth</Name>
                 <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
                </Node>
+               <Node>
+                <Name>NewDEVSharp.Server.DataBase</Name>
+                <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
-              <Name>NewDEVSharp.Utils.MP3.DataTags</Name>
-              <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+              <Name>NewDEVSharp.Utils.MusicUtils</Name>
+              <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>NewDEVSharp.Utils.MP3.DataTags</Name>
+                <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+               </Node>
+               <Node>
+                <Name>NewDEVSharp.Utils.OGG.DataTags</Name>
+                <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+               </Node>
+               <Node>
+                <Name>NewDEVSharp.Utils.WAV.DataTags</Name>
+                <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
             </Subnodes>
            </Node>
@@ -1714,6 +2054,68 @@
            <Node>
             <Name>All</Name>
             <Path>functions.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>_</Name>
+              <Path>functions.html</Path>
+             </Node>
+             <Node>
+              <Name>a</Name>
+              <Path>functions_a.html</Path>
+             </Node>
+             <Node>
+              <Name>c</Name>
+              <Path>functions_c.html</Path>
+             </Node>
+             <Node>
+              <Name>d</Name>
+              <Path>functions_d.html</Path>
+             </Node>
+             <Node>
+              <Name>e</Name>
+              <Path>functions_e.html</Path>
+             </Node>
+             <Node>
+              <Name>g</Name>
+              <Path>functions_g.html</Path>
+             </Node>
+             <Node>
+              <Name>h</Name>
+              <Path>functions_h.html</Path>
+             </Node>
+             <Node>
+              <Name>i</Name>
+              <Path>functions_i.html</Path>
+             </Node>
+             <Node>
+              <Name>j</Name>
+              <Path>functions_j.html</Path>
+             </Node>
+             <Node>
+              <Name>l</Name>
+              <Path>functions_l.html</Path>
+             </Node>
+             <Node>
+              <Name>p</Name>
+              <Path>functions_p.html</Path>
+             </Node>
+             <Node>
+              <Name>r</Name>
+              <Path>functions_r.html</Path>
+             </Node>
+             <Node>
+              <Name>s</Name>
+              <Path>functions_s.html</Path>
+             </Node>
+             <Node>
+              <Name>t</Name>
+              <Path>functions_t.html</Path>
+             </Node>
+             <Node>
+              <Name>w</Name>
+              <Path>functions_w.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>Functions</Name>
@@ -2204,6 +2606,33 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>DataBase.cs</Name>
+                <Path>d2/d8d/DataBase_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.Server.DataBase</Name>
+                  <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                    <Anchor>ada3b669bf49a89b8cee08668116cb6c8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                    <Anchor>a125b6aaeca6f0fa68f148e9d7991ebe9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Request</Name>
+                    <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
+                    <Anchor>a33e8574334d2d529fd3c9a5a90b88195</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -2215,8 +2644,8 @@
                 <Path>dir_3b60e26a606f70fd5d160ff6b0002bf6.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>DataTags.cs</Name>
-                  <Path>d1/db4/DataTags_8cs.html</Path>
+                  <Name>MP3/DataTags.cs</Name>
+                  <Path>de/d85/MP3_2DataTags_8cs.html</Path>
                 <Subnodes>
                    <Node>
                     <Name>NewDEVSharp.Utils.MP3.DataTags</Name>
@@ -2253,6 +2682,11 @@
                       <Anchor>af37e5818ef49f09b3d66c955362648ad</Anchor>
                      </Node>
                      <Node>
+                      <Name>SetExtension</Name>
+                      <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
+                      <Anchor>aa9ce2fc57bca4c09e23d762151089c92</Anchor>
+                     </Node>
+                     <Node>
                       <Name>Title</Name>
                       <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
                       <Anchor>a50bd72c1b312c72210129d65d0ab8693</Anchor>
@@ -2261,8 +2695,171 @@
                    </Node>
                    <Node>
                     <Name>File</Name>
-                    <Path>d1/db4/DataTags_8cs.html</Path>
+                    <Path>de/d85/MP3_2DataTags_8cs.html</Path>
                     <Anchor>a391d82177498262e5e2260b76c9de0bc</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>OGG</Name>
+                <Path>dir_2f5bb2b352f500c1518d34bd6247bfe0.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>OGG/DataTags.cs</Name>
+                  <Path>d8/d02/OGG_2DataTags_8cs.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>NewDEVSharp.Utils.OGG.DataTags</Name>
+                    <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>Album</Name>
+                      <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                      <Anchor>adebd0cd880fb3f7bd76e25355cdd548c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Author</Name>
+                      <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                      <Anchor>a9053dee45d36281240e01aa2e3333993</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ClassInit</Name>
+                      <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                      <Anchor>aa54cb46a75db67cf071e0b69e6e707b7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ClassName</Name>
+                      <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                      <Anchor>a70483a2080277028d0b93c8f737cc507</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Copyright</Name>
+                      <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                      <Anchor>ae9e4a32e6478a9219e23f9dbcb91adff</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Image</Name>
+                      <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                      <Anchor>a59182edb9b61529b64f584fb5bad0ef4</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SetExtension</Name>
+                      <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                      <Anchor>afabad1e9cb2a8106f44b2024a6e6041c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Title</Name>
+                      <Path>de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html</Path>
+                      <Anchor>a6a8f9495a2ffbd7b769c8fe8ef856556</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>File</Name>
+                    <Path>d8/d02/OGG_2DataTags_8cs.html</Path>
+                    <Anchor>a391d82177498262e5e2260b76c9de0bc</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>WAV</Name>
+                <Path>dir_a2c36ff6962782939cd919166d9e8357.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>WAV/DataTags.cs</Name>
+                  <Path>d3/dd5/WAV_2DataTags_8cs.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>NewDEVSharp.Utils.WAV.DataTags</Name>
+                    <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>Album</Name>
+                      <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                      <Anchor>a91b2c55d33bf1e0f44802fc2f41854d6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Author</Name>
+                      <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                      <Anchor>a6dfcc3b2afc1c05955743764ebd2c539</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ClassInit</Name>
+                      <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                      <Anchor>ad309d80727d8ebec0e5b96609c6b8b2d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ClassName</Name>
+                      <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                      <Anchor>a4103f161669a081407f38db32226f205</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Copyright</Name>
+                      <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                      <Anchor>a2366735b2402e77fefd490237947908d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Image</Name>
+                      <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                      <Anchor>a6672f25e8abfc2f963842cb8f882fb93</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SetExtension</Name>
+                      <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                      <Anchor>acaa0f762661fabbeaeb7c8fb4bd24220</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Title</Name>
+                      <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
+                      <Anchor>a6337fdfc87dc209f30bddc9d418dac80</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>File</Name>
+                    <Path>d3/dd5/WAV_2DataTags_8cs.html</Path>
+                    <Anchor>a391d82177498262e5e2260b76c9de0bc</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>MusicUtils.cs</Name>
+                <Path>d9/d1e/MusicUtils_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.Utils.MusicUtils</Name>
+                  <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                    <Anchor>a2c9d482bf3f824439d701f2eecfbc9b6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                    <Anchor>a7441170f3955bf4df6384671245924c4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetExtension</Name>
+                    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                    <Anchor>a7c658aadbeadf3bccd00db4cd6914592</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetExtension</Name>
+                    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                    <Anchor>a912e47a2260be0e83b3b831cf8a2b0df</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>extension</Name>
+                    <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
+                    <Anchor>a8b642e27af2f3f09840bfba1453c9ef7</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>

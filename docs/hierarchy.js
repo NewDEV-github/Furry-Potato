@@ -13,9 +13,14 @@ var hierarchy =
       [ "NewDEVSharp.DLC.Verifier", "da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html", null ],
       [ "NewDEVSharp.Launcher.Manager", "d2/d27/classNewDEVSharp_1_1Launcher_1_1Manager.html", null ],
       [ "NewDEVSharp.Server.BaseServer", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html", [
-        [ "NewDEVSharp.Server.Auth", "db/d85/classNewDEVSharp_1_1Server_1_1Auth.html", null ]
+        [ "NewDEVSharp.Server.Auth", "db/d85/classNewDEVSharp_1_1Server_1_1Auth.html", null ],
+        [ "NewDEVSharp.Server.DataBase", "d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html", null ]
       ] ],
-      [ "NewDEVSharp.Utils.MP3.DataTags", "da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html", null ]
+      [ "NewDEVSharp.Utils.MusicUtils", "dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html", [
+        [ "NewDEVSharp.Utils.MP3.DataTags", "da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html", null ],
+        [ "NewDEVSharp.Utils.OGG.DataTags", "de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html", null ],
+        [ "NewDEVSharp.Utils.WAV.DataTags", "d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html", null ]
+      ] ]
     ] ],
     [ "BaseSave", "d0/dd0/classBaseSave.html", [
       [ "SaveContainer", "d4/d14/classSaveContainer.html", null ]

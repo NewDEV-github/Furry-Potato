@@ -8,6 +8,7 @@ var classparty =
     [ "GetPartyRatings", "da/d3e/classparty.html#abc21dcd5624f99209bc8b42f16d8cc19", null ],
     [ "PartyEnded", "da/d3e/classparty.html#a14b9a1fd76d550d35d8f5420c72a4dc5", null ],
     [ "StartParty", "da/d3e/classparty.html#a6644dc2090b3ac30dca8c08c454dec45", null ],
+    [ "_clubController", "da/d3e/classparty.html#ac8b022d722c5c1f51e7cee630e3a406e", null ],
     [ "_partyRatings", "da/d3e/classparty.html#abaa2ad2c71c59037e49f88debe0dcc1f", null ],
     [ "CurrentPartyId", "da/d3e/classparty.html#afb411a2a022612decf5ba18c063a3efc", null ],
     [ "DonePartys", "da/d3e/classparty.html#abab5d057b0191a31a79349fdff6d52cd", null ],

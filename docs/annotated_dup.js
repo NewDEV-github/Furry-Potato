@@ -36,6 +36,7 @@ var annotated_dup =
     ] ],
     [ "BackgroundLoader", "d9/d5c/classBackgroundLoader.html", "d9/d5c/classBackgroundLoader" ],
     [ "BaseSave", "d0/dd0/classBaseSave.html", "d0/dd0/classBaseSave" ],
+    [ "ClubController", "d8/d14/classClubController.html", "d8/d14/classClubController" ],
     [ "Computer", "d5/de3/classComputer.html", "d5/de3/classComputer" ],
     [ "CSharpCore", "d0/dd2/classCSharpCore.html", "d0/dd2/classCSharpCore" ],
     [ "CustomAudioLibrary", "df/d61/classCustomAudioLibrary.html", "df/d61/classCustomAudioLibrary" ],

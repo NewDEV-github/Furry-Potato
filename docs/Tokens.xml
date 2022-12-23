@@ -65,6 +65,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ClubController</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>ClubController</Scope>
+    </TokenIdentifier>
+    <Path>d8/d14/classClubController.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Computer</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -439,6 +448,16 @@
     </TokenIdentifier>
     <Path>d5/deb/classShopItemManager.html</Path>
     <Anchor>a3dbc298dd6f4c55c9223e36d8a3176c9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_clubController</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>ac8b022d722c5c1f51e7cee630e3a406e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1228,6 +1247,26 @@
     <Path>d9/d5c/classBackgroundLoader.html</Path>
     <Anchor>a9523179cc2082561f774b7bc0ec5882a</Anchor>
     <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClubData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>ClubController</Scope>
+    </TokenIdentifier>
+    <Path>d8/d14/classClubController.html</Path>
+    <Anchor>a778388212e08acfa4557e513e3b4625d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClubIds</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>ClubController</Scope>
+    </TokenIdentifier>
+    <Path>d8/d14/classClubController.html</Path>
+    <Anchor>a7b4db6f87c7ad6ba933b0aa2b433fcf8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

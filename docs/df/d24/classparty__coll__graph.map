@@ -1,5 +1,6 @@
 <map id="party" name="party">
-<area shape="rect" id="node1" title="PartyController singleton" coords="45,108,95,133"/>
+<area shape="rect" id="node1" title="PartyController singleton" coords="49,185,99,211"/>
 <area shape="rect" id="node2" title=" " coords="5,5,57,31"/>
-<area shape="rect" id="node3" title=" " coords="81,5,139,31"/>
+<area shape="rect" id="node3" href="$d8/d14/classClubController.html" title="This class controls data of in&#45;game Clubs, like e.g. their names and managers" coords="33,95,136,121"/>
+<area shape="rect" id="node4" title=" " coords="87,5,144,31"/>
 </map>

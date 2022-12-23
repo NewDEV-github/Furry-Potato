@@ -42,6 +42,7 @@ var hierarchy =
       [ "CSharpCore", "d0/dd2/classCSharpCore.html", [
         [ "GameControllerCS", "d2/d54/classGameControllerCS.html", null ]
       ] ],
+      [ "ClubController", "d8/d14/classClubController.html", null ],
       [ "Computer", "d5/de3/classComputer.html", null ],
       [ "Loader", "d5/d5c/classLoader.html", null ],
       [ "Saver", "dd/de5/classSaver.html", null ],

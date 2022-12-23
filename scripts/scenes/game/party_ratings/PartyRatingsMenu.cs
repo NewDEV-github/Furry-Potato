@@ -4,7 +4,6 @@ using Godot;
 
 /// <summary>
 /// This class controls Party Ratings menu including displaying and showing rating details
-/// @todo Change displaying club id to actual club name
 /// </summary>
 public class PartyRatingsMenu : WindowDialog {
     

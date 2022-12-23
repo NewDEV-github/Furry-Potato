@@ -1093,6 +1093,22 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>ClubController</Name>
+            <Path>d8/d14/classClubController.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>ClubData</Name>
+              <Path>d8/d14/classClubController.html</Path>
+              <Anchor>a778388212e08acfa4557e513e3b4625d</Anchor>
+             </Node>
+             <Node>
+              <Name>ClubIds</Name>
+              <Path>d8/d14/classClubController.html</Path>
+              <Anchor>a7b4db6f87c7ad6ba933b0aa2b433fcf8</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Computer</Name>
             <Path>d5/de3/classComputer.html</Path>
           <Subnodes>
@@ -1459,6 +1475,11 @@
               <Name>StartParty</Name>
               <Path>da/d3e/classparty.html</Path>
               <Anchor>a6644dc2090b3ac30dca8c08c454dec45</Anchor>
+             </Node>
+             <Node>
+              <Name>_clubController</Name>
+              <Path>da/d3e/classparty.html</Path>
+              <Anchor>ac8b022d722c5c1f51e7cee630e3a406e</Anchor>
              </Node>
              <Node>
               <Name>_partyRatings</Name>
@@ -2014,6 +2035,10 @@
                 <Path>d2/d54/classGameControllerCS.html</Path>
                </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>ClubController</Name>
+              <Path>d8/d14/classClubController.html</Path>
              </Node>
              <Node>
               <Name>Computer</Name>
@@ -3299,6 +3324,11 @@
                         <Anchor>a6644dc2090b3ac30dca8c08c454dec45</Anchor>
                        </Node>
                        <Node>
+                        <Name>_clubController</Name>
+                        <Path>da/d3e/classparty.html</Path>
+                        <Anchor>ac8b022d722c5c1f51e7cee630e3a406e</Anchor>
+                       </Node>
+                       <Node>
                         <Name>_partyRatings</Name>
                         <Path>da/d3e/classparty.html</Path>
                         <Anchor>abaa2ad2c71c59037e49f88debe0dcc1f</Anchor>
@@ -3768,6 +3798,28 @@
               <Name>singletons</Name>
               <Path>dir_ee99fe4686a494042e46813d9c2896fe.html</Path>
             <Subnodes>
+               <Node>
+                <Name>ClubController.cs</Name>
+                <Path>d4/dbc/ClubController_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClubController</Name>
+                  <Path>d8/d14/classClubController.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClubData</Name>
+                    <Path>d8/d14/classClubController.html</Path>
+                    <Anchor>a778388212e08acfa4557e513e3b4625d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClubIds</Name>
+                    <Path>d8/d14/classClubController.html</Path>
+                    <Anchor>a7b4db6f87c7ad6ba933b0aa2b433fcf8</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
                <Node>
                 <Name>GameControllerCS.cs</Name>
                 <Path>d0/de8/GameControllerCS_8cs.html</Path>

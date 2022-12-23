@@ -7,8 +7,9 @@ using Godot;
 /// PartyController singleton
 /// </summary>
 public class party : Node {
-    
-    /// <summary>
+	private ClubController _clubController = new ClubController();
+
+	/// <summary>
     /// PartyEnded signal. Emitted with parameters, when party has finished.
     /// </summary>
     [Signal]
@@ -170,8 +171,7 @@ public class party : Node {
     /// </summary>
     /// <param name="partyId">Id of the party</param>
     /// <returns>Club name</returns>
-    /// @todo Make this really returning club name, not it's id
     public string GetClubNameByParty(string partyId) {
-	    return PartyData[partyId + "_club_id"].ToString();
+	    return _clubController.ClubData[PartyData[partyId + "_club_id"].ToString() + "_name"];
     }
 }

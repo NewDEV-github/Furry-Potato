@@ -143,7 +143,7 @@ func _on_PauseMenu_visibility_changed():
 func on_party_ended(current_party_id, party_rewards_money, party_rewards_exp, party_rewards_music_quality):
 	$Manager/menus/EmailMenu/EmailPreview.hide()
 	$Manager/menus/EmailMenu.hide()
-	var c_n = ClubController.club_data[str(PartyCS.PartyData[current_party_id+"_club_id"])+"_name"]
+	var c_n = ClubController.ClubData[str(PartyCS.PartyData[current_party_id+"_club_id"])+"_name"]
 	_render_party_results(c_n, party_rewards_money, party_rewards_exp, party_rewards_music_quality)
 	if str(current_party_id) == '0':
 		var dialog = Dialogic.start('first_party_end')

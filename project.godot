@@ -111,6 +111,7 @@ config/windows_native_icon="res://icon.ico"
 
 [autoload]
 
+ClubController="*res://scripts/singletons/ClubController.cs"
 PartyCS="*res://scripts/scenes/game/other/party.cs"
 PartyController="*res://scenes/game/other/party.tscn"
 LoadingSavingDataIcon="*res://scenes/loading_saving_data_icon.tscn"
@@ -118,7 +119,6 @@ Globals="*res://scripts/singletons/Globals.gd"
 Nicense="*res://addons/nicense/nicense.gd"
 SaveController="*res://scripts/singletons/SaveController.gd"
 DiscordSDK="*res://scripts/singletons/DiscordSDK.gd"
-ClubController="*res://scripts/singletons/ClubController.gd"
 MjPlayer="*res://scenes/game/other/MJPlayer.tscn"
 Player="*res://scenes/game/other/Player.tscn"
 SaveManager="*res://scenes/singletons/SaveManager.tscn"

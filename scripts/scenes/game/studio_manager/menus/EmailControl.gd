@@ -65,7 +65,7 @@ func check_emails():
 		if current_experience >= all_partys_data[i + "_req_experience"]:
 			print("Found party!")
 			var club_id = all_partys_data[i+"_club_id"]
-			var party_club = ClubController.club_data[str(club_id)+"_name"]
+			var party_club = ClubController.ClubData[str(club_id)+"_name"]
 			if PartyController.check_if_party_was_done(i) == false:
 				var p_email = str(GameController.GetStrings()["DJName"]).to_lower().replace(' ', '_')
 				var p_domain = str(GameController.GetStrings()["PlayerEmailDomain"])

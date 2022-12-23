@@ -1,0 +1,4 @@
+<map id="ClubController" name="ClubController">
+<area shape="rect" id="node1" title="This class controls data of in&#45;game Clubs, like e.g. their names and managers" coords="5,79,108,104"/>
+<area shape="rect" id="node2" title=" " coords="31,5,83,31"/>
+</map>

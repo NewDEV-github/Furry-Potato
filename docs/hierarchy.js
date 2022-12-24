@@ -5,7 +5,6 @@ var hierarchy =
     ] ],
     [ "NewDEVSharp.BaseClass", "d9/db7/classNewDEVSharp_1_1BaseClass.html", [
       [ "NewDEVSharp.Collections.DictionaryConverter", "d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html", null ],
-      [ "NewDEVSharp.DLC.Auth", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html", null ],
       [ "NewDEVSharp.DLC.DLC", "de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html", [
         [ "NewDEVSharp.DLC.BaseDLC", "d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html", null ]
       ] ],
@@ -16,6 +15,7 @@ var hierarchy =
         [ "NewDEVSharp.Server.Auth", "db/d85/classNewDEVSharp_1_1Server_1_1Auth.html", null ],
         [ "NewDEVSharp.Server.DataBase", "d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html", null ]
       ] ],
+      [ "NewDEVSharp.User.Auth", "de/d43/classNewDEVSharp_1_1User_1_1Auth.html", null ],
       [ "NewDEVSharp.Utils.MusicUtils", "dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html", [
         [ "NewDEVSharp.Utils.MP3.DataTags", "da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html", null ],
         [ "NewDEVSharp.Utils.OGG.DataTags", "de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html", null ],

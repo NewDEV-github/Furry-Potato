@@ -24,6 +24,7 @@ var searchData=
   ['getsavenamesarray_21',['GetSaveNamesArray',['../d8/d24/classSaveManager.html#aee5f7c5120d11f65af643dc9fd4c691f',1,'SaveManager']]],
   ['getslotnames_22',['GetSlotNames',['../d1/d1c/classDialogicSharp.html#a465c4fa45ee25c209cb58294935c00d5',1,'DialogicSharp']]],
   ['getstrings_23',['GetStrings',['../d2/d54/classGameControllerCS.html#acb9e1e3ede1761db2fff9daf4c2e1e5a',1,'GameControllerCS']]],
-  ['getvariable_24',['GetVariable',['../d1/d1c/classDialogicSharp.html#a3fe12447d9b6677d4908a361a0ba5856',1,'DialogicSharp']]],
-  ['godottosystem_25',['GodotToSystem',['../d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html#a75c9261dda3fcef4608ecb8556630088',1,'NewDEVSharp::Collections::DictionaryConverter']]]
+  ['getuserdata_24',['GetUserData',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a18b32ed925ce60ee0ee3c33c555878b9',1,'NewDEVSharp::User::Auth']]],
+  ['getvariable_25',['GetVariable',['../d1/d1c/classDialogicSharp.html#a3fe12447d9b6677d4908a361a0ba5856',1,'DialogicSharp']]],
+  ['godottosystem_26',['GodotToSystem',['../d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html#a75c9261dda3fcef4608ecb8556630088',1,'NewDEVSharp::Collections::DictionaryConverter']]]
 ];

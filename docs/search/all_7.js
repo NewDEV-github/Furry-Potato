@@ -15,7 +15,7 @@ var searchData=
   ['getitemdata_12',['GetItemData',['../d5/deb/classShopItemManager.html#a2afe8e4dc40861a1347d5356609883b7',1,'ShopItemManager']]],
   ['getitemdescription_13',['GetItemDescription',['../d1/d44/classShopItemHeadphones.html#aeaefcfbd31aea37a76243c1d527c6f2c',1,'ShopItemHeadphones.GetItemDescription()'],['../d1/dc3/classShopItemBase.html#ae67a4d98abc4f228289e0699ff4ac321',1,'ShopItemBase.GetItemDescription()']]],
   ['getitemexperiencemultiplier_14',['GetItemExperienceMultiplier',['../d1/d44/classShopItemHeadphones.html#a84e3726faab05358529258a8cb805a49',1,'ShopItemHeadphones.GetItemExperienceMultiplier()'],['../d1/dc3/classShopItemBase.html#a0be37ff8dc2c95ccd8d2f8601b52511f',1,'ShopItemBase.GetItemExperienceMultiplier()']]],
-  ['getitemiconpath_15',['GetItemIconPath',['../d1/dc3/classShopItemBase.html#a790bc7168cb570c7a16b7f36c625be25',1,'ShopItemBase.GetItemIconPath()'],['../d1/d44/classShopItemHeadphones.html#a080796407ee054e09081269f790a6a0d',1,'ShopItemHeadphones.GetItemIconPath()']]],
+  ['getitemiconpath_15',['GetItemIconPath',['../d1/d44/classShopItemHeadphones.html#a080796407ee054e09081269f790a6a0d',1,'ShopItemHeadphones.GetItemIconPath()'],['../d1/dc3/classShopItemBase.html#a790bc7168cb570c7a16b7f36c625be25',1,'ShopItemBase.GetItemIconPath()']]],
   ['getitemlist_16',['GetItemList',['../d5/deb/classShopItemManager.html#a13f0e40a3c7932a95e1d73d3fb5ba6f6',1,'ShopItemManager']]],
   ['getitemmusicqualitymultiplier_17',['GetItemMusicQualityMultiplier',['../d1/d44/classShopItemHeadphones.html#a5bae7bd055a856fcf3b997a2e515b70a',1,'ShopItemHeadphones.GetItemMusicQualityMultiplier()'],['../d1/dc3/classShopItemBase.html#aa0cb2bc19d4c01e3f0182eba02df4246',1,'ShopItemBase.GetItemMusicQualityMultiplier()']]],
   ['getitemname_18',['GetItemName',['../d1/d44/classShopItemHeadphones.html#a94feb30d7140226b26a55c6f3d75abcf',1,'ShopItemHeadphones.GetItemName()'],['../d1/dc3/classShopItemBase.html#a04c1cefc217b8cdefa6cb736bad44287',1,'ShopItemBase.GetItemName()']]],
@@ -27,6 +27,7 @@ var searchData=
   ['getsavenamesarray_24',['GetSaveNamesArray',['../d8/d24/classSaveManager.html#aee5f7c5120d11f65af643dc9fd4c691f',1,'SaveManager']]],
   ['getslotnames_25',['GetSlotNames',['../d1/d1c/classDialogicSharp.html#a465c4fa45ee25c209cb58294935c00d5',1,'DialogicSharp']]],
   ['getstrings_26',['GetStrings',['../d2/d54/classGameControllerCS.html#acb9e1e3ede1761db2fff9daf4c2e1e5a',1,'GameControllerCS']]],
-  ['getvariable_27',['GetVariable',['../d1/d1c/classDialogicSharp.html#a3fe12447d9b6677d4908a361a0ba5856',1,'DialogicSharp']]],
-  ['godottosystem_28',['GodotToSystem',['../d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html#a75c9261dda3fcef4608ecb8556630088',1,'NewDEVSharp::Collections::DictionaryConverter']]]
+  ['getuserdata_27',['GetUserData',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a18b32ed925ce60ee0ee3c33c555878b9',1,'NewDEVSharp::User::Auth']]],
+  ['getvariable_28',['GetVariable',['../d1/d1c/classDialogicSharp.html#a3fe12447d9b6677d4908a361a0ba5856',1,'DialogicSharp']]],
+  ['godottosystem_29',['GodotToSystem',['../d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html#a75c9261dda3fcef4608ecb8556630088',1,'NewDEVSharp::Collections::DictionaryConverter']]]
 ];

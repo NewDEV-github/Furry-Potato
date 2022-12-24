@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['default_5fdialog_5fresource_0',['DEFAULT_DIALOG_RESOURCE',['../d1/d1c/classDialogicSharp.html#a4346fe4d54d8b1ffcffe2ba30848e1f6',1,'DialogicSharp']]],
-  ['dlcbasepath_1',['DLCBasePath',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#aec3d9b9bf723f3de9de0c1449fa8cf77',1,'NewDEVSharp::DLC::DLC']]],
-  ['dlcfiles_2',['DLCFiles',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a15e8b67b25bd267e24ec7beb9db03564',1,'NewDEVSharp::DLC::DLC']]],
-  ['dlcgame_3',['DLCGame',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#adca693169d99af309340d5f19b6f2519',1,'NewDEVSharp::DLC::DLC']]],
-  ['dlcid_4',['DLCID',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a726844d7d1ca036c86bd50d3a565c986',1,'NewDEVSharp::DLC::DLC']]],
-  ['dlcname_5',['DLCName',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a19d994fedd69c4cc0e1211db90d73e3a',1,'NewDEVSharp::DLC::DLC']]],
-  ['donepartys_6',['DonePartys',['../da/d3e/classparty.html#abab5d057b0191a31a79349fdff6d52cd',1,'party']]]
+  ['canchange_0',['CanChange',['../d9/d5c/classBackgroundLoader.html#a7cb7630bd66bbcdaf489a61fa8fbbcbe',1,'BackgroundLoader']]],
+  ['clubdata_1',['ClubData',['../d8/d14/classClubController.html#a778388212e08acfa4557e513e3b4625d',1,'ClubController']]],
+  ['clubids_2',['ClubIds',['../d8/d14/classClubController.html#a7b4db6f87c7ad6ba933b0aa2b433fcf8',1,'ClubController']]],
+  ['core_3',['Core',['../dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html#a7e8c6bf4935983d089e321d2019a6835',1,'NewDEVSharp::Utils::MusicUtils']]],
+  ['coreinstance_4',['CoreInstance',['../d0/dd2/classCSharpCore.html#a2b529f7000e90fbe3fb14204bedd11fa',1,'CSharpCore']]],
+  ['currentpartyid_5',['CurrentPartyId',['../da/d3e/classparty.html#afb411a2a022612decf5ba18c063a3efc',1,'party']]],
+  ['currentsavename_6',['CurrentSaveName',['../d2/d54/classGameControllerCS.html#aa6944ebfc334165e26400938f18a06c7',1,'GameControllerCS']]]
 ];

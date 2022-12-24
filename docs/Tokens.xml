@@ -2,21 +2,21 @@
 <Tokens version="1.0">
   <Token>
     <TokenIdentifier>
-      <Name>NewDEVSharp::DLC::Auth</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>NewDEVSharp.DLC.Auth</Scope>
-    </TokenIdentifier>
-    <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>NewDEVSharp::Server::Auth</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
       <Scope>NewDEVSharp.Server.Auth</Scope>
     </TokenIdentifier>
     <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewDEVSharp::User::Auth</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -398,6 +398,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewDEVSharp::User</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>NewDEVSharp::User</Scope>
+    </TokenIdentifier>
+    <Path>d6/d96/namespaceNewDEVSharp_1_1User.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewDEVSharp::Utils</Name>
       <APILanguage>csharp</APILanguage>
       <Type>ns</Type>
@@ -441,6 +450,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_authS</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+    <Anchor>a3262da0b9687845af89579aad9ea12e9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_casualHeadphones</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -481,6 +500,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_dataBaseS</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+    <Anchor>a33b6d9bac97e342d2f5946380bd17aca</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_dataTags</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -498,6 +527,16 @@
     </TokenIdentifier>
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>aa083ff3f5c19d959d44677204d606fe7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_firebaseAuth</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+    <Anchor>a87b7752a808471ccfff758afe6b60fea</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -856,6 +895,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>App</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.Core</Scope>
+    </TokenIdentifier>
+    <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+    <Anchor>aa06088dfd1846b57edf108a59bc43b60</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Author</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -956,17 +1005,6 @@
       <Name>ClassInit</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
-      <Scope>NewDEVSharp.DLC.Auth</Scope>
-    </TokenIdentifier>
-    <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-    <Anchor>a2ddb78e42bfd2a3aaf2b84d20f6fbf22</Anchor>
-    <DeclaredIn>DLC/Auth.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClassInit</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
       <Scope>NewDEVSharp.DLC.DLC</Scope>
     </TokenIdentifier>
     <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
@@ -1044,6 +1082,17 @@
       <Name>ClassInit</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+    <Anchor>aaf55fadc21e1aaf659175e6e4262469b</Anchor>
+    <DeclaredIn>User/Auth.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassInit</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
       <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
@@ -1104,17 +1153,6 @@
     <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
     <Anchor>ab8270232ff19ccb34a803a7ee6952fff</Anchor>
     <DeclaredIn>DictionaryConverter.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClassName</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>NewDEVSharp.DLC.Auth</Scope>
-    </TokenIdentifier>
-    <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-    <Anchor>a1a56db36d62a17ded71fb71527d94153</Anchor>
-    <DeclaredIn>DLC/Auth.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1192,6 +1230,17 @@
     <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
     <Anchor>a125b6aaeca6f0fa68f148e9d7991ebe9</Anchor>
     <DeclaredIn>DataBase.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+    <Anchor>a06ed106dece48c8fdf2711e908d255f6</Anchor>
+    <DeclaredIn>User/Auth.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1926,6 +1975,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetUserData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+    <Anchor>a18b32ed925ce60ee0ee3c33c555878b9</Anchor>
+    <DeclaredIn>User/Auth.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetVariable</Name>
       <APILanguage>csharp</APILanguage>
       <Type>clm</Type>
@@ -2215,6 +2275,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Login</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+    <Anchor>a6f6f323c6a25e42c2d8682d4fe896760</Anchor>
+    <DeclaredIn>User/Auth.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>PartyData</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -2263,6 +2334,16 @@
     </TokenIdentifier>
     <Path>da/d53/classPartyRatingsMenu.html</Path>
     <Anchor>abf04d568112d8c11ec4f1d01b50d52da</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Post</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+    <Anchor>a9400bcc3ae2c84aad7cefc2ea3abd798</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2315,6 +2396,17 @@
     </TokenIdentifier>
     <Path>da/d53/classPartyRatingsMenu.html</Path>
     <Anchor>abad846152d311eed6a62779eb08897bd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Register</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.User.Auth</Scope>
+    </TokenIdentifier>
+    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+    <Anchor>a5419a35d5cafa719233dcdd0dc0274b1</Anchor>
+    <DeclaredIn>User/Auth.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

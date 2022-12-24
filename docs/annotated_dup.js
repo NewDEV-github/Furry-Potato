@@ -5,7 +5,6 @@ var annotated_dup =
         [ "DictionaryConverter", "d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html", "d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter" ]
       ] ],
       [ "DLC", "db/de3/namespaceNewDEVSharp_1_1DLC.html", [
-        [ "Auth", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html", "d6/d09/classNewDEVSharp_1_1DLC_1_1Auth" ],
         [ "BaseDLC", "d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html", null ],
         [ "DLC", "de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html", "de/d21/classNewDEVSharp_1_1DLC_1_1DLC" ],
         [ "Manager", "db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html", "db/d3a/classNewDEVSharp_1_1DLC_1_1Manager" ],
@@ -18,6 +17,9 @@ var annotated_dup =
         [ "Auth", "db/d85/classNewDEVSharp_1_1Server_1_1Auth.html", "db/d85/classNewDEVSharp_1_1Server_1_1Auth" ],
         [ "BaseServer", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer" ],
         [ "DataBase", "d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html", "d7/d42/classNewDEVSharp_1_1Server_1_1DataBase" ]
+      ] ],
+      [ "User", "d6/d96/namespaceNewDEVSharp_1_1User.html", [
+        [ "Auth", "de/d43/classNewDEVSharp_1_1User_1_1Auth.html", "de/d43/classNewDEVSharp_1_1User_1_1Auth" ]
       ] ],
       [ "Utils", "df/d2b/namespaceNewDEVSharp_1_1Utils.html", [
         [ "MP3", "dc/dbf/namespaceNewDEVSharp_1_1Utils_1_1MP3.html", [

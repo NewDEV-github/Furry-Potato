@@ -53,22 +53,6 @@
               <Path>db/de3/namespaceNewDEVSharp_1_1DLC.html</Path>
             <Subnodes>
                <Node>
-                <Name>Auth</Name>
-                <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>ClassInit</Name>
-                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-                  <Anchor>a2ddb78e42bfd2a3aaf2b84d20f6fbf22</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ClassName</Name>
-                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-                  <Anchor>a1a56db36d62a17ded71fb71527d94153</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>BaseDLC</Name>
                 <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
                </Node>
@@ -268,6 +252,63 @@
                   <Name>Request</Name>
                   <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
                   <Anchor>a33e8574334d2d529fd3c9a5a90b88195</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>User</Name>
+              <Path>d6/d96/namespaceNewDEVSharp_1_1User.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Auth</Name>
+                <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>aaf55fadc21e1aaf659175e6e4262469b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a06ed106dece48c8fdf2711e908d255f6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetUserData</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a18b32ed925ce60ee0ee3c33c555878b9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Login</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a6f6f323c6a25e42c2d8682d4fe896760</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Register</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a5419a35d5cafa719233dcdd0dc0274b1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_authS</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a3262da0b9687845af89579aad9ea12e9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_dataBaseS</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a33b6d9bac97e342d2f5946380bd17aca</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_firebaseAuth</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a87b7752a808471ccfff758afe6b60fea</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Post</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a9400bcc3ae2c84aad7cefc2ea3abd798</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -500,6 +541,11 @@
                 <Name>InitFmod</Name>
                 <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                 <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
+               </Node>
+               <Node>
+                <Name>App</Name>
+                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+                <Anchor>aa06088dfd1846b57edf108a59bc43b60</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -553,22 +599,6 @@
               <Path>db/de3/namespaceNewDEVSharp_1_1DLC.html</Path>
             <Subnodes>
                <Node>
-                <Name>Auth</Name>
-                <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>ClassInit</Name>
-                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-                  <Anchor>a2ddb78e42bfd2a3aaf2b84d20f6fbf22</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ClassName</Name>
-                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-                  <Anchor>a1a56db36d62a17ded71fb71527d94153</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>BaseDLC</Name>
                 <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
                </Node>
@@ -768,6 +798,63 @@
                   <Name>Request</Name>
                   <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
                   <Anchor>a33e8574334d2d529fd3c9a5a90b88195</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>User</Name>
+              <Path>d6/d96/namespaceNewDEVSharp_1_1User.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Auth</Name>
+                <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>ClassInit</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>aaf55fadc21e1aaf659175e6e4262469b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ClassName</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a06ed106dece48c8fdf2711e908d255f6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetUserData</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a18b32ed925ce60ee0ee3c33c555878b9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Login</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a6f6f323c6a25e42c2d8682d4fe896760</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Register</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a5419a35d5cafa719233dcdd0dc0274b1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_authS</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a3262da0b9687845af89579aad9ea12e9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_dataBaseS</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a33b6d9bac97e342d2f5946380bd17aca</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_firebaseAuth</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a87b7752a808471ccfff758afe6b60fea</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Post</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                  <Anchor>a9400bcc3ae2c84aad7cefc2ea3abd798</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1000,6 +1087,11 @@
                 <Name>InitFmod</Name>
                 <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                 <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
+               </Node>
+               <Node>
+                <Name>App</Name>
+                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+                <Anchor>aa06088dfd1846b57edf108a59bc43b60</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1907,10 +1999,6 @@
               <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
              </Node>
              <Node>
-              <Name>NewDEVSharp.DLC.Auth</Name>
-              <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-             </Node>
-             <Node>
               <Name>NewDEVSharp.DLC.DLC</Name>
               <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
             <Subnodes>
@@ -1945,6 +2033,10 @@
                 <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
                </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>NewDEVSharp.User.Auth</Name>
+              <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
              </Node>
              <Node>
               <Name>NewDEVSharp.Utils.MusicUtils</Name>
@@ -2362,28 +2454,6 @@
               <Path>dir_44e9b0a5d26986f336aff7e54ef3fc7f.html</Path>
             <Subnodes>
                <Node>
-                <Name>DLC/Auth.cs</Name>
-                <Path>d1/dfc/DLC_2Auth_8cs.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>NewDEVSharp.DLC.Auth</Name>
-                  <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-                <Subnodes>
-                   <Node>
-                    <Name>ClassInit</Name>
-                    <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-                    <Anchor>a2ddb78e42bfd2a3aaf2b84d20f6fbf22</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ClassName</Name>
-                    <Path>d6/d09/classNewDEVSharp_1_1DLC_1_1Auth.html</Path>
-                    <Anchor>a1a56db36d62a17ded71fb71527d94153</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>BaseDLC.cs</Name>
                 <Path>d6/de2/BaseDLC_8cs.html</Path>
               <Subnodes>
@@ -2681,6 +2751,69 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>User</Name>
+              <Path>dir_b5022de4188e1ce700fe174d2e75f326.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>User/Auth.cs</Name>
+                <Path>dd/d3f/User_2Auth_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>NewDEVSharp.User.Auth</Name>
+                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>ClassInit</Name>
+                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                    <Anchor>aaf55fadc21e1aaf659175e6e4262469b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClassName</Name>
+                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                    <Anchor>a06ed106dece48c8fdf2711e908d255f6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetUserData</Name>
+                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                    <Anchor>a18b32ed925ce60ee0ee3c33c555878b9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Login</Name>
+                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                    <Anchor>a6f6f323c6a25e42c2d8682d4fe896760</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Register</Name>
+                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                    <Anchor>a5419a35d5cafa719233dcdd0dc0274b1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_authS</Name>
+                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                    <Anchor>a3262da0b9687845af89579aad9ea12e9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_dataBaseS</Name>
+                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                    <Anchor>a33b6d9bac97e342d2f5946380bd17aca</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_firebaseAuth</Name>
+                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                    <Anchor>a87b7752a808471ccfff758afe6b60fea</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Post</Name>
+                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
+                    <Anchor>a9400bcc3ae2c84aad7cefc2ea3abd798</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Utils</Name>
               <Path>dir_48028894003760a526b72b9e7b21af49.html</Path>
             <Subnodes>
@@ -2956,6 +3089,11 @@
                   <Name>InitFmod</Name>
                   <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                   <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>App</Name>
+                  <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+                  <Anchor>aa06088dfd1846b57edf108a59bc43b60</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

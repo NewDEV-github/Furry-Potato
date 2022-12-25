@@ -1,6 +1,12 @@
 <map id="GameControllerCS" name="GameControllerCS">
-<area shape="rect" id="node1" title="Game Core in C#, used for doing C# things in core, that can&#39;t be done in Godot at game core" coords="26,168,157,193"/>
-<area shape="rect" id="node2" href="$d0/dd2/classCSharpCore.html" title="Game Core in C#, used for doing C# things in core, that can&#39;t be done in Godot at game core" coords="45,93,137,119"/>
-<area shape="rect" id="node3" title=" " coords="5,5,57,31"/>
-<area shape="rect" id="node4" href="$d5/d9c/classNewDEVSharp_1_1Core.html" title="Core class used to hold and manage all of the properties" coords="82,5,221,31"/>
+<area shape="rect" id="node1" title="Game Core in C#, used for doing C# things in core, that can&#39;t be done in Godot at game core" coords="86,429,217,455"/>
+<area shape="rect" id="node2" href="$d0/dd2/classCSharpCore.html" title="Game Core in C#, used for doing C# things in core, that can&#39;t be done in Godot at game core" coords="105,355,197,380"/>
+<area shape="rect" id="node3" title=" " coords="5,267,57,292"/>
+<area shape="rect" id="node4" href="$d5/d9c/classNewDEVSharp_1_1Core.html" title="Core class used to hold and manage all of the properties" coords="82,267,221,292"/>
+<area shape="rect" id="node5" href="$de/d43/classNewDEVSharp_1_1User_1_1Auth.html" title="Class used for user authentication for DLC&#39;s" coords="245,267,415,292"/>
+<area shape="rect" id="node6" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="183,5,269,31"/>
+<area shape="rect" id="node9" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base" coords="182,80,270,105"/>
+<area shape="rect" id="node10" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base" coords="258,129,477,155"/>
+<area shape="rect" id="node7" title=" " coords="435,179,494,204"/>
+<area shape="rect" id="node8" href="$d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html" title=" " coords="121,179,331,204"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['image_0',['Image',['../d7/d10/IconFromMP3_8cs.html#addd86478e6b382b41e2273e6135d05e6',1,'IconFromMP3.cs']]]
+  ['gc_0',['GC',['../de/d97/DialogicSharp_8cs.html#a3f6cb3bf7085d407291ab9a356db1549',1,'DialogicSharp.cs']]]
 ];

@@ -6,7 +6,6 @@ var classNewDEVSharp_1_1User_1_1Auth =
     [ "Login", "de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a6f6f323c6a25e42c2d8682d4fe896760", null ],
     [ "Register", "de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a5419a35d5cafa719233dcdd0dc0274b1", null ],
     [ "_authS", "de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a3262da0b9687845af89579aad9ea12e9", null ],
-    [ "_dataBaseS", "de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a33b6d9bac97e342d2f5946380bd17aca", null ],
-    [ "_firebaseAuth", "de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a87b7752a808471ccfff758afe6b60fea", null ],
+    [ "_dataBaseS", "de/d43/classNewDEVSharp_1_1User_1_1Auth.html#aad131bd3184693b3cb55b10220af4cfb", null ],
     [ "Post", "de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a9400bcc3ae2c84aad7cefc2ea3abd798", null ]
 ];

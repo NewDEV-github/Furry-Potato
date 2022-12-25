@@ -5,6 +5,7 @@ var classNewDEVSharp_1_1Server_1_1BaseServer =
     [ "ClassName", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a34f2158e15deb0e721702e7d263698e7", null ],
     [ "DictToJson", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#af55f88a43dd84a08869e85d8a9fe0db5", null ],
     [ "JsonToStringDict", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a872aa00783e9f6b0f4a15e5fc0c19f05", null ],
-    [ "Request", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a5fbbdc629698f5811f2aec6573ddfe2d", null ],
+    [ "Request", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#ac91f1a88a845c8514f01ef757edd88f4", null ],
+    [ "Client", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a3cb08ab24cd5c1a9e4af0153c72d32b6", null ],
     [ "ServerURL", "d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#abcf4cae09c1240a0358a7b12e3c81948", null ]
 ];

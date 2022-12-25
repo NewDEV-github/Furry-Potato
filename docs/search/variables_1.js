@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['app_0',['App',['../d5/d9c/classNewDEVSharp_1_1Core.html#aa06088dfd1846b57edf108a59bc43b60',1,'NewDEVSharp::Core']]]
+  ['auth_0',['Auth',['../d0/dd2/classCSharpCore.html#a7a642cda36abec1dcc1e99aa68ebb5e7',1,'CSharpCore']]]
 ];

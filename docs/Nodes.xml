@@ -177,6 +177,11 @@
                 <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
               <Subnodes>
                  <Node>
+                  <Name>CheckToken</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a9b34ee9ae6650a4cdb9fc7bcf0dae753</Anchor>
+                 </Node>
+                 <Node>
                   <Name>ClassInit</Name>
                   <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
                   <Anchor>a4ca12a6f2772388b3c978f2d684fd5c4</Anchor>
@@ -187,9 +192,19 @@
                   <Anchor>a09ac883c95fe04b69fee23c9a296e209</Anchor>
                  </Node>
                  <Node>
+                  <Name>CreateToken</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a4bb9cc8488ca0e8494fa60aea7077f38</Anchor>
+                 </Node>
+                 <Node>
                   <Name>Request</Name>
                   <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
-                  <Anchor>ad9c983f2dbf2062ff98e73da93bb45fa</Anchor>
+                  <Anchor>add36f688e903101754739dd26de2bbce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SaveToken</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a7b29e9c7bcd6d50ff116df064b1b3263</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -225,7 +240,12 @@
                  <Node>
                   <Name>Request</Name>
                   <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
-                  <Anchor>a5fbbdc629698f5811f2aec6573ddfe2d</Anchor>
+                  <Anchor>ac91f1a88a845c8514f01ef757edd88f4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Client</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a3cb08ab24cd5c1a9e4af0153c72d32b6</Anchor>
                  </Node>
                  <Node>
                   <Name>ServerURL</Name>
@@ -251,7 +271,7 @@
                  <Node>
                   <Name>Request</Name>
                   <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
-                  <Anchor>a33e8574334d2d529fd3c9a5a90b88195</Anchor>
+                  <Anchor>aeaef433471487161f55dcfeb809cda7c</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -298,12 +318,7 @@
                  <Node>
                   <Name>_dataBaseS</Name>
                   <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
-                  <Anchor>a33b6d9bac97e342d2f5946380bd17aca</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>_firebaseAuth</Name>
-                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
-                  <Anchor>a87b7752a808471ccfff758afe6b60fea</Anchor>
+                  <Anchor>aad131bd3184693b3cb55b10220af4cfb</Anchor>
                  </Node>
                  <Node>
                   <Name>Post</Name>
@@ -541,11 +556,6 @@
                 <Name>InitFmod</Name>
                 <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                 <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
-               </Node>
-               <Node>
-                <Name>App</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>aa06088dfd1846b57edf108a59bc43b60</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -723,6 +733,11 @@
                 <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
               <Subnodes>
                  <Node>
+                  <Name>CheckToken</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a9b34ee9ae6650a4cdb9fc7bcf0dae753</Anchor>
+                 </Node>
+                 <Node>
                   <Name>ClassInit</Name>
                   <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
                   <Anchor>a4ca12a6f2772388b3c978f2d684fd5c4</Anchor>
@@ -733,9 +748,19 @@
                   <Anchor>a09ac883c95fe04b69fee23c9a296e209</Anchor>
                  </Node>
                  <Node>
+                  <Name>CreateToken</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a4bb9cc8488ca0e8494fa60aea7077f38</Anchor>
+                 </Node>
+                 <Node>
                   <Name>Request</Name>
                   <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
-                  <Anchor>ad9c983f2dbf2062ff98e73da93bb45fa</Anchor>
+                  <Anchor>add36f688e903101754739dd26de2bbce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SaveToken</Name>
+                  <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                  <Anchor>a7b29e9c7bcd6d50ff116df064b1b3263</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -771,7 +796,12 @@
                  <Node>
                   <Name>Request</Name>
                   <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
-                  <Anchor>a5fbbdc629698f5811f2aec6573ddfe2d</Anchor>
+                  <Anchor>ac91f1a88a845c8514f01ef757edd88f4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Client</Name>
+                  <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                  <Anchor>a3cb08ab24cd5c1a9e4af0153c72d32b6</Anchor>
                  </Node>
                  <Node>
                   <Name>ServerURL</Name>
@@ -797,7 +827,7 @@
                  <Node>
                   <Name>Request</Name>
                   <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
-                  <Anchor>a33e8574334d2d529fd3c9a5a90b88195</Anchor>
+                  <Anchor>aeaef433471487161f55dcfeb809cda7c</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -844,12 +874,7 @@
                  <Node>
                   <Name>_dataBaseS</Name>
                   <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
-                  <Anchor>a33b6d9bac97e342d2f5946380bd17aca</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>_firebaseAuth</Name>
-                  <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
-                  <Anchor>a87b7752a808471ccfff758afe6b60fea</Anchor>
+                  <Anchor>aad131bd3184693b3cb55b10220af4cfb</Anchor>
                  </Node>
                  <Node>
                   <Name>Post</Name>
@@ -1088,11 +1113,6 @@
                 <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                 <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
                </Node>
-               <Node>
-                <Name>App</Name>
-                <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                <Anchor>aa06088dfd1846b57edf108a59bc43b60</Anchor>
-               </Node>
               </Subnodes>
              </Node>
             </Subnodes>
@@ -1215,6 +1235,16 @@
             <Name>CSharpCore</Name>
             <Path>d0/dd2/classCSharpCore.html</Path>
           <Subnodes>
+             <Node>
+              <Name>_Ready</Name>
+              <Path>d0/dd2/classCSharpCore.html</Path>
+              <Anchor>a3646911b8210aad6aa6ee546c97c1a1e</Anchor>
+             </Node>
+             <Node>
+              <Name>Auth</Name>
+              <Path>d0/dd2/classCSharpCore.html</Path>
+              <Anchor>a7a642cda36abec1dcc1e99aa68ebb5e7</Anchor>
+             </Node>
              <Node>
               <Name>CoreInstance</Name>
               <Path>d0/dd2/classCSharpCore.html</Path>
@@ -2656,6 +2686,11 @@
                   <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
                 <Subnodes>
                    <Node>
+                    <Name>CheckToken</Name>
+                    <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                    <Anchor>a9b34ee9ae6650a4cdb9fc7bcf0dae753</Anchor>
+                   </Node>
+                   <Node>
                     <Name>ClassInit</Name>
                     <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
                     <Anchor>a4ca12a6f2772388b3c978f2d684fd5c4</Anchor>
@@ -2666,11 +2701,31 @@
                     <Anchor>a09ac883c95fe04b69fee23c9a296e209</Anchor>
                    </Node>
                    <Node>
+                    <Name>CreateToken</Name>
+                    <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                    <Anchor>a4bb9cc8488ca0e8494fa60aea7077f38</Anchor>
+                   </Node>
+                   <Node>
                     <Name>Request</Name>
                     <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
-                    <Anchor>ad9c983f2dbf2062ff98e73da93bb45fa</Anchor>
+                    <Anchor>add36f688e903101754739dd26de2bbce</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SaveToken</Name>
+                    <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
+                    <Anchor>a7b29e9c7bcd6d50ff116df064b1b3263</Anchor>
                    </Node>
                   </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Environment</Name>
+                  <Path>da/d27/Server_2Auth_8cs.html</Path>
+                  <Anchor>a282800ee7039b7c85bc875ffd01a01e3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>File</Name>
+                  <Path>da/d27/Server_2Auth_8cs.html</Path>
+                  <Anchor>ae995b2c01e7e2f2c2b1f3617c3faa4b6</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -2710,7 +2765,12 @@
                    <Node>
                     <Name>Request</Name>
                     <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
-                    <Anchor>a5fbbdc629698f5811f2aec6573ddfe2d</Anchor>
+                    <Anchor>ac91f1a88a845c8514f01ef757edd88f4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Client</Name>
+                    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+                    <Anchor>a3cb08ab24cd5c1a9e4af0153c72d32b6</Anchor>
                    </Node>
                    <Node>
                     <Name>ServerURL</Name>
@@ -2742,7 +2802,7 @@
                    <Node>
                     <Name>Request</Name>
                     <Path>d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html</Path>
-                    <Anchor>a33e8574334d2d529fd3c9a5a90b88195</Anchor>
+                    <Anchor>aeaef433471487161f55dcfeb809cda7c</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2795,12 +2855,7 @@
                    <Node>
                     <Name>_dataBaseS</Name>
                     <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
-                    <Anchor>a33b6d9bac97e342d2f5946380bd17aca</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>_firebaseAuth</Name>
-                    <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
-                    <Anchor>a87b7752a808471ccfff758afe6b60fea</Anchor>
+                    <Anchor>aad131bd3184693b3cb55b10220af4cfb</Anchor>
                    </Node>
                    <Node>
                     <Name>Post</Name>
@@ -3089,11 +3144,6 @@
                   <Name>InitFmod</Name>
                   <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
                   <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>App</Name>
-                  <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-                  <Anchor>aa06088dfd1846b57edf108a59bc43b60</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4075,6 +4125,16 @@
                 <Name>CSharpCore</Name>
                 <Path>d0/dd2/classCSharpCore.html</Path>
               <Subnodes>
+                 <Node>
+                  <Name>_Ready</Name>
+                  <Path>d0/dd2/classCSharpCore.html</Path>
+                  <Anchor>a3646911b8210aad6aa6ee546c97c1a1e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Auth</Name>
+                  <Path>d0/dd2/classCSharpCore.html</Path>
+                  <Anchor>a7a642cda36abec1dcc1e99aa68ebb5e7</Anchor>
+                 </Node>
                  <Node>
                   <Name>CoreInstance</Name>
                   <Path>d0/dd2/classCSharpCore.html</Path>

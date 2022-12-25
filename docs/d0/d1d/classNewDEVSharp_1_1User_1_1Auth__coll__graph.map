@@ -1,6 +1,8 @@
 <map id="NewDEVSharp.User.Auth" name="NewDEVSharp.User.Auth">
-<area shape="rect" id="node1" title="Class used for user authentication for DLC&#39;s" coords="93,183,264,208"/>
-<area shape="rect" id="node2" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="5,5,91,31"/>
-<area shape="rect" id="node4" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base" coords="69,80,288,105"/>
-<area shape="rect" id="node3" title=" " coords="312,80,371,105"/>
+<area shape="rect" id="node1" title="Class used for user authentication for DLC&#39;s" coords="153,267,324,292"/>
+<area shape="rect" id="node2" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="92,5,177,31"/>
+<area shape="rect" id="node5" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base" coords="90,80,178,105"/>
+<area shape="rect" id="node6" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base" coords="166,129,385,155"/>
+<area shape="rect" id="node3" title=" " coords="344,179,402,204"/>
+<area shape="rect" id="node4" href="$d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html" title=" " coords="30,179,239,204"/>
 </map>

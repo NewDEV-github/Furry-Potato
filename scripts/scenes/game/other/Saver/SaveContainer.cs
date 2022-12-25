@@ -19,11 +19,12 @@ public class SaveContainer : BaseSave {
     /// <summary>
     /// Creates all necessary directories
     /// </summary>
-    /// <param name="dirData">Data to create directories from</param>
+    /// <param name="data">Data to create directories from</param>
+    /// <exception cref="InvalidOperationException">Exception, when directory can not be created</exception>
     public override void WriteDirectories(Dictionary<string, Dictionary<string, string>> data) {
         Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot) ?? throw new InvalidOperationException());
         foreach (var s in data) {
-            Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot + $"\\data\\{s.Key}\\"));
+            Directory.CreateDirectory(Path.GetDirectoryName(_saveRoot + $"\\data\\{s.Key}\\") ?? throw new InvalidOperationException());
         }
         
 

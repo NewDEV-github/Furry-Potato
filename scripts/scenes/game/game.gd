@@ -87,7 +87,10 @@ func _ready():
 func play_random_song():
 	randomize()
 	var song_file = audio_files[randi()%audio_files.size()]
-	$AudioStreamPlayer.stream = _load_audio_file(song_file)
+	if str(song_file).begins_with("res://"):
+		$AudioStreamPlayer.stream = load(song_file)
+	else:
+		$AudioStreamPlayer.stream = _load_audio_file(song_file)
 	load_music_album_cover_art(song_file)
 	$AudioStreamPlayer.play()
 	if song_titles.has(song_file) && song_authors.has(song_file):

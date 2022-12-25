@@ -14,3 +14,20 @@ D:\GitHub\Furry-Potato\.mono\temp\obj\ExportRelease\Furry Potato.csproj.CopyComp
 D:\GitHub\Furry-Potato\.mono\temp\obj\ExportRelease\Furry Potato.dll
 D:\GitHub\Furry-Potato\.mono\temp\obj\ExportRelease\Furry Potato.pdb
 D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\TagLibSharp.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\FirebaseAdmin.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\Google.Api.Gax.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\Google.Api.Gax.Rest.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\Google.Apis.PlatformServices.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\Google.Apis.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\Google.Apis.Auth.PlatformServices.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\Google.Apis.Auth.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\Google.Apis.Core.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\System.Buffers.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\System.Collections.Immutable.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\System.Memory.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\System.Numerics.Vectors.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\System.Threading.Tasks.Extensions.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\System.ValueTuple.dll
+D:\GitHub\Furry-Potato\.mono\temp\bin\ExportRelease\NewDEVSharp.dll.config

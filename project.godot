@@ -129,6 +129,7 @@ CSharpCore="*res://scripts/CSharpCore.cs"
 
 [debug]
 
+settings/stdout/verbose_stdout=true
 gdscript/completion/autocomplete_setters_and_getters=true
 
 [display]

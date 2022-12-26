@@ -9,10 +9,13 @@ using JetBrains.Annotations;
 public class CSharpCore : Node
 {
     /// <summary>
-    /// NewDEV.Core instance
+    /// NewDEVSharp.Core instance
     /// </summary>
     protected Core CoreInstance = new Core();
-
+    
+    /// <summary>
+    /// NewDEVSharp.User.Auth instance
+    /// </summary>
     protected Auth Auth = new Auth();
 
     public override void _Ready() {

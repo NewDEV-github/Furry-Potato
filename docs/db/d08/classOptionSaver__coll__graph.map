@@ -1,0 +1,8 @@
+<map id="OptionSaver" name="OptionSaver">
+<area shape="rect" id="node1" title="Class used to save and load game options" coords="125,183,217,208"/>
+<area shape="rect" id="node2" title=" " coords="5,87,57,113"/>
+<area shape="rect" id="node3" href="$d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html" title=" " coords="81,80,261,120"/>
+<area shape="rect" id="node4" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="129,5,214,31"/>
+<area shape="rect" id="node5" href="$d4/d14/classSaveContainer.html" title="Class that creates save data" coords="285,87,391,113"/>
+<area shape="rect" id="node6" href="$d0/dd0/classBaseSave.html" title="Base class for all save&#45;classes" coords="298,5,378,31"/>
+</map>

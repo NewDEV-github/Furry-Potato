@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['register_0',['Register',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a5419a35d5cafa719233dcdd0dc0274b1',1,'NewDEVSharp::User::Auth']]],
-  ['request_1',['Request',['../db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#add36f688e903101754739dd26de2bbce',1,'NewDEVSharp.Server.Auth.Request()'],['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#ac91f1a88a845c8514f01ef757edd88f4',1,'NewDEVSharp.Server.BaseServer.Request()'],['../d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html#aeaef433471487161f55dcfeb809cda7c',1,'NewDEVSharp.Server.DataBase.Request()']]],
-  ['resetsaves_2',['ResetSaves',['../d1/d1c/classDialogicSharp.html#a32b64065097ff481c6866967d716fdff',1,'DialogicSharp']]]
+  ['partyended_0',['PartyEnded',['../da/d3e/classparty.html#a14b9a1fd76d550d35d8f5420c72a4dc5',1,'party']]],
+  ['preloaddlcdata_1',['PreLoadDLCData',['../db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a92e233f3645dc31183edb0bacd876b9f',1,'NewDEVSharp::DLC::Manager']]],
+  ['preloadoptions_2',['PreloadOptions',['../d7/dac/classOptionSaver.html#a7a54b5a29f777098ee3f99b3b69c981b',1,'OptionSaver']]],
+  ['preloadscene_3',['PreloadScene',['../d9/d5c/classBackgroundLoader.html#a7e680d86816156d6317bc816712cd849',1,'BackgroundLoader']]]
 ];

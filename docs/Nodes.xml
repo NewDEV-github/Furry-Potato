@@ -1555,6 +1555,42 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>OptionSaver</Name>
+            <Path>d7/dac/classOptionSaver.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>OptionSaveDataPreloaded</Name>
+              <Path>d7/dac/classOptionSaver.html</Path>
+              <Anchor>a72cfeb504ccaa02f974df0a8ca430b63</Anchor>
+             </Node>
+             <Node>
+              <Name>PreloadOptions</Name>
+              <Path>d7/dac/classOptionSaver.html</Path>
+              <Anchor>a7a54b5a29f777098ee3f99b3b69c981b</Anchor>
+             </Node>
+             <Node>
+              <Name>SaveOptions</Name>
+              <Path>d7/dac/classOptionSaver.html</Path>
+              <Anchor>af7406285034b1555837143f255326b6f</Anchor>
+             </Node>
+             <Node>
+              <Name>_dc</Name>
+              <Path>d7/dac/classOptionSaver.html</Path>
+              <Anchor>a63e4d6c2dc809ddb9b47b5cd527d91a6</Anchor>
+             </Node>
+             <Node>
+              <Name>_saveContainer</Name>
+              <Path>d7/dac/classOptionSaver.html</Path>
+              <Anchor>ad441db29abbbc8e6fe8e687da0f13bee</Anchor>
+             </Node>
+             <Node>
+              <Name>PreloadedOptionSaveData</Name>
+              <Path>d7/dac/classOptionSaver.html</Path>
+              <Anchor>a72a4f8ac759f926427e09fdd728aac94</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>party</Name>
             <Path>da/d3e/classparty.html</Path>
           <Subnodes>
@@ -1775,14 +1811,14 @@
             <Path>dd/de5/classSaver.html</Path>
           <Subnodes>
              <Node>
-              <Name>_Ready</Name>
-              <Path>dd/de5/classSaver.html</Path>
-              <Anchor>aa3f3decdf70bec429ed0323061681e3c</Anchor>
-             </Node>
-             <Node>
               <Name>SaveGame</Name>
               <Path>dd/de5/classSaver.html</Path>
               <Anchor>af4af9127736384d02d34228629b646d3</Anchor>
+             </Node>
+             <Node>
+              <Name>_dc</Name>
+              <Path>dd/de5/classSaver.html</Path>
+              <Anchor>ac2b41ec117349153cdf40137ba365e3e</Anchor>
              </Node>
              <Node>
               <Name>_saveContainer</Name>
@@ -1828,7 +1864,7 @@
              <Node>
               <Name>_saveManager</Name>
               <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-              <Anchor>a09b3ab0df3ae34e82308d97143d13c7e</Anchor>
+              <Anchor>a97ba00d0342eb226d34e9c9479c7ce32</Anchor>
              </Node>
              <Node>
               <Name>PreloadedSaveData</Name>
@@ -2171,6 +2207,10 @@
               <Path>d5/d5c/classLoader.html</Path>
              </Node>
              <Node>
+              <Name>OptionSaver</Name>
+              <Path>d7/dac/classOptionSaver.html</Path>
+             </Node>
+             <Node>
               <Name>Saver</Name>
               <Path>dd/de5/classSaver.html</Path>
              </Node>
@@ -2261,6 +2301,10 @@
              <Node>
               <Name>l</Name>
               <Path>functions_l.html</Path>
+             </Node>
+             <Node>
+              <Name>o</Name>
+              <Path>functions_o.html</Path>
              </Node>
              <Node>
               <Name>p</Name>
@@ -3464,6 +3508,53 @@
                     </Subnodes>
                    </Node>
                    <Node>
+                    <Name>OptionSaver.cs</Name>
+                    <Path>d2/d54/OptionSaver_8cs.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>OptionSaver</Name>
+                      <Path>d7/dac/classOptionSaver.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>OptionSaveDataPreloaded</Name>
+                        <Path>d7/dac/classOptionSaver.html</Path>
+                        <Anchor>a72cfeb504ccaa02f974df0a8ca430b63</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>PreloadOptions</Name>
+                        <Path>d7/dac/classOptionSaver.html</Path>
+                        <Anchor>a7a54b5a29f777098ee3f99b3b69c981b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>SaveOptions</Name>
+                        <Path>d7/dac/classOptionSaver.html</Path>
+                        <Anchor>af7406285034b1555837143f255326b6f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_dc</Name>
+                        <Path>d7/dac/classOptionSaver.html</Path>
+                        <Anchor>a63e4d6c2dc809ddb9b47b5cd527d91a6</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_saveContainer</Name>
+                        <Path>d7/dac/classOptionSaver.html</Path>
+                        <Anchor>ad441db29abbbc8e6fe8e687da0f13bee</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>PreloadedOptionSaveData</Name>
+                        <Path>d7/dac/classOptionSaver.html</Path>
+                        <Anchor>a72a4f8ac759f926427e09fdd728aac94</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
+                      <Name>File</Name>
+                      <Path>d2/d54/OptionSaver_8cs.html</Path>
+                      <Anchor>ae995b2c01e7e2f2c2b1f3617c3faa4b6</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
                     <Name>party.cs</Name>
                     <Path>d1/daf/party_8cs.html</Path>
                   <Subnodes>
@@ -3611,14 +3702,14 @@
                       <Path>dd/de5/classSaver.html</Path>
                     <Subnodes>
                        <Node>
-                        <Name>_Ready</Name>
-                        <Path>dd/de5/classSaver.html</Path>
-                        <Anchor>aa3f3decdf70bec429ed0323061681e3c</Anchor>
-                       </Node>
-                       <Node>
                         <Name>SaveGame</Name>
                         <Path>dd/de5/classSaver.html</Path>
                         <Anchor>af4af9127736384d02d34228629b646d3</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>_dc</Name>
+                        <Path>dd/de5/classSaver.html</Path>
+                        <Anchor>ac2b41ec117349153cdf40137ba365e3e</Anchor>
                        </Node>
                        <Node>
                         <Name>_saveContainer</Name>
@@ -3967,7 +4058,7 @@
                      <Node>
                       <Name>_saveManager</Name>
                       <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-                      <Anchor>a09b3ab0df3ae34e82308d97143d13c7e</Anchor>
+                      <Anchor>a97ba00d0342eb226d34e9c9479c7ce32</Anchor>
                      </Node>
                      <Node>
                       <Name>PreloadedSaveData</Name>

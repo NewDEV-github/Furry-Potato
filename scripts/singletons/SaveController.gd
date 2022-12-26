@@ -41,7 +41,6 @@ func save_game(save_name:String):
 		"string_PartyControllerPartyData": PartyController.party_data,
 		"string_PartyRatings": PartyController.get_party_ratings(),
 		"string_ShopItemController": ShopItemController.data,
-		"string_OptionController": OptionController.option_data,
 		"string_GameController": GameController.GetStrings(),
 		"int_GameController": GameController.GetInts(),
 		"float_GameController": GameController.GetFloats(),

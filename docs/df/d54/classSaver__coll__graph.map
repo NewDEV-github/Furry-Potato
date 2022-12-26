@@ -1,6 +1,8 @@
 <map id="Saver" name="Saver">
-<area shape="rect" id="node1" title=" " coords="40,168,95,193"/>
-<area shape="rect" id="node2" title=" " coords="5,80,57,105"/>
-<area shape="rect" id="node3" href="$d4/d14/classSaveContainer.html" title="Class that creates save data" coords="81,80,187,105"/>
+<area shape="rect" id="node1" title="Class that holds all save&#45;related actions for current game save" coords="107,183,161,208"/>
+<area shape="rect" id="node2" title=" " coords="5,87,57,113"/>
+<area shape="rect" id="node3" href="$d4/d14/classSaveContainer.html" title="Class that creates save data" coords="81,87,187,113"/>
 <area shape="rect" id="node4" href="$d0/dd0/classBaseSave.html" title="Base class for all save&#45;classes" coords="94,5,174,31"/>
+<area shape="rect" id="node5" href="$d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html" title=" " coords="211,80,391,120"/>
+<area shape="rect" id="node6" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="258,5,343,31"/>
 </map>

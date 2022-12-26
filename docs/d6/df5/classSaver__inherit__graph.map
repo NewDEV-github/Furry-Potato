@@ -1,4 +1,4 @@
 <map id="Saver" name="Saver">
-<area shape="rect" id="node1" title=" " coords="5,79,60,104"/>
+<area shape="rect" id="node1" title="Class that holds all save&#45;related actions for current game save" coords="5,79,60,104"/>
 <area shape="rect" id="node2" title=" " coords="7,5,59,31"/>
 </map>

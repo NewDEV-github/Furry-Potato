@@ -7,6 +7,7 @@ func string_to_bool(string):
 		return false
 
 func _ready():
+	OptionController.connect("option_save_loaded", self, "load_data")
 	load_data()
 
 func load_data():
@@ -72,3 +73,11 @@ func delete_dir(path):
 		else:
 			dir.remove(file)
 		file = dir.get_next()
+
+
+func _on_SaveButton_pressed():
+	OptionController.save_options()
+
+
+func _on_Control_popup_hide():
+	OptionController.save_options()

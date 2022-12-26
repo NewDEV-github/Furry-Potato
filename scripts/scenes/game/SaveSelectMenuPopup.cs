@@ -23,7 +23,11 @@ public class SaveSelectMenuPopup : WindowDialog {
     /// Useful after only <code>SaveDataPreloaded</code> signal has been called.
     /// </summary>
     public Dictionary<string, Dictionary<string, string>> PreloadedSaveData = new Dictionary<string, Dictionary<string, string>>();
-    SaveManager _saveManager = new SaveManager();
+    
+    /// <summary>
+    /// SaveManager instance
+    /// </summary>
+    private readonly SaveManager _saveManager = new SaveManager();
     
     /// <summary>
     /// Dictionary used to keep where is root path for each save. To make it easier the key is id of ItemList's item.

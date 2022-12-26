@@ -6,6 +6,6 @@ var classSaveSelectMenuPopup =
     [ "_currentItemListId", "dd/d61/classSaveSelectMenuPopup.html#a5a1512146616c6a68db275873d5d50ed", null ],
     [ "_itemList", "dd/d61/classSaveSelectMenuPopup.html#abf582f0c7505de1588d56595f1189649", null ],
     [ "_pathsForItemList", "dd/d61/classSaveSelectMenuPopup.html#ad7259fc2ebb41c07d7db8abf7a0e3261", null ],
-    [ "_saveManager", "dd/d61/classSaveSelectMenuPopup.html#a09b3ab0df3ae34e82308d97143d13c7e", null ],
+    [ "_saveManager", "dd/d61/classSaveSelectMenuPopup.html#a97ba00d0342eb226d34e9c9479c7ce32", null ],
     [ "PreloadedSaveData", "dd/d61/classSaveSelectMenuPopup.html#aab7c957db2254f88a3b446d221f3af0e", null ]
 ];

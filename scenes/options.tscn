@@ -147,17 +147,17 @@ max_value = 20.0
 tick_count = 100
 ticks_on_borders = true
 
-[node name="Button" type="Button" parent="."]
-visible = false
+[node name="SaveButton" type="Button" parent="."]
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -21.5
-margin_top = -20.0
-margin_right = 21.5
+margin_left = -25.5
+margin_top = -27.0
+margin_right = 25.5
 text = "SAVE"
 
+[connection signal="popup_hide" from="." to="." method="_on_Control_popup_hide"]
 [connection signal="toggled" from="splitter/left/discord_avatar" to="." method="_on_discord_avatar_toggled"]
 [connection signal="toggled" from="splitter/left/vsync" to="." method="_on_vsync_toggled"]
 [connection signal="toggled" from="splitter/left/vsync_compositor" to="." method="_on_vsync_compositor_toggled"]
@@ -167,4 +167,4 @@ text = "SAVE"
 [connection signal="toggled" from="splitter/right/EnableCustomMusicLibrary" to="." method="_on_EnableCustomMusicLibrary_toggled"]
 [connection signal="toggled" from="splitter/right/MixWithBuiltinSongs" to="." method="_on_MixWithBuiltinSongs_toggled"]
 [connection signal="value_changed" from="splitter/right/MasterVolume" to="." method="_on_MasterVolume_value_changed"]
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="SaveButton" to="." method="_on_SaveButton_pressed"]

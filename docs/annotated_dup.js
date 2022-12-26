@@ -48,6 +48,7 @@ var annotated_dup =
     [ "FolderSystemMusic", "d0/d71/classFolderSystemMusic.html", "d0/d71/classFolderSystemMusic" ],
     [ "GameControllerCS", "d2/d54/classGameControllerCS.html", "d2/d54/classGameControllerCS" ],
     [ "Loader", "d5/d5c/classLoader.html", "d5/d5c/classLoader" ],
+    [ "OptionSaver", "d7/dac/classOptionSaver.html", "d7/dac/classOptionSaver" ],
     [ "party", "da/d3e/classparty.html", "da/d3e/classparty" ],
     [ "PartyList", "d2/d1c/classPartyList.html", "d2/d1c/classPartyList" ],
     [ "PartyRatingDetails", "d6/d32/classPartyRatingDetails.html", "d6/d32/classPartyRatingDetails" ],

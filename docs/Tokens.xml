@@ -245,6 +245,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>OptionSaver</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>OptionSaver</Scope>
+    </TokenIdentifier>
+    <Path>d7/dac/classOptionSaver.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>party</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -520,6 +529,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_dc</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>OptionSaver</Scope>
+    </TokenIdentifier>
+    <Path>d7/dac/classOptionSaver.html</Path>
+    <Anchor>a63e4d6c2dc809ddb9b47b5cd527d91a6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_dc</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>Saver</Scope>
+    </TokenIdentifier>
+    <Path>dd/de5/classSaver.html</Path>
+    <Anchor>ac2b41ec117349153cdf40137ba365e3e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_dialogic</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -689,17 +718,6 @@
       <Name>_Ready</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
-      <Scope>Saver</Scope>
-    </TokenIdentifier>
-    <Path>dd/de5/classSaver.html</Path>
-    <Anchor>aa3f3decdf70bec429ed0323061681e3c</Anchor>
-    <DeclaredIn>Saver.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
       <Scope>PartyList</Scope>
     </TokenIdentifier>
     <Path>d2/d1c/classPartyList.html</Path>
@@ -743,6 +761,16 @@
       <Name>_saveContainer</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
+      <Scope>OptionSaver</Scope>
+    </TokenIdentifier>
+    <Path>d7/dac/classOptionSaver.html</Path>
+    <Anchor>ad441db29abbbc8e6fe8e687da0f13bee</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_saveContainer</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
       <Scope>Saver</Scope>
     </TokenIdentifier>
     <Path>dd/de5/classSaver.html</Path>
@@ -756,7 +784,7 @@
       <Scope>SaveSelectMenuPopup</Scope>
     </TokenIdentifier>
     <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>a09b3ab0df3ae34e82308d97143d13c7e</Anchor>
+    <Anchor>a97ba00d0342eb226d34e9c9479c7ce32</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2319,13 +2347,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>PartyData</Name>
+      <Name>OptionSaveDataPreloaded</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
+      <Type>instm</Type>
+      <Scope>OptionSaver</Scope>
     </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a846c4cc26f9399266fb338f02813ec7d</Anchor>
+    <Path>d7/dac/classOptionSaver.html</Path>
+    <Anchor>a72cfeb504ccaa02f974df0a8ca430b63</Anchor>
+    <DeclaredIn>OptionSaver.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2336,6 +2365,16 @@
     </TokenIdentifier>
     <Path>da/d53/classPartyRatingsMenu.html</Path>
     <Anchor>ad98fa994611fd6fb9c65d86fd5994716</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PartyData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>party</Scope>
+    </TokenIdentifier>
+    <Path>da/d3e/classparty.html</Path>
+    <Anchor>a846c4cc26f9399266fb338f02813ec7d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2391,6 +2430,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PreloadedOptionSaveData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>OptionSaver</Scope>
+    </TokenIdentifier>
+    <Path>d7/dac/classOptionSaver.html</Path>
+    <Anchor>a72a4f8ac759f926427e09fdd728aac94</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>PreloadedSaveData</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -2398,6 +2447,17 @@
     </TokenIdentifier>
     <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
     <Anchor>aab7c957db2254f88a3b446d221f3af0e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PreloadOptions</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>OptionSaver</Scope>
+    </TokenIdentifier>
+    <Path>d7/dac/classOptionSaver.html</Path>
+    <Anchor>a7a54b5a29f777098ee3f99b3b69c981b</Anchor>
+    <DeclaredIn>OptionSaver.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2537,6 +2597,17 @@
     <Path>dd/de5/classSaver.html</Path>
     <Anchor>af4af9127736384d02d34228629b646d3</Anchor>
     <DeclaredIn>Saver.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SaveOptions</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>OptionSaver</Scope>
+    </TokenIdentifier>
+    <Path>d7/dac/classOptionSaver.html</Path>
+    <Anchor>af7406285034b1555837143f255326b6f</Anchor>
+    <DeclaredIn>OptionSaver.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2896,6 +2967,16 @@
     <Path>da/d27/Server_2Auth_8cs.html</Path>
     <Anchor>a282800ee7039b7c85bc875ffd01a01e3</Anchor>
     <DeclaredIn>Server/Auth.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>File</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d2/d54/OptionSaver_8cs.html</Path>
+    <Anchor>ae995b2c01e7e2f2c2b1f3617c3faa4b6</Anchor>
+    <DeclaredIn>OptionSaver.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

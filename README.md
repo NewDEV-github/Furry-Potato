@@ -17,6 +17,7 @@ Click [this link](https://itch.io/jam/godocikowy-dzem-5) to go there: [https://i
 ### Technical help
 * _Syhmac
 * LeD
+* kawus
 
 ### Music
 * Gekon aka GeKaGD

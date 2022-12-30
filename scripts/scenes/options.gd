@@ -19,6 +19,7 @@ func load_data():
 	$splitter/right/EnableCustomMusicLibrary.pressed = string_to_bool(OptionController.get_option_data("custom_audio_library_enable"))
 	$splitter/right/MixWithBuiltinSongs.pressed = string_to_bool(OptionController.get_option_data("custom_audio_library_play_alongside"))
 	var value = float(OptionController.get_option_data("MasterVolume_value"))
+	print("Master volume is:" + str(value) + "\nAnd will be:" + str(value-4.6))
 	$splitter/right/MasterVolume.value = value
 	AudioServer.set_bus_volume_db(0, value-4.6)
 	AudioServer.set_bus_volume_db(1, value)

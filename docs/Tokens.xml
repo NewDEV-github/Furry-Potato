@@ -559,6 +559,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_dlc</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.DLC.Manager</Scope>
+    </TokenIdentifier>
+    <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+    <Anchor>a6a33c8f89e5e7c20613461087ae2f958</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_folderList</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -858,6 +868,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_verifier</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.DLC.Manager</Scope>
+    </TokenIdentifier>
+    <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+    <Anchor>a4bb563f5df231a53f39fa41975550c47</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>AddExperience</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -974,6 +994,16 @@
     </TokenIdentifier>
     <Path>d1/d1c/classDialogicSharp.html</Path>
     <Anchor>adac214c08f75c7645efc787045108dc9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BoughtInLegalWay</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.DLC.BaseDLC</Scope>
+    </TokenIdentifier>
+    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+    <Anchor>a064fee33556792eaada7abe4dfa5c894</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1444,6 +1474,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Creator</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.DLC.BaseDLC</Scope>
+    </TokenIdentifier>
+    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+    <Anchor>ab86ca40da112b7a02003bc2a08c37528</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CurrentPartyId</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -1568,36 +1608,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>DLCGame</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>NewDEVSharp.DLC.DLC</Scope>
-    </TokenIdentifier>
-    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-    <Anchor>adca693169d99af309340d5f19b6f2519</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DLCID</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>NewDEVSharp.DLC.DLC</Scope>
-    </TokenIdentifier>
-    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-    <Anchor>a726844d7d1ca036c86bd50d3a565c986</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DLCName</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>NewDEVSharp.DLC.DLC</Scope>
-    </TokenIdentifier>
-    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-    <Anchor>a19d994fedd69c4cc0e1211db90d73e3a</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>DonePartys</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -1648,6 +1658,16 @@
     </TokenIdentifier>
     <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
     <Anchor>af8b7a1945fe1358efe6b30a08f9f4b50</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Game</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.DLC.BaseDLC</Scope>
+    </TokenIdentifier>
+    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+    <Anchor>a8386acdf6e41cf8892bd1d44858c7294</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2080,6 +2100,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Id</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.DLC.BaseDLC</Scope>
+    </TokenIdentifier>
+    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+    <Anchor>a093d00d101c0647b1c95b219581da3d1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Image</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2347,6 +2377,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Name</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>NewDEVSharp.DLC.BaseDLC</Scope>
+    </TokenIdentifier>
+    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+    <Anchor>abe80dddcd4407642d65a457c2c266cfd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OptionSaveDataPreloaded</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2358,16 +2398,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>partyData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>ad98fa994611fd6fb9c65d86fd5994716</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>PartyData</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -2375,6 +2405,16 @@
     </TokenIdentifier>
     <Path>da/d3e/classparty.html</Path>
     <Anchor>a846c4cc26f9399266fb338f02813ec7d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>partyData</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>PartyRatingsMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d53/classPartyRatingsMenu.html</Path>
+    <Anchor>ad98fa994611fd6fb9c65d86fd5994716</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

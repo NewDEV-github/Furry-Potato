@@ -6,7 +6,7 @@ buffer_length = 0.2
 fft_size = 3
 
 [resource]
-bus/0/volume_db = -4.59198
+bus/0/volume_db = -3.92283
 bus/0/effect/0/effect = SubResource( 1 )
 bus/0/effect/0/enabled = true
 bus/1/name = "mJ"

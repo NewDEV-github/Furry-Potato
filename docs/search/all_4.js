@@ -21,9 +21,6 @@ var searchData=
   ['dlc_2ecs_18',['DLC.cs',['../d0/dd9/DLC_8cs.html',1,'']]],
   ['dlcbasepath_19',['DLCBasePath',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#aec3d9b9bf723f3de9de0c1449fa8cf77',1,'NewDEVSharp::DLC::DLC']]],
   ['dlcfiles_20',['DLCFiles',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a15e8b67b25bd267e24ec7beb9db03564',1,'NewDEVSharp::DLC::DLC']]],
-  ['dlcgame_21',['DLCGame',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#adca693169d99af309340d5f19b6f2519',1,'NewDEVSharp::DLC::DLC']]],
-  ['dlcid_22',['DLCID',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a726844d7d1ca036c86bd50d3a565c986',1,'NewDEVSharp::DLC::DLC']]],
-  ['dlcname_23',['DLCName',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a19d994fedd69c4cc0e1211db90d73e3a',1,'NewDEVSharp::DLC::DLC']]],
-  ['donepartys_24',['DonePartys',['../da/d3e/classparty.html#abab5d057b0191a31a79349fdff6d52cd',1,'party']]],
-  ['manager_2ecs_25',['Manager.cs',['../d4/d6e/DLC_2Manager_8cs.html',1,'']]]
+  ['donepartys_21',['DonePartys',['../da/d3e/classparty.html#abab5d057b0191a31a79349fdff6d52cd',1,'party']]],
+  ['manager_2ecs_22',['Manager.cs',['../d4/d6e/DLC_2Manager_8cs.html',1,'']]]
 ];

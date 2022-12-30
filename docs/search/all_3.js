@@ -20,11 +20,12 @@ var searchData=
   ['core_2ecs_17',['Core.cs',['../db/df2/Core_8cs.html',1,'']]],
   ['coreinstance_18',['CoreInstance',['../d0/dd2/classCSharpCore.html#a2b529f7000e90fbe3fb14204bedd11fa',1,'CSharpCore']]],
   ['createtoken_19',['CreateToken',['../db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#a4bb9cc8488ca0e8494fa60aea7077f38',1,'NewDEVSharp::Server::Auth']]],
-  ['csharpcore_20',['CSharpCore',['../d0/dd2/classCSharpCore.html',1,'']]],
-  ['csharpcore_2ecs_21',['CSharpCore.cs',['../dd/ddb/CSharpCore_8cs.html',1,'']]],
-  ['currentpartyid_22',['CurrentPartyId',['../da/d3e/classparty.html#afb411a2a022612decf5ba18c063a3efc',1,'party']]],
-  ['currentsavename_23',['CurrentSaveName',['../d2/d54/classGameControllerCS.html#aa6944ebfc334165e26400938f18a06c7',1,'GameControllerCS']]],
-  ['currenttimeline_24',['CurrentTimeline',['../d1/d1c/classDialogicSharp.html#aaa555629496915958944ac49bfe3f8a2',1,'DialogicSharp']]],
-  ['customaudiolibrary_25',['CustomAudioLibrary',['../df/d61/classCustomAudioLibrary.html',1,'']]],
-  ['customaudiolibrary_2ecs_26',['CustomAudioLibrary.cs',['../d7/df3/CustomAudioLibrary_8cs.html',1,'']]]
+  ['creator_20',['Creator',['../d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html#ab86ca40da112b7a02003bc2a08c37528',1,'NewDEVSharp::DLC::BaseDLC']]],
+  ['csharpcore_21',['CSharpCore',['../d0/dd2/classCSharpCore.html',1,'']]],
+  ['csharpcore_2ecs_22',['CSharpCore.cs',['../dd/ddb/CSharpCore_8cs.html',1,'']]],
+  ['currentpartyid_23',['CurrentPartyId',['../da/d3e/classparty.html#afb411a2a022612decf5ba18c063a3efc',1,'party']]],
+  ['currentsavename_24',['CurrentSaveName',['../d2/d54/classGameControllerCS.html#aa6944ebfc334165e26400938f18a06c7',1,'GameControllerCS']]],
+  ['currenttimeline_25',['CurrentTimeline',['../d1/d1c/classDialogicSharp.html#aaa555629496915958944ac49bfe3f8a2',1,'DialogicSharp']]],
+  ['customaudiolibrary_26',['CustomAudioLibrary',['../df/d61/classCustomAudioLibrary.html',1,'']]],
+  ['customaudiolibrary_2ecs_27',['CustomAudioLibrary.cs',['../d7/df3/CustomAudioLibrary_8cs.html',1,'']]]
 ];

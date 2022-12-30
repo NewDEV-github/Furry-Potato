@@ -55,6 +55,33 @@
                <Node>
                 <Name>BaseDLC</Name>
                 <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>BoughtInLegalWay</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>a064fee33556792eaada7abe4dfa5c894</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Creator</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>ab86ca40da112b7a02003bc2a08c37528</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Game</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>a8386acdf6e41cf8892bd1d44858c7294</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Id</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>a093d00d101c0647b1c95b219581da3d1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Name</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>abe80dddcd4407642d65a457c2c266cfd</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>DLC</Name>
@@ -85,21 +112,6 @@
                   <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
                   <Anchor>a15e8b67b25bd267e24ec7beb9db03564</Anchor>
                  </Node>
-                 <Node>
-                  <Name>DLCGame</Name>
-                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-                  <Anchor>adca693169d99af309340d5f19b6f2519</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>DLCID</Name>
-                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-                  <Anchor>a726844d7d1ca036c86bd50d3a565c986</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>DLCName</Name>
-                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-                  <Anchor>a19d994fedd69c4cc0e1211db90d73e3a</Anchor>
-                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -120,6 +132,16 @@
                   <Name>PreLoadDLCData</Name>
                   <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
                   <Anchor>a92e233f3645dc31183edb0bacd876b9f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_dlc</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>a6a33c8f89e5e7c20613461087ae2f958</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_verifier</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>a4bb563f5df231a53f39fa41975550c47</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -611,6 +633,33 @@
                <Node>
                 <Name>BaseDLC</Name>
                 <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>BoughtInLegalWay</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>a064fee33556792eaada7abe4dfa5c894</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Creator</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>ab86ca40da112b7a02003bc2a08c37528</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Game</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>a8386acdf6e41cf8892bd1d44858c7294</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Id</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>a093d00d101c0647b1c95b219581da3d1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Name</Name>
+                  <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                  <Anchor>abe80dddcd4407642d65a457c2c266cfd</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>DLC</Name>
@@ -641,21 +690,6 @@
                   <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
                   <Anchor>a15e8b67b25bd267e24ec7beb9db03564</Anchor>
                  </Node>
-                 <Node>
-                  <Name>DLCGame</Name>
-                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-                  <Anchor>adca693169d99af309340d5f19b6f2519</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>DLCID</Name>
-                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-                  <Anchor>a726844d7d1ca036c86bd50d3a565c986</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>DLCName</Name>
-                  <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-                  <Anchor>a19d994fedd69c4cc0e1211db90d73e3a</Anchor>
-                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -676,6 +710,16 @@
                   <Name>PreLoadDLCData</Name>
                   <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
                   <Anchor>a92e233f3645dc31183edb0bacd876b9f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_dlc</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>a6a33c8f89e5e7c20613461087ae2f958</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_verifier</Name>
+                  <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                  <Anchor>a4bb563f5df231a53f39fa41975550c47</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -2271,6 +2315,10 @@
               <Path>functions_a.html</Path>
              </Node>
              <Node>
+              <Name>b</Name>
+              <Path>functions_b.html</Path>
+             </Node>
+             <Node>
               <Name>c</Name>
               <Path>functions_c.html</Path>
              </Node>
@@ -2301,6 +2349,10 @@
              <Node>
               <Name>l</Name>
               <Path>functions_l.html</Path>
+             </Node>
+             <Node>
+              <Name>n</Name>
+              <Path>functions_n.html</Path>
              </Node>
              <Node>
               <Name>o</Name>
@@ -2534,6 +2586,33 @@
                  <Node>
                   <Name>NewDEVSharp.DLC.BaseDLC</Name>
                   <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>BoughtInLegalWay</Name>
+                    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                    <Anchor>a064fee33556792eaada7abe4dfa5c894</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Creator</Name>
+                    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                    <Anchor>ab86ca40da112b7a02003bc2a08c37528</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Game</Name>
+                    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                    <Anchor>a8386acdf6e41cf8892bd1d44858c7294</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Id</Name>
+                    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                    <Anchor>a093d00d101c0647b1c95b219581da3d1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Name</Name>
+                    <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
+                    <Anchor>abe80dddcd4407642d65a457c2c266cfd</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>
@@ -2570,21 +2649,6 @@
                     <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
                     <Anchor>a15e8b67b25bd267e24ec7beb9db03564</Anchor>
                    </Node>
-                   <Node>
-                    <Name>DLCGame</Name>
-                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-                    <Anchor>adca693169d99af309340d5f19b6f2519</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>DLCID</Name>
-                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-                    <Anchor>a726844d7d1ca036c86bd50d3a565c986</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>DLCName</Name>
-                    <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
-                    <Anchor>a19d994fedd69c4cc0e1211db90d73e3a</Anchor>
-                   </Node>
                   </Subnodes>
                  </Node>
                 </Subnodes>
@@ -2611,6 +2675,16 @@
                     <Name>PreLoadDLCData</Name>
                     <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
                     <Anchor>a92e233f3645dc31183edb0bacd876b9f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_dlc</Name>
+                    <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                    <Anchor>a6a33c8f89e5e7c20613461087ae2f958</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_verifier</Name>
+                    <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
+                    <Anchor>a4bb563f5df231a53f39fa41975550c47</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>

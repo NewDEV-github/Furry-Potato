@@ -49,7 +49,10 @@ func _prerender_emails():
 	$VBoxContainer/EmailList.clear()
 	for i in email_list:
 		print("Adding email: " + email_titles[i])
-		$VBoxContainer/EmailList.add_item(email_titles[i])
+		if readed_emails.has(email_titles[i]):
+			$VBoxContainer/EmailList.add_item(email_titles[i] + " (Already readed)")
+		else:
+			$VBoxContainer/EmailList.add_item(email_titles[i])
 
 
 
@@ -78,7 +81,9 @@ func _on_EmailList_item_activated(index):
 	if not readed_emails.has(item_text):
 		read_emails += 1
 		readed_emails.append(item_text)
-	if email_types[item_text] == "party_email":
+	if str(item_text).ends_with(" (Already readed)"):
+		item_text = str(item_text).trim_suffix(" (Already readed)")
+	if email_types[item_text]  == "party_email":
 		print("Oh fuck, party...")
 		tmp_party_id = email_party_ids[item_text]
 		print(tmp_party_id)

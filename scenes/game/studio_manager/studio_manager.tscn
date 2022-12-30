@@ -100,15 +100,16 @@ margin_bottom = 176.0
 texture_normal = ExtResource( 4 )
 
 [node name="DataMenu" type="TextureButton" parent="menu"]
+visible = false
 margin_top = 144.0
 margin_right = 32.0
 margin_bottom = 176.0
 texture_normal = ExtResource( 7 )
 
 [node name="SaveButton" type="TextureButton" parent="menu"]
-margin_top = 180.0
+margin_top = 144.0
 margin_right = 32.0
-margin_bottom = 212.0
+margin_bottom = 176.0
 texture_normal = ExtResource( 8 )
 
 [connection signal="pressed" from="menu/SettingMenu" to="." method="_on_SettingMenu_pressed"]

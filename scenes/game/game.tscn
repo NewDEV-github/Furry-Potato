@@ -128,6 +128,7 @@ audio_node = NodePath("../AudioStreamPlayer")
 
 [node name="AnimatedIcon" parent="." instance=ExtResource( 8 )]
 visible = false
+frame = 1
 
 [node name="IconFromMP3" type="TextureRect" parent="."]
 material = SubResource( 1 )

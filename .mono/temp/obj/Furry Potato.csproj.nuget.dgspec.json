@@ -10,11 +10,15 @@
         "projectUniqueName": "D:\\GitHub\\Furry-Potato\\Furry Potato.csproj",
         "projectName": "Furry Potato",
         "projectPath": "D:\\GitHub\\Furry-Potato\\Furry Potato.csproj",
-        "packagesPath": "C:\\Users\\DoS\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
         "outputPath": "D:\\GitHub\\Furry-Potato\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DoS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,7 +101,7 @@
               "version": "[2.3.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

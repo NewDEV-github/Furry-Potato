@@ -107,6 +107,7 @@ text = "Use... different things"
 
 [node name="AnimatedIcon" parent="." instance=ExtResource( 7 )]
 visible = false
+frame = 0
 
 [node name="Visualizer" parent="." instance=ExtResource( 3 )]
 position = Vector2( 235, 400 )

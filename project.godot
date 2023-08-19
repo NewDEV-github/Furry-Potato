@@ -126,6 +126,7 @@ OptionController="*res://scenes/singletons/OptionController.tscn"
 GameController="*res://scenes/singletons/GameController.tscn"
 ShopItemController="*res://scenes/singletons/ShopItemController.tscn"
 CSharpCore="*res://scripts/CSharpCore.cs"
+Notifications="*res://scenes/game/other/Notifications.tscn"
 
 [debug]
 

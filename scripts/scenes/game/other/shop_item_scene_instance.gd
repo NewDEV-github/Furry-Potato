@@ -26,3 +26,4 @@ func set_item_data(data:Dictionary):
 
 func _on_Button_pressed():
 	emit_signal("item_bought", item_data["item_name"])
+	Notifications.set_text("Bought: " + item_data["item_name"])

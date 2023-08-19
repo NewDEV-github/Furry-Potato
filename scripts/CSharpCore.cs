@@ -16,10 +16,10 @@ public class CSharpCore : Node
     /// <summary>
     /// NewDEVSharp.User.Auth instance
     /// </summary>
-    protected Auth Auth = new Auth();
+    protected readonly Auth Auth = new Auth();
 
     public override void _Ready() {
         Auth.ClassInit();
-        Auth.Login("test", "test");
+        // Auth.Login("test", "test");
     }
 }

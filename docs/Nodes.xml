@@ -30,16 +30,47 @@
                 <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>_Process</Name>
-                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
-                  <Anchor>a3efcd8392776959fe7516ad555aba1a1</Anchor>
-                 </Node>
-                 <Node>
                   <Name>_Ready</Name>
                   <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
                   <Anchor>ac19ec7e6827fd407adb06fb00ff4c425</Anchor>
                  </Node>
+                 <Node>
+                  <Name>OnContinueGameButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>a38bffb5b59f59e07f5388c19f7235e58</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnExitButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>af287c2d81d805737c07c4d6078baf5eb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnLoadGameButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>a48249910b07fda51f380166ed3909cb3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnOptionsButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>a8be304fcb9c48447dbaea25e4baf893c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnStartNewGameButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
+                 </Node>
                 </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Core</Name>
+              <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>TestCore</Name>
+                <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+                <Anchor>aaa0e85e8cf34d61ba9ceaac37c3ed269</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -679,16 +710,47 @@
                 <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>_Process</Name>
-                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
-                  <Anchor>a3efcd8392776959fe7516ad555aba1a1</Anchor>
-                 </Node>
-                 <Node>
                   <Name>_Ready</Name>
                   <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
                   <Anchor>ac19ec7e6827fd407adb06fb00ff4c425</Anchor>
                  </Node>
+                 <Node>
+                  <Name>OnContinueGameButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>a38bffb5b59f59e07f5388c19f7235e58</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnExitButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>af287c2d81d805737c07c4d6078baf5eb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnLoadGameButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>a48249910b07fda51f380166ed3909cb3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnOptionsButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>a8be304fcb9c48447dbaea25e4baf893c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnStartNewGameButtonPressed</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
+                 </Node>
                 </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Core</Name>
+              <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>TestCore</Name>
+                <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+                <Anchor>aaa0e85e8cf34d61ba9ceaac37c3ed269</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1398,6 +1460,16 @@
            <Node>
             <Name>NewDEVSharp.Core</Name>
             <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
+           </Node>
+           <Node>
+            <Name>Node</Name>
+            <Path></Path>
+          <Subnodes>
+             <Node>
+              <Name>FurryPotato.Core</Name>
+              <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
           </Subnodes>
          </Node>
@@ -2190,8 +2262,8 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>Core.cs</Name>
-              <Path>db/df2/Core_8cs.html</Path>
+              <Name>NewDEVSharp/Core.cs</Name>
+              <Path>d9/d5b/NewDEVSharp_2Core_8cs.html</Path>
             <Subnodes>
                <Node>
                 <Name>NewDEVSharp.Core</Name>
@@ -2230,16 +2302,53 @@
                   <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
                 <Subnodes>
                    <Node>
-                    <Name>_Process</Name>
-                    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
-                    <Anchor>a3efcd8392776959fe7516ad555aba1a1</Anchor>
-                   </Node>
-                   <Node>
                     <Name>_Ready</Name>
                     <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
                     <Anchor>ac19ec7e6827fd407adb06fb00ff4c425</Anchor>
                    </Node>
+                   <Node>
+                    <Name>OnContinueGameButtonPressed</Name>
+                    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                    <Anchor>a38bffb5b59f59e07f5388c19f7235e58</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>OnExitButtonPressed</Name>
+                    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                    <Anchor>af287c2d81d805737c07c4d6078baf5eb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>OnLoadGameButtonPressed</Name>
+                    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                    <Anchor>a48249910b07fda51f380166ed3909cb3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>OnOptionsButtonPressed</Name>
+                    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                    <Anchor>a8be304fcb9c48447dbaea25e4baf893c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>OnStartNewGameButtonPressed</Name>
+                    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                    <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
+                   </Node>
                   </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Furry-Potato/scripts/Core.cs</Name>
+              <Path>d9/df2/Furry-Potato_2scripts_2Core_8cs.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>FurryPotato.Core</Name>
+                <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>TestCore</Name>
+                  <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+                  <Anchor>aaa0e85e8cf34d61ba9ceaac37c3ed269</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

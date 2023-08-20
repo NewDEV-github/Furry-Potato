@@ -9,5 +9,5 @@ var dir_077579c9fc193daa8c02eb26cdbdc4f8 =
     [ "User", "dir_b5022de4188e1ce700fe174d2e75f326.html", "dir_b5022de4188e1ce700fe174d2e75f326" ],
     [ "Utils", "dir_48028894003760a526b72b9e7b21af49.html", "dir_48028894003760a526b72b9e7b21af49" ],
     [ "BaseClass.cs", "d7/d4e/BaseClass_8cs.html", "d7/d4e/BaseClass_8cs" ],
-    [ "Core.cs", "db/df2/Core_8cs.html", "db/df2/Core_8cs" ]
+    [ "NewDEVSharp/Core.cs", "d9/d5b/NewDEVSharp_2Core_8cs.html", "d9/d5b/NewDEVSharp_2Core_8cs" ]
 ];

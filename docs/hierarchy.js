@@ -23,5 +23,8 @@ var hierarchy =
     [ "Control", null, [
       [ "FurryPotato.Main.MainMenu", "da/d20/classFurryPotato_1_1Main_1_1MainMenu.html", null ]
     ] ],
-    [ "NewDEVSharp.Core", "d5/d9c/classNewDEVSharp_1_1Core.html", null ]
+    [ "NewDEVSharp.Core", "d5/d9c/classNewDEVSharp_1_1Core.html", null ],
+    [ "Node", null, [
+      [ "FurryPotato.Core", "d0/d9d/classFurryPotato_1_1Core.html", null ]
+    ] ]
 ];

@@ -47,6 +47,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FurryPotato::Core</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FurryPotato.Core</Scope>
+    </TokenIdentifier>
+    <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewDEVSharp::Core</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -306,17 +315,6 @@
     </TokenIdentifier>
     <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
     <Anchor>a6a33c8f89e5e7c20613461087ae2f958</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Process</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FurryPotato.Main.MainMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
-    <Anchor>a3efcd8392776959fe7516ad555aba1a1</Anchor>
-    <DeclaredIn>MainMenu.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -986,7 +984,7 @@
     </TokenIdentifier>
     <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
     <Anchor>a240ebb6a5fa1787984b8bb0ae81636dd</Anchor>
-    <DeclaredIn>Core.cs</DeclaredIn>
+    <DeclaredIn>NewDEVSharp/Core.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -997,7 +995,7 @@
     </TokenIdentifier>
     <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
     <Anchor>ab02100dc6d202afbcd5c1c471a3fbc39</Anchor>
-    <DeclaredIn>Core.cs</DeclaredIn>
+    <DeclaredIn>NewDEVSharp/Core.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1052,6 +1050,61 @@
     </TokenIdentifier>
     <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
     <Anchor>abe80dddcd4407642d65a457c2c266cfd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnContinueGameButtonPressed</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+    <Anchor>a38bffb5b59f59e07f5388c19f7235e58</Anchor>
+    <DeclaredIn>MainMenu.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnExitButtonPressed</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+    <Anchor>af287c2d81d805737c07c4d6078baf5eb</Anchor>
+    <DeclaredIn>MainMenu.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnLoadGameButtonPressed</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+    <Anchor>a48249910b07fda51f380166ed3909cb3</Anchor>
+    <DeclaredIn>MainMenu.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnOptionsButtonPressed</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+    <Anchor>a8be304fcb9c48447dbaea25e4baf893c</Anchor>
+    <DeclaredIn>MainMenu.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnStartNewGameButtonPressed</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+    <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
+    <DeclaredIn>MainMenu.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1272,6 +1325,17 @@
     <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
     <Anchor>acaa0f762661fabbeaeb7c8fb4bd24220</Anchor>
     <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TestCore</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Core</Scope>
+    </TokenIdentifier>
+    <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+    <Anchor>aaa0e85e8cf34d61ba9ceaac37c3ed269</Anchor>
+    <DeclaredIn>Furry-Potato/scripts/Core.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -38,3 +38,51 @@ offset_bottom = 45.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("3_3otef")
+
+[node name="Buttons" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.9
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -65.0
+offset_top = -171.0
+offset_right = 65.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="StartNewGame" type="Button" parent="Buttons"]
+layout_mode = 2
+text = "Start new game"
+flat = true
+
+[node name="ContinueGame" type="Button" parent="Buttons"]
+layout_mode = 2
+text = "Continue game
+"
+flat = true
+
+[node name="LoadGame" type="Button" parent="Buttons"]
+layout_mode = 2
+text = "Load game
+"
+flat = true
+
+[node name="Options" type="Button" parent="Buttons"]
+layout_mode = 2
+text = "Options
+"
+flat = true
+
+[node name="Exit" type="Button" parent="Buttons"]
+layout_mode = 2
+text = "Exit
+"
+flat = true
+
+[connection signal="pressed" from="Buttons/StartNewGame" to="." method="OnStartNewGameButtonPressed"]
+[connection signal="pressed" from="Buttons/ContinueGame" to="." method="OnContinueGameButtonPressed"]
+[connection signal="pressed" from="Buttons/LoadGame" to="." method="OnLoadGameButtonPressed"]
+[connection signal="pressed" from="Buttons/Options" to="." method="OnOptionsButtonPressed"]
+[connection signal="pressed" from="Buttons/Exit" to="." method="OnExitButtonPressed"]

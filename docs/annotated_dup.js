@@ -3,7 +3,8 @@ var annotated_dup =
     [ "FurryPotato", "de/d6d/namespaceFurryPotato.html", [
       [ "Main", "d3/dac/namespaceFurryPotato_1_1Main.html", [
         [ "MainMenu", "da/d20/classFurryPotato_1_1Main_1_1MainMenu.html", "da/d20/classFurryPotato_1_1Main_1_1MainMenu" ]
-      ] ]
+      ] ],
+      [ "Core", "d0/d9d/classFurryPotato_1_1Core.html", "d0/d9d/classFurryPotato_1_1Core" ]
     ] ],
     [ "NewDEVSharp", "d7/d59/namespaceNewDEVSharp.html", [
       [ "Collections", "d5/d09/namespaceNewDEVSharp_1_1Collections.html", [

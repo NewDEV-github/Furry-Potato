@@ -1,2 +1,5 @@
+Button
+VBoxContainer
+Control
 TextureRect
 VideoStreamPlayer

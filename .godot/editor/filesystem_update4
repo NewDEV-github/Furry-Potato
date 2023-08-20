@@ -21,3 +21,4 @@ res://scripts/scenes/menu.gd
 res://scripts/scenes/game/studio_manager/studio_manager.gd
 res://scenes/main/main_menu.tscn
 res://scenes/main/MainMenu.tscn
+res://scenes/Core.tscn

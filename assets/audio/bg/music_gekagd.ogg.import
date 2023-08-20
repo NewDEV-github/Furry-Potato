@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/music_gekagd.ogg-becc5d9fdd0089fbf8c34d4c42ae8dca.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://byng2c414usft"
+path="res://.godot/imported/music_gekagd.ogg-becc5d9fdd0089fbf8c34d4c42ae8dca.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/audio/bg/music_gekagd.ogg"
-dest_files=[ "res://.import/music_gekagd.ogg-becc5d9fdd0089fbf8c34d4c42ae8dca.oggstr" ]
+dest_files=["res://.godot/imported/music_gekagd.ogg-becc5d9fdd0089fbf8c34d4c42ae8dca.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

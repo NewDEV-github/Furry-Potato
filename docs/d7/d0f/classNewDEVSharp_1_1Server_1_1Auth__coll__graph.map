@@ -1,5 +1,7 @@
 <map id="NewDEVSharp.Server.Auth" name="NewDEVSharp.Server.Auth">
-<area shape="rect" id="node1" title=" " coords="5,152,184,177"/>
-<area shape="rect" id="node2" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base" coords="51,79,139,104"/>
-<area shape="rect" id="node3" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="52,5,137,31"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,184,181"/>
+<area shape="rect" id="Node000002" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base." alt="" coords="51,80,138,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,122,97,154,92,154,92,122"/>
+<area shape="rect" id="Node000003" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes." alt="" coords="52,5,137,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,47,97,80,92,80,92,47"/>
 </map>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['endparty_0',['EndParty',['../da/d3e/classparty.html#a6e4328785ca8d26d3b6a708a42e470d5',1,'party']]],
-  ['eraseslot_1',['EraseSlot',['../d1/d1c/classDialogicSharp.html#aa15303ac5851f14e362038b6c13e4d40',1,'DialogicSharp']]],
-  ['export_2',['Export',['../d1/d1c/classDialogicSharp.html#acddfcb33c547a7bcf080dcb1b747bd02',1,'DialogicSharp']]]
+  ['getextension_0',['GetExtension',['../dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html#a7c658aadbeadf3bccd00db4cd6914592',1,'NewDEVSharp::Utils::MusicUtils']]],
+  ['getuserdata_1',['GetUserData',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a18b32ed925ce60ee0ee3c33c555878b9',1,'NewDEVSharp::User::Auth']]],
+  ['godottosystem_2',['GodotToSystem',['../d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html#a75c9261dda3fcef4608ecb8556630088',1,'NewDEVSharp::Collections::DictionaryConverter']]]
 ];

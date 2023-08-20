@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['directory_0',['Directory',['../d2/de6/SaveManager_8cs.html#aada057080323f6e867d8f9c189276716',1,'SaveManager.cs']]]
+  ['environment_0',['Environment',['../da/d27/Server_2Auth_8cs.html#a282800ee7039b7c85bc875ffd01a01e3',1,'Auth.cs']]]
 ];

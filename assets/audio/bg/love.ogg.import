@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/love.ogg-74cd2213bf5978198cd43bf0e21bbc77.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://8tfxbcqaib5x"
+path="res://.godot/imported/love.ogg-74cd2213bf5978198cd43bf0e21bbc77.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/audio/bg/love.ogg"
-dest_files=[ "res://.import/love.ogg-74cd2213bf5978198cd43bf0e21bbc77.oggstr" ]
+dest_files=["res://.godot/imported/love.ogg-74cd2213bf5978198cd43bf0e21bbc77.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

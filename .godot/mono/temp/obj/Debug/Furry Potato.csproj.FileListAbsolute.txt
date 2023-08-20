@@ -1,0 +1,58 @@
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.csproj.AssemblyReference.cache
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.AssemblyInfoInputs.cache
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.AssemblyInfo.cs
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.csproj.CoreCompileInputs.cache
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Furry Potato.deps.json
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Furry Potato.runtimeconfig.json
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Furry Potato.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Furry Potato.pdb
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\FirebaseAdmin.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Api.Gax.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Api.Gax.Rest.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.Auth.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.Core.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.PlatformServices.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.Cors.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.Security.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\NewDEVSharp.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Owin.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\System.Web.Cors.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\TagLibSharp.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\FirebaseAdmin.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Api.Gax.pdb
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Api.Gax.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Api.Gax.Rest.pdb
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Api.Gax.Rest.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.pdb
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.Auth.pdb
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.Auth.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.Core.pdb
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Google.Apis.Core.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.Cors.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.Security.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\NewDEVSharp.pdb
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\NewDEVSharp.dll.config
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\TagLibSharp.pdb
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\TagLibSharp.xml
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.csproj.CopyComplete
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\refint\Furry Potato.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.pdb
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.genruntimeconfig.cache
+D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\ref\Furry Potato.dll

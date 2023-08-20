@@ -1,8 +1,15 @@
 <map id="NewDEVSharp.User.Auth" name="NewDEVSharp.User.Auth">
-<area shape="rect" id="node1" title="Class used for user authentication for DLC&#39;s" coords="153,267,324,292"/>
-<area shape="rect" id="node2" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="92,5,177,31"/>
-<area shape="rect" id="node5" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base" coords="90,80,178,105"/>
-<area shape="rect" id="node6" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base" coords="166,129,385,155"/>
-<area shape="rect" id="node3" title=" " coords="344,179,402,204"/>
-<area shape="rect" id="node4" href="$d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html" title=" " coords="30,179,239,204"/>
+<area shape="rect" id="Node000001" title="Class used for user authentication for DLC&#39;s." alt="" coords="153,273,322,300"/>
+<area shape="rect" id="Node000002" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes." alt="" coords="91,5,175,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,43,66,76,29,118,16,141,9,164,10,186,20,208,46,235,79,255,116,268,153,277,151,282,114,273,77,260,43,239,15,211,4,187,4,163,11,139,25,115,63,72,102,39"/>
+<area shape="rect" id="Node000005" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base." alt="" coords="90,81,177,108"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="136,47,136,81,131,81,131,47"/>
+<area shape="rect" id="Node000006" href="$d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html" title="Server&#45;classes base." alt="" coords="165,132,382,159"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="160,40,261,129,257,133,156,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="341,183,398,209"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="346,221,305,252,265,275,262,270,303,247,343,217"/>
+<area shape="rect" id="Node000004" href="$d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html" title=" " alt="" coords="29,183,237,209"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="159,218,193,247,223,271,219,275,190,251,156,222"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="136,123,136,183,131,183,131,123"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="279,174,278,211,269,250,253,275,248,272,264,248,273,210,273,173"/>
 </map>

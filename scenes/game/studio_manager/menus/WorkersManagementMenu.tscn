@@ -1,6 +1,0 @@
-[gd_scene format=2]
-
-[node name="LookUpForWorkersMenu" type="WindowDialog"]
-margin_right = 48.0
-margin_bottom = 40.0
-window_title = "Manage workers"

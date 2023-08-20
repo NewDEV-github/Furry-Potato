@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['load_0',['Load',['../d1/d1c/classDialogicSharp.html#aeff167a3beab4bd3421211f76342efdb',1,'DialogicSharp']]],
-  ['loaddlcdatafrompath_1',['LoadDLCDataFromPath',['../de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a37e54a58d621b08732fe3d67bb2ca340',1,'NewDEVSharp::DLC::DLC']]],
-  ['loadsave_2',['LoadSave',['../d5/d5c/classLoader.html#a9011f0e536fdc4cde02557a0c3a9e78c',1,'Loader']]],
-  ['loadsongfiles_3',['LoadSongFiles',['../df/d61/classCustomAudioLibrary.html#ad23372af6611bd8a35737b84b8cbdc5d',1,'CustomAudioLibrary']]],
-  ['login_4',['Login',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a6f6f323c6a25e42c2d8682d4fe896760',1,'NewDEVSharp::User::Auth']]]
+  ['register_0',['Register',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a5419a35d5cafa719233dcdd0dc0274b1',1,'NewDEVSharp::User::Auth']]],
+  ['request_1',['Request',['../db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#add36f688e903101754739dd26de2bbce',1,'NewDEVSharp.Server.Auth.Request()'],['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#ac91f1a88a845c8514f01ef757edd88f4',1,'NewDEVSharp.Server.BaseServer.Request()'],['../d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html#aeaef433471487161f55dcfeb809cda7c',1,'NewDEVSharp.Server.DataBase.Request()']]]
 ];

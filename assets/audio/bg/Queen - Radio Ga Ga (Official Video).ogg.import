@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/Queen - Radio Ga Ga (Official Video).ogg-9a68013b8652496e4729d8f184b458ea.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cmwcux1qlfipu"
+path="res://.godot/imported/Queen - Radio Ga Ga (Official Video).ogg-9a68013b8652496e4729d8f184b458ea.oggvorbisstr"
 
 [deps]
 
 source_file="res://assets/audio/bg/Queen - Radio Ga Ga (Official Video).ogg"
-dest_files=[ "res://.import/Queen - Radio Ga Ga (Official Video).ogg-9a68013b8652496e4729d8f184b458ea.oggstr" ]
+dest_files=["res://.godot/imported/Queen - Radio Ga Ga (Official Video).ogg-9a68013b8652496e4729d8f184b458ea.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

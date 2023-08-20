@@ -1,22 +1,8 @@
 var searchData=
 [
-  ['party_0',['party',['../da/d3e/classparty.html',1,'']]],
-  ['party_2ecs_1',['party.cs',['../d1/daf/party_8cs.html',1,'']]],
-  ['partydata_2',['PartyData',['../da/d3e/classparty.html#a846c4cc26f9399266fb338f02813ec7d',1,'party']]],
-  ['partydata_3',['partyData',['../da/d53/classPartyRatingsMenu.html#ad98fa994611fd6fb9c65d86fd5994716',1,'PartyRatingsMenu']]],
-  ['partyended_4',['PartyEnded',['../da/d3e/classparty.html#a14b9a1fd76d550d35d8f5420c72a4dc5',1,'party']]],
-  ['partyids_5',['PartyIds',['../da/d3e/classparty.html#a17dcbbbb8fc1a014d857f10e343d9de7',1,'party']]],
-  ['partylist_6',['PartyList',['../d2/d1c/classPartyList.html',1,'']]],
-  ['partylist_2ecs_7',['PartyList.cs',['../db/dbf/PartyList_8cs.html',1,'']]],
-  ['partyratingdetails_8',['PartyRatingDetails',['../d6/d32/classPartyRatingDetails.html',1,'']]],
-  ['partyratingdetails_2ecs_9',['PartyRatingDetails.cs',['../dd/d80/PartyRatingDetails_8cs.html',1,'']]],
-  ['partyratings_10',['partyRatings',['../da/d53/classPartyRatingsMenu.html#abf04d568112d8c11ec4f1d01b50d52da',1,'PartyRatingsMenu']]],
-  ['partyratingsmenu_11',['PartyRatingsMenu',['../da/d53/classPartyRatingsMenu.html',1,'']]],
-  ['partyratingsmenu_2ecs_12',['PartyRatingsMenu.cs',['../d1/de7/PartyRatingsMenu_8cs.html',1,'']]],
-  ['post_13',['Post',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a9400bcc3ae2c84aad7cefc2ea3abd798',1,'NewDEVSharp::User::Auth']]],
-  ['preloaddlcdata_14',['PreLoadDLCData',['../db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a92e233f3645dc31183edb0bacd876b9f',1,'NewDEVSharp::DLC::Manager']]],
-  ['preloadedoptionsavedata_15',['PreloadedOptionSaveData',['../d7/dac/classOptionSaver.html#a72a4f8ac759f926427e09fdd728aac94',1,'OptionSaver']]],
-  ['preloadedsavedata_16',['PreloadedSaveData',['../dd/d61/classSaveSelectMenuPopup.html#aab7c957db2254f88a3b446d221f3af0e',1,'SaveSelectMenuPopup']]],
-  ['preloadoptions_17',['PreloadOptions',['../d7/dac/classOptionSaver.html#a7a54b5a29f777098ee3f99b3b69c981b',1,'OptionSaver']]],
-  ['preloadscene_18',['PreloadScene',['../d9/d5c/classBackgroundLoader.html#a7e680d86816156d6317bc816712cd849',1,'BackgroundLoader']]]
+  ['_2enetframework_2cversion_3dv4_2e7_2e2_2eassemblyattributes_2ecs_0',['.NETFramework,Version=v4.7.2.AssemblyAttributes.cs',['../db/d0e/Release_2_8NETFramework_00Version_0av4_87_82_8AssemblyAttributes_8cs.html',1,'']]],
+  ['_2enetframework_2cversion_3dv4_2e8_2eassemblyattributes_2ecs_1',['.NETFramework,Version=v4.8.AssemblyAttributes.cs',['../de/dd6/Release_2_8NETFramework_00Version_0av4_88_8AssemblyAttributes_8cs.html',1,'']]],
+  ['register_2',['Register',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a5419a35d5cafa719233dcdd0dc0274b1',1,'NewDEVSharp::User::Auth']]],
+  ['request_3',['Request',['../db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#add36f688e903101754739dd26de2bbce',1,'NewDEVSharp.Server.Auth.Request()'],['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#ac91f1a88a845c8514f01ef757edd88f4',1,'NewDEVSharp.Server.BaseServer.Request()'],['../d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html#aeaef433471487161f55dcfeb809cda7c',1,'NewDEVSharp.Server.DataBase.Request()']]],
+  ['requesttype_4',['RequestType',['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a26ee430c987c07c6f6521da65cd32d59',1,'NewDEVSharp::Server::BaseServer']]]
 ];

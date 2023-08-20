@@ -1,27 +1,87 @@
-<Project Sdk="Godot.NET.Sdk/3.3.0">
+<Project Sdk="Godot.NET.Sdk/4.0.3">
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
     <RootNamespace>FurryPotato</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="FirebaseAdmin" Version="2.3.0" />
-    <PackageReference Include="Google.Api.Gax" Version="4.3.0-beta01" />
-    <PackageReference Include="Google.Api.Gax.Rest" Version="3.2.0" />
-    <PackageReference Include="Google.Apis" Version="1.58.0" />
-    <PackageReference Include="Google.Apis.Auth" Version="1.58.0" />
-    <PackageReference Include="Google.Apis.Core" Version="1.58.0" />
-    <PackageReference Include="JetBrains.Annotations" Version="2022.3.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
-    <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.3-beta1" />
-    <PackageReference Include="System.Buffers" Version="4.5.1" />
-    <PackageReference Include="System.Collections.Immutable" Version="7.0.0" />
-    <PackageReference Include="System.Memory" Version="4.5.5" />
-    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
-    <PackageReference Include="TagLibSharp" Version="2.3.0" />
-  </ItemGroup>
-  <ItemGroup>
+    <Reference Include="FirebaseAdmin">
+      <HintPath>..\NewDEVSharp\bin\Release\FirebaseAdmin.dll</HintPath>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>..\NewDEVSharp\bin\Release\GodotSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax">
+      <HintPath>..\NewDEVSharp\bin\Release\Google.Api.Gax.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax.Rest">
+      <HintPath>..\NewDEVSharp\bin\Release\Google.Api.Gax.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis">
+      <HintPath>..\NewDEVSharp\bin\Release\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth">
+      <HintPath>..\NewDEVSharp\bin\Release\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices">
+      <HintPath>..\NewDEVSharp\bin\Release\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core">
+      <HintPath>..\NewDEVSharp\bin\Release\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices">
+      <HintPath>..\NewDEVSharp\bin\Release\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>..\NewDEVSharp\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\NewDEVSharp\bin\Release\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Cors">
+      <HintPath>..\NewDEVSharp\bin\Release\Microsoft.Owin.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\NewDEVSharp\bin\Release\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\NewDEVSharp\bin\Release\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\NewDEVSharp\bin\Release\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
     <Reference Include="NewDEVSharp">
-      <HintPath>D:\GitHub\NewDEVSharp\bin\Release\NewDEVSharp.dll</HintPath>
+      <HintPath>..\NewDEVSharp\bin\Release\NewDEVSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\NewDEVSharp\bin\Release\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\NewDEVSharp\bin\Release\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>..\NewDEVSharp\bin\Release\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>..\NewDEVSharp\bin\Release\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>..\NewDEVSharp\bin\Release\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\NewDEVSharp\bin\Release\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\NewDEVSharp\bin\Release\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\NewDEVSharp\bin\Release\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Cors">
+      <HintPath>..\NewDEVSharp\bin\Release\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="TagLibSharp">
+      <HintPath>..\NewDEVSharp\bin\Release\TagLibSharp.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

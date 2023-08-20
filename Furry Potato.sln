@@ -1,6 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furry Potato", "Furry Potato.csproj", "{EF45FEA7-EB58-40CF-8022-87CFCB6B855E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furry Potato", "Furry Potato.csproj", "{65DC951D-4A98-4CC9-AC89-9C3E221CA9BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,11 +9,11 @@ Global
 	ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EF45FEA7-EB58-40CF-8022-87CFCB6B855E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF45FEA7-EB58-40CF-8022-87CFCB6B855E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF45FEA7-EB58-40CF-8022-87CFCB6B855E}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
-		{EF45FEA7-EB58-40CF-8022-87CFCB6B855E}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
-		{EF45FEA7-EB58-40CF-8022-87CFCB6B855E}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
-		{EF45FEA7-EB58-40CF-8022-87CFCB6B855E}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{65DC951D-4A98-4CC9-AC89-9C3E221CA9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DC951D-4A98-4CC9-AC89-9C3E221CA9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DC951D-4A98-4CC9-AC89-9C3E221CA9BD}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{65DC951D-4A98-4CC9-AC89-9C3E221CA9BD}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{65DC951D-4A98-4CC9-AC89-9C3E221CA9BD}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{65DC951D-4A98-4CC9-AC89-9C3E221CA9BD}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -20,15 +20,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>BackgroundLoader</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>NewDEVSharp::BaseClass</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -47,15 +38,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>BaseSave</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>BaseSave</Scope>
-    </TokenIdentifier>
-    <Path>d0/dd0/classBaseSave.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>NewDEVSharp::Server::BaseServer</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -65,48 +47,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClubController</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>ClubController</Scope>
-    </TokenIdentifier>
-    <Path>d8/d14/classClubController.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Computer</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>Computer</Scope>
-    </TokenIdentifier>
-    <Path>d5/de3/classComputer.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>NewDEVSharp::Core</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
       <Scope>NewDEVSharp.Core</Scope>
     </TokenIdentifier>
     <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CSharpCore</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>CSharpCore</Scope>
-    </TokenIdentifier>
-    <Path>d0/dd2/classCSharpCore.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CustomAudioLibrary</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>CustomAudioLibrary</Scope>
-    </TokenIdentifier>
-    <Path>df/d61/classCustomAudioLibrary.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -146,15 +92,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>DialogicSharp</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>NewDEVSharp::Collections::DictionaryConverter</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -173,48 +110,21 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>FolderBase</Name>
+      <Name>NewDEVSharp::Utils::ImageUtils</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
-      <Scope>FolderBase</Scope>
+      <Scope>NewDEVSharp.Utils.ImageUtils</Scope>
     </TokenIdentifier>
-    <Path>dd/d22/classFolderBase.html</Path>
+    <Path>da/d20/classNewDEVSharp_1_1Utils_1_1ImageUtils.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>FolderSystemDocuments</Name>
+      <Name>FurryPotato::Main::MainMenu</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
-      <Scope>FolderSystemDocuments</Scope>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
     </TokenIdentifier>
-    <Path>dc/de4/classFolderSystemDocuments.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>FolderSystemMusic</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>FolderSystemMusic</Scope>
-    </TokenIdentifier>
-    <Path>d0/d71/classFolderSystemMusic.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GameControllerCS</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Loader</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>Loader</Scope>
-    </TokenIdentifier>
-    <Path>d5/d5c/classLoader.html</Path>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -245,120 +155,30 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OptionSaver</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>OptionSaver</Scope>
-    </TokenIdentifier>
-    <Path>d7/dac/classOptionSaver.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>party</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PartyList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>PartyList</Scope>
-    </TokenIdentifier>
-    <Path>d2/d1c/classPartyList.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PartyRatingDetails</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>PartyRatingDetails</Scope>
-    </TokenIdentifier>
-    <Path>d6/d32/classPartyRatingDetails.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PartyRatingsMenu</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SaveContainer</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>SaveContainer</Scope>
-    </TokenIdentifier>
-    <Path>d4/d14/classSaveContainer.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SaveManager</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>SaveManager</Scope>
-    </TokenIdentifier>
-    <Path>d8/d24/classSaveManager.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Saver</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>Saver</Scope>
-    </TokenIdentifier>
-    <Path>dd/de5/classSaver.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SaveSelectMenuPopup</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>SaveSelectMenuPopup</Scope>
-    </TokenIdentifier>
-    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ShopItemBase</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ShopItemHeadphones</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>ShopItemHeadphones</Scope>
-    </TokenIdentifier>
-    <Path>d1/d44/classShopItemHeadphones.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ShopItemManager</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>cl</Type>
-      <Scope>ShopItemManager</Scope>
-    </TokenIdentifier>
-    <Path>d5/deb/classShopItemManager.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>NewDEVSharp::DLC::Verifier</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
       <Scope>NewDEVSharp.DLC.Verifier</Scope>
     </TokenIdentifier>
     <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FurryPotato</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>FurryPotato</Scope>
+    </TokenIdentifier>
+    <Path>de/d6d/namespaceFurryPotato.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FurryPotato::Main</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>FurryPotato::Main</Scope>
+    </TokenIdentifier>
+    <Path>d3/dac/namespaceFurryPotato_1_1Main.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -469,46 +289,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>_casualHeadphones</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemManager</Scope>
-    </TokenIdentifier>
-    <Path>d5/deb/classShopItemManager.html</Path>
-    <Anchor>a3dbc298dd6f4c55c9223e36d8a3176c9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_clubController</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>ac8b022d722c5c1f51e7cee630e3a406e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_currentItemListId</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>SaveSelectMenuPopup</Scope>
-    </TokenIdentifier>
-    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>a5a1512146616c6a68db275873d5d50ed</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_data</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a33b1dd8531d531cefedd1f5de3346594</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>_dataBaseS</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -516,46 +296,6 @@
     </TokenIdentifier>
     <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
     <Anchor>aad131bd3184693b3cb55b10220af4cfb</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_dataTags</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>CustomAudioLibrary</Scope>
-    </TokenIdentifier>
-    <Path>df/d61/classCustomAudioLibrary.html</Path>
-    <Anchor>aae06acc634f16128dfbe8a5a580d6f42</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_dc</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>OptionSaver</Scope>
-    </TokenIdentifier>
-    <Path>d7/dac/classOptionSaver.html</Path>
-    <Anchor>a63e4d6c2dc809ddb9b47b5cd527d91a6</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_dc</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>Saver</Scope>
-    </TokenIdentifier>
-    <Path>dd/de5/classSaver.html</Path>
-    <Anchor>ac2b41ec117349153cdf40137ba365e3e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_dialogic</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>aa083ff3f5c19d959d44677204d606fe7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -569,302 +309,25 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>_folderList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>CustomAudioLibrary</Scope>
-    </TokenIdentifier>
-    <Path>df/d61/classCustomAudioLibrary.html</Path>
-    <Anchor>aa524b5f12078f49c10704ff1b17bf521</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_intData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a76610ccbff728958d0932648b4134375</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_itemList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>aa7341867395b0cad2f1e4047b541d3ae</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_itemList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>SaveSelectMenuPopup</Scope>
-    </TokenIdentifier>
-    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>abf582f0c7505de1588d56595f1189649</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_itemList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemManager</Scope>
-    </TokenIdentifier>
-    <Path>d5/deb/classShopItemManager.html</Path>
-    <Anchor>a53a4535e5cefc028bb34c96c882d0daa</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_multipliers</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a082da5042ec92cca772c86c265a8878e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_newScene</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a79bbfed2880def617c8701c4ed9e5ff7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_on_PartyRatingsMenu_about_to_show</Name>
+      <Name>_Process</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
-      <Scope>PartyRatingsMenu</Scope>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
     </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>a658be4c0d79fedf8dd736fc1e1ae1c47</Anchor>
-    <DeclaredIn>PartyRatingsMenu.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_partyRatings</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>abaa2ad2c71c59037e49f88debe0dcc1f</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_pathsForItemList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>SaveSelectMenuPopup</Scope>
-    </TokenIdentifier>
-    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>ad7259fc2ebb41c07d7db8abf7a0e3261</Anchor>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+    <Anchor>a3efcd8392776959fe7516ad555aba1a1</Anchor>
+    <DeclaredIn>MainMenu.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>_Ready</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
-      <Scope>CSharpCore</Scope>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
     </TokenIdentifier>
-    <Path>d0/dd2/classCSharpCore.html</Path>
-    <Anchor>a3646911b8210aad6aa6ee546c97c1a1e</Anchor>
-    <DeclaredIn>CSharpCore.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a3f5201b512af921a27843f5e539bbfd2</Anchor>
-    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Computer</Scope>
-    </TokenIdentifier>
-    <Path>d5/de3/classComputer.html</Path>
-    <Anchor>a807b5c09426266e932d624b303dde87b</Anchor>
-    <DeclaredIn>Computer.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CustomAudioLibrary</Scope>
-    </TokenIdentifier>
-    <Path>df/d61/classCustomAudioLibrary.html</Path>
-    <Anchor>af9ab67b8fd226c8457761f86e2aa564c</Anchor>
-    <DeclaredIn>CustomAudioLibrary.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveManager</Scope>
-    </TokenIdentifier>
-    <Path>d8/d24/classSaveManager.html</Path>
-    <Anchor>a13c1b056915f75d34bdd3c1d643f7dd6</Anchor>
-    <DeclaredIn>SaveManager.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>PartyList</Scope>
-    </TokenIdentifier>
-    <Path>d2/d1c/classPartyList.html</Path>
-    <Anchor>aab333bdf2c9b44ccbf7359dbad5e7f14</Anchor>
-    <DeclaredIn>PartyList.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>a2ff6424f3b4b8a4319162c44f19aada4</Anchor>
-    <DeclaredIn>PartyRatingsMenu.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Ready</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveSelectMenuPopup</Scope>
-    </TokenIdentifier>
-    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>a0318807429135dc184398fb68e098163</Anchor>
-    <DeclaredIn>SaveSelectMenuPopup.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_res</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>ac307601308e484e30b55b0d8e9b3a4ef</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_saveContainer</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>OptionSaver</Scope>
-    </TokenIdentifier>
-    <Path>d7/dac/classOptionSaver.html</Path>
-    <Anchor>ad441db29abbbc8e6fe8e687da0f13bee</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_saveContainer</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>Saver</Scope>
-    </TokenIdentifier>
-    <Path>dd/de5/classSaver.html</Path>
-    <Anchor>a29b24d68174ec78767528f3b5312a5db</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_saveManager</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>SaveSelectMenuPopup</Scope>
-    </TokenIdentifier>
-    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>a97ba00d0342eb226d34e9c9479c7ce32</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_saveNamesList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>SaveManager</Scope>
-    </TokenIdentifier>
-    <Path>d8/d24/classSaveManager.html</Path>
-    <Anchor>a7726dcc474eb2569625fff1104ffedcf</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_saveRoot</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>SaveContainer</Scope>
-    </TokenIdentifier>
-    <Path>d4/d14/classSaveContainer.html</Path>
-    <Anchor>aaa35428d26b43cc7c976e78dbb18182b</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_scenePath</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a6dc40ea61d18df0b4df8776eeceb0bb5</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_shopItems</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemManager</Scope>
-    </TokenIdentifier>
-    <Path>d5/deb/classShopItemManager.html</Path>
-    <Anchor>a2a3f8019d644629e3a4298c73710774b</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_systemDocuments</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>CustomAudioLibrary</Scope>
-    </TokenIdentifier>
-    <Path>df/d61/classCustomAudioLibrary.html</Path>
-    <Anchor>ac595bad81b3cc757cf1ef8c397cf5301</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_systemMusic</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>CustomAudioLibrary</Scope>
-    </TokenIdentifier>
-    <Path>df/d61/classCustomAudioLibrary.html</Path>
-    <Anchor>ae6675694cdab2bd8ab4fe61b9be18ef5</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_thread</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a98c52563f03603667fdff76551eeb6c8</Anchor>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+    <Anchor>ac19ec7e6827fd407adb06fb00ff4c425</Anchor>
+    <DeclaredIn>MainMenu.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -875,39 +338,6 @@
     </TokenIdentifier>
     <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
     <Anchor>a4bb563f5df231a53f39fa41975550c47</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AddExperience</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a5932249ba6a04147d10fb20b72b47d85</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AddMoney</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>ad7a99ffa64342f56a72b3422f0200a03</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AddPartyRating</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a93d70d26681282d87a7df498e3c6988f</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -944,16 +374,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Auth</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>CSharpCore</Scope>
-    </TokenIdentifier>
-    <Path>d0/dd2/classCSharpCore.html</Path>
-    <Anchor>a7a642cda36abec1dcc1e99aa68ebb5e7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Author</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -987,16 +407,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Autosave</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instp</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>adac214c08f75c7645efc787045108dc9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>BoughtInLegalWay</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -1004,38 +414,6 @@
     </TokenIdentifier>
     <Path>d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html</Path>
     <Anchor>a064fee33556792eaada7abe4dfa5c894</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CanChange</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a7cb7630bd66bbcdaf489a61fa8fbbcbe</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ChangeSceneToPreloaded</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>abadf730f6aa55cbf16eabea117236a99</Anchor>
-    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CheckIfPartyWasDone</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a7eba19724b48cdf947609a80095cba21</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1157,6 +535,17 @@
     <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
     <Anchor>aaf55fadc21e1aaf659175e6e4262469b</Anchor>
     <DeclaredIn>User/Auth.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassInit</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.ImageUtils</Scope>
+    </TokenIdentifier>
+    <Path>da/d20/classNewDEVSharp_1_1Utils_1_1ImageUtils.html</Path>
+    <Anchor>a3797ab1bc93907127a03d6257ed57c42</Anchor>
+    <DeclaredIn>ImageUtils.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1317,6 +706,17 @@
       <Name>ClassName</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
+      <Scope>NewDEVSharp.Utils.ImageUtils</Scope>
+    </TokenIdentifier>
+    <Path>da/d20/classNewDEVSharp_1_1Utils_1_1ImageUtils.html</Path>
+    <Anchor>a4a012a004c1b167b34b04b56bcfce31b</Anchor>
+    <DeclaredIn>ImageUtils.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClassName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
       <Scope>NewDEVSharp.Utils.MP3.DataTags</Scope>
     </TokenIdentifier>
     <Path>da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html</Path>
@@ -1358,17 +758,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClearStuff</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a9523179cc2082561f774b7bc0ec5882a</Anchor>
-    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Client</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -1376,37 +765,6 @@
     </TokenIdentifier>
     <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
     <Anchor>a3cb08ab24cd5c1a9e4af0153c72d32b6</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClubData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ClubController</Scope>
-    </TokenIdentifier>
-    <Path>d8/d14/classClubController.html</Path>
-    <Anchor>a778388212e08acfa4557e513e3b4625d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClubIds</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ClubController</Scope>
-    </TokenIdentifier>
-    <Path>d8/d14/classClubController.html</Path>
-    <Anchor>a7b4db6f87c7ad6ba933b0aa2b433fcf8</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ComputePartyRewards</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a7578ac813cb5175ccdae114682bd7484</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1449,17 +807,7 @@
       <Scope>NewDEVSharp.Utils.MusicUtils</Scope>
     </TokenIdentifier>
     <Path>dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html</Path>
-    <Anchor>a7e8c6bf4935983d089e321d2019a6835</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CoreInstance</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>CSharpCore</Scope>
-    </TokenIdentifier>
-    <Path>d0/dd2/classCSharpCore.html</Path>
-    <Anchor>a2b529f7000e90fbe3fb14204bedd11fa</Anchor>
+    <Anchor>adf419b8413ab9f9649ede6f6288a56f4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1484,63 +832,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>CurrentPartyId</Name>
+      <Name>Delete</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
     </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>afb411a2a022612decf5ba18c063a3efc</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CurrentSaveName</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>aa6944ebfc334165e26400938f18a06c7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CurrentTimeline</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instp</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>aaa555629496915958944ac49bfe3f8a2</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DEFAULT_DIALOG_RESOURCE</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a4346fe4d54d8b1ffcffe2ba30848e1f6</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DefaultDefinitions</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instp</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>aeb82752d8dcf6868515e3f6e65d6ea45</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Definitions</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instp</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a3c4c231c6cd54ceeb8d4b0fd0dc14c3b</Anchor>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59af2a6c498fb90ee345d997f888fce3b18</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1552,39 +850,6 @@
     <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
     <Anchor>af55f88a43dd84a08869e85d8a9fe0db5</Anchor>
     <DeclaredIn>BaseServer.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DisplayDetail</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>PartyList</Scope>
-    </TokenIdentifier>
-    <Path>d2/d1c/classPartyList.html</Path>
-    <Anchor>a18182a8f1a45eac9fe1eb7284dbfe6ec</Anchor>
-    <DeclaredIn>PartyList.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DisplayDetailedRating</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>PartyRatingDetails</Scope>
-    </TokenIdentifier>
-    <Path>d6/d32/classPartyRatingDetails.html</Path>
-    <Anchor>a22a367fab960b909fa12e5f26f83cbd0</Anchor>
-    <DeclaredIn>PartyRatingDetails.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DisplayRatings</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>aa89c7705fcd319520f12e8c08682363b</Anchor>
-    <DeclaredIn>PartyRatingsMenu.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1608,49 +873,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>DonePartys</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>abab5d057b0191a31a79349fdff6d52cd</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>EndParty</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a6e4328785ca8d26d3b6a708a42e470d5</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>EraseSlot</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>aa15303ac5851f14e362038b6c13e4d40</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Export</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>acddfcb33c547a7bcf080dcb1b747bd02</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Extension</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -1671,36 +893,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>GetClubNameByParty</Name>
+      <Name>Get</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
     </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a32c24b66f1959fc1696ea0496b63ad87</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetCurrentSlot</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a290f7b037a12f268594ce95c1dafae76</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetExperience</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a21103c0c036ba54b19e31c34ec42986b</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59ac55582518cba2c464f29f5bae1c68def</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1715,347 +914,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>GetFilesInFolder</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FolderBase</Scope>
-    </TokenIdentifier>
-    <Path>dd/d22/classFolderBase.html</Path>
-    <Anchor>a0323fb67737c11e65045635c8d32c4ac</Anchor>
-    <DeclaredIn>FolderBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetFilesInFolder</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FolderSystemDocuments</Scope>
-    </TokenIdentifier>
-    <Path>dc/de4/classFolderSystemDocuments.html</Path>
-    <Anchor>afd54f9b9e105b342b5f9a96afd7db8d0</Anchor>
-    <DeclaredIn>FolderSystemDocuments.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetFilesInFolder</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FolderSystemMusic</Scope>
-    </TokenIdentifier>
-    <Path>d0/d71/classFolderSystemMusic.html</Path>
-    <Anchor>a3a1f2ececd1942940f4fb72a796a0294</Anchor>
-    <DeclaredIn>FolderSystemMusic.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetFloats</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a9ca187c7d782898efb419497b12195c5</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetFolderPath</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FolderBase</Scope>
-    </TokenIdentifier>
-    <Path>dd/d22/classFolderBase.html</Path>
-    <Anchor>a37ab29e89583633e0677c9ad58139224</Anchor>
-    <DeclaredIn>FolderBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetFolderPath</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FolderSystemDocuments</Scope>
-    </TokenIdentifier>
-    <Path>dc/de4/classFolderSystemDocuments.html</Path>
-    <Anchor>a61ec96cb78fc1798e9766870094fb794</Anchor>
-    <DeclaredIn>FolderSystemDocuments.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetFolderPath</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FolderSystemMusic</Scope>
-    </TokenIdentifier>
-    <Path>d0/d71/classFolderSystemMusic.html</Path>
-    <Anchor>abe6862f166cab58e72c0f334ee0a92e3</Anchor>
-    <DeclaredIn>FolderSystemMusic.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetInts</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a92817942b3098bfe5ea42fa0b0827b3a</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemCost</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemHeadphones</Scope>
-    </TokenIdentifier>
-    <Path>d1/d44/classShopItemHeadphones.html</Path>
-    <Anchor>a6e1a3522f4c100c5702fe2083eb4f403</Anchor>
-    <DeclaredIn>ShopItemHeadphones.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemCost</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>a2b67a3be80579e35d7a73a8e854d5b6f</Anchor>
-    <DeclaredIn>ShopItemBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemManager</Scope>
-    </TokenIdentifier>
-    <Path>d5/deb/classShopItemManager.html</Path>
-    <Anchor>a2afe8e4dc40861a1347d5356609883b7</Anchor>
-    <DeclaredIn>ShopItemManager.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemDescription</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemHeadphones</Scope>
-    </TokenIdentifier>
-    <Path>d1/d44/classShopItemHeadphones.html</Path>
-    <Anchor>aeaefcfbd31aea37a76243c1d527c6f2c</Anchor>
-    <DeclaredIn>ShopItemHeadphones.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemDescription</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>ae67a4d98abc4f228289e0699ff4ac321</Anchor>
-    <DeclaredIn>ShopItemBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemExperienceMultiplier</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemHeadphones</Scope>
-    </TokenIdentifier>
-    <Path>d1/d44/classShopItemHeadphones.html</Path>
-    <Anchor>a84e3726faab05358529258a8cb805a49</Anchor>
-    <DeclaredIn>ShopItemHeadphones.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemExperienceMultiplier</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>a0be37ff8dc2c95ccd8d2f8601b52511f</Anchor>
-    <DeclaredIn>ShopItemBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemIconPath</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemHeadphones</Scope>
-    </TokenIdentifier>
-    <Path>d1/d44/classShopItemHeadphones.html</Path>
-    <Anchor>a080796407ee054e09081269f790a6a0d</Anchor>
-    <DeclaredIn>ShopItemHeadphones.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemIconPath</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>a790bc7168cb570c7a16b7f36c625be25</Anchor>
-    <DeclaredIn>ShopItemBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemManager</Scope>
-    </TokenIdentifier>
-    <Path>d5/deb/classShopItemManager.html</Path>
-    <Anchor>a13f0e40a3c7932a95e1d73d3fb5ba6f6</Anchor>
-    <DeclaredIn>ShopItemManager.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemMusicQualityMultiplier</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemHeadphones</Scope>
-    </TokenIdentifier>
-    <Path>d1/d44/classShopItemHeadphones.html</Path>
-    <Anchor>a5bae7bd055a856fcf3b997a2e515b70a</Anchor>
-    <DeclaredIn>ShopItemHeadphones.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemMusicQualityMultiplier</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>aa0cb2bc19d4c01e3f0182eba02df4246</Anchor>
-    <DeclaredIn>ShopItemBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemName</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemHeadphones</Scope>
-    </TokenIdentifier>
-    <Path>d1/d44/classShopItemHeadphones.html</Path>
-    <Anchor>a94feb30d7140226b26a55c6f3d75abcf</Anchor>
-    <DeclaredIn>ShopItemHeadphones.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemName</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>a04c1cefc217b8cdefa6cb736bad44287</Anchor>
-    <DeclaredIn>ShopItemBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemPartyQualityMultiplier</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemHeadphones</Scope>
-    </TokenIdentifier>
-    <Path>d1/d44/classShopItemHeadphones.html</Path>
-    <Anchor>a25b01b618d54d09ced2213ad5e9272ab</Anchor>
-    <DeclaredIn>ShopItemHeadphones.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetItemPartyQualityMultiplier</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>a62e8c804090a6f73c5087f85834952b7</Anchor>
-    <DeclaredIn>ShopItemBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetMoney</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a4df3b4d82e76f16e4e50e158e9c9efca</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetPartyRatings</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>abc21dcd5624f99209bc8b42f16d8cc19</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSaveLastModificationDate</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveManager</Scope>
-    </TokenIdentifier>
-    <Path>d8/d24/classSaveManager.html</Path>
-    <Anchor>a11c2c924d2bcf942439155a7d61ca969</Anchor>
-    <DeclaredIn>SaveManager.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSaveList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveManager</Scope>
-    </TokenIdentifier>
-    <Path>d8/d24/classSaveManager.html</Path>
-    <Anchor>aac90d1100f809b1522fa3cfb3bbb73fe</Anchor>
-    <DeclaredIn>SaveManager.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSaveNamesArray</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveManager</Scope>
-    </TokenIdentifier>
-    <Path>d8/d24/classSaveManager.html</Path>
-    <Anchor>aee5f7c5120d11f65af643dc9fd4c691f</Anchor>
-    <DeclaredIn>SaveManager.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSlotNames</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a465c4fa45ee25c209cb58294935c00d5</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetStrings</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>acb9e1e3ede1761db2fff9daf4c2e1e5a</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>GetUserData</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2067,17 +925,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>GetVariable</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a3fe12447d9b6677d4908a361a0ba5856</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>GodotToSystem</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2086,17 +933,6 @@
     <Path>d9/d3a/classNewDEVSharp_1_1Collections_1_1DictionaryConverter.html</Path>
     <Anchor>a75c9261dda3fcef4608ecb8556630088</Anchor>
     <DeclaredIn>DictionaryConverter.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>HasCurrentDialogNode</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a7db89dcd8417cb767e3e693ec987203d</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2143,17 +979,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Import</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>af14f92742d12ba55495b46695bd35730</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Init</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2167,66 +992,12 @@
     <TokenIdentifier>
       <Name>InitFmod</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
+      <Type>clm</Type>
       <Scope>NewDEVSharp.Core</Scope>
     </TokenIdentifier>
     <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
-    <Anchor>aa699cb941a34c4c6776b23506d869ba7</Anchor>
+    <Anchor>ab02100dc6d202afbcd5c1c471a3fbc39</Anchor>
     <DeclaredIn>Core.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InitFolderList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CustomAudioLibrary</Scope>
-    </TokenIdentifier>
-    <Path>df/d61/classCustomAudioLibrary.html</Path>
-    <Anchor>a12a51b4a4128035dffe700c80d736693</Anchor>
-    <DeclaredIn>CustomAudioLibrary.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InitItem</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemHeadphones</Scope>
-    </TokenIdentifier>
-    <Path>d1/d44/classShopItemHeadphones.html</Path>
-    <Anchor>a04d29416dea3046c71675047e01881e7</Anchor>
-    <DeclaredIn>ShopItemHeadphones.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InitItem</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>a948ce034810aa4dfde1766bf2509aea8</Anchor>
-    <DeclaredIn>ShopItemBase.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InitItems</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ShopItemManager</Scope>
-    </TokenIdentifier>
-    <Path>d5/deb/classShopItemManager.html</Path>
-    <Anchor>a1059438d240779d6be75471ccde16824</Anchor>
-    <DeclaredIn>ShopItemManager.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Instance</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a3df958d34839ccffb66e22e3c47da008</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2241,76 +1012,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ItemCost</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>aaba6cf35daebaf6fc0d4b484bda4bdfe</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ItemDescription</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>aa7b90275f96dd540a03226104384fcbb</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ItemExperienceMultiplier</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>ab9c0a32556f892dd01a9ff3243982b2a</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ItemIconPath</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>a6843f782ad2f9effb9464f5bb1c23816</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ItemMusicQualityMultiplier</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>a2302212444dc3229269c982ec9845679</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ItemName</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>ae8b38543f98b57abe9d766261d98850d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ItemPartyQualityMultiplier</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>ShopItemBase</Scope>
-    </TokenIdentifier>
-    <Path>d1/dc3/classShopItemBase.html</Path>
-    <Anchor>aa37fb1c07367ab067d38ed52154767dc</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>JsonToStringDict</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2322,17 +1023,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Load</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>aeff167a3beab4bd3421211f76342efdb</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>LoadDLCDataFromPath</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2341,28 +1031,6 @@
     <Path>de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html</Path>
     <Anchor>a37e54a58d621b08732fe3d67bb2ca340</Anchor>
     <DeclaredIn>DLC.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>LoadSave</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Loader</Scope>
-    </TokenIdentifier>
-    <Path>d5/d5c/classLoader.html</Path>
-    <Anchor>a9011f0e536fdc4cde02557a0c3a9e78c</Anchor>
-    <DeclaredIn>Loader.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>LoadSongFiles</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CustomAudioLibrary</Scope>
-    </TokenIdentifier>
-    <Path>df/d61/classCustomAudioLibrary.html</Path>
-    <Anchor>ad23372af6611bd8a35737b84b8cbdc5d</Anchor>
-    <DeclaredIn>CustomAudioLibrary.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2387,65 +1055,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OptionSaveDataPreloaded</Name>
+      <Name>Patch</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>OptionSaver</Scope>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
     </TokenIdentifier>
-    <Path>d7/dac/classOptionSaver.html</Path>
-    <Anchor>a72cfeb504ccaa02f974df0a8ca430b63</Anchor>
-    <DeclaredIn>OptionSaver.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PartyData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a846c4cc26f9399266fb338f02813ec7d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>partyData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>ad98fa994611fd6fb9c65d86fd5994716</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PartyEnded</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a14b9a1fd76d550d35d8f5420c72a4dc5</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PartyIds</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a17dcbbbb8fc1a014d857f10e343d9de7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>partyRatings</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>abf04d568112d8c11ec4f1d01b50d52da</Anchor>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59a156e10596fdc76ee5300bab931d89c0f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2456,6 +1072,16 @@
     </TokenIdentifier>
     <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
     <Anchor>a9400bcc3ae2c84aad7cefc2ea3abd798</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Post</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
+    </TokenIdentifier>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59a03d947a2158373c3b9d74325850cb8b9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2470,65 +1096,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>PreloadedOptionSaveData</Name>
+      <Name>Put</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>OptionSaver</Scope>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
     </TokenIdentifier>
-    <Path>d7/dac/classOptionSaver.html</Path>
-    <Anchor>a72a4f8ac759f926427e09fdd728aac94</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PreloadedSaveData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>SaveSelectMenuPopup</Scope>
-    </TokenIdentifier>
-    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>aab7c957db2254f88a3b446d221f3af0e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PreloadOptions</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>OptionSaver</Scope>
-    </TokenIdentifier>
-    <Path>d7/dac/classOptionSaver.html</Path>
-    <Anchor>a7a54b5a29f777098ee3f99b3b69c981b</Anchor>
-    <DeclaredIn>OptionSaver.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PreloadScene</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a7e680d86816156d6317bc816712cd849</Anchor>
-    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ratingsClubs</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>ad88e627d45ac700286950a3b8f9970c9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ratingsList</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>PartyRatingsMenu</Scope>
-    </TokenIdentifier>
-    <Path>da/d53/classPartyRatingsMenu.html</Path>
-    <Anchor>abad846152d311eed6a62779eb08897bd</Anchor>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59ad0bf1810982e9728fcf3ac444a015373</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2586,89 +1160,53 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ResetSaves</Name>
+      <Name>Get</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
     </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a32b64065097ff481c6866967d716fdff</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59ac55582518cba2c464f29f5bae1c68def</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Save</Name>
+      <Name>Post</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
     </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>abc67f57d5f7cde4b5d3dad202e41fb3e</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59a03d947a2158373c3b9d74325850cb8b9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SaveCount</Name>
+      <Name>Put</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>SaveManager</Scope>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
     </TokenIdentifier>
-    <Path>d8/d24/classSaveManager.html</Path>
-    <Anchor>a20b553cdc3fd6733aa2d85da56386e30</Anchor>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59ad0bf1810982e9728fcf3ac444a015373</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SaveDataPreloaded</Name>
+      <Name>Patch</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveSelectMenuPopup</Scope>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
     </TokenIdentifier>
-    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>a778145d1a8ef2e4e96a161bce39393a5</Anchor>
-    <DeclaredIn>SaveSelectMenuPopup.cs</DeclaredIn>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59a156e10596fdc76ee5300bab931d89c0f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SaveGame</Name>
+      <Name>Delete</Name>
       <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Saver</Scope>
+      <Type>econst</Type>
+      <Scope>NewDEVSharp.Server.BaseServer</Scope>
     </TokenIdentifier>
-    <Path>dd/de5/classSaver.html</Path>
-    <Anchor>af4af9127736384d02d34228629b646d3</Anchor>
-    <DeclaredIn>Saver.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SaveOptions</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>OptionSaver</Scope>
-    </TokenIdentifier>
-    <Path>d7/dac/classOptionSaver.html</Path>
-    <Anchor>af7406285034b1555837143f255326b6f</Anchor>
-    <DeclaredIn>OptionSaver.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SavePaths</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>SaveManager</Scope>
-    </TokenIdentifier>
-    <Path>d8/d24/classSaveManager.html</Path>
-    <Anchor>a4cd36b0d9348b89e98ed5823fd99e15d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SaveSelectedToLoad</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveSelectMenuPopup</Scope>
-    </TokenIdentifier>
-    <Path>dd/d61/classSaveSelectMenuPopup.html</Path>
-    <Anchor>a30832eea73a8ca4cce34404cc01e1d24</Anchor>
-    <DeclaredIn>SaveSelectMenuPopup.cs</DeclaredIn>
+    <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
+    <Anchor>a26ee430c987c07c6f6521da65cd32d59af2a6c498fb90ee345d997f888fce3b18</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2690,17 +1228,6 @@
     </TokenIdentifier>
     <Path>d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html</Path>
     <Anchor>abcf4cae09c1240a0358a7b12e3c81948</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetDJName</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a6f7ce8581a2366145f856d9c4b062644</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2748,171 +1275,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SetNewEmailDomain</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>ace64e7363a87d20322f0dfc13a6fced8</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetNewIntsDataFields</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a4526b215b6cccad220f6a6ac56d4162c</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetNewMultiplierData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a1e01c79121a1580136897bd7c6fbad76</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetNewMultiplierValue</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a6f8734fda298f35d3943eeb77f94ec92</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetNewSaveName</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a09b25d9e39e3131c4aacf1df237d01b4</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetNewStringsDataFields</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>ae14f5c8ae710a9fe6a9ce47b3de7432e</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSaveDir</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BaseSave</Scope>
-    </TokenIdentifier>
-    <Path>d0/dd0/classBaseSave.html</Path>
-    <Anchor>aca1230ac02fbaef17445a6b268a0a469</Anchor>
-    <DeclaredIn>BaseSave.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSaveDir</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveContainer</Scope>
-    </TokenIdentifier>
-    <Path>d4/d14/classSaveContainer.html</Path>
-    <Anchor>a086cd28c26e8595b845c29671b74461e</Anchor>
-    <DeclaredIn>SaveContainer.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetVariable</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a50e78c9bb929bed5986738e2d0a3f7e6</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Start</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a801a0264277882a587e0cac58b7c2163</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Start&lt; T &gt;</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>clm</Type>
-      <Scope>DialogicSharp</Scope>
-    </TokenIdentifier>
-    <Path>d1/d1c/classDialogicSharp.html</Path>
-    <Anchor>a887b2947d040e3b5285eeadb06c259f8</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>StartNewGame</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>GameControllerCS</Scope>
-    </TokenIdentifier>
-    <Path>d2/d54/classGameControllerCS.html</Path>
-    <Anchor>a8074f4196e759bd7ae80bf389872b479</Anchor>
-    <DeclaredIn>GameControllerCS.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>StartParty</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>party</Scope>
-    </TokenIdentifier>
-    <Path>da/d3e/classparty.html</Path>
-    <Anchor>a6644dc2090b3ac30dca8c08c454dec45</Anchor>
-    <DeclaredIn>party.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ThreadDone</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a55b6e72c5ff0323136abf4e8c00d224d</Anchor>
-    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ThreadLoad</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BackgroundLoader</Scope>
-    </TokenIdentifier>
-    <Path>d9/d5c/classBackgroundLoader.html</Path>
-    <Anchor>a85eecde672efb01b29ecd182504dcb21</Anchor>
-    <DeclaredIn>BackgroundLoader.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Title</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -2946,60 +1308,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>WriteData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BaseSave</Scope>
-    </TokenIdentifier>
-    <Path>d0/dd0/classBaseSave.html</Path>
-    <Anchor>ae6beb7d4e5998e22c1bf6eaf3f3e1329</Anchor>
-    <DeclaredIn>BaseSave.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WriteData</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveContainer</Scope>
-    </TokenIdentifier>
-    <Path>d4/d14/classSaveContainer.html</Path>
-    <Anchor>aa0144b51a67285e7fe6e16c77906ca07</Anchor>
-    <DeclaredIn>SaveContainer.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WriteDirectories</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BaseSave</Scope>
-    </TokenIdentifier>
-    <Path>d0/dd0/classBaseSave.html</Path>
-    <Anchor>a191ddaf3a6483adb947d0da51c5ad24a</Anchor>
-    <DeclaredIn>BaseSave.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WriteDirectories</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>SaveContainer</Scope>
-    </TokenIdentifier>
-    <Path>d4/d14/classSaveContainer.html</Path>
-    <Anchor>a501218accd67d0df40b3c7ac0b312d1c</Anchor>
-    <DeclaredIn>SaveContainer.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Directory</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>tdef</Type>
-    </TokenIdentifier>
-    <Path>d2/de6/SaveManager_8cs.html</Path>
-    <Anchor>aada057080323f6e867d8f9c189276716</Anchor>
-    <DeclaredIn>SaveManager.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Environment</Name>
       <APILanguage>csharp</APILanguage>
       <Type>tdef</Type>
@@ -3007,36 +1315,6 @@
     <Path>da/d27/Server_2Auth_8cs.html</Path>
     <Anchor>a282800ee7039b7c85bc875ffd01a01e3</Anchor>
     <DeclaredIn>Server/Auth.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>File</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>tdef</Type>
-    </TokenIdentifier>
-    <Path>d2/d54/OptionSaver_8cs.html</Path>
-    <Anchor>ae995b2c01e7e2f2c2b1f3617c3faa4b6</Anchor>
-    <DeclaredIn>OptionSaver.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>File</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>tdef</Type>
-    </TokenIdentifier>
-    <Path>d2/de6/SaveManager_8cs.html</Path>
-    <Anchor>ae995b2c01e7e2f2c2b1f3617c3faa4b6</Anchor>
-    <DeclaredIn>SaveManager.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>File</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>tdef</Type>
-    </TokenIdentifier>
-    <Path>de/df4/Saver_8cs.html</Path>
-    <Anchor>ae995b2c01e7e2f2c2b1f3617c3faa4b6</Anchor>
-    <DeclaredIn>Saver.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3077,15 +1355,5 @@
     <Path>d3/dd5/WAV_2DataTags_8cs.html</Path>
     <Anchor>a391d82177498262e5e2260b76c9de0bc</Anchor>
     <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GC</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>tdef</Type>
-    </TokenIdentifier>
-    <Path>de/d97/DialogicSharp_8cs.html</Path>
-    <Anchor>a3f6cb3bf7085d407291ab9a356db1549</Anchor>
-    <DeclaredIn>DialogicSharp.cs</DeclaredIn>
   </Token>
 </Tokens>

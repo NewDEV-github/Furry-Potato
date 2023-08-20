@@ -1,8 +1,27 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005CDoS_005CRiderProjects_005CNewDEVSharp_005Cbin_005CRelease_005CNewDEVSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CFirebaseAdmin_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CGodotSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CGoogle_002EApi_002EGax_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CGoogle_002EApi_002EGax_002ERest_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CGoogle_002EApis_002EAuth_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CGoogle_002EApis_002EAuth_002EPlatformServices_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CGoogle_002EApis_002ECore_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CGoogle_002EApis_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CGoogle_002EApis_002EPlatformServices_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CMicrosoft_002EBcl_002EAsyncInterfaces_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CMicrosoft_002EOwin_002ECors_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CMicrosoft_002EOwin_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CMicrosoft_002EOwin_002EHost_002ESystemWeb_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CMicrosoft_002EOwin_002ESecurity_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CMicrosoft_002EOwin_002ESecurity_002EOAuth_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CNewDEVSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
-	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
-  &lt;Assembly Path="D:\GitHub\Furry-Potato\.mono\assemblies\Debug\GodotSharp.dll" /&gt;&#xD;
-  &lt;Assembly Path="C:\Users\DoS\RiderProjects\NewDEVSharp\bin\Release\NewDEVSharp.dll" /&gt;&#xD;
-  &lt;Assembly Path="D:\GitHub\NewDEVSharp\bin\Release\NewDEVSharp.dll" /&gt;&#xD;
-&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CNewtonsoft_002EJson_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005COwin_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CSystem_002EBuffers_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CSystem_002ECollections_002EImmutable_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CSystem_002EMemory_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CSystem_002ENumerics_002EVectors_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CSystem_002ERuntime_002ECompilerServices_002EUnsafe_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CSystem_002EThreading_002ETasks_002EExtensions_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CSystem_002EWeb_002ECors_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGitHub_005CNewDEVSharp_005Cbin_005CRelease_005CTagLibSharp_002Edll/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

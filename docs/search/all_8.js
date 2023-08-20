@@ -1,4 +1,10 @@
 var searchData=
 [
-  ['hascurrentdialognode_0',['HasCurrentDialogNode',['../d1/d1c/classDialogicSharp.html#a7db89dcd8417cb767e3e693ec987203d',1,'DialogicSharp']]]
+  ['id_0',['Id',['../d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html#a093d00d101c0647b1c95b219581da3d1',1,'NewDEVSharp::DLC::BaseDLC']]],
+  ['image_1',['Image',['../da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html#af37e5818ef49f09b3d66c955362648ad',1,'NewDEVSharp.Utils.MP3.DataTags.Image()'],['../de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html#a59182edb9b61529b64f584fb5bad0ef4',1,'NewDEVSharp.Utils.OGG.DataTags.Image()'],['../d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html#a6672f25e8abfc2f963842cb8f882fb93',1,'NewDEVSharp.Utils.WAV.DataTags.Image()']]],
+  ['imageutils_2',['ImageUtils',['../da/d20/classNewDEVSharp_1_1Utils_1_1ImageUtils.html',1,'NewDEVSharp::Utils']]],
+  ['imageutils_2ecs_3',['ImageUtils.cs',['../d7/d95/ImageUtils_8cs.html',1,'']]],
+  ['init_4',['Init',['../d5/d9c/classNewDEVSharp_1_1Core.html#a240ebb6a5fa1787984b8bb0ae81636dd',1,'NewDEVSharp::Core']]],
+  ['initfmod_5',['InitFmod',['../d5/d9c/classNewDEVSharp_1_1Core.html#ab02100dc6d202afbcd5c1c471a3fbc39',1,'NewDEVSharp::Core']]],
+  ['isdlclegal_6',['IsDLCLegal',['../da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html#a7f0d046481e1bbbaf9e14644bd61fb3d',1,'NewDEVSharp::DLC::Verifier']]]
 ];

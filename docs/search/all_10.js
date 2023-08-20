@@ -1,11 +1,7 @@
 var searchData=
 [
-  ['_2enetframework_2cversion_3dv4_2e7_2e2_2eassemblyattributes_2ecs_0',['.NETFramework,Version=v4.7.2.AssemblyAttributes.cs',['../db/d0e/Release_2_8NETFramework_00Version_0av4_87_82_8AssemblyAttributes_8cs.html',1,'']]],
-  ['_2enetframework_2cversion_3dv4_2e8_2eassemblyattributes_2ecs_1',['.NETFramework,Version=v4.8.AssemblyAttributes.cs',['../de/dd6/Release_2_8NETFramework_00Version_0av4_88_8AssemblyAttributes_8cs.html',1,'']]],
-  ['ratingsclubs_2',['ratingsClubs',['../da/d53/classPartyRatingsMenu.html#ad88e627d45ac700286950a3b8f9970c9',1,'PartyRatingsMenu']]],
-  ['ratingslist_3',['ratingsList',['../da/d53/classPartyRatingsMenu.html#abad846152d311eed6a62779eb08897bd',1,'PartyRatingsMenu']]],
-  ['register_4',['Register',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a5419a35d5cafa719233dcdd0dc0274b1',1,'NewDEVSharp::User::Auth']]],
-  ['request_5',['Request',['../db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#add36f688e903101754739dd26de2bbce',1,'NewDEVSharp.Server.Auth.Request()'],['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#ac91f1a88a845c8514f01ef757edd88f4',1,'NewDEVSharp.Server.BaseServer.Request()'],['../d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html#aeaef433471487161f55dcfeb809cda7c',1,'NewDEVSharp.Server.DataBase.Request()']]],
-  ['requesttype_6',['RequestType',['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a26ee430c987c07c6f6521da65cd32d59',1,'NewDEVSharp::Server::BaseServer']]],
-  ['resetsaves_7',['ResetSaves',['../d1/d1c/classDialogicSharp.html#a32b64065097ff481c6866967d716fdff',1,'DialogicSharp']]]
+  ['auth_2ecs_0',['Auth.cs',['../da/d27/Server_2Auth_8cs.html',1,'']]],
+  ['savetoken_1',['SaveToken',['../db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#a7b29e9c7bcd6d50ff116df064b1b3263',1,'NewDEVSharp::Server::Auth']]],
+  ['serverurl_2',['ServerURL',['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#abcf4cae09c1240a0358a7b12e3c81948',1,'NewDEVSharp::Server::BaseServer']]],
+  ['setextension_3',['SetExtension',['../da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html#aa9ce2fc57bca4c09e23d762151089c92',1,'NewDEVSharp.Utils.MP3.DataTags.SetExtension()'],['../dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html#a912e47a2260be0e83b3b831cf8a2b0df',1,'NewDEVSharp.Utils.MusicUtils.SetExtension()'],['../de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html#afabad1e9cb2a8106f44b2024a6e6041c',1,'NewDEVSharp.Utils.OGG.DataTags.SetExtension()'],['../d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html#acaa0f762661fabbeaeb7c8fb4bd24220',1,'NewDEVSharp.Utils.WAV.DataTags.SetExtension()']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name_0',['Name',['../d5/d0b/classNewDEVSharp_1_1DLC_1_1BaseDLC.html#abe80dddcd4407642d65a457c2c266cfd',1,'NewDEVSharp::DLC::BaseDLC']]]
+  ['post_0',['Post',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a9400bcc3ae2c84aad7cefc2ea3abd798',1,'NewDEVSharp::User::Auth']]]
 ];

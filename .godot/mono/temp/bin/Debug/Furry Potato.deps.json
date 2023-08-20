@@ -1,0 +1,335 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Furry Potato/1.0.0": {
+        "dependencies": {
+          "Godot.SourceGenerators": "4.0.3",
+          "GodotSharp": "4.0.3",
+          "GodotSharpEditor": "4.0.3",
+          "FirebaseAdmin": "2.3.0.0",
+          "Google.Api.Gax": "3.2.0.0",
+          "Google.Api.Gax.Rest": "3.2.0.0",
+          "Google.Apis.Auth": "1.49.0.0",
+          "Google.Apis.Auth.PlatformServices": "1.49.0.0",
+          "Google.Apis.Core": "1.49.0.0",
+          "Google.Apis": "1.49.0.0",
+          "Google.Apis.PlatformServices": "1.49.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0.0",
+          "Microsoft.Owin.Cors": "4.2.2.0",
+          "Microsoft.Owin": "4.2.2.0",
+          "Microsoft.Owin.Host.SystemWeb": "4.2.2.0",
+          "Microsoft.Owin.Security": "4.2.2.0",
+          "Microsoft.Owin.Security.OAuth": "4.2.2.0",
+          "NewDEVSharp": "1.0.0.0",
+          "Newtonsoft.Json": "13.0.0.0",
+          "Owin": "1.0.0.0",
+          "System.Web.Cors": "5.0.0.0",
+          "TagLibSharp": "2.3.0.0"
+        },
+        "runtime": {
+          "Furry Potato.dll": {}
+        }
+      },
+      "Godot.SourceGenerators/4.0.3": {},
+      "GodotSharp/4.0.3": {
+        "runtime": {
+          "lib/net6.0/GodotSharp.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
+          }
+        }
+      },
+      "GodotSharpEditor/4.0.3": {
+        "dependencies": {
+          "GodotSharp": "4.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/GodotSharpEditor.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
+          }
+        }
+      },
+      "FirebaseAdmin/2.3.0.0": {
+        "runtime": {
+          "FirebaseAdmin.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Google.Api.Gax/3.2.0.0": {
+        "runtime": {
+          "Google.Api.Gax.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Google.Api.Gax.Rest/3.2.0.0": {
+        "runtime": {
+          "Google.Api.Gax.Rest.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.49.0.0": {
+        "runtime": {
+          "Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth.PlatformServices/1.49.0.0": {
+        "runtime": {
+          "Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.49.0.0": {
+        "runtime": {
+          "Google.Apis.Core.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Google.Apis/1.49.0.0": {
+        "runtime": {
+          "Google.Apis.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Google.Apis.PlatformServices/1.49.0.0": {
+        "runtime": {
+          "Google.Apis.PlatformServices.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0.0": {
+        "runtime": {
+          "Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "Microsoft.Owin.Cors/4.2.2.0": {
+        "runtime": {
+          "Microsoft.Owin.Cors.dll": {
+            "assemblyVersion": "4.2.2.0",
+            "fileVersion": "4.200.222.26002"
+          }
+        }
+      },
+      "Microsoft.Owin/4.2.2.0": {
+        "runtime": {
+          "Microsoft.Owin.dll": {
+            "assemblyVersion": "4.2.2.0",
+            "fileVersion": "4.200.222.26002"
+          }
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/4.2.2.0": {
+        "runtime": {
+          "Microsoft.Owin.Host.SystemWeb.dll": {
+            "assemblyVersion": "4.2.2.0",
+            "fileVersion": "4.200.222.26002"
+          }
+        }
+      },
+      "Microsoft.Owin.Security/4.2.2.0": {
+        "runtime": {
+          "Microsoft.Owin.Security.dll": {
+            "assemblyVersion": "4.2.2.0",
+            "fileVersion": "4.200.222.26002"
+          }
+        }
+      },
+      "Microsoft.Owin.Security.OAuth/4.2.2.0": {
+        "runtime": {
+          "Microsoft.Owin.Security.OAuth.dll": {
+            "assemblyVersion": "4.2.2.0",
+            "fileVersion": "4.200.222.26002"
+          }
+        }
+      },
+      "NewDEVSharp/1.0.0.0": {
+        "runtime": {
+          "NewDEVSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "Owin/1.0.0.0": {
+        "runtime": {
+          "Owin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Web.Cors/5.0.0.0": {
+        "runtime": {
+          "System.Web.Cors.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.11001.0"
+          }
+        }
+      },
+      "TagLibSharp/2.3.0.0": {
+        "runtime": {
+          "TagLibSharp.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Furry Potato/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Godot.SourceGenerators/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2hehxauxcdFV59mJuYtKLnIPY+09kH7tkGQYv+YnTY0G1Axea9/GPi4Dc0svqqC3/NBQqwMBGpNrFFppy27+pg==",
+      "path": "godot.sourcegenerators/4.0.3",
+      "hashPath": "godot.sourcegenerators.4.0.3.nupkg.sha512"
+    },
+    "GodotSharp/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zyqDcUMn8B2mO0kp3Vkhjww+56vZgyVOir83KD/VYAWN9dziAUI4Yh4Pb7WdOE+i0HrivS2cNlndC+2dqwFgrw==",
+      "path": "godotsharp/4.0.3",
+      "hashPath": "godotsharp.4.0.3.nupkg.sha512"
+    },
+    "GodotSharpEditor/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FpyzFn/R+tn3IOdHZGQi7oNQwtLSXvCxg7dbxaYWyEudLrHmx6f7QMwTlrX1k4bcyfBXpTaBLGWmrpYdswTMyg==",
+      "path": "godotsharpeditor/4.0.3",
+      "hashPath": "godotsharpeditor.4.0.3.nupkg.sha512"
+    },
+    "FirebaseAdmin/2.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Api.Gax/3.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Api.Gax.Rest/3.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.Auth/1.49.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.Auth.PlatformServices/1.49.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.Core/1.49.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis/1.49.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.PlatformServices/1.49.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Cors/4.2.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin/4.2.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Host.SystemWeb/4.2.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Security/4.2.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Security.OAuth/4.2.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewDEVSharp/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Owin/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Cors/5.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TagLibSharp/2.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

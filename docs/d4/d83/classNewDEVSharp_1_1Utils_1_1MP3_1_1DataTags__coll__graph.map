@@ -1,6 +1,9 @@
 <map id="NewDEVSharp.Utils.MP3.DataTags" name="NewDEVSharp.Utils.MP3.DataTags">
-<area shape="rect" id="node1" title="Class for holding MP3 Data Types" coords="5,168,233,193"/>
-<area shape="rect" id="node2" href="$dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html" title=" " coords="78,93,161,119"/>
-<area shape="rect" id="node3" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="9,5,94,31"/>
-<area shape="rect" id="node4" href="$d5/d9c/classNewDEVSharp_1_1Core.html" title="Core class used to hold and manage all of the properties" coords="118,5,257,31"/>
+<area shape="rect" id="Node000001" title="Class for holding MP3 Data Types." alt="" coords="5,172,233,199"/>
+<area shape="rect" id="Node000002" href="$dc/d62/classNewDEVSharp_1_1Utils_1_1MusicUtils.html" title=" " alt="" coords="78,96,160,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,137,122,172,116,172,116,137"/>
+<area shape="rect" id="Node000003" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes." alt="" coords="9,5,93,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="72,43,111,94,107,97,68,46"/>
+<area shape="rect" id="Node000004" href="$d5/d9c/classNewDEVSharp_1_1Core.html" title="Core class used to hold and manage all of the properties." alt="" coords="118,5,256,32"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="170,46,131,97,127,94,166,43"/>
 </map>

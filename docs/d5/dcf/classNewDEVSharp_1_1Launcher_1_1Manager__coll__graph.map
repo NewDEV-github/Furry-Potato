@@ -1,4 +1,5 @@
 <map id="NewDEVSharp.Launcher.Manager" name="NewDEVSharp.Launcher.Manager">
-<area shape="rect" id="node1" title="Manages all things between games and Game Launcher" coords="5,79,224,104"/>
-<area shape="rect" id="node2" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="72,5,157,31"/>
+<area shape="rect" id="Node000001" title="Manages all things between games and Game Launcher." alt="" coords="5,80,224,107"/>
+<area shape="rect" id="Node000002" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes." alt="" coords="72,5,157,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,47,117,80,112,80,112,47"/>
 </map>

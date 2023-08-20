@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['partyended_0',['PartyEnded',['../da/d3e/classparty.html#a14b9a1fd76d550d35d8f5420c72a4dc5',1,'party']]],
-  ['preloaddlcdata_1',['PreLoadDLCData',['../db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a92e233f3645dc31183edb0bacd876b9f',1,'NewDEVSharp::DLC::Manager']]],
-  ['preloadoptions_2',['PreloadOptions',['../d7/dac/classOptionSaver.html#a7a54b5a29f777098ee3f99b3b69c981b',1,'OptionSaver']]],
-  ['preloadscene_3',['PreloadScene',['../d9/d5c/classBackgroundLoader.html#a7e680d86816156d6317bc816712cd849',1,'BackgroundLoader']]]
+  ['title_0',['Title',['../da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html#a50bd72c1b312c72210129d65d0ab8693',1,'NewDEVSharp.Utils.MP3.DataTags.Title()'],['../de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html#a6a8f9495a2ffbd7b769c8fe8ef856556',1,'NewDEVSharp.Utils.OGG.DataTags.Title()'],['../d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html#a6337fdfc87dc209f30bddc9d418dac80',1,'NewDEVSharp.Utils.WAV.DataTags.Title()']]]
 ];

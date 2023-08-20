@@ -1,6 +1,11 @@
 <map id="NewDEVSharp.DLC.Manager" name="NewDEVSharp.DLC.Manager">
-<area shape="rect" id="node1" title="Class used to manage all DLC related things in games" coords="18,168,208,193"/>
-<area shape="rect" id="node2" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes" coords="70,5,156,31"/>
-<area shape="rect" id="node3" href="$da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html" title=" " coords="22,80,204,105"/>
-<area shape="rect" id="node4" href="$de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html" title="Basic DLC class, including some DLC info. Used for DLC legacy verification" coords="228,80,395,105"/>
+<area shape="rect" id="Node000001" title="Class used to manage all DLC related things in games." alt="" coords="18,172,208,199"/>
+<area shape="rect" id="Node000002" href="$d9/db7/classNewDEVSharp_1_1BaseClass.html" title="Base class for all other (except Core) classes." alt="" coords="71,5,155,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,41,34,58,13,83,8,96,10,108,16,121,26,132,54,153,84,169,82,174,51,158,23,136,12,124,5,110,3,95,8,80,31,54,59,36"/>
+<area shape="rect" id="Node000003" href="$da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html" title=" " alt="" coords="23,81,203,108"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="116,47,116,81,111,81,111,47"/>
+<area shape="rect" id="Node000004" href="$de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html" title="Basic DLC class, including some DLC info. Used for DLC legacy verification." alt="" coords="228,81,393,108"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="162,35,278,78,276,83,160,40"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,123,116,171,111,171,111,123"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="270,117,142,174,140,169,268,112"/>
 </map>

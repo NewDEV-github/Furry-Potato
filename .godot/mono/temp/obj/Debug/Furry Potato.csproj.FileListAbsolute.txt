@@ -56,3 +56,4 @@ D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\refint\Furry Potato.dll
 D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.pdb
 D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\Furry Potato.genruntimeconfig.cache
 D:\GitHub\Furry-Potato\.godot\mono\temp\obj\Debug\ref\Furry Potato.dll
+D:\GitHub\Furry-Potato\.godot\mono\temp\bin\Debug\Furry Potato.xml

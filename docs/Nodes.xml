@@ -64,6 +64,100 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Services</Name>
+              <Path>d4/dca/namespaceFurryPotato_1_1Services.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Email</Name>
+                <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>SendEmail</Name>
+                  <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+                  <Anchor>a67486668ebe4255fb9c83eed8cb6763c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_emails</Name>
+                  <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+                  <Anchor>a84725077d8c0f559eed89ae4c1d86b4d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Options</Name>
+                <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>LoadOptions</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a9e1be4a2fe6111434e31275b55e1e309</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SaveOptions</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a77724997c57dffb44a824bc8bd05c0f9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetFullscreen</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a603ded313cc3ba0acf998955b815db54</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetLanguage</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a703f696b9860135e4b5a055d095d04d0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetResolution</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>adf1bd1c95b29723de0a00432c013321d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetVolume</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a731e281642fafcbad89a892075d0753d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_fullscreen</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a65106c3f5373ba91f0b730edb82c9768</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_language</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a3ae0c96d4d408fdb4169bf6a6b71fe33</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_resolutionHeight</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>ae6cb802417f99e3ddf7797ec89d27191</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_resolutionWidth</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a2dc8012dbce11ca9f849abc44b7e4c3a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_volume</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a740bee9b575686716f8a8d921a79a400</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>WebBrowser</Name>
+                <Path>d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>OpenWebBrowser</Name>
+                  <Path>d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html</Path>
+                  <Anchor>a2212d48b0841f3d5d891ee693fa91db3</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Core</Name>
               <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
             <Subnodes>
@@ -738,6 +832,100 @@
                   <Name>OnStartNewGameButtonPressed</Name>
                   <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
                   <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Services</Name>
+              <Path>d4/dca/namespaceFurryPotato_1_1Services.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Email</Name>
+                <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>SendEmail</Name>
+                  <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+                  <Anchor>a67486668ebe4255fb9c83eed8cb6763c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_emails</Name>
+                  <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+                  <Anchor>a84725077d8c0f559eed89ae4c1d86b4d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Options</Name>
+                <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>LoadOptions</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a9e1be4a2fe6111434e31275b55e1e309</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SaveOptions</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a77724997c57dffb44a824bc8bd05c0f9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetFullscreen</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a603ded313cc3ba0acf998955b815db54</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetLanguage</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a703f696b9860135e4b5a055d095d04d0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetResolution</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>adf1bd1c95b29723de0a00432c013321d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetVolume</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a731e281642fafcbad89a892075d0753d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_fullscreen</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a65106c3f5373ba91f0b730edb82c9768</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_language</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a3ae0c96d4d408fdb4169bf6a6b71fe33</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_resolutionHeight</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>ae6cb802417f99e3ddf7797ec89d27191</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_resolutionWidth</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a2dc8012dbce11ca9f849abc44b7e4c3a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_volume</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a740bee9b575686716f8a8d921a79a400</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>WebBrowser</Name>
+                <Path>d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>OpenWebBrowser</Name>
+                  <Path>d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html</Path>
+                  <Anchor>a2212d48b0841f3d5d891ee693fa91db3</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1462,6 +1650,10 @@
             <Path>d5/d9c/classNewDEVSharp_1_1Core.html</Path>
            </Node>
            <Node>
+            <Name>FurryPotato.Services.Email</Name>
+            <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+           </Node>
+           <Node>
             <Name>Node</Name>
             <Path></Path>
           <Subnodes>
@@ -1469,7 +1661,15 @@
               <Name>FurryPotato.Core</Name>
               <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
              </Node>
+             <Node>
+              <Name>FurryPotato.Services.Options</Name>
+              <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+             </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>FurryPotato.Services.WebBrowser</Name>
+            <Path>d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html</Path>
            </Node>
           </Subnodes>
          </Node>
@@ -2330,6 +2530,118 @@
                     <Name>OnStartNewGameButtonPressed</Name>
                     <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
                     <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>services</Name>
+              <Path>dir_a91b3bd7fd8661a99eca89429df41565.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Email.cs</Name>
+                <Path>dd/d5c/Email_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>FurryPotato.Services.Email</Name>
+                  <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>SendEmail</Name>
+                    <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+                    <Anchor>a67486668ebe4255fb9c83eed8cb6763c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_emails</Name>
+                    <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+                    <Anchor>a84725077d8c0f559eed89ae4c1d86b4d</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Options.cs</Name>
+                <Path>df/d61/Options_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>FurryPotato.Services.Options</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>LoadOptions</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a9e1be4a2fe6111434e31275b55e1e309</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SaveOptions</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a77724997c57dffb44a824bc8bd05c0f9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetFullscreen</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a603ded313cc3ba0acf998955b815db54</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetLanguage</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a703f696b9860135e4b5a055d095d04d0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetResolution</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>adf1bd1c95b29723de0a00432c013321d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetVolume</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a731e281642fafcbad89a892075d0753d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_fullscreen</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a65106c3f5373ba91f0b730edb82c9768</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_language</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a3ae0c96d4d408fdb4169bf6a6b71fe33</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_resolutionHeight</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>ae6cb802417f99e3ddf7797ec89d27191</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_resolutionWidth</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a2dc8012dbce11ca9f849abc44b7e4c3a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_volume</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a740bee9b575686716f8a8d921a79a400</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>WebBrowser.cs</Name>
+                <Path>d3/de7/WebBrowser_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>FurryPotato.Services.WebBrowser</Name>
+                  <Path>d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>OpenWebBrowser</Name>
+                    <Path>d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html</Path>
+                    <Anchor>a2212d48b0841f3d5d891ee693fa91db3</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>

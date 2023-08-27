@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Furry Potato</name>
+    </assembly>
+    <members>
+        <member name="T:FurryPotato.Core">
+            <summary>
+            Core game class
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Core.TestCore">
+            <summary>
+            This method tests Core class as a singleton. Only for testing purposes
+            </summary>
+            <returns>bool</returns>
+            <example>
+            <code>
+            var _core = GetNode("/root/Core");
+            GD.Print(_core.TestCore() ? "Core works!" : "Core is not working!");
+            </code>
+            </example>
+        </member>
+        <member name="T:FurryPotato.Main.MainMenu">
+            <summary>
+            Class of game's main menu
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Main.MainMenu.OnStartNewGameButtonPressed">
+            <summary>
+            Method called when "Start new game" button was pressed. Shows popup for new game name and starts a new game
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Main.MainMenu.OnContinueGameButtonPressed">
+            <summary>
+            Method called when "Continue game" button was pressed. Continues last played save
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Main.MainMenu.OnLoadGameButtonPressed">
+            <summary>
+            Method called when "Load game" button was pressed. Shows menu with list of saves to load game from
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Main.MainMenu.OnOptionsButtonPressed">
+            <summary>
+            Method called when "Options" button was pressed. Shows option menu
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Main.MainMenu.OnExitButtonPressed">
+            <summary>
+            Method called when "Exit" button was pressed. Quits the game
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -119,6 +119,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FurryPotato::Services::Email</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FurryPotato.Services.Email</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewDEVSharp::Utils::ImageUtils</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -164,12 +173,30 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FurryPotato::Services::Options</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewDEVSharp::DLC::Verifier</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
       <Scope>NewDEVSharp.DLC.Verifier</Scope>
     </TokenIdentifier>
     <Path>da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FurryPotato::Services::WebBrowser</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FurryPotato.Services.WebBrowser</Scope>
+    </TokenIdentifier>
+    <Path>d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -188,6 +215,15 @@
       <Scope>FurryPotato::Main</Scope>
     </TokenIdentifier>
     <Path>d3/dac/namespaceFurryPotato_1_1Main.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FurryPotato::Services</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>FurryPotato::Services</Scope>
+    </TokenIdentifier>
+    <Path>d4/dca/namespaceFurryPotato_1_1Services.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -318,6 +354,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_emails</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Services.Email</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+    <Anchor>a84725077d8c0f559eed89ae4c1d86b4d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_fullscreen</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a65106c3f5373ba91f0b730edb82c9768</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_language</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a3ae0c96d4d408fdb4169bf6a6b71fe33</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_Ready</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -329,6 +395,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_resolutionHeight</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>ae6cb802417f99e3ddf7797ec89d27191</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_resolutionWidth</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a2dc8012dbce11ca9f849abc44b7e4c3a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_verifier</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -336,6 +422,16 @@
     </TokenIdentifier>
     <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
     <Anchor>a4bb563f5df231a53f39fa41975550c47</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_volume</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a740bee9b575686716f8a8d921a79a400</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1032,6 +1128,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>LoadOptions</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a9e1be4a2fe6111434e31275b55e1e309</Anchor>
+    <DeclaredIn>Options.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Login</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1105,6 +1212,17 @@
     <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
     <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
     <DeclaredIn>MainMenu.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OpenWebBrowser</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Services.WebBrowser</Scope>
+    </TokenIdentifier>
+    <Path>d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html</Path>
+    <Anchor>a2212d48b0841f3d5d891ee693fa91db3</Anchor>
+    <DeclaredIn>WebBrowser.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1263,6 +1381,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SaveOptions</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a77724997c57dffb44a824bc8bd05c0f9</Anchor>
+    <DeclaredIn>Options.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SaveToken</Name>
       <APILanguage>csharp</APILanguage>
       <Type>clm</Type>
@@ -1271,6 +1400,17 @@
     <Path>db/d85/classNewDEVSharp_1_1Server_1_1Auth.html</Path>
     <Anchor>a7b29e9c7bcd6d50ff116df064b1b3263</Anchor>
     <DeclaredIn>Server/Auth.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SendEmail</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Services.Email</Scope>
+    </TokenIdentifier>
+    <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
+    <Anchor>a67486668ebe4255fb9c83eed8cb6763c</Anchor>
+    <DeclaredIn>Email.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1325,6 +1465,50 @@
     <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
     <Anchor>acaa0f762661fabbeaeb7c8fb4bd24220</Anchor>
     <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetFullscreen</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a603ded313cc3ba0acf998955b815db54</Anchor>
+    <DeclaredIn>Options.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetLanguage</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a703f696b9860135e4b5a055d095d04d0</Anchor>
+    <DeclaredIn>Options.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetResolution</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>adf1bd1c95b29723de0a00432c013321d</Anchor>
+    <DeclaredIn>Options.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetVolume</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a731e281642fafcbad89a892075d0753d</Anchor>
+    <DeclaredIn>Options.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

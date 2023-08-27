@@ -4,6 +4,11 @@ var annotated_dup =
       [ "Main", "d3/dac/namespaceFurryPotato_1_1Main.html", [
         [ "MainMenu", "da/d20/classFurryPotato_1_1Main_1_1MainMenu.html", "da/d20/classFurryPotato_1_1Main_1_1MainMenu" ]
       ] ],
+      [ "Services", "d4/dca/namespaceFurryPotato_1_1Services.html", [
+        [ "Email", "d9/d5d/classFurryPotato_1_1Services_1_1Email.html", "d9/d5d/classFurryPotato_1_1Services_1_1Email" ],
+        [ "Options", "de/d39/classFurryPotato_1_1Services_1_1Options.html", "de/d39/classFurryPotato_1_1Services_1_1Options" ],
+        [ "WebBrowser", "d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html", "d6/d60/classFurryPotato_1_1Services_1_1WebBrowser" ]
+      ] ],
       [ "Core", "d0/d9d/classFurryPotato_1_1Core.html", "d0/d9d/classFurryPotato_1_1Core" ]
     ] ],
     [ "NewDEVSharp", "d7/d59/namespaceNewDEVSharp.html", [

@@ -1,0 +1,15 @@
+res://assets/fonts/RobotoRegular.tres::bc8071d0ad026f3c27bbefb02736bd7d::1692479792::res://.godot/exported/133200997/export-5dc19d6a099313f1b0d7045022672a2d-RobotoRegular.res
+res://assets/fonts/RobotoRegularBold.tres::d065fe496b539901693a5034ae95c3a1::1692479792::res://.godot/exported/133200997/export-ad11f9cf84f35b62632f1ee3e35ed9bc-RobotoRegularBold.res
+res://assets/fonts/roboto_font_l.tres::6333a604461ffafaa7b02ab2d3801cfd::1692479792::res://.godot/exported/133200997/export-d296c6bac48f8f11dcaf77f7ff306037-roboto_font_l.res
+res://assets/fonts/roboto_font_m.tres::fa205485c762f2941cab999a23dc737f::1692479792::res://.godot/exported/133200997/export-f34f4996f2954775b8bd10984158841c-roboto_font_m.res
+res://assets/fonts/roboto_font_s.tres::61bb65cf56223c830a2c349732c9b8bf::1692479792::res://.godot/exported/133200997/export-daf07bd09c61bd3e9008d5ae888ad75a-roboto_font_s.res
+res://assets/fonts/roboto_font_xl.tres::79358c0085642a05c5d18f2f9224e1cb::1692479792::res://.godot/exported/133200997/export-66bc0a9928dfacb1797966f0e625dd0e-roboto_font_xl.res
+res://assets/fonts/roboto_font_xs.tres::31117aa0092b8a2cea4b45446da4aeb7::1692479792::res://.godot/exported/133200997/export-97512d13e340b56d0f5bccdad3c6a73a-roboto_font_xs.res
+res://assets/fonts/roboto_font_xxs.tres::8baa86bce71c7658a6e9e6e3ac00743c::1692479792::res://.godot/exported/133200997/export-0aafc69a60056f8526ac276369490524-roboto_font_xxs.res
+res://assets/themes/new_gui/base_theme.tres::6dacf34201fbda2147f95584dcabb8df::1692479792::res://.godot/exported/133200997/export-6dd57e398bf4fa00acf5c970c4630155-base_theme.res
+res://assets/themes/new_gui/button_theme.tres::20e46c395670b82bd9e24a260b3f7241::1692479792::res://.godot/exported/133200997/export-5e60d1589e359c1b86cc1371cb4aa50f-button_theme.res
+res://assets/themes/new_gui/neon.tres::41e244adec1571b5aadd3db4126184fe::1692525880::res://.godot/exported/133200997/export-c869b08a4570b2af3052b50ba92926ce-neon.res
+res://scenes/main/MainMenu.tscn::e27f096a2de78746bb4c6bb994236ae3::1692550140::res://.godot/exported/133200997/export-7f26e0d15f396623b3824c1cf41e625d-MainMenu.scn
+res://scenes/Core.tscn::77ee7302b7141e1d845890c67f7c29b6::1692550140::res://.godot/exported/133200997/export-6124a261ed819e9afa4223ccd84b0bdb-Core.scn
+res://default_bus_layout.tres::259703c9ce7b4b984edacee3cdfd65bd::1692550129::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+res://default_env.tres::4656db4890dbf342b6d661ea72f72f42::1692550140::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['datatags_2ecs_0',['DataTags.cs',['../de/d85/MP3_2DataTags_8cs.html',1,'']]],
-  ['mainmenu_2ecs_1',['MainMenu.cs',['../d5/d5d/MainMenu_8cs.html',1,'']]],
-  ['musicutils_2ecs_2',['MusicUtils.cs',['../d9/d1e/MusicUtils_8cs.html',1,'']]]
+  ['manager_2ecs_0',['Manager.cs',['../d3/d8e/Launcher_2Manager_8cs.html',1,'']]]
 ];

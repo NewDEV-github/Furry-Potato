@@ -13,7 +13,7 @@ namespace FurryPotato.Utils;
 ///     Class for handling option item's
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2021-09-30
+///     @date 2023-09-27
 /// </summary>
 public partial class OptionItem : HBoxContainer {
     private int _currentOptionIndex;

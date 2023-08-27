@@ -11,7 +11,7 @@ namespace FurryPotato;
 ///     Core game class
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2021-09-30
+///     @date 2023-09-27
 /// </summary>
 public partial class Core : Node {
     private string _version = "0.0.1";

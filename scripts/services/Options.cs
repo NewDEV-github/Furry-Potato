@@ -11,7 +11,7 @@ namespace FurryPotato.Services;
 ///     Service for handling game options
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2021-09-30
+///     @date 2023-09-27
 /// </summary>
 public partial class Options : Control {
     /// <summary>

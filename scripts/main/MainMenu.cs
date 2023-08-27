@@ -11,7 +11,7 @@ namespace FurryPotato.Main;
 ///     Class of game's main menu
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2021-09-30
+///     @date 2023-09-27
 /// </summary>
 public partial class MainMenu : Control {
     /// <summary>

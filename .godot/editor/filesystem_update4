@@ -2,3 +2,5 @@ res://default_bus_layout.tres
 res://default_env.tres
 res://scenes/main/MainMenu.tscn
 res://scenes/Core.tscn
+res://scenes/main/Options.tscn
+res://scenes/utils/OptionItem.tscn

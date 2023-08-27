@@ -9,7 +9,11 @@ namespace FurryPotato.Services;
 
 /// <summary>
 ///     Class for handling email service
+///     @copyright New DEV
+///     @author DoS
+///     @date 2021-09-30
 /// </summary>
+/// @todo Add methods for receiving emails and reading their data for specific target email
 public class Email {
     /// <summary>
     ///     List containing all emails

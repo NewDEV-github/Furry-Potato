@@ -1,14 +1,21 @@
 var searchData=
 [
   ['_5fauths_0',['_authS',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a3262da0b9687845af89579aad9ea12e9',1,'NewDEVSharp::User::Auth']]],
-  ['_5fdatabases_1',['_dataBaseS',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#aad131bd3184693b3cb55b10220af4cfb',1,'NewDEVSharp::User::Auth']]],
-  ['_5fdlc_2',['_dlc',['../db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a6a33c8f89e5e7c20613461087ae2f958',1,'NewDEVSharp::DLC::Manager']]],
-  ['_5femails_3',['_emails',['../d9/d5d/classFurryPotato_1_1Services_1_1Email.html#a84725077d8c0f559eed89ae4c1d86b4d',1,'FurryPotato::Services::Email']]],
-  ['_5ffullscreen_4',['_fullscreen',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#a65106c3f5373ba91f0b730edb82c9768',1,'FurryPotato::Services::Options']]],
-  ['_5flanguage_5',['_language',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#a3ae0c96d4d408fdb4169bf6a6b71fe33',1,'FurryPotato::Services::Options']]],
-  ['_5fready_6',['_Ready',['../da/d20/classFurryPotato_1_1Main_1_1MainMenu.html#ac19ec7e6827fd407adb06fb00ff4c425',1,'FurryPotato::Main::MainMenu']]],
-  ['_5fresolutionheight_7',['_resolutionHeight',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#ae6cb802417f99e3ddf7797ec89d27191',1,'FurryPotato::Services::Options']]],
-  ['_5fresolutionwidth_8',['_resolutionWidth',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#a2dc8012dbce11ca9f849abc44b7e4c3a',1,'FurryPotato::Services::Options']]],
-  ['_5fverifier_9',['_verifier',['../db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a4bb563f5df231a53f39fa41975550c47',1,'NewDEVSharp::DLC::Manager']]],
-  ['_5fvolume_10',['_volume',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#a740bee9b575686716f8a8d921a79a400',1,'FurryPotato::Services::Options']]]
+  ['_5fcurrentoptionindex_1',['_currentOptionIndex',['../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a74908ea0052d58447d44320ebb1020e5',1,'FurryPotato::Utils::OptionItem']]],
+  ['_5fdatabases_2',['_dataBaseS',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#aad131bd3184693b3cb55b10220af4cfb',1,'NewDEVSharp::User::Auth']]],
+  ['_5fdlc_3',['_dlc',['../db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a6a33c8f89e5e7c20613461087ae2f958',1,'NewDEVSharp::DLC::Manager']]],
+  ['_5femails_4',['_emails',['../d9/d5d/classFurryPotato_1_1Services_1_1Email.html#a84725077d8c0f559eed89ae4c1d86b4d',1,'FurryPotato::Services::Email']]],
+  ['_5ffullscreen_5',['_fullscreen',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#a65106c3f5373ba91f0b730edb82c9768',1,'FurryPotato::Services::Options']]],
+  ['_5fistrueorfalse_6',['_isTrueOrFalse',['../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#ad9cb7befa860f8558c7083b66993a534',1,'FurryPotato::Utils::OptionItem']]],
+  ['_5flanguage_7',['_language',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#a3ae0c96d4d408fdb4169bf6a6b71fe33',1,'FurryPotato::Services::Options']]],
+  ['_5foptionname_8',['_optionName',['../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a2b55ddd0800923cbf5a9c7521d0105ee',1,'FurryPotato::Utils::OptionItem']]],
+  ['_5foptionnamelabel_9',['_optionNameLabel',['../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a2603ef9016a7be5c970c1008cbe89eea',1,'FurryPotato::Utils::OptionItem']]],
+  ['_5foptions_10',['_options',['../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a362e46e90c655fd3a903f2fa832124c9',1,'FurryPotato::Utils::OptionItem']]],
+  ['_5foptionvaluelabel_11',['_optionValueLabel',['../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a22748ccc07f04f0bb0be9af9c3ff15b6',1,'FurryPotato::Utils::OptionItem']]],
+  ['_5fready_12',['_Ready',['../da/d20/classFurryPotato_1_1Main_1_1MainMenu.html#ac19ec7e6827fd407adb06fb00ff4c425',1,'FurryPotato.Main.MainMenu._Ready()'],['../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#abef4c7f53266170ea7907f97b7aa3b24',1,'FurryPotato.Utils.OptionItem._Ready()']]],
+  ['_5fresolutionheight_13',['_resolutionHeight',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#ae6cb802417f99e3ddf7797ec89d27191',1,'FurryPotato::Services::Options']]],
+  ['_5fresolutionwidth_14',['_resolutionWidth',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#a2dc8012dbce11ca9f849abc44b7e4c3a',1,'FurryPotato::Services::Options']]],
+  ['_5fverifier_15',['_verifier',['../db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a4bb563f5df231a53f39fa41975550c47',1,'NewDEVSharp::DLC::Manager']]],
+  ['_5fversion_16',['_version',['../d0/d9d/classFurryPotato_1_1Core.html#a3bd40b65f26d91154c037c6fee6f29c2',1,'FurryPotato::Core']]],
+  ['_5fvolume_17',['_volume',['../de/d39/classFurryPotato_1_1Services_1_1Options.html#a740bee9b575686716f8a8d921a79a400',1,'FurryPotato::Services::Options']]]
 ];

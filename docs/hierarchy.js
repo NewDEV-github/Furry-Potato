@@ -21,13 +21,16 @@ var hierarchy =
       ] ]
     ] ],
     [ "Control", null, [
-      [ "FurryPotato.Main.MainMenu", "da/d20/classFurryPotato_1_1Main_1_1MainMenu.html", null ]
+      [ "FurryPotato.Main.MainMenu", "da/d20/classFurryPotato_1_1Main_1_1MainMenu.html", null ],
+      [ "FurryPotato.Services.Options", "de/d39/classFurryPotato_1_1Services_1_1Options.html", null ]
     ] ],
     [ "NewDEVSharp.Core", "d5/d9c/classNewDEVSharp_1_1Core.html", null ],
     [ "FurryPotato.Services.Email", "d9/d5d/classFurryPotato_1_1Services_1_1Email.html", null ],
+    [ "HBoxContainer", null, [
+      [ "FurryPotato.Utils.OptionItem", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html", null ]
+    ] ],
     [ "Node", null, [
-      [ "FurryPotato.Core", "d0/d9d/classFurryPotato_1_1Core.html", null ],
-      [ "FurryPotato.Services.Options", "de/d39/classFurryPotato_1_1Services_1_1Options.html", null ]
+      [ "FurryPotato.Core", "d0/d9d/classFurryPotato_1_1Core.html", null ]
     ] ],
     [ "FurryPotato.Services.WebBrowser", "d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html", null ]
 ];

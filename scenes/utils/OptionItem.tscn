@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3vsi12eeupsk"]
+
+[ext_resource type="Script" path="res://scripts/utils/OptionItem.cs" id="1_sen4a"]
+
+[node name="OptionItem" type="HBoxContainer"]
+offset_right = 720.0
+offset_bottom = 26.0
+script = ExtResource("1_sen4a")
+
+[node name="OptionName" type="Label" parent="."]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+text = "Option name"
+text_overrun_behavior = 3
+
+[node name="CheckBox" type="CheckBox" parent="."]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="Options" type="HBoxContainer" parent="."]
+visible = false
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="Previous" type="Button" parent="Options"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+text = "<"
+
+[node name="OptionValue" type="Label" parent="Options"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Option value"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Next" type="Button" parent="Options"]
+layout_mode = 2
+text = ">"
+
+[connection signal="pressed" from="Options/Previous" to="." method="SelectPreviousOption"]
+[connection signal="pressed" from="Options/Next" to="." method="SelectNextOption"]

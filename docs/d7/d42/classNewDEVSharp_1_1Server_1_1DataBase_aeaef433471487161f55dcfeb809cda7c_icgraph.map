@@ -1,0 +1,5 @@
+<map id="NewDEVSharp.Server.DataBase.Request" name="NewDEVSharp.Server.DataBase.Request">
+<area shape="rect" id="Node000001" title="Performs selected request to the server." alt="" coords="248,5,460,48"/>
+<area shape="rect" id="Node000002" href="$de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a18b32ed925ce60ee0ee3c33c555878b9" title="Requests database server to access data of given user by their id." alt="" coords="5,5,200,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,29,200,29,200,24,233,24"/>
+</map>

@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('d0/d9d/classFurryPotato_1_1Core.html',
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../da/d42/classFurryPotato_1_1Core-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">FurryPotato.Core Class Reference</div></div>
 </div><!--header-->
@@ -147,12 +148,55 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa0e85e8cf34d61ba9ceaac37c3ed269"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9d/classFurryPotato_1_1Core.html#aaa0e85e8cf34d61ba9ceaac37c3ed269">TestCore</a> ()</td></tr>
 <tr class="memdesc:aaa0e85e8cf34d61ba9ceaac37c3ed269"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method tests Core class as a singleton. Only for testing purposes.  <br /></td></tr>
 <tr class="separator:aaa0e85e8cf34d61ba9ceaac37c3ed269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17cc01c9223173744ce5825f6673185"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9d/classFurryPotato_1_1Core.html#aa17cc01c9223173744ce5825f6673185">GetVersion</a> ()</td></tr>
+<tr class="memdesc:aa17cc01c9223173744ce5825f6673185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns game version.  <br /></td></tr>
+<tr class="separator:aa17cc01c9223173744ce5825f6673185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3bd40b65f26d91154c037c6fee6f29c2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9d/classFurryPotato_1_1Core.html#a3bd40b65f26d91154c037c6fee6f29c2">_version</a> = &quot;0.0.1&quot;</td></tr>
+<tr class="separator:a3bd40b65f26d91154c037c6fee6f29c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Core game class. </p>
+<dl class="section copyright"><dt>Copyright</dt><dd>New DEV </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>DoS </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2021-09-30 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html#l00009">9</a> of file <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html">Furry-Potato/scripts/Core.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html#l00016">16</a> of file <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html">Furry-Potato/scripts/Core.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa17cc01c9223173744ce5825f6673185" name="aa17cc01c9223173744ce5825f6673185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa17cc01c9223173744ce5825f6673185">&#9670;&#160;</a></span>GetVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string FurryPotato.Core.GetVersion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns game version. </p>
+<dl class="section return"><dt>Returns</dt><dd>Game version</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html#l00039">39</a> of file <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html">Furry-Potato/scripts/Core.cs</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html#l00017">FurryPotato.Core._version</a>.</p>
+
+</div>
+</div>
 <a id="aaa0e85e8cf34d61ba9ceaac37c3ed269" name="aaa0e85e8cf34d61ba9ceaac37c3ed269"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaa0e85e8cf34d61ba9ceaac37c3ed269">&#9670;&#160;</a></span>TestCore()</h2>
 
@@ -180,8 +224,37 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>bool</dd></dl>
 <div class="fragment"><div class="line">var _core = GetNode(<span class="stringliteral">&quot;/root/Core&quot;</span>);</div>
 <div class="line">GD.Print(_core.TestCore() ? <span class="stringliteral">&quot;Core works!&quot;</span> : <span class="stringliteral">&quot;Core is not working!&quot;</span>);</div>
-</div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html#l00020">20</a> of file <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html">Furry-Potato/scripts/Core.cs</a>.</p>
+</div><!-- fragment --> <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000001">Todo:</a></b></dt><dd>Add more tests </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000001">Bug:</a></b></dt><dd>While logging into New DEV account, game crashes. Related to SSL certificate </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html#l00031">31</a> of file <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html">Furry-Potato/scripts/Core.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3bd40b65f26d91154c037c6fee6f29c2" name="a3bd40b65f26d91154c037c6fee6f29c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd40b65f26d91154c037c6fee6f29c2">&#9670;&#160;</a></span>_version</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string FurryPotato.Core._version = &quot;0.0.1&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html#l00017">17</a> of file <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html">Furry-Potato/scripts/Core.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/df2/Furry-Potato_2scripts_2Core_8cs_source.html#l00039">FurryPotato.Core.GetVersion()</a>.</p>
 
 </div>
 </div>

@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://dcx36oywdke0u"]
+
+[ext_resource type="Script" path="res://scripts/services/Options.cs" id="1_bpdf2"]
+[ext_resource type="PackedScene" uid="uid://c3vsi12eeupsk" path="res://scenes/utils/OptionItem.tscn" id="2_6e5n6"]
+
+[node name="Options" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bpdf2")
+
+[node name="List" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.05
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_right = -16.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="General" type="Label" parent="List"]
+layout_mode = 2
+text = "General"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Option1" parent="List" instance=ExtResource("2_6e5n6")]
+layout_mode = 2
+_optionName = "SER"
+_options = ["Value 1", "Value 2"]
+
+[node name="Option2" parent="List" instance=ExtResource("2_6e5n6")]
+layout_mode = 2
+_isTrueOrFalse = true
+_optionName = "SER"
+_options = ["Value 1", "Value 2"]
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.05
+offset_left = 0.392
+offset_bottom = 0.079998
+grow_horizontal = 2
+text = "Options
+"
+horizontal_alignment = 1
+vertical_alignment = 1

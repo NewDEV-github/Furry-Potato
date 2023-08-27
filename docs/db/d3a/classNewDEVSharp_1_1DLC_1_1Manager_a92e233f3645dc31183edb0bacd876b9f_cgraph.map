@@ -1,0 +1,7 @@
+<map id="NewDEVSharp.DLC.Manager.PreLoadDLCData" name="NewDEVSharp.DLC.Manager.PreLoadDLCData">
+<area shape="rect" id="Node000001" title="Preloads DLC Data into returned DLC class instance." alt="" coords="5,39,200,81"/>
+<area shape="rect" id="Node000002" href="$da/df3/classNewDEVSharp_1_1DLC_1_1Verifier.html#a7f0d046481e1bbbaf9e14644bd61fb3d" title=" " alt="" coords="254,5,439,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,44,239,39,239,44,201,49"/>
+<area shape="rect" id="Node000003" href="$de/d21/classNewDEVSharp_1_1DLC_1_1DLC.html#a37e54a58d621b08732fe3d67bb2ca340" title="Loads DLC data into new NewDEVSharp.DLC.BaseDLC class instance and fills out all data." alt="" coords="248,72,445,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,71,233,75,233,80,200,76"/>
+</map>

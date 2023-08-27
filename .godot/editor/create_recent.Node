@@ -1,6 +1,9 @@
+CheckBox
 Label
 Button
-VBoxContainer
+HBoxContainer
 Control
+BoxContainer
+VBoxContainer
 TextureRect
 VideoStreamPlayer

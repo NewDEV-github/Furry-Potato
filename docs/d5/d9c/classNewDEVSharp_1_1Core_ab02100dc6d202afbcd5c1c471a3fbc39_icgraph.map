@@ -1,0 +1,9 @@
+<map id="NewDEVSharp.Core.InitFmod" name="NewDEVSharp.Core.InitFmod">
+<area shape="rect" id="Node000001" title="Initializes an FMOD Sound System." alt="" coords="257,80,449,107"/>
+<area shape="rect" id="Node000002" href="$da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html#a5cc69fb2d2404c58b769d7e2e826a23a" title="Class initializer." alt="" coords="7,5,207,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="286,78,188,51,189,46,287,73"/>
+<area shape="rect" id="Node000003" href="$de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html#aa54cb46a75db67cf071e0b69e6e707b7" title="Class initializer." alt="" coords="6,72,208,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,96,209,96,209,91,242,91"/>
+<area shape="rect" id="Node000004" href="$d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html#ad309d80727d8ebec0e5b96609c6b8b2d" title="Class initializer." alt="" coords="5,139,209,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="287,114,189,141,188,135,286,109"/>
+</map>

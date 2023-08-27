@@ -1,0 +1,11 @@
+<map id="FurryPotato.Services.Options.LoadOptions" name="FurryPotato.Services.Options.LoadOptions">
+<area shape="rect" id="Node000001" title="Method for loading options." alt="" coords="5,105,201,148"/>
+<area shape="rect" id="Node000002" href="$de/d39/classFurryPotato_1_1Services_1_1Options.html#a603ded313cc3ba0acf998955b815db54" title="Sets fullscreen mode." alt="" coords="249,5,444,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,102,248,58,265,51,266,56,250,62,150,107"/>
+<area shape="rect" id="Node000003" href="$de/d39/classFurryPotato_1_1Services_1_1Options.html#a703f696b9860135e4b5a055d095d04d0" title="Sets language." alt="" coords="249,72,444,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,111,234,106,234,111,202,116"/>
+<area shape="rect" id="Node000004" href="$de/d39/classFurryPotato_1_1Services_1_1Options.html#adf1bd1c95b29723de0a00432c013321d" title="Method for setting resolution." alt="" coords="249,139,444,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,137,234,142,234,147,201,143"/>
+<area shape="rect" id="Node000005" href="$de/d39/classFurryPotato_1_1Services_1_1Options.html#a731e281642fafcbad89a892075d0753d" title="Sets volume." alt="" coords="249,205,444,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="150,146,250,191,266,197,265,202,248,196,148,151"/>
+</map>

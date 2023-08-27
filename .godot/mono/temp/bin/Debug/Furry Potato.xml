@@ -6,50 +6,243 @@
     <members>
         <member name="T:FurryPotato.Core">
             <summary>
-            Core game class
+                Core game class
+                @copyright New DEV
+                @author DoS
+                @date 2021-09-30
             </summary>
         </member>
         <member name="M:FurryPotato.Core.TestCore">
             <summary>
-            This method tests Core class as a singleton. Only for testing purposes
+                This method tests Core class as a singleton. Only for testing purposes
             </summary>
             <returns>bool</returns>
             <example>
-            <code>
+                <code>
             var _core = GetNode("/root/Core");
             GD.Print(_core.TestCore() ? "Core works!" : "Core is not working!");
             </code>
             </example>
+            @todo Add more tests
+            @bug While logging into New DEV account, game crashes. Related to SSL certificate
+        </member>
+        <member name="M:FurryPotato.Core.GetVersion">
+            <summary>
+                Returns game version
+            </summary>
+            <returns>Game version</returns>
         </member>
         <member name="T:FurryPotato.Main.MainMenu">
             <summary>
-            Class of game's main menu
+                Class of game's main menu
+                @copyright New DEV
+                @author DoS
+                @date 2021-09-30
             </summary>
+        </member>
+        <member name="M:FurryPotato.Main.MainMenu._Ready">
+            <summary>
+                Loads data and prepares Main Menu
+            </summary>
+            <seealso cref="T:FurryPotato.Core" />
+            <seealso cref="T:System.DateTime" />
         </member>
         <member name="M:FurryPotato.Main.MainMenu.OnStartNewGameButtonPressed">
             <summary>
-            Method called when "Start new game" button was pressed. Shows popup for new game name and starts a new game
+                Method called when "Start new game" button was pressed. Shows popup for new game name and starts a new game
+                @todo Add popup for new game name
+                @todo Add new game start
             </summary>
         </member>
         <member name="M:FurryPotato.Main.MainMenu.OnContinueGameButtonPressed">
             <summary>
-            Method called when "Continue game" button was pressed. Continues last played save
+                Method called when "Continue game" button was pressed. Continues last played save
             </summary>
+            @todo Add ability to continue last played save
         </member>
         <member name="M:FurryPotato.Main.MainMenu.OnLoadGameButtonPressed">
             <summary>
-            Method called when "Load game" button was pressed. Shows menu with list of saves to load game from
+                Method called when "Load game" button was pressed. Shows menu with list of saves to load game from
             </summary>
+            @todo Add ability to load game from save
         </member>
         <member name="M:FurryPotato.Main.MainMenu.OnOptionsButtonPressed">
             <summary>
-            Method called when "Options" button was pressed. Shows option menu
+                Method called when "Options" button was pressed. Shows option menu
             </summary>
+            <seealso cref="T:FurryPotato.Services.Options" />
+            @todo Add options menu
         </member>
         <member name="M:FurryPotato.Main.MainMenu.OnExitButtonPressed">
             <summary>
-            Method called when "Exit" button was pressed. Quits the game
+                Method called when "Exit" button was pressed. Quits the game
             </summary>
+            @bug It works
+        </member>
+        <member name="T:FurryPotato.Services.Email">
+            <summary>
+                Class for handling email service
+                @copyright New DEV
+                @author DoS
+                @date 2021-09-30
+            </summary>
+            @todo Add methods for receiving emails and reading their data for specific target email
+        </member>
+        <member name="F:FurryPotato.Services.Email._emails">
+            <summary>
+                List containing all emails
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Services.Email.SendEmail(System.String,System.String,System.String,System.String)">
+            <summary>
+                Function for sending email
+            </summary>
+            <param name="to">Target of the email</param>
+            <param name="subject">Email subject</param>
+            <param name="body">Email body</param>
+            <param name="from">Addressed by</param>
+        </member>
+        <member name="T:FurryPotato.Services.Options">
+            <summary>
+                Service for handling game options
+                @copyright New DEV
+                @author DoS
+                @date 2021-09-30
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Services.Options._fullscreen">
+            <summary>
+                Boolean for checking if game is in fullscreen mode
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Services.Options._language">
+            <summary>
+                Language code
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Services.Options._resolutionHeight">
+            <summary>
+                Resolution height
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Services.Options._resolutionWidth">
+            <summary>
+                Resolution width
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Services.Options._volume">
+            <summary>
+                Volume
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Services.Options.SetResolution(System.Int32,System.Int32)">
+            <summary>
+                Method for setting resolution
+            </summary>
+            <param name="width">Width in pixels</param>
+            <param name="height">Height in pixels</param>
+            @todo Add resolution change
+            @todo Add resolution validation
+        </member>
+        <member name="M:FurryPotato.Services.Options.SetFullscreen(System.Boolean)">
+            <summary>
+                Sets fullscreen mode
+            </summary>
+            <param name="fullscreen">Boolean</param>
+            @todo Add fullscreen change
+        </member>
+        <member name="M:FurryPotato.Services.Options.SetLanguage(System.String)">
+            <summary>
+                Sets language
+            </summary>
+            <param name="language">Language code</param>
+            @todo Add language change
+        </member>
+        <member name="M:FurryPotato.Services.Options.SetVolume(System.Int32)">
+            <summary>
+                Sets volume
+            </summary>
+            <param name="volume">Volume to set</param>
+            @todo Add volume change
+        </member>
+        <member name="M:FurryPotato.Services.Options.SaveOptions">
+            <summary>
+                Method for saving options
+            </summary>
+            @todo Save options to file
+        </member>
+        <member name="M:FurryPotato.Services.Options.LoadOptions">
+            <summary>
+                Method for loading options
+            </summary>
+            @todo Load options from file
+        </member>
+        <member name="T:FurryPotato.Services.WebBrowser">
+            <summary>
+                Class for handling web browser service
+                @copyright New DEV
+                @author DoS
+                @date 2021-09-30
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Services.WebBrowser.OpenWebBrowser(System.String)">
+            <summary>
+                Open's in game web browser
+            </summary>
+            <param name="url">Url to be opened</param>
+            @todo Handle opening websites with Godot UI
+            @todo Create in game web browser's UI
+            @todo Add web browser's UI to game
+        </member>
+        <member name="T:FurryPotato.Utils.OptionItem">
+            <summary>
+                Class for handling option item's
+                @copyright New DEV
+                @author DoS
+                @date 2021-09-30
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Utils.OptionItem._isTrueOrFalse">
+            <summary>
+                If is only true/false, then treat values as booleans not strings
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Utils.OptionItem._optionName">
+            <summary>
+                Loads option item and configures it
+                @todo Add option item configuration
+            </summary>
+            <summary>
+                Option name
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Utils.OptionItem._options">
+            <summary>
+                Array of string options
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Utils.OptionItem._Ready">
+            <summary>
+                Set ups option item
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Utils.OptionItem.SelectPreviousOption">
+            <summary>
+            Selects previous option from option list
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Utils.OptionItem.SelectNextOption">
+            <summary>
+            Selects next option from option list
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Utils.OptionItem.SetSpecificOption(System.String)">
+            <summary>
+            Sets specific option from option list
+            </summary>
+            <param name="option">Option name</param>
+            @todo Handle setting string values
+            @todo Handle setting boolean values
         </member>
     </members>
 </doc>

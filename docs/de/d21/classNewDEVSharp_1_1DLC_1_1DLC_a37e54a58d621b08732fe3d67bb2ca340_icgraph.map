@@ -1,0 +1,5 @@
+<map id="NewDEVSharp.DLC.DLC.LoadDLCDataFromPath" name="NewDEVSharp.DLC.DLC.LoadDLCDataFromPath">
+<area shape="rect" id="Node000001" title="Loads DLC data into new NewDEVSharp.DLC.BaseDLC class instance and fills out all data." alt="" coords="248,5,445,48"/>
+<area shape="rect" id="Node000002" href="$db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html#a92e233f3645dc31183edb0bacd876b9f" title="Preloads DLC Data into returned DLC class instance." alt="" coords="5,5,200,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,29,200,29,200,24,233,24"/>
+</map>

@@ -26,6 +26,7 @@ var NAVTREE =
 [
   [ "Furry Potato", "index.html", [
     [ "Todo List", "dd/da0/todo.html", null ],
+    [ "Bug List", "de/da5/bug.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -53,7 +54,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"dc/db3/Debug_2_8NETFramework_00Version_0av4_88_8AssemblyAttributes_8cs.html"
+"db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#a09ac883c95fe04b69fee23c9a296e209"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

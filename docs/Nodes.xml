@@ -10,6 +10,10 @@
         <Path>dd/da0/todo.html</Path>
        </Node>
        <Node>
+        <Name>Bug List</Name>
+        <Path>de/da5/bug.html</Path>
+       </Node>
+       <Node>
         <Name>Namespaces</Name>
         <Path>namespaces.html</Path>
       <Subnodes>
@@ -158,13 +162,90 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Utils</Name>
+              <Path>dd/de3/namespaceFurryPotato_1_1Utils.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>OptionItem</Name>
+                <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>_Ready</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>abef4c7f53266170ea7907f97b7aa3b24</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetValue</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>aed54a1b8bd480a46acb02b0bd3891424</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SelectNextOption</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a8efba7d67358d5b7b0bf81f82c7801de</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SelectPreviousOption</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a265ea21160bf99ee1591b22e6c69de32</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetSpecificOption</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a252fe4dab167dbab75fcf9139e192565</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_currentOptionIndex</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a74908ea0052d58447d44320ebb1020e5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_isTrueOrFalse</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>ad9cb7befa860f8558c7083b66993a534</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_optionName</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a2b55ddd0800923cbf5a9c7521d0105ee</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_optionNameLabel</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a2603ef9016a7be5c970c1008cbe89eea</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_options</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a362e46e90c655fd3a903f2fa832124c9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_optionValueLabel</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a22748ccc07f04f0bb0be9af9c3ff15b6</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Core</Name>
               <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
             <Subnodes>
                <Node>
+                <Name>GetVersion</Name>
+                <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+                <Anchor>aa17cc01c9223173744ce5825f6673185</Anchor>
+               </Node>
+               <Node>
                 <Name>TestCore</Name>
                 <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
                 <Anchor>aaa0e85e8cf34d61ba9ceaac37c3ed269</Anchor>
+               </Node>
+               <Node>
+                <Name>_version</Name>
+                <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+                <Anchor>a3bd40b65f26d91154c037c6fee6f29c2</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -932,13 +1013,90 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Utils</Name>
+              <Path>dd/de3/namespaceFurryPotato_1_1Utils.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>OptionItem</Name>
+                <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>_Ready</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>abef4c7f53266170ea7907f97b7aa3b24</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetValue</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>aed54a1b8bd480a46acb02b0bd3891424</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SelectNextOption</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a8efba7d67358d5b7b0bf81f82c7801de</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SelectPreviousOption</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a265ea21160bf99ee1591b22e6c69de32</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetSpecificOption</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a252fe4dab167dbab75fcf9139e192565</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_currentOptionIndex</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a74908ea0052d58447d44320ebb1020e5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_isTrueOrFalse</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>ad9cb7befa860f8558c7083b66993a534</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_optionName</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a2b55ddd0800923cbf5a9c7521d0105ee</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_optionNameLabel</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a2603ef9016a7be5c970c1008cbe89eea</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_options</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a362e46e90c655fd3a903f2fa832124c9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_optionValueLabel</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a22748ccc07f04f0bb0be9af9c3ff15b6</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Core</Name>
               <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
             <Subnodes>
                <Node>
+                <Name>GetVersion</Name>
+                <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+                <Anchor>aa17cc01c9223173744ce5825f6673185</Anchor>
+               </Node>
+               <Node>
                 <Name>TestCore</Name>
                 <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
                 <Anchor>aaa0e85e8cf34d61ba9ceaac37c3ed269</Anchor>
+               </Node>
+               <Node>
+                <Name>_version</Name>
+                <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+                <Anchor>a3bd40b65f26d91154c037c6fee6f29c2</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1643,6 +1801,10 @@
               <Name>FurryPotato.Main.MainMenu</Name>
               <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
              </Node>
+             <Node>
+              <Name>FurryPotato.Services.Options</Name>
+              <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -1654,16 +1816,22 @@
             <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
            </Node>
            <Node>
+            <Name>HBoxContainer</Name>
+            <Path></Path>
+          <Subnodes>
+             <Node>
+              <Name>FurryPotato.Utils.OptionItem</Name>
+              <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Node</Name>
             <Path></Path>
           <Subnodes>
              <Node>
               <Name>FurryPotato.Core</Name>
               <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
-             </Node>
-             <Node>
-              <Name>FurryPotato.Services.Options</Name>
-              <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -2650,6 +2818,79 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>utils</Name>
+              <Path>dir_49d5ed5fe94ab0d2a71104898a4d1145.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>OptionItem.cs</Name>
+                <Path>d4/d7e/OptionItem_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>FurryPotato.Utils.OptionItem</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>_Ready</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>abef4c7f53266170ea7907f97b7aa3b24</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetValue</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>aed54a1b8bd480a46acb02b0bd3891424</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SelectNextOption</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a8efba7d67358d5b7b0bf81f82c7801de</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SelectPreviousOption</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a265ea21160bf99ee1591b22e6c69de32</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetSpecificOption</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a252fe4dab167dbab75fcf9139e192565</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_currentOptionIndex</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a74908ea0052d58447d44320ebb1020e5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_isTrueOrFalse</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>ad9cb7befa860f8558c7083b66993a534</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_optionName</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a2b55ddd0800923cbf5a9c7521d0105ee</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_optionNameLabel</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a2603ef9016a7be5c970c1008cbe89eea</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_options</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a362e46e90c655fd3a903f2fa832124c9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_optionValueLabel</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a22748ccc07f04f0bb0be9af9c3ff15b6</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Furry-Potato/scripts/Core.cs</Name>
               <Path>d9/df2/Furry-Potato_2scripts_2Core_8cs.html</Path>
             <Subnodes>
@@ -2658,9 +2899,19 @@
                 <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
               <Subnodes>
                  <Node>
+                  <Name>GetVersion</Name>
+                  <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+                  <Anchor>aa17cc01c9223173744ce5825f6673185</Anchor>
+                 </Node>
+                 <Node>
                   <Name>TestCore</Name>
                   <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
                   <Anchor>aaa0e85e8cf34d61ba9ceaac37c3ed269</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_version</Name>
+                  <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+                  <Anchor>a3bd40b65f26d91154c037c6fee6f29c2</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

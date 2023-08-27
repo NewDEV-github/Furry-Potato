@@ -1,8 +1,8 @@
 2a60927148abd1d33b818b535e306557
-::res://::1692550128
-default_bus_layout.tres::AudioBusLayout::8570260744329722441::1692546188::0::1::::<><>::
-default_env.tres::Environment::6824283716953574113::1692549693::0::1::::<><>::
-export_presets.cfg::TextFile::-1::1692547859::0::1::::<><>::
+::res://::1693156760
+default_bus_layout.tres::AudioBusLayout::8570260744329722441::1692550129::0::1::::<><>::
+default_env.tres::Environment::6824283716953574113::1692565314::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1692550181::0::1::::<><>::
 global.json::JSON::-1::1692520087::0::1::::<><>::
 icon.png::CompressedTexture2D::214628294257864383::1662883663::1692479874::1::::<><>::
 icon_64.png::CompressedTexture2D::1861290044285238204::1662891496::1692479874::1::::<><>::
@@ -13,7 +13,7 @@ README.md::TextFile::-1::1692477324::0::1::::<><>::
 godot_video_reference.gdextension::GDExtension::-1::1692549486::0::1::::<><>::
 ::res://addons/godot_video_reference/bin/::1692528491
 ::res://addons/godot_video_reference/bin/win64/::1692550060
-::res://addons/godot_video_reference/bin/x11/::1692528491
+::res://addons/godot_video_reference/bin/x11/::1692557075
 ::res://assets/::1690540050
 loading_saving_data_icon.gdshader::Shader::-1::1692479791::0::1::::<><>::
 ::res://assets/audio/::1690540049
@@ -199,11 +199,15 @@ README.md::TextFile::-1::1663615441::0::1::::<><>::
 screenshot.png::CompressedTexture2D::3541522355142038198::1663615441::1692479874::1::::<><>::
 testimage.png::CompressedTexture2D::2010214026446570228::1663615441::1692479873::1::::<><>::
 theme-variants.drawio.svg::CompressedTexture2D::8121483682111802257::1663615441::1692479873::1::::<><>::
-::res://scenes/::1692549693
-Core.tscn::PackedScene::8028589246907450615::1692549693::0::1::::<><>::res://scripts/Core.cs
-::res://scenes/main/::1692532228
-MainMenu.tscn::PackedScene::850718355567547411::1692532228::0::1::::<><>::res://scripts/main/MainMenu.cs<>res://assets/Graphics/ProtogenThings/I GOT YOU.webm<>uid://doa3oxxunvs5f
-::res://scripts/::1692534339
-Core.cs::CSharpScript::-1::1692534339::0::1::::<><>::
-::res://scripts/main/::1692532798
-MainMenu.cs::CSharpScript::-1::1692532798::0::1::::<><>::
+::res://scenes/::1692550140
+Core.tscn::PackedScene::8028589246907450615::1692550140::0::1::::<><>::res://scripts/Core.cs
+::res://scenes/main/::1692565314
+MainMenu.tscn::PackedScene::850718355567547411::1692565314::0::1::::<><>::res://scripts/main/MainMenu.cs<>res://assets/Graphics/ProtogenThings/I GOT YOU.webm<>uid://doa3oxxunvs5f
+::res://scripts/::1693156102
+Core.cs::CSharpScript::-1::1693156102::0::1::::<><>::
+::res://scripts/main/::1693156102
+MainMenu.cs::CSharpScript::-1::1693156102::0::1::::<><>::
+::res://scripts/services/::1693156743
+Email.cs::CSharpScript::-1::1693156102::0::1::::<><>::
+Options.cs::CSharpScript::-1::1693156743::0::1::::<><>::
+WebBrowser.cs::CSharpScript::-1::1693156102::0::1::::<><>::

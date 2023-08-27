@@ -9,6 +9,9 @@ var annotated_dup =
         [ "Options", "de/d39/classFurryPotato_1_1Services_1_1Options.html", "de/d39/classFurryPotato_1_1Services_1_1Options" ],
         [ "WebBrowser", "d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html", "d6/d60/classFurryPotato_1_1Services_1_1WebBrowser" ]
       ] ],
+      [ "Utils", "dd/de3/namespaceFurryPotato_1_1Utils.html", [
+        [ "OptionItem", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem" ]
+      ] ],
       [ "Core", "d0/d9d/classFurryPotato_1_1Core.html", "d0/d9d/classFurryPotato_1_1Core" ]
     ] ],
     [ "NewDEVSharp", "d7/d59/namespaceNewDEVSharp.html", [

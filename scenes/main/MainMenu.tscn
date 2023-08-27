@@ -93,7 +93,7 @@ offset_right = 374.0
 offset_bottom = -10.0
 grow_vertical = 0
 text = "Furry Potato, version: 1.0.0.stable
-Copyright (c) 2023 New Dev, All rights reserved."
+Copyright (c) 2023 New DEV, All rights reserved."
 language = "en_EN"
 
 [connection signal="pressed" from="Buttons/StartNewGame" to="." method="OnStartNewGameButtonPressed"]

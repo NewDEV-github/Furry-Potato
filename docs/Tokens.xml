@@ -173,6 +173,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FurryPotato::Utils::OptionItem</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>FurryPotato::Services::Options</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -224,6 +233,15 @@
       <Scope>FurryPotato::Services</Scope>
     </TokenIdentifier>
     <Path>d4/dca/namespaceFurryPotato_1_1Services.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FurryPotato::Utils</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>FurryPotato::Utils</Scope>
+    </TokenIdentifier>
+    <Path>dd/de3/namespaceFurryPotato_1_1Utils.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -324,6 +342,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>bug</Name>
+      <APILanguage>unknown</APILanguage>
+    </TokenIdentifier>
+    <Path>de/da5/bug.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_authS</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -331,6 +356,16 @@
     </TokenIdentifier>
     <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
     <Anchor>a3262da0b9687845af89579aad9ea12e9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_currentOptionIndex</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a74908ea0052d58447d44320ebb1020e5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -374,6 +409,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_isTrueOrFalse</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>ad9cb7befa860f8558c7083b66993a534</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_language</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -381,6 +426,46 @@
     </TokenIdentifier>
     <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
     <Anchor>a3ae0c96d4d408fdb4169bf6a6b71fe33</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_optionName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a2b55ddd0800923cbf5a9c7521d0105ee</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_optionNameLabel</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a2603ef9016a7be5c970c1008cbe89eea</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_options</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a362e46e90c655fd3a903f2fa832124c9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_optionValueLabel</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a22748ccc07f04f0bb0be9af9c3ff15b6</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -392,6 +477,17 @@
     <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
     <Anchor>ac19ec7e6827fd407adb06fb00ff4c425</Anchor>
     <DeclaredIn>MainMenu.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>abef4c7f53266170ea7907f97b7aa3b24</Anchor>
+    <DeclaredIn>OptionItem.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -422,6 +518,16 @@
     </TokenIdentifier>
     <Path>db/d3a/classNewDEVSharp_1_1DLC_1_1Manager.html</Path>
     <Anchor>a4bb563f5df231a53f39fa41975550c47</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_version</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Core</Scope>
+    </TokenIdentifier>
+    <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+    <Anchor>a3bd40b65f26d91154c037c6fee6f29c2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1019,6 +1125,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetValue</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>aed54a1b8bd480a46acb02b0bd3891424</Anchor>
+    <DeclaredIn>OptionItem.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetVersion</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Core</Scope>
+    </TokenIdentifier>
+    <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+    <Anchor>aa17cc01c9223173744ce5825f6673185</Anchor>
+    <DeclaredIn>Furry-Potato/scripts/Core.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GodotToSystem</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1403,6 +1531,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SelectNextOption</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a8efba7d67358d5b7b0bf81f82c7801de</Anchor>
+    <DeclaredIn>OptionItem.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SelectPreviousOption</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a265ea21160bf99ee1591b22e6c69de32</Anchor>
+    <DeclaredIn>OptionItem.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SendEmail</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1498,6 +1648,17 @@
     <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
     <Anchor>adf1bd1c95b29723de0a00432c013321d</Anchor>
     <DeclaredIn>Options.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSpecificOption</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a252fe4dab167dbab75fcf9139e192565</Anchor>
+    <DeclaredIn>OptionItem.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

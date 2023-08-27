@@ -9,8 +9,11 @@ namespace FurryPotato.Services;
 
 /// <summary>
 ///     Service for handling game options
+///     @copyright New DEV
+///     @author DoS
+///     @date 2021-09-30
 /// </summary>
-public class Options : Node {
+public partial class Options : Control {
     /// <summary>
     ///     Boolean for checking if game is in fullscreen mode
     /// </summary>
@@ -41,9 +44,9 @@ public class Options : Node {
     /// </summary>
     /// <param name="width">Width in pixels</param>
     /// <param name="height">Height in pixels</param>
+    /// @todo Add resolution change
+    /// @todo Add resolution validation
     public void SetResolution(int width, int height) {
-        //     @TODO Add resolution validation
-        //     @TODO Add resolution change
         _resolutionHeight = height;
         _resolutionWidth = width;
     }
@@ -52,8 +55,8 @@ public class Options : Node {
     ///     Sets fullscreen mode
     /// </summary>
     /// <param name="fullscreen">Boolean</param>
+    /// @todo Add fullscreen change
     public void SetFullscreen(bool fullscreen) {
-        //@TODO Add fullscreen change
         _fullscreen = fullscreen;
     }
 
@@ -61,8 +64,8 @@ public class Options : Node {
     ///     Sets language
     /// </summary>
     /// <param name="language">Language code</param>
+    /// @todo Add language change
     public void SetLanguage(string language) {
-        //     @TODO Add language change
         _language = language;
     }
 
@@ -70,23 +73,22 @@ public class Options : Node {
     ///     Sets volume
     /// </summary>
     /// <param name="volume">Volume to set</param>
+    /// @todo Add volume change
     public void SetVolume(int volume) {
-        //    @TODO Add volume change
         _volume = volume;
     }
 
     /// <summary>
     ///     Method for saving options
     /// </summary>
-    public void SaveOptions() {
-        //     @TODO Save options to file
-    }
+    /// @todo Save options to file
+    public void SaveOptions() { }
 
     /// <summary>
     ///     Method for loading options
     /// </summary>
+    /// @todo Load options from file
     public void LoadOptions() {
-        //    @TODO Load options from file
         const int width = 1920;
         const int height = 1080;
         const bool fullscreen = true;

@@ -1,6 +1,9 @@
 var annotated_dup =
 [
     [ "FurryPotato", "de/d6d/namespaceFurryPotato.html", [
+      [ "Game", "d5/d75/namespaceFurryPotato_1_1Game.html", [
+        [ "Game", "d3/d6a/classFurryPotato_1_1Game_1_1Game.html", "d3/d6a/classFurryPotato_1_1Game_1_1Game" ]
+      ] ],
       [ "Main", "d3/dac/namespaceFurryPotato_1_1Main.html", [
         [ "MainMenu", "da/d20/classFurryPotato_1_1Main_1_1MainMenu.html", "da/d20/classFurryPotato_1_1Main_1_1MainMenu" ]
       ] ],
@@ -15,6 +18,10 @@ var annotated_dup =
             [ "Example", "d2/d11/classFurryPotato_1_1Utils_1_1UI_1_1Characters_1_1Example.html", "d2/d11/classFurryPotato_1_1Utils_1_1UI_1_1Characters_1_1Example" ]
           ] ],
           [ "DialogueLines", "db/da9/namespaceFurryPotato_1_1Utils_1_1UI_1_1DialogueLines.html", [
+            [ "R1S1", "d5/d6a/namespaceFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1.html", [
+              [ "R1S1_MAIN", "de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html", "de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN" ],
+              [ "R1S2_MAIN", "d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html", "d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN" ]
+            ] ],
             [ "Line1", "da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html", "da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1" ]
           ] ],
           [ "Dialogues", "de/d5c/namespaceFurryPotato_1_1Utils_1_1UI_1_1Dialogues.html", [

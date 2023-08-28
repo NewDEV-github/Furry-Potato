@@ -1,0 +1,5 @@
+<map id="FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN" name="FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,195,123"/>
+<area shape="rect" id="Node000002" href="$d9/d0d/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLine.html" title="Interface for base dialogue line classes." alt="" coords="52,5,148,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,47,103,80,97,80,97,47"/>
+</map>

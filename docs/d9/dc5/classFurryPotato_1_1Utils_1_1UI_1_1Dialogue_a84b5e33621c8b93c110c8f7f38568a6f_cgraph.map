@@ -1,7 +1,9 @@
 <map id="FurryPotato.Utils.UI.Dialogue.StartDialogue" name="FurryPotato.Utils.UI.Dialogue.StartDialogue">
-<area shape="rect" id="Node000001" title="Checks if dialogue can be played and if so, plays it." alt="" coords="5,5,199,48"/>
-<area shape="rect" id="Node000002" href="$d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#a0289aea03ba7700b2d0b47a3940efb5d" title="Method used to display one dialogue line." alt="" coords="247,5,440,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,24,232,24,232,29,199,29"/>
-<area shape="rect" id="Node000003" href="$d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#ac3854c0841aebbe0eedebaf1ee1136a1" title="Method that display choices on the screen after current line." alt="" coords="488,5,681,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="440,24,473,24,473,29,440,29"/>
+<area shape="rect" id="Node000001" title="Checks if dialogue can be played and if so, plays it." alt="" coords="5,39,199,81"/>
+<area shape="rect" id="Node000002" href="$d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#aeab7ecb8ce775796192535690f14b6dd" title="Method used to display one dialogue line." alt="" coords="247,39,440,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,57,232,57,232,63,199,63"/>
+<area shape="rect" id="Node000003" href="$d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#aaf3e2d02b752cf732dacedf593e8933d" title="Ends dialogue." alt="" coords="488,5,681,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="440,44,473,39,474,45,441,49"/>
+<area shape="rect" id="Node000004" href="$d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#ac3854c0841aebbe0eedebaf1ee1136a1" title="Method that display choices on the screen after current line." alt="" coords="488,72,681,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="441,71,474,75,473,81,440,76"/>
 </map>

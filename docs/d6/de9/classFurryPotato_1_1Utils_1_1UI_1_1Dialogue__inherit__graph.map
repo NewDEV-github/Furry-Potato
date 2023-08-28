@@ -1,5 +1,5 @@
 <map id="FurryPotato.Utils.UI.Dialogue" name="FurryPotato.Utils.UI.Dialogue">
 <area shape="rect" id="Node000001" title="Class for handling dialogues." alt="" coords="5,80,195,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="74,5,126,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="69,5,131,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,47,103,80,97,80,97,47"/>
 </map>

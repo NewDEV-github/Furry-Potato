@@ -1,5 +1,9 @@
 <map id="FurryPotato.Utils.UI.DialogueLine" name="FurryPotato.Utils.UI.DialogueLine">
-<area shape="rect" id="Node000001" title="Interface for base dialogue line classes." alt="" coords="5,5,219,32"/>
-<area shape="rect" id="Node000002" href="$da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html" title="Example dialogue line." alt="" coords="17,80,207,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,47,115,80,109,80,109,47"/>
+<area shape="rect" id="Node000001" title="Interface for base dialogue line classes." alt="" coords="5,80,219,107"/>
+<area shape="rect" id="Node000002" href="$da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html" title="Example dialogue line." alt="" coords="267,5,456,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,73,278,46,279,51,180,78"/>
+<area shape="rect" id="Node000003" href="$de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html" title=" " alt="" coords="267,72,456,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="233,91,266,91,266,96,233,96"/>
+<area shape="rect" id="Node000004" href="$d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html" title=" " alt="" coords="267,139,456,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="180,109,279,135,278,141,178,114"/>
 </map>

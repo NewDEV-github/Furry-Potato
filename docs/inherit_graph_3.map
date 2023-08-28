@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,114,32"/>
-<area shape="rect" id="Node000001" href="$d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html" title="Class for handling option item&#39;s." alt="" coords="162,5,348,32"/>
-<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="129,16,161,16,161,21,129,21"/>
+<area shape="rect" id="Node000000" href="$d9/d0d/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLine.html" title="Interface for base dialogue line classes." alt="" coords="5,13,219,40"/>
+<area shape="rect" id="Node000001" href="$da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html" title="Example dialogue line." alt="" coords="267,5,456,48"/>
+<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="233,24,266,24,266,29,233,29"/>
 </map>

@@ -26,10 +26,6 @@ public partial class OptionItem : HBoxContainer {
     [Export] private bool _isTrueOrFalse;
 
     /// <summary>
-    ///     Loads option item and configures it
-    ///     @todo Add option item configuration
-    /// </summary>
-    /// <summary>
     ///     Option name
     /// </summary>
     [Export] private string _optionName = "";
@@ -41,6 +37,9 @@ public partial class OptionItem : HBoxContainer {
     /// </summary>
     [Export] private Array<string> _options = new();
 
+    /// <summary>
+    /// Label used for displaying the value of option
+    /// </summary>
     private Label _optionValueLabel;
 
     /// <summary>
@@ -96,6 +95,7 @@ public partial class OptionItem : HBoxContainer {
     /// <exception cref="NotSupportedException">Exception, if option value is not supported</exception>
     /// @todo Handle setting string values
     /// @todo Handle setting boolean values
+    /// @note While saving, all values should be casted to string if needed, and vice-versa
     public void SetSpecificOption(string option) {
         var optionCheckbox = GetNode<CheckBox>("CheckBox");
         if (!_isTrueOrFalse) {

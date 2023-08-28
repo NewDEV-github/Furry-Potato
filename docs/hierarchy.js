@@ -25,12 +25,20 @@ var hierarchy =
       [ "FurryPotato.Services.Options", "de/d39/classFurryPotato_1_1Services_1_1Options.html", null ]
     ] ],
     [ "NewDEVSharp.Core", "d5/d9c/classNewDEVSharp_1_1Core.html", null ],
+    [ "FurryPotato.Utils.UI.DialogueLine", "d9/d0d/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLine.html", [
+      [ "FurryPotato.Utils.UI.DialogueLines.Line1", "da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html", null ]
+    ] ],
     [ "FurryPotato.Services.Email", "d9/d5d/classFurryPotato_1_1Services_1_1Email.html", null ],
     [ "HBoxContainer", null, [
       [ "FurryPotato.Utils.OptionItem", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html", null ]
     ] ],
-    [ "Node", null, [
-      [ "FurryPotato.Core", "d0/d9d/classFurryPotato_1_1Core.html", null ]
+    [ "FurryPotato.Utils.UI.Dialogues.IDialogueCharacter", "d8/d68/interfaceFurryPotato_1_1Utils_1_1UI_1_1Dialogues_1_1IDialogueCharacter.html", [
+      [ "FurryPotato.Utils.UI.Characters.Example", "d2/d11/classFurryPotato_1_1Utils_1_1UI_1_1Characters_1_1Example.html", null ]
     ] ],
+    [ "Node", null, [
+      [ "FurryPotato.Core", "d0/d9d/classFurryPotato_1_1Core.html", null ],
+      [ "FurryPotato.Utils.UI.Dialogue", "d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html", null ]
+    ] ],
+    [ "FurryPotato.Utils.UI.Thoughts", "d1/d57/classFurryPotato_1_1Utils_1_1UI_1_1Thoughts.html", null ],
     [ "FurryPotato.Services.WebBrowser", "d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html", null ]
 ];

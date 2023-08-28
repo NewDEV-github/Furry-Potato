@@ -10,6 +10,20 @@ var annotated_dup =
         [ "WebBrowser", "d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html", "d6/d60/classFurryPotato_1_1Services_1_1WebBrowser" ]
       ] ],
       [ "Utils", "dd/de3/namespaceFurryPotato_1_1Utils.html", [
+        [ "UI", "d0/d99/namespaceFurryPotato_1_1Utils_1_1UI.html", [
+          [ "Characters", "dd/d96/namespaceFurryPotato_1_1Utils_1_1UI_1_1Characters.html", [
+            [ "Example", "d2/d11/classFurryPotato_1_1Utils_1_1UI_1_1Characters_1_1Example.html", "d2/d11/classFurryPotato_1_1Utils_1_1UI_1_1Characters_1_1Example" ]
+          ] ],
+          [ "DialogueLines", "db/da9/namespaceFurryPotato_1_1Utils_1_1UI_1_1DialogueLines.html", [
+            [ "Line1", "da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html", "da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1" ]
+          ] ],
+          [ "Dialogues", "de/d5c/namespaceFurryPotato_1_1Utils_1_1UI_1_1Dialogues.html", [
+            [ "IDialogueCharacter", "d8/d68/interfaceFurryPotato_1_1Utils_1_1UI_1_1Dialogues_1_1IDialogueCharacter.html", "d8/d68/interfaceFurryPotato_1_1Utils_1_1UI_1_1Dialogues_1_1IDialogueCharacter" ]
+          ] ],
+          [ "Dialogue", "d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html", "d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue" ],
+          [ "DialogueLine", "d9/d0d/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLine.html", "d9/d0d/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLine" ],
+          [ "Thoughts", "d1/d57/classFurryPotato_1_1Utils_1_1UI_1_1Thoughts.html", null ]
+        ] ],
         [ "OptionItem", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem" ]
       ] ],
       [ "Core", "d0/d9d/classFurryPotato_1_1Core.html", "d0/d9d/classFurryPotato_1_1Core" ]

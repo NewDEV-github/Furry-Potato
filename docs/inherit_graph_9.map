@@ -1,4 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d1/dc3/classShopItemBase.html" title="Abstract base class for all shop items" coords="5,5,112,31"/>
-<area shape="rect" id="node2" href="$d1/d44/classShopItemHeadphones.html" title="Class for &quot;Casual headphones&quot; item" coords="160,5,309,31"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,31,57,57"/>
+<area shape="rect" id="Node000001" href="$d0/d9d/classFurryPotato_1_1Core.html" title="Core game class." alt="" coords="139,5,260,32"/>
+<area shape="poly" id="edge21_Node000000_Node000001" title=" " alt="" coords="71,35,138,25,139,30,72,41"/>
+<area shape="rect" id="Node000002" href="$d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html" title="Class for handling dialogues." alt="" coords="105,56,294,83"/>
+<area shape="poly" id="edge22_Node000000_Node000002" title=" " alt="" coords="72,47,107,53,106,58,71,53"/>
 </map>

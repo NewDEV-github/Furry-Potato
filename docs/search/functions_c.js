@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['testcore_0',['TestCore',['../d0/d9d/classFurryPotato_1_1Core.html#aaa0e85e8cf34d61ba9ceaac37c3ed269',1,'FurryPotato::Core']]],
-  ['title_1',['Title',['../da/db8/classNewDEVSharp_1_1Utils_1_1MP3_1_1DataTags.html#a50bd72c1b312c72210129d65d0ab8693',1,'NewDEVSharp.Utils.MP3.DataTags.Title()'],['../de/d1b/classNewDEVSharp_1_1Utils_1_1OGG_1_1DataTags.html#a6a8f9495a2ffbd7b769c8fe8ef856556',1,'NewDEVSharp.Utils.OGG.DataTags.Title()'],['../d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html#a6337fdfc87dc209f30bddc9d418dac80',1,'NewDEVSharp.Utils.WAV.DataTags.Title()']]]
+  ['register_0',['Register',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a5419a35d5cafa719233dcdd0dc0274b1',1,'NewDEVSharp::User::Auth']]],
+  ['request_1',['Request',['../db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#add36f688e903101754739dd26de2bbce',1,'NewDEVSharp.Server.Auth.Request()'],['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#ac91f1a88a845c8514f01ef757edd88f4',1,'NewDEVSharp.Server.BaseServer.Request()'],['../d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html#aeaef433471487161f55dcfeb809cda7c',1,'NewDEVSharp.Server.DataBase.Request()']]]
 ];

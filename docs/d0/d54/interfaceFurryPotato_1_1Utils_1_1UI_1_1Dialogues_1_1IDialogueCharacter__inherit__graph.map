@@ -1,0 +1,5 @@
+<map id="FurryPotato.Utils.UI.Dialogues.IDialogueCharacter" name="FurryPotato.Utils.UI.Dialogues.IDialogueCharacter">
+<area shape="rect" id="Node000001" title="Interface for base character class." alt="" coords="8,5,209,48"/>
+<area shape="rect" id="Node000002" href="$d2/d11/classFurryPotato_1_1Utils_1_1UI_1_1Characters_1_1Example.html" title="Example character derived from IDialogueCharacter." alt="" coords="5,96,212,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,63,111,96,106,96,106,63"/>
+</map>

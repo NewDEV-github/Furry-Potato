@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['register_0',['Register',['../de/d43/classNewDEVSharp_1_1User_1_1Auth.html#a5419a35d5cafa719233dcdd0dc0274b1',1,'NewDEVSharp::User::Auth']]],
-  ['request_1',['Request',['../db/d85/classNewDEVSharp_1_1Server_1_1Auth.html#add36f688e903101754739dd26de2bbce',1,'NewDEVSharp.Server.Auth.Request()'],['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#ac91f1a88a845c8514f01ef757edd88f4',1,'NewDEVSharp.Server.BaseServer.Request()'],['../d7/d42/classNewDEVSharp_1_1Server_1_1DataBase.html#aeaef433471487161f55dcfeb809cda7c',1,'NewDEVSharp.Server.DataBase.Request()']]]
+  ['oncontinuegamebuttonpressed_0',['OnContinueGameButtonPressed',['../da/d20/classFurryPotato_1_1Main_1_1MainMenu.html#a38bffb5b59f59e07f5388c19f7235e58',1,'FurryPotato::Main::MainMenu']]],
+  ['onexitbuttonpressed_1',['OnExitButtonPressed',['../da/d20/classFurryPotato_1_1Main_1_1MainMenu.html#af287c2d81d805737c07c4d6078baf5eb',1,'FurryPotato::Main::MainMenu']]],
+  ['onloadgamebuttonpressed_2',['OnLoadGameButtonPressed',['../da/d20/classFurryPotato_1_1Main_1_1MainMenu.html#a48249910b07fda51f380166ed3909cb3',1,'FurryPotato::Main::MainMenu']]],
+  ['onoptionsbuttonpressed_3',['OnOptionsButtonPressed',['../da/d20/classFurryPotato_1_1Main_1_1MainMenu.html#a8be304fcb9c48447dbaea25e4baf893c',1,'FurryPotato::Main::MainMenu']]],
+  ['onstartnewgamebuttonpressed_4',['OnStartNewGameButtonPressed',['../da/d20/classFurryPotato_1_1Main_1_1MainMenu.html#aeba3a5a2de490ddad9ed4e7b16302c14',1,'FurryPotato::Main::MainMenu']]],
+  ['openwebbrowser_5',['OpenWebBrowser',['../d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html#a2212d48b0841f3d5d891ee693fa91db3',1,'FurryPotato::Services::WebBrowser']]]
 ];

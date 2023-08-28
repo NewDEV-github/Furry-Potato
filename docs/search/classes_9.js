@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['webbrowser_0',['WebBrowser',['../d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html',1,'FurryPotato::Services']]]
+  ['thoughts_0',['Thoughts',['../d1/d57/classFurryPotato_1_1Utils_1_1UI_1_1Thoughts.html',1,'FurryPotato::Utils::UI']]]
 ];

@@ -28,6 +28,7 @@ public partial class Core : Node {
     /// </example>
     /// @todo Add more tests
     /// @bug While logging into New DEV account, game crashes. Related to SSL certificate
+    /// @note User should be logged in ASAP, after the game starts
     public bool TestCore() {
         return true;
     }

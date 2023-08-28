@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jsontostringdict_0',['JsonToStringDict',['../d9/d83/classNewDEVSharp_1_1Server_1_1BaseServer.html#a872aa00783e9f6b0f4a15e5fc0c19f05',1,'NewDEVSharp::Server::BaseServer']]]
+  ['handlechoice_0',['HandleChoice',['../d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#a144a15d762cd5f5f72c09f87c1538041',1,'FurryPotato::Utils::UI::Dialogue']]]
 ];

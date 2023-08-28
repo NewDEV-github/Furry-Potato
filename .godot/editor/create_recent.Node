@@ -1,9 +1,13 @@
+ItemList
+VBoxContainer
+PopupPanel
+Control
+Window
+RichTextLabel
 CheckBox
 Label
 Button
 HBoxContainer
-Control
 BoxContainer
-VBoxContainer
 TextureRect
 VideoStreamPlayer

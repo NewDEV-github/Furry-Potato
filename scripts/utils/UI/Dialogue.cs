@@ -22,7 +22,26 @@ namespace FurryPotato.Utils.UI;
 /// @todo Handle characters
 /// @todo Handle character validation
 /// @attention This is still under development and might be unstable. There might be a lot of work with that
-public partial class Dialogue : Node {
+public partial class Dialogue : Control {
+
+    /// <summary>
+    /// Signal emitted when dialogue ends
+    /// </summary>
+    [Signal]
+    public delegate void DialogueEndedEventHandler(string dialogueName);
+
+    /// <summary>
+    /// Signal emitted when dialogue starts
+    /// </summary>
+    [Signal]
+    public delegate void DialogueStartedEventHandler();
+
+    /// <summary>
+    /// Signal emitted when player presses enter or space
+    /// </summary>
+    [Signal]
+    public delegate void EnterPressedEventHandler();
+
     /// <summary>
     ///     Array of all available characters
     /// </summary>
@@ -34,45 +53,68 @@ public partial class Dialogue : Node {
     private int _currentLineIndex;
 
     /// <summary>
-    ///     Array of dialogues that are currently active
+    ///     Rich text array that displays the text
     /// </summary>
-    private readonly IEnumerable<DialogueLine> _lines = Array.Empty<DialogueLine>();
+    private RichTextLabel _dialogueText;
+
+    /// <summary>
+    /// Panel for choices
+    /// </summary>
+    private PopupPanel _choicesPanel;
+
+    /// <summary>
+    /// Container for choices
+    /// </summary>
+    private ItemList _choicesContainer;
+
+    /// <summary>
+    /// Current dialogue line
+    /// </summary>
+    private DialogueLine _currentDialogueLine;
 
     /// <summary>
     ///     Method called when the node enters the scene tree for the first time.
     /// </summary>
     /// @todo Add dialogues from their classes to _lines array
-    public override void _Ready() { }
+    public override void _Ready() {
+        Hide();
+        _dialogueText = GetNode<RichTextLabel>("Text");
+        _choicesPanel = GetNode<PopupPanel>("ChoicesPanel");
+        _choicesContainer = GetNode<ItemList>("ChoicesPanel/ChoicesContainer");
+        _choicesPanel.Hide();
+    }
+
+
+    /// <summary>
+    ///     Handles pressing keys on the dialogue
+    /// </summary>
+    /// <param name="event">InputEvent instance</param>
+    public override void _Input(InputEvent @event) {
+        if (@event.IsActionPressed("ui_accept") && _dialogueText.Visible)
+            EmitSignal(nameof(EnterPressed));
+    }
 
     /// <summary>
     ///     Checks if dialogue can be played and if so, plays it
     /// </summary>
     /// <param name="dialogueLine">Name of the dialogue</param>
-    /// <exception cref="NotImplementedException">Exception thrown when invalid value is passed</exception>
     /// @todo Handle dialogue playing
     public void StartDialogue(DialogueLine dialogueLine) {
-        if (_lines.Contains(dialogueLine)) {
-            IEnumerable<IDialogueCharacter> charactersInDialogue = Array.Empty<IDialogueCharacter>();
-            charactersInDialogue = dialogueLine.Characters
-                .Aggregate(charactersInDialogue,
-                    (current1, character) => _characters.Where(character2 => character2.Name == character)
-                        .Aggregate(current1, (current, character2) => current.Append(character2)));
-            DisplayLineByLine(dialogueLine, charactersInDialogue);
-        }
-        else {
-            throw new NotImplementedException("Dialogue with name " + dialogueLine.Name + " does not exist!");
-        }
+        _currentDialogueLine = dialogueLine;
+        Show();
+        EmitSignal(nameof(DialogueStarted));
+         DisplayLineByLine(dialogueLine);
     }
 
     /// <summary>
-    ///     This method handles player's choice and continues dialogue
+    ///     This method handles player's choice and starts another part of dialogue based on the choice
     /// </summary>
-    /// <param name="dialogueLine">Dialogue line</param>
     /// <param name="choice">Choice name/id</param>
     /// @todo Handle choices
-    public void HandleChoice(DialogueLine dialogueLine, string choice) {
-        var choices =
-            dialogueLine.Choices;
+    public void HandleChoice(int choice) {
+        if (_currentDialogueLine.Name == "R1S1_MAIN") {
+            EndDialogue();
+        }
     }
 
     /// <summary>
@@ -81,28 +123,45 @@ public partial class Dialogue : Node {
     /// <param name="dialogueLine">Dialogue to get the choices from</param>
     /// <param name="currentLine">Current line of the dialogue</param>
     /// @todo Handle choice displaying
-    public void ShowChoicesAfterCurrentLine(DialogueLine dialogueLine, int currentLine) {
-        var choices = dialogueLine.Choices[currentLine];
+    private void ShowChoicesAfterCurrentLine(DialogueLine dialogueLine, int currentLine) {
+        var choices = dialogueLine.Choices;
+        foreach (var choice in choices) {
+            foreach (var choiceName in choice.Value) {
+                _choicesContainer.AddItem(choiceName.Value);
+            }
+        }
+        _choicesPanel.PopupCentered();
+        _dialogueText.Hide();
     }
 
     /// <summary>
     ///     Method used to display one dialogue line
     /// </summary>
     /// <param name="dialogueLine">Dialogue to get lines from</param>
-    /// <param name="charsInDialogue">List of characters in dialogue</param>
-    public void DisplayLineByLine(DialogueLine dialogueLine, IEnumerable<IDialogueCharacter> charsInDialogue) {
+    private async void DisplayLineByLine(DialogueLine dialogueLine) {
         var lines = dialogueLine.Lines;
         var currentLineNumber = 0;
         foreach (var line in lines) {
-            var characterName = line.Key;
-            IDialogueCharacter character;
-            foreach (var c in charsInDialogue)
-                if (c.Name == characterName)
-                    character = c;
+            _dialogueText.Show();
+            string characterName = "";
+            if (dialogueLine.Characters.Count == 1) {
+                characterName = dialogueLine.Characters[0];
+            }
+            else {
+                var lineId = line.Key;
+                characterName = lineId != "CHOICE" ? dialogueLine.Characters[lineId.ToInt()] : "CHOICE";
+                characterName = lineId != "END" ? dialogueLine.Characters[lineId.ToInt()] : "END";
+            }
             var text = line.Value;
             currentLineNumber++;
-            if (characterName == "CHOICE" && text == "CHOICE")
+            if (characterName == "CHOICE" || text == "CHOICE")
                 ShowChoicesAfterCurrentLine(dialogueLine, currentLineNumber);
+            else
+                _dialogueText.Text = characterName + ": " + text;
+            await ToSignal(this, "EnterPressed");
+            if (characterName == "END" || text == "END") {
+                EndDialogue();
+            }
         }
     }
 
@@ -110,5 +169,9 @@ public partial class Dialogue : Node {
     ///     Ends dialogue
     /// </summary>
     /// @todo Handle ending dialogue
-    public void EndDialogue() { }
+    public void EndDialogue() {
+        Hide();
+        EmitSignal(nameof(DialogueEnded), _currentDialogueLine.Name);
+        _currentDialogueLine = null;
+    }
 }

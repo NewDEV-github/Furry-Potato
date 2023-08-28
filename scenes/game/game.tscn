@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bsfoxfo4725c6"]
+
+[ext_resource type="Script" path="res://scripts/game/Game.cs" id="1_6lf8a"]
+[ext_resource type="PackedScene" uid="uid://3hddndobwwms" path="res://scenes/utils/Dialogue.tscn" id="1_7eg3g"]
+
+[node name="game" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6lf8a")
+
+[node name="Dialogue" parent="." instance=ExtResource("1_7eg3g")]
+layout_mode = 1

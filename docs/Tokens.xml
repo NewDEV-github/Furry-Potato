@@ -155,6 +155,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FurryPotato::Game::Game</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FurryPotato.Game.Game</Scope>
+    </TokenIdentifier>
+    <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>FurryPotato::Utils::UI::Dialogues::IDialogueCharacter</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -236,6 +245,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FurryPotato::Utils::UI::DialogueLines::R1S1::R1S1_MAIN</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FurryPotato::Utils::UI::DialogueLines::R1S1::R1S2_MAIN</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>FurryPotato::Utils::UI::Thoughts</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -269,6 +296,15 @@
       <Scope>FurryPotato</Scope>
     </TokenIdentifier>
     <Path>de/d6d/namespaceFurryPotato.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FurryPotato::Game</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>FurryPotato::Game</Scope>
+    </TokenIdentifier>
+    <Path>d5/d75/namespaceFurryPotato_1_1Game.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -323,6 +359,15 @@
       <Scope>FurryPotato::Utils::UI::DialogueLines</Scope>
     </TokenIdentifier>
     <Path>db/da9/namespaceFurryPotato_1_1Utils_1_1UI_1_1DialogueLines.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FurryPotato::Utils::UI::DialogueLines::R1S1</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>ns</Type>
+      <Scope>FurryPotato::Utils::UI::DialogueLines::R1S1</Scope>
+    </TokenIdentifier>
+    <Path>d5/d6a/namespaceFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -459,6 +504,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_choicesContainer</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
+    </TokenIdentifier>
+    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+    <Anchor>adcae40ae3bc1ddb264a7c7dfb756db46</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_choicesPanel</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
+    </TokenIdentifier>
+    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+    <Anchor>a3de9ca9876a76931b5b1e3569b5a8e2a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_currentDialogueLine</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
+    </TokenIdentifier>
+    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+    <Anchor>aae05c59d5e62c7739ffdba0702daf6e4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_currentLineIndex</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -486,6 +561,26 @@
     </TokenIdentifier>
     <Path>de/d43/classNewDEVSharp_1_1User_1_1Auth.html</Path>
     <Anchor>aad131bd3184693b3cb55b10220af4cfb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_dialogue</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Game.Game</Scope>
+    </TokenIdentifier>
+    <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+    <Anchor>a3e7fcba9b2fb90f90db0b47bfbda35a5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_dialogueText</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
+    </TokenIdentifier>
+    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+    <Anchor>adfbaaca7425b7cf1c51014c5517d0da0</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -519,6 +614,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_Input</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
+    </TokenIdentifier>
+    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+    <Anchor>a0d19db595020522537960ec030f79f25</Anchor>
+    <DeclaredIn>Dialogue.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_isTrueOrFalse</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -536,16 +642,6 @@
     </TokenIdentifier>
     <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
     <Anchor>a3ae0c96d4d408fdb4169bf6a6b71fe33</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_lines</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>data</Type>
-      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
-    </TokenIdentifier>
-    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-    <Anchor>a863ffc069103b023f5acc1bb8eb31182</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -586,6 +682,28 @@
     </TokenIdentifier>
     <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
     <Anchor>a22748ccc07f04f0bb0be9af9c3ff15b6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Process</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Game.Game</Scope>
+    </TokenIdentifier>
+    <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+    <Anchor>a52f120c344774b68d24c1d8eb94101d8</Anchor>
+    <DeclaredIn>Game.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Game.Game</Scope>
+    </TokenIdentifier>
+    <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+    <Anchor>a87b4f4b28072fad0939341a7c551c9d7</Anchor>
+    <DeclaredIn>Game.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -768,6 +886,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Characters</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+    <Anchor>afed9f877b2bcf68383c392900fc73b02</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Characters</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+    <Anchor>aca364bbebfeb1197c7ae1554cef57aff</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CheckToken</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -796,6 +934,26 @@
     </TokenIdentifier>
     <Path>da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html</Path>
     <Anchor>a71da2f7b39492983b5b9aa064cacb140</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Choices</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+    <Anchor>a6c90664ab5770a27b771a933286994dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Choices</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+    <Anchor>a8608a20a145fb5b655fe9c51274cc69b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1213,6 +1371,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DialogueEndedEventHandler</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
+    </TokenIdentifier>
+    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+    <Anchor>aafa615f8879ee50bfef7b72205afd55e</Anchor>
+    <DeclaredIn>Dialogue.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogueStartedEventHandler</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
+    </TokenIdentifier>
+    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+    <Anchor>a98824da3fbd5f3fc656ba1eaf54a4849</Anchor>
+    <DeclaredIn>Dialogue.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DictToJson</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1230,7 +1410,7 @@
       <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
     </TokenIdentifier>
     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-    <Anchor>a0289aea03ba7700b2d0b47a3940efb5d</Anchor>
+    <Anchor>aeab7ecb8ce775796192535690f14b6dd</Anchor>
     <DeclaredIn>Dialogue.cs</DeclaredIn>
   </Token>
   <Token>
@@ -1262,6 +1442,17 @@
     </TokenIdentifier>
     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
     <Anchor>aaf3e2d02b752cf732dacedf593e8933d</Anchor>
+    <DeclaredIn>Dialogue.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EnterPressedEventHandler</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
+    </TokenIdentifier>
+    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+    <Anchor>a1faa5d7edf648e410c9ccccad40189f1</Anchor>
     <DeclaredIn>Dialogue.cs</DeclaredIn>
   </Token>
   <Token>
@@ -1357,7 +1548,7 @@
       <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
     </TokenIdentifier>
     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-    <Anchor>a144a15d762cd5f5f72c09f87c1538041</Anchor>
+    <Anchor>a18746020448faf2b724b2968c3293ed0</Anchor>
     <DeclaredIn>Dialogue.cs</DeclaredIn>
   </Token>
   <Token>
@@ -1469,6 +1660,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Lines</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+    <Anchor>a8bc067f6d11f243cb051340338bdbf35</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Lines</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+    <Anchor>a245a0f6d2ef995dba9bcf1d990e9d849</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>LoadDLCDataFromPath</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1539,6 +1750,26 @@
     </TokenIdentifier>
     <Path>da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html</Path>
     <Anchor>a86e73de1fe359853d7cbbe075ae61212</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Name</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+    <Anchor>a9af3d2c5257756b0ce9df8c621796598</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Name</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN</Scope>
+    </TokenIdentifier>
+    <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+    <Anchor>a4990a12766eb1d1f49c187e31654f4c7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

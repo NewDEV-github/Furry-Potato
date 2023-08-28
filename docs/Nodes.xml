@@ -26,6 +26,33 @@
             <Path>de/d6d/namespaceFurryPotato.html</Path>
           <Subnodes>
              <Node>
+              <Name>Game</Name>
+              <Path>d5/d75/namespaceFurryPotato_1_1Game.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Game</Name>
+                <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>_Process</Name>
+                  <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                  <Anchor>a52f120c344774b68d24c1d8eb94101d8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_Ready</Name>
+                  <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                  <Anchor>a87b4f4b28072fad0939341a7c551c9d7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_dialogue</Name>
+                  <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                  <Anchor>a3e7fcba9b2fb90f90db0b47bfbda35a5</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Main</Name>
               <Path>d3/dac/namespaceFurryPotato_1_1Main.html</Path>
             <Subnodes>
@@ -191,6 +218,64 @@
                   <Path>db/da9/namespaceFurryPotato_1_1Utils_1_1UI_1_1DialogueLines.html</Path>
                 <Subnodes>
                    <Node>
+                    <Name>R1S1</Name>
+                    <Path>d5/d6a/namespaceFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>R1S1_MAIN</Name>
+                      <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>Characters</Name>
+                        <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                        <Anchor>afed9f877b2bcf68383c392900fc73b02</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Choices</Name>
+                        <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                        <Anchor>a6c90664ab5770a27b771a933286994dc</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Lines</Name>
+                        <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                        <Anchor>a8bc067f6d11f243cb051340338bdbf35</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Name</Name>
+                        <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                        <Anchor>a9af3d2c5257756b0ce9df8c621796598</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
+                      <Name>R1S2_MAIN</Name>
+                      <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>Characters</Name>
+                        <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                        <Anchor>aca364bbebfeb1197c7ae1554cef57aff</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Choices</Name>
+                        <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                        <Anchor>a8608a20a145fb5b655fe9c51274cc69b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Lines</Name>
+                        <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                        <Anchor>a245a0f6d2ef995dba9bcf1d990e9d849</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Name</Name>
+                        <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                        <Anchor>a4990a12766eb1d1f49c187e31654f4c7</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
                     <Name>Line1</Name>
                     <Path>da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html</Path>
                   <Subnodes>
@@ -240,14 +325,29 @@
                   <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                 <Subnodes>
                    <Node>
+                    <Name>_Input</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a0d19db595020522537960ec030f79f25</Anchor>
+                   </Node>
+                   <Node>
                     <Name>_Ready</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                     <Anchor>acd02e0793d252a1668790ca92332a09a</Anchor>
                    </Node>
                    <Node>
+                    <Name>DialogueEndedEventHandler</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>aafa615f8879ee50bfef7b72205afd55e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DialogueStartedEventHandler</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a98824da3fbd5f3fc656ba1eaf54a4849</Anchor>
+                   </Node>
+                   <Node>
                     <Name>DisplayLineByLine</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-                    <Anchor>a0289aea03ba7700b2d0b47a3940efb5d</Anchor>
+                    <Anchor>aeab7ecb8ce775796192535690f14b6dd</Anchor>
                    </Node>
                    <Node>
                     <Name>EndDialogue</Name>
@@ -255,9 +355,14 @@
                     <Anchor>aaf3e2d02b752cf732dacedf593e8933d</Anchor>
                    </Node>
                    <Node>
+                    <Name>EnterPressedEventHandler</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a1faa5d7edf648e410c9ccccad40189f1</Anchor>
+                   </Node>
+                   <Node>
                     <Name>HandleChoice</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-                    <Anchor>a144a15d762cd5f5f72c09f87c1538041</Anchor>
+                    <Anchor>a18746020448faf2b724b2968c3293ed0</Anchor>
                    </Node>
                    <Node>
                     <Name>ShowChoicesAfterCurrentLine</Name>
@@ -275,14 +380,29 @@
                     <Anchor>ad596db0fe976111baf7add6235ea5d21</Anchor>
                    </Node>
                    <Node>
+                    <Name>_choicesContainer</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>adcae40ae3bc1ddb264a7c7dfb756db46</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_choicesPanel</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a3de9ca9876a76931b5b1e3569b5a8e2a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_currentDialogueLine</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>aae05c59d5e62c7739ffdba0702daf6e4</Anchor>
+                   </Node>
+                   <Node>
                     <Name>_currentLineIndex</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                     <Anchor>a7e6fae573152bac96e80e66e48763ad4</Anchor>
                    </Node>
                    <Node>
-                    <Name>_lines</Name>
+                    <Name>_dialogueText</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-                    <Anchor>a863ffc069103b023f5acc1bb8eb31182</Anchor>
+                    <Anchor>adfbaaca7425b7cf1c51014c5517d0da0</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -1030,6 +1150,33 @@
             <Path>de/d6d/namespaceFurryPotato.html</Path>
           <Subnodes>
              <Node>
+              <Name>Game</Name>
+              <Path>d5/d75/namespaceFurryPotato_1_1Game.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Game</Name>
+                <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>_Process</Name>
+                  <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                  <Anchor>a52f120c344774b68d24c1d8eb94101d8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_Ready</Name>
+                  <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                  <Anchor>a87b4f4b28072fad0939341a7c551c9d7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_dialogue</Name>
+                  <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                  <Anchor>a3e7fcba9b2fb90f90db0b47bfbda35a5</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Main</Name>
               <Path>d3/dac/namespaceFurryPotato_1_1Main.html</Path>
             <Subnodes>
@@ -1195,6 +1342,64 @@
                   <Path>db/da9/namespaceFurryPotato_1_1Utils_1_1UI_1_1DialogueLines.html</Path>
                 <Subnodes>
                    <Node>
+                    <Name>R1S1</Name>
+                    <Path>d5/d6a/namespaceFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>R1S1_MAIN</Name>
+                      <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>Characters</Name>
+                        <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                        <Anchor>afed9f877b2bcf68383c392900fc73b02</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Choices</Name>
+                        <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                        <Anchor>a6c90664ab5770a27b771a933286994dc</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Lines</Name>
+                        <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                        <Anchor>a8bc067f6d11f243cb051340338bdbf35</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Name</Name>
+                        <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                        <Anchor>a9af3d2c5257756b0ce9df8c621796598</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
+                      <Name>R1S2_MAIN</Name>
+                      <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>Characters</Name>
+                        <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                        <Anchor>aca364bbebfeb1197c7ae1554cef57aff</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Choices</Name>
+                        <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                        <Anchor>a8608a20a145fb5b655fe9c51274cc69b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Lines</Name>
+                        <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                        <Anchor>a245a0f6d2ef995dba9bcf1d990e9d849</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>Name</Name>
+                        <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                        <Anchor>a4990a12766eb1d1f49c187e31654f4c7</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
                     <Name>Line1</Name>
                     <Path>da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html</Path>
                   <Subnodes>
@@ -1244,14 +1449,29 @@
                   <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                 <Subnodes>
                    <Node>
+                    <Name>_Input</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a0d19db595020522537960ec030f79f25</Anchor>
+                   </Node>
+                   <Node>
                     <Name>_Ready</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                     <Anchor>acd02e0793d252a1668790ca92332a09a</Anchor>
                    </Node>
                    <Node>
+                    <Name>DialogueEndedEventHandler</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>aafa615f8879ee50bfef7b72205afd55e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DialogueStartedEventHandler</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a98824da3fbd5f3fc656ba1eaf54a4849</Anchor>
+                   </Node>
+                   <Node>
                     <Name>DisplayLineByLine</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-                    <Anchor>a0289aea03ba7700b2d0b47a3940efb5d</Anchor>
+                    <Anchor>aeab7ecb8ce775796192535690f14b6dd</Anchor>
                    </Node>
                    <Node>
                     <Name>EndDialogue</Name>
@@ -1259,9 +1479,14 @@
                     <Anchor>aaf3e2d02b752cf732dacedf593e8933d</Anchor>
                    </Node>
                    <Node>
+                    <Name>EnterPressedEventHandler</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a1faa5d7edf648e410c9ccccad40189f1</Anchor>
+                   </Node>
+                   <Node>
                     <Name>HandleChoice</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-                    <Anchor>a144a15d762cd5f5f72c09f87c1538041</Anchor>
+                    <Anchor>a18746020448faf2b724b2968c3293ed0</Anchor>
                    </Node>
                    <Node>
                     <Name>ShowChoicesAfterCurrentLine</Name>
@@ -1279,14 +1504,29 @@
                     <Anchor>ad596db0fe976111baf7add6235ea5d21</Anchor>
                    </Node>
                    <Node>
+                    <Name>_choicesContainer</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>adcae40ae3bc1ddb264a7c7dfb756db46</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_choicesPanel</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a3de9ca9876a76931b5b1e3569b5a8e2a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_currentDialogueLine</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>aae05c59d5e62c7739ffdba0702daf6e4</Anchor>
+                   </Node>
+                   <Node>
                     <Name>_currentLineIndex</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                     <Anchor>a7e6fae573152bac96e80e66e48763ad4</Anchor>
                    </Node>
                    <Node>
-                    <Name>_lines</Name>
+                    <Name>_dialogueText</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-                    <Anchor>a863ffc069103b023f5acc1bb8eb31182</Anchor>
+                    <Anchor>adfbaaca7425b7cf1c51014c5517d0da0</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2104,12 +2344,20 @@
             <Path></Path>
           <Subnodes>
              <Node>
+              <Name>FurryPotato.Game.Game</Name>
+              <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+             </Node>
+             <Node>
               <Name>FurryPotato.Main.MainMenu</Name>
               <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
              </Node>
              <Node>
               <Name>FurryPotato.Services.Options</Name>
               <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+             </Node>
+             <Node>
+              <Name>FurryPotato.Utils.UI.Dialogue</Name>
+              <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -2124,6 +2372,14 @@
              <Node>
               <Name>FurryPotato.Utils.UI.DialogueLines.Line1</Name>
               <Path>da/d40/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1Line1.html</Path>
+             </Node>
+             <Node>
+              <Name>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN</Name>
+              <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+             </Node>
+             <Node>
+              <Name>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN</Name>
+              <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -2158,10 +2414,6 @@
              <Node>
               <Name>FurryPotato.Core</Name>
               <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
-             </Node>
-             <Node>
-              <Name>FurryPotato.Utils.UI.Dialogue</Name>
-              <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -2996,6 +3248,39 @@
             <Path>dir_00ef2fdc01bf718bd06b69ae9490cb16.html</Path>
           <Subnodes>
              <Node>
+              <Name>game</Name>
+              <Path>dir_cda7e827f172d3c70b2cb8a61fa477c4.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>Game.cs</Name>
+                <Path>d4/da1/Game_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>FurryPotato.Game.Game</Name>
+                  <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>_Process</Name>
+                    <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                    <Anchor>a52f120c344774b68d24c1d8eb94101d8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_Ready</Name>
+                    <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                    <Anchor>a87b4f4b28072fad0939341a7c551c9d7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_dialogue</Name>
+                    <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
+                    <Anchor>a3e7fcba9b2fb90f90db0b47bfbda35a5</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>main</Name>
               <Path>dir_f1cc8c88a954f8fd590deb2d8856ca08.html</Path>
             <Subnodes>
@@ -3191,6 +3476,82 @@
                   <Path>dir_56a999c7a59da473873bc2b92a0fee50.html</Path>
                 <Subnodes>
                    <Node>
+                    <Name>R1S1</Name>
+                    <Path>dir_bb2e4fbc86a05c935d3a41e0c4bd6302.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>R1S1_MAIN.cs</Name>
+                      <Path>d2/dac/R1S1__MAIN_8cs.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN</Name>
+                        <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                      <Subnodes>
+                         <Node>
+                          <Name>Characters</Name>
+                          <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                          <Anchor>afed9f877b2bcf68383c392900fc73b02</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>Choices</Name>
+                          <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                          <Anchor>a6c90664ab5770a27b771a933286994dc</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>Lines</Name>
+                          <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                          <Anchor>a8bc067f6d11f243cb051340338bdbf35</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>Name</Name>
+                          <Path>de/dc9/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S1__MAIN.html</Path>
+                          <Anchor>a9af3d2c5257756b0ce9df8c621796598</Anchor>
+                         </Node>
+                        </Subnodes>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>R1S2</Name>
+                    <Path>dir_1245678e92f530fe240a4989d798cf97.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>R1S2_MAIN.cs</Name>
+                      <Path>d3/d31/R1S2__MAIN_8cs.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN</Name>
+                        <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                      <Subnodes>
+                         <Node>
+                          <Name>Characters</Name>
+                          <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                          <Anchor>aca364bbebfeb1197c7ae1554cef57aff</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>Choices</Name>
+                          <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                          <Anchor>a8608a20a145fb5b655fe9c51274cc69b</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>Lines</Name>
+                          <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                          <Anchor>a245a0f6d2ef995dba9bcf1d990e9d849</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>Name</Name>
+                          <Path>d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html</Path>
+                          <Anchor>a4990a12766eb1d1f49c187e31654f4c7</Anchor>
+                         </Node>
+                        </Subnodes>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
                     <Name>Line1.cs</Name>
                     <Path>d6/d90/Line1_8cs.html</Path>
                   <Subnodes>
@@ -3233,14 +3594,29 @@
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                   <Subnodes>
                      <Node>
+                      <Name>_Input</Name>
+                      <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                      <Anchor>a0d19db595020522537960ec030f79f25</Anchor>
+                     </Node>
+                     <Node>
                       <Name>_Ready</Name>
                       <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                       <Anchor>acd02e0793d252a1668790ca92332a09a</Anchor>
                      </Node>
                      <Node>
+                      <Name>DialogueEndedEventHandler</Name>
+                      <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                      <Anchor>aafa615f8879ee50bfef7b72205afd55e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>DialogueStartedEventHandler</Name>
+                      <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                      <Anchor>a98824da3fbd5f3fc656ba1eaf54a4849</Anchor>
+                     </Node>
+                     <Node>
                       <Name>DisplayLineByLine</Name>
                       <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-                      <Anchor>a0289aea03ba7700b2d0b47a3940efb5d</Anchor>
+                      <Anchor>aeab7ecb8ce775796192535690f14b6dd</Anchor>
                      </Node>
                      <Node>
                       <Name>EndDialogue</Name>
@@ -3248,9 +3624,14 @@
                       <Anchor>aaf3e2d02b752cf732dacedf593e8933d</Anchor>
                      </Node>
                      <Node>
+                      <Name>EnterPressedEventHandler</Name>
+                      <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                      <Anchor>a1faa5d7edf648e410c9ccccad40189f1</Anchor>
+                     </Node>
+                     <Node>
                       <Name>HandleChoice</Name>
                       <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-                      <Anchor>a144a15d762cd5f5f72c09f87c1538041</Anchor>
+                      <Anchor>a18746020448faf2b724b2968c3293ed0</Anchor>
                      </Node>
                      <Node>
                       <Name>ShowChoicesAfterCurrentLine</Name>
@@ -3268,14 +3649,29 @@
                       <Anchor>ad596db0fe976111baf7add6235ea5d21</Anchor>
                      </Node>
                      <Node>
+                      <Name>_choicesContainer</Name>
+                      <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                      <Anchor>adcae40ae3bc1ddb264a7c7dfb756db46</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_choicesPanel</Name>
+                      <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                      <Anchor>a3de9ca9876a76931b5b1e3569b5a8e2a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_currentDialogueLine</Name>
+                      <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                      <Anchor>aae05c59d5e62c7739ffdba0702daf6e4</Anchor>
+                     </Node>
+                     <Node>
                       <Name>_currentLineIndex</Name>
                       <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                       <Anchor>a7e6fae573152bac96e80e66e48763ad4</Anchor>
                      </Node>
                      <Node>
-                      <Name>_lines</Name>
+                      <Name>_dialogueText</Name>
                       <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
-                      <Anchor>a863ffc069103b023f5acc1bb8eb31182</Anchor>
+                      <Anchor>adfbaaca7425b7cf1c51014c5517d0da0</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>

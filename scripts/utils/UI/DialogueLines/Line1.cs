@@ -11,7 +11,7 @@ namespace FurryPotato.Utils.UI.DialogueLines;
 ///     Example dialogue line
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2023-09-28
+///     @date 2023-08-28
 /// </summary>
 /// <seealso cref="DialogueLine" />
 public class Line1 : DialogueLine {

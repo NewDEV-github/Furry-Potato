@@ -9,7 +9,7 @@
                 Core game class
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
         </member>
         <member name="M:FurryPotato.Core.TestCore">
@@ -38,17 +38,33 @@
                 Main game class
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-28
+                @date 2023-08-28
             </summary>
             <seealso cref="T:Godot.Control" />
+        </member>
+        <member name="M:FurryPotato.Game.Game._Ready">
+            <summary>
+                Setups the game
+            </summary>
         </member>
         <member name="T:FurryPotato.Main.MainMenu">
             <summary>
                 Class of game's main menu
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
+        </member>
+        <member name="F:FurryPotato.Main.MainMenu._newGameCreator">
+            <summary>
+                New game creator popup
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Main.MainMenu._options">
+            <summary>
+                Options panel
+            </summary>
+            <seealso cref="T:FurryPotato.Services.Options" />
         </member>
         <member name="M:FurryPotato.Main.MainMenu._Ready">
             <summary>
@@ -60,8 +76,6 @@
         <member name="M:FurryPotato.Main.MainMenu.OnStartNewGameButtonPressed">
             <summary>
                 Method called when "Start new game" button was pressed. Shows popup for new game name and starts a new game
-                @todo Add popup for new game name
-                @todo Add new game start
             </summary>
         </member>
         <member name="M:FurryPotato.Main.MainMenu.OnContinueGameButtonPressed">
@@ -81,7 +95,6 @@
                 Method called when "Options" button was pressed. Shows option menu
             </summary>
             <seealso cref="T:FurryPotato.Services.Options" />
-            @todo Add options menu
         </member>
         <member name="M:FurryPotato.Main.MainMenu.OnExitButtonPressed">
             <summary>
@@ -89,12 +102,57 @@
             </summary>
             @bug It really, really works 🥺
         </member>
+        <member name="T:FurryPotato.Main.NewGameCreator">
+            <summary>
+                Popup panel for creating new game
+                @copyright New DEV
+                @author DoS
+                @date 2023-08-30
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Main.NewGameCreator._characterName">
+            <summary>
+                LineEdit of the character name
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Main.NewGameCreator._errorLabel">
+            <summary>
+                Label to display naming errors
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Main.NewGameCreator._saveName">
+            <summary>
+                LineEdit of the save name
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Main.NewGameCreator._Ready">
+            <summary>
+                Initializes class
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Main.NewGameCreator.OnGoButtonPressed">
+            <summary>
+                Executed by the "Go!" button
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Main.NewGameCreator.OnCancelButtonPressed">
+            <summary>
+                Executed by the "Cancel" button
+            </summary>
+        </member>
+        <member name="M:FurryPotato.Main.NewGameCreator.ValidateInput(System.String)">
+            <summary>
+                Method that validates input
+            </summary>
+            <param name="text">Text to be checked</param>
+            <returns>Boolean</returns>
+        </member>
         <member name="T:FurryPotato.Services.Email">
             <summary>
                 Class for handling email service
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
             @todo Add methods for receiving emails and reading their data for specific target email
         </member>
@@ -117,7 +175,7 @@
                 Service for handling game options
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
         </member>
         <member name="F:FurryPotato.Services.Options._fullscreen">
@@ -192,7 +250,7 @@
                 Class for handling web browser service
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
         </member>
         <member name="M:FurryPotato.Services.WebBrowser.OpenWebBrowser(System.String)">
@@ -209,15 +267,8 @@
                 Class for handling option item's
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
-        </member>
-        <member name="F:FurryPotato.Utils.OptionItem._isTrueOrFalse">
-            <summary>
-                If is only true/false, then treat values as booleans not strings
-            </summary>
-            @todo Add option for volume types
-            @todo Add slider handling
         </member>
         <member name="F:FurryPotato.Utils.OptionItem._optionName">
             <summary>
@@ -231,7 +282,17 @@
         </member>
         <member name="F:FurryPotato.Utils.OptionItem._optionValueLabel">
             <summary>
-            Label used for displaying the value of option
+                Label used for displaying the value of option
+            </summary>
+        </member>
+        <member name="P:FurryPotato.Utils.OptionItem.IsTrueOrFalse">
+            <summary>
+                If is only true/false, then treat values as booleans not strings
+            </summary>
+        </member>
+        <member name="P:FurryPotato.Utils.OptionItem.IsVolume">
+            <summary>
+                If is volume, then treat values as volume not strings
             </summary>
         </member>
         <member name="M:FurryPotato.Utils.OptionItem._Ready">
@@ -270,7 +331,7 @@
                 Example character derived from IDialogueCharacter
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
             <seealso cref="T:FurryPotato.Utils.UI.Dialogues.IDialogueCharacter" />
         </member>
@@ -284,7 +345,7 @@
                 Class for handling dialogues
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
             @todo Create dialogue's UI
             @todo Handle dialogue lines
@@ -294,17 +355,17 @@
         </member>
         <member name="T:FurryPotato.Utils.UI.Dialogue.DialogueEndedEventHandler">
             <summary>
-            Signal emitted when dialogue ends
+                Signal emitted when dialogue ends
             </summary>
         </member>
         <member name="T:FurryPotato.Utils.UI.Dialogue.DialogueStartedEventHandler">
             <summary>
-            Signal emitted when dialogue starts
+                Signal emitted when dialogue starts
             </summary>
         </member>
         <member name="T:FurryPotato.Utils.UI.Dialogue.EnterPressedEventHandler">
             <summary>
-            Signal emitted when player presses enter or space
+                Signal emitted when player presses enter or space
             </summary>
         </member>
         <member name="F:FurryPotato.Utils.UI.Dialogue._characters">
@@ -312,29 +373,34 @@
                 Array of all available characters
             </summary>
         </member>
+        <member name="F:FurryPotato.Utils.UI.Dialogue._choicesContainer">
+            <summary>
+                Container for choices
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Utils.UI.Dialogue._choicesPanel">
+            <summary>
+                Panel for choices
+            </summary>
+        </member>
+        <member name="F:FurryPotato.Utils.UI.Dialogue._currentDialogueLine">
+            <summary>
+                Current dialogue line
+            </summary>
+        </member>
         <member name="F:FurryPotato.Utils.UI.Dialogue._currentLineIndex">
             <summary>
                 Index of current line
             </summary>
         </member>
+        <member name="F:FurryPotato.Utils.UI.Dialogue._dialogueCharacterName">
+            <summary>
+                Label that displays character name in dialogues
+            </summary>
+        </member>
         <member name="F:FurryPotato.Utils.UI.Dialogue._dialogueText">
             <summary>
                 Rich text array that displays the text
-            </summary>
-        </member>
-        <member name="F:FurryPotato.Utils.UI.Dialogue._choicesPanel">
-            <summary>
-            Panel for choices
-            </summary>
-        </member>
-        <member name="F:FurryPotato.Utils.UI.Dialogue._choicesContainer">
-            <summary>
-            Container for choices
-            </summary>
-        </member>
-        <member name="F:FurryPotato.Utils.UI.Dialogue._currentDialogueLine">
-            <summary>
-            Current dialogue line
             </summary>
         </member>
         <member name="M:FurryPotato.Utils.UI.Dialogue._Ready">
@@ -381,7 +447,6 @@
             <summary>
                 Ends dialogue
             </summary>
-            @todo Handle ending dialogue
         </member>
         <member name="E:FurryPotato.Utils.UI.Dialogue.DialogueEnded">
             <inheritdoc cref="T:FurryPotato.Utils.UI.Dialogue.DialogueEndedEventHandler"/>
@@ -397,7 +462,7 @@
                 Interface for base character class
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
         </member>
         <member name="P:FurryPotato.Utils.UI.Dialogues.IDialogueCharacter.Name">
@@ -410,7 +475,7 @@
                 Interface for base dialogue line classes
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
         </member>
         <member name="P:FurryPotato.Utils.UI.DialogueLine.Name">
@@ -439,7 +504,7 @@
                 Example dialogue line
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-28
+                @date 2023-08-28
             </summary>
             <seealso cref="T:FurryPotato.Utils.UI.DialogueLine" />
         </member>
@@ -468,7 +533,7 @@
             <summary>
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-28
+                @date 2023-08-28
             </summary>
         </member>
         <member name="P:FurryPotato.Utils.UI.DialogueLines.R1S1.R1S1_MAIN.Name">
@@ -492,12 +557,40 @@
                 dictionary of choices.
             </summary>
         </member>
+        <member name="T:FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN">
+            <summary>
+                @copyright New DEV
+                @author DoS
+                @date 2023-08-28
+            </summary>
+        </member>
+        <member name="P:FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN.Name">
+            <summary>
+                Name of this dialogue line
+            </summary>
+        </member>
+        <member name="P:FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN.Characters">
+            <summary>
+                Array of characters in the dialogue line
+            </summary>
+        </member>
+        <member name="P:FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN.Lines">
+            <summary>
+                Dictionary of lines in the dialogue line. Key is the character name, value is the line.
+            </summary>
+        </member>
+        <member name="P:FurryPotato.Utils.UI.DialogueLines.R1S1.R1S2_MAIN.Choices">
+            <summary>
+                Choices: Dictionary of choices in the dialogue line. Key is the line after the choice will appear, value is the
+                dictionary of choices.
+            </summary>
+        </member>
         <member name="T:FurryPotato.Utils.UI.Thoughts">
             <summary>
                 Class for handling thoughts
                 @copyright New DEV
                 @author DoS
-                @date 2023-09-27
+                @date 2023-08-27
             </summary>
         </member>
     </members>

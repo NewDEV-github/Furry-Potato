@@ -11,7 +11,7 @@ namespace FurryPotato.Services;
 ///     Service for handling game options
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2023-09-27
+///     @date 2023-08-27
 /// </summary>
 public partial class Options : Control {
     /// <summary>
@@ -38,6 +38,10 @@ public partial class Options : Control {
     ///     Volume
     /// </summary>
     private int _volume = 100;
+
+    public override void _Ready() {
+        // LoadOptions();
+    }
 
     /// <summary>
     ///     Method for setting resolution

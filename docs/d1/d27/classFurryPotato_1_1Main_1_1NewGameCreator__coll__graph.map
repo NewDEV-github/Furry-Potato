@@ -1,0 +1,5 @@
+<map id="FurryPotato.Main.NewGameCreator" name="FurryPotato.Main.NewGameCreator">
+<area shape="rect" id="Node000001" title="Popup panel for creating new game." alt="" coords="5,80,191,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="52,5,144,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,47,101,80,95,80,95,47"/>
+</map>

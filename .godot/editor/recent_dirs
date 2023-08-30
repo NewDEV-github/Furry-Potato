@@ -1,3 +1,5 @@
+res://scripts/main
+res://scenes/main
 res://scripts/game
 res://scripts/utils/UI
 res://scripts/services
@@ -6,7 +8,5 @@ D:/GitHub/GameBuilds/FurryPotato/win_64_mono/debug
 res://
 res://scenes
 res://assets/Graphics/ProtogenThings
-res://scripts/main
-res://scenes/main
 res://assets/Graphics
 res://assets/audio/bg

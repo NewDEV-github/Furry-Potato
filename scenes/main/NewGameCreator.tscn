@@ -1,0 +1,67 @@
+[gd_scene load_steps=2 format=3 uid="uid://i77x45f5bwyc"]
+
+[ext_resource type="Script" path="res://scripts/main/NewGameCreator.cs" id="1_ck62d"]
+
+[node name="NewGameCreator" type="PopupPanel"]
+title = "New Game"
+size = Vector2i(400, 200)
+visible = true
+script = ExtResource("1_ck62d")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 396.0
+offset_bottom = 196.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Container" type="VBoxContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 66.0
+grow_horizontal = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="SaveName" type="LineEdit" parent="Control/Container"]
+layout_mode = 2
+size_flags_vertical = 0
+placeholder_text = "Name of the save"
+
+[node name="CharacterName" type="LineEdit" parent="Control/Container"]
+layout_mode = 2
+placeholder_text = "Name of Your character"
+
+[node name="ErrorLabel" type="Label" parent="Control/Container"]
+self_modulate = Color(1, 0, 0, 1)
+layout_mode = 2
+
+[node name="Buttons" type="HBoxContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -31.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 8
+
+[node name="Go" type="Button" parent="Control/Buttons"]
+layout_mode = 2
+size_flags_horizontal = 15
+text = "Go!"
+
+[node name="Cancel" type="Button" parent="Control/Buttons"]
+layout_mode = 2
+size_flags_horizontal = 15
+text = "Cancel
+"
+
+[connection signal="pressed" from="Control/Buttons/Go" to="." method="OnGoButtonPressed"]
+[connection signal="pressed" from="Control/Buttons/Cancel" to="." method="OnCancelButtonPressed"]

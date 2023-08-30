@@ -10,7 +10,7 @@ namespace FurryPotato.Utils.UI;
 ///     Interface for base dialogue line classes
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2023-09-27
+///     @date 2023-08-27
 /// </summary>
 public abstract class DialogueLine {
     /// <summary>

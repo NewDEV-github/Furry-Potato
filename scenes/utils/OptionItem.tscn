@@ -13,7 +13,15 @@ layout_mode = 2
 text = "Option name"
 text_overrun_behavior = 3
 
+[node name="VolumeSlider" type="HSlider" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+min_value = -80.0
+max_value = 20.0
+
 [node name="CheckBox" type="CheckBox" parent="."]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 10
 

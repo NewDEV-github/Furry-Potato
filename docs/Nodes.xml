@@ -6,6 +6,62 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
+        <Name>Introduction</Name>
+        <Path>index.html</Path>
+        <Anchor>intro_sec</Anchor>
+      <Subnodes>
+         <Node>
+          <Name>About</Name>
+          <Path>index.html</Path>
+          <Anchor>intro_about_sec</Anchor>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Installation</Name>
+        <Path>index.html</Path>
+        <Anchor>install_sec</Anchor>
+      <Subnodes>
+         <Node>
+          <Name>Step 1: Cloning the repository</Name>
+          <Path>index.html</Path>
+          <Anchor>install_step1</Anchor>
+         </Node>
+         <Node>
+          <Name>Step 2: Installing Godot 4.0 Mono with .NET Framework 7.0</Name>
+          <Path>index.html</Path>
+          <Anchor>install_step2</Anchor>
+         </Node>
+         <Node>
+          <Name>Step 3: Opening the project</Name>
+          <Path>index.html</Path>
+          <Anchor>install_step3</Anchor>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Troubleshooting</Name>
+        <Path>index.html</Path>
+        <Anchor>troubleshooting_sec</Anchor>
+       </Node>
+       <Node>
+        <Name>Credits</Name>
+        <Path>index.html</Path>
+        <Anchor>credits_sec</Anchor>
+      <Subnodes>
+         <Node>
+          <Name>Developers</Name>
+          <Path>index.html</Path>
+          <Anchor>credits_devs_sec</Anchor>
+         </Node>
+         <Node>
+          <Name>Artists</Name>
+          <Path>index.html</Path>
+          <Anchor>credits_artists_sec</Anchor>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
         <Name>Todo List</Name>
         <Path>dd/da0/todo.html</Path>
        </Node>
@@ -33,11 +89,6 @@
                 <Name>Game</Name>
                 <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
               <Subnodes>
-                 <Node>
-                  <Name>_Process</Name>
-                  <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
-                  <Anchor>a52f120c344774b68d24c1d8eb94101d8</Anchor>
-                 </Node>
                  <Node>
                   <Name>_Ready</Name>
                   <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
@@ -90,6 +141,57 @@
                   <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
                   <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
                  </Node>
+                 <Node>
+                  <Name>_newGameCreator</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>ab54e9ff22ea5d44e7c108bcb1253e407</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_options</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>a2aaad7ff7b9a2fea924b1b940b23d224</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>NewGameCreator</Name>
+                <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>_Ready</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>a45ece187753af810b2af17559b27db7d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnCancelButtonPressed</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>adaa206f78bea56a545fc6f68c1fba3f1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnGoButtonPressed</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>aea39783f1396da4878abb0067f091e1c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ValidateInput</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>aa949ac5d9e0078a2bd3cda057ec92114</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_characterName</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>a4f66d01dc9a5cc326cf5a860a4ac6d3a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_errorLabel</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>ad49906a61e5e81dc9e9a0efda34cf85f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_saveName</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>a7bde02001f221afdc29c38166f0e4922</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
               </Subnodes>
@@ -118,6 +220,11 @@
                 <Name>Options</Name>
                 <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
               <Subnodes>
+                 <Node>
+                  <Name>_Ready</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a092a7e21e6aa1162b910c4f0f57ff018</Anchor>
+                 </Node>
                  <Node>
                   <Name>LoadOptions</Name>
                   <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
@@ -400,6 +507,11 @@
                     <Anchor>a7e6fae573152bac96e80e66e48763ad4</Anchor>
                    </Node>
                    <Node>
+                    <Name>_dialogueCharacterName</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a9cb74012bbbd55afe6c8cf6589c163a9</Anchor>
+                   </Node>
+                   <Node>
                     <Name>_dialogueText</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                     <Anchor>adfbaaca7425b7cf1c51014c5517d0da0</Anchor>
@@ -478,6 +590,11 @@
                   <Anchor>ad9cb7befa860f8558c7083b66993a534</Anchor>
                  </Node>
                  <Node>
+                  <Name>_isVolume</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a72daafed147fb620fa8c8e2a89f7cb1b</Anchor>
+                 </Node>
+                 <Node>
                   <Name>_optionName</Name>
                   <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
                   <Anchor>a2b55ddd0800923cbf5a9c7521d0105ee</Anchor>
@@ -496,6 +613,16 @@
                   <Name>_optionValueLabel</Name>
                   <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
                   <Anchor>a22748ccc07f04f0bb0be9af9c3ff15b6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>IsTrueOrFalse</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a2fac125ebbd0c974ea689d9badcfa039</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>IsVolume</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a983ae837b307851e9ab0e14c8b072bd0</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1158,11 +1285,6 @@
                 <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>_Process</Name>
-                  <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
-                  <Anchor>a52f120c344774b68d24c1d8eb94101d8</Anchor>
-                 </Node>
-                 <Node>
                   <Name>_Ready</Name>
                   <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
                   <Anchor>a87b4f4b28072fad0939341a7c551c9d7</Anchor>
@@ -1214,6 +1336,57 @@
                   <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
                   <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
                  </Node>
+                 <Node>
+                  <Name>_newGameCreator</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>ab54e9ff22ea5d44e7c108bcb1253e407</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_options</Name>
+                  <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                  <Anchor>a2aaad7ff7b9a2fea924b1b940b23d224</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>NewGameCreator</Name>
+                <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>_Ready</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>a45ece187753af810b2af17559b27db7d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnCancelButtonPressed</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>adaa206f78bea56a545fc6f68c1fba3f1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OnGoButtonPressed</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>aea39783f1396da4878abb0067f091e1c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ValidateInput</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>aa949ac5d9e0078a2bd3cda057ec92114</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_characterName</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>a4f66d01dc9a5cc326cf5a860a4ac6d3a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_errorLabel</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>ad49906a61e5e81dc9e9a0efda34cf85f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_saveName</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                  <Anchor>a7bde02001f221afdc29c38166f0e4922</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
               </Subnodes>
@@ -1242,6 +1415,11 @@
                 <Name>Options</Name>
                 <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
               <Subnodes>
+                 <Node>
+                  <Name>_Ready</Name>
+                  <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                  <Anchor>a092a7e21e6aa1162b910c4f0f57ff018</Anchor>
+                 </Node>
                  <Node>
                   <Name>LoadOptions</Name>
                   <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
@@ -1524,6 +1702,11 @@
                     <Anchor>a7e6fae573152bac96e80e66e48763ad4</Anchor>
                    </Node>
                    <Node>
+                    <Name>_dialogueCharacterName</Name>
+                    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                    <Anchor>a9cb74012bbbd55afe6c8cf6589c163a9</Anchor>
+                   </Node>
+                   <Node>
                     <Name>_dialogueText</Name>
                     <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                     <Anchor>adfbaaca7425b7cf1c51014c5517d0da0</Anchor>
@@ -1602,6 +1785,11 @@
                   <Anchor>ad9cb7befa860f8558c7083b66993a534</Anchor>
                  </Node>
                  <Node>
+                  <Name>_isVolume</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a72daafed147fb620fa8c8e2a89f7cb1b</Anchor>
+                 </Node>
+                 <Node>
                   <Name>_optionName</Name>
                   <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
                   <Anchor>a2b55ddd0800923cbf5a9c7521d0105ee</Anchor>
@@ -1620,6 +1808,16 @@
                   <Name>_optionValueLabel</Name>
                   <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
                   <Anchor>a22748ccc07f04f0bb0be9af9c3ff15b6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>IsTrueOrFalse</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a2fac125ebbd0c974ea689d9badcfa039</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>IsVolume</Name>
+                  <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                  <Anchor>a983ae837b307851e9ab0e14c8b072bd0</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -2414,6 +2612,16 @@
              <Node>
               <Name>FurryPotato.Core</Name>
               <Path>d0/d9d/classFurryPotato_1_1Core.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>PopupPanel</Name>
+            <Path></Path>
+          <Subnodes>
+             <Node>
+              <Name>FurryPotato.Main.NewGameCreator</Name>
+              <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -3260,11 +3468,6 @@
                   <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
                 <Subnodes>
                    <Node>
-                    <Name>_Process</Name>
-                    <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
-                    <Anchor>a52f120c344774b68d24c1d8eb94101d8</Anchor>
-                   </Node>
-                   <Node>
                     <Name>_Ready</Name>
                     <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
                     <Anchor>a87b4f4b28072fad0939341a7c551c9d7</Anchor>
@@ -3322,6 +3525,63 @@
                     <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
                     <Anchor>aeba3a5a2de490ddad9ed4e7b16302c14</Anchor>
                    </Node>
+                   <Node>
+                    <Name>_newGameCreator</Name>
+                    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                    <Anchor>ab54e9ff22ea5d44e7c108bcb1253e407</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_options</Name>
+                    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+                    <Anchor>a2aaad7ff7b9a2fea924b1b940b23d224</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>NewGameCreator.cs</Name>
+                <Path>d6/dc5/NewGameCreator_8cs.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>FurryPotato.Main.NewGameCreator</Name>
+                  <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                <Subnodes>
+                   <Node>
+                    <Name>_Ready</Name>
+                    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                    <Anchor>a45ece187753af810b2af17559b27db7d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>OnCancelButtonPressed</Name>
+                    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                    <Anchor>adaa206f78bea56a545fc6f68c1fba3f1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>OnGoButtonPressed</Name>
+                    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                    <Anchor>aea39783f1396da4878abb0067f091e1c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ValidateInput</Name>
+                    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                    <Anchor>aa949ac5d9e0078a2bd3cda057ec92114</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_characterName</Name>
+                    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                    <Anchor>a4f66d01dc9a5cc326cf5a860a4ac6d3a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_errorLabel</Name>
+                    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                    <Anchor>ad49906a61e5e81dc9e9a0efda34cf85f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_saveName</Name>
+                    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+                    <Anchor>a7bde02001f221afdc29c38166f0e4922</Anchor>
+                   </Node>
                   </Subnodes>
                  </Node>
                 </Subnodes>
@@ -3362,6 +3622,11 @@
                   <Name>FurryPotato.Services.Options</Name>
                   <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
                 <Subnodes>
+                   <Node>
+                    <Name>_Ready</Name>
+                    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+                    <Anchor>a092a7e21e6aa1162b910c4f0f57ff018</Anchor>
+                   </Node>
                    <Node>
                     <Name>LoadOptions</Name>
                     <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
@@ -3669,6 +3934,11 @@
                       <Anchor>a7e6fae573152bac96e80e66e48763ad4</Anchor>
                      </Node>
                      <Node>
+                      <Name>_dialogueCharacterName</Name>
+                      <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+                      <Anchor>a9cb74012bbbd55afe6c8cf6589c163a9</Anchor>
+                     </Node>
+                     <Node>
                       <Name>_dialogueText</Name>
                       <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
                       <Anchor>adfbaaca7425b7cf1c51014c5517d0da0</Anchor>
@@ -3782,6 +4052,11 @@
                     <Anchor>ad9cb7befa860f8558c7083b66993a534</Anchor>
                    </Node>
                    <Node>
+                    <Name>_isVolume</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a72daafed147fb620fa8c8e2a89f7cb1b</Anchor>
+                   </Node>
+                   <Node>
                     <Name>_optionName</Name>
                     <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
                     <Anchor>a2b55ddd0800923cbf5a9c7521d0105ee</Anchor>
@@ -3800,6 +4075,16 @@
                     <Name>_optionValueLabel</Name>
                     <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
                     <Anchor>a22748ccc07f04f0bb0be9af9c3ff15b6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IsTrueOrFalse</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a2fac125ebbd0c974ea689d9badcfa039</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IsVolume</Name>
+                    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+                    <Anchor>a983ae837b307851e9ab0e14c8b072bd0</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -3833,6 +4118,10 @@
                 </Subnodes>
                </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>MainDocPage.cs</Name>
+              <Path>dd/de7/MainDocPage_8cs.html</Path>
              </Node>
             </Subnodes>
            </Node>

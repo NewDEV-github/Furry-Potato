@@ -1,5 +1,6 @@
 var classFurryPotato_1_1Services_1_1Options =
 [
+    [ "_Ready", "de/d39/classFurryPotato_1_1Services_1_1Options.html#a092a7e21e6aa1162b910c4f0f57ff018", null ],
     [ "LoadOptions", "de/d39/classFurryPotato_1_1Services_1_1Options.html#a9e1be4a2fe6111434e31275b55e1e309", null ],
     [ "SaveOptions", "de/d39/classFurryPotato_1_1Services_1_1Options.html#a77724997c57dffb44a824bc8bd05c0f9", null ],
     [ "SetFullscreen", "de/d39/classFurryPotato_1_1Services_1_1Options.html#a603ded313cc3ba0acf998955b815db54", null ],

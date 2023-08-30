@@ -4,6 +4,6 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="693,29,660,29,660,24,693,24"/>
 <area shape="rect" id="Node000003" href="$d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#a84b5e33621c8b93c110c8f7f38568a6f" title="Checks if dialogue can be played and if so, plays it." alt="" coords="225,5,418,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="451,29,418,29,418,24,451,24"/>
-<area shape="rect" id="Node000004" href="$d3/d6a/classFurryPotato_1_1Game_1_1Game.html#a87b4f4b28072fad0939341a7c551c9d7" title=" " alt="" coords="5,5,177,48"/>
+<area shape="rect" id="Node000004" href="$d3/d6a/classFurryPotato_1_1Game_1_1Game.html#a87b4f4b28072fad0939341a7c551c9d7" title="Setups the game." alt="" coords="5,5,177,48"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="210,29,177,29,177,24,210,24"/>
 </map>

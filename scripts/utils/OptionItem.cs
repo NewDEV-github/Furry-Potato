@@ -1,6 +1,6 @@
 ﻿// // Furry Potato OptionItem.cs is under
 // // Copyright (c) of New DEV - 2023
-// //All rights reserved
+// // All rights reserved
 
 
 using System;
@@ -13,17 +13,14 @@ namespace FurryPotato.Utils;
 ///     Class for handling option item's
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2023-09-27
+///     @date 2023-08-27
 /// </summary>
 public partial class OptionItem : HBoxContainer {
     private int _currentOptionIndex;
 
-    /// <summary>
-    ///     If is only true/false, then treat values as booleans not strings
-    /// </summary>
-    /// @todo Add option for volume types
-    /// @todo Add slider handling
-    [Export] private bool _isTrueOrFalse;
+    private bool _isTrueOrFalse;
+
+    private bool _isVolume;
 
     /// <summary>
     ///     Option name
@@ -38,9 +35,34 @@ public partial class OptionItem : HBoxContainer {
     [Export] private Array<string> _options = new();
 
     /// <summary>
-    /// Label used for displaying the value of option
+    ///     Label used for displaying the value of option
     /// </summary>
     private Label _optionValueLabel;
+
+    /// <summary>
+    ///     If is only true/false, then treat values as booleans not strings
+    /// </summary>
+    [Export]
+    public bool IsTrueOrFalse {
+        set {
+            if (IsVolume) IsVolume = false;
+            _isTrueOrFalse = value;
+        }
+        get => _isTrueOrFalse;
+    }
+
+    /// <summary>
+    ///     If is volume, then treat values as volume not strings
+    /// </summary>
+    [Export]
+    public bool IsVolume {
+        set {
+            if (IsTrueOrFalse) IsTrueOrFalse = false;
+
+            _isVolume = value;
+        }
+        get => _isVolume;
+    }
 
     /// <summary>
     ///     Set ups option item
@@ -50,18 +72,24 @@ public partial class OptionItem : HBoxContainer {
         _optionValueLabel = GetNode<Label>("Options/OptionValue");
         var optionValueContainer = GetNode<HBoxContainer>("Options");
         var optionCheckbox = GetNode<CheckBox>("CheckBox");
+        var optionSlider = GetNode<HSlider>("VolumeSlider");
         _optionNameLabel.Text = _optionName;
-        _optionValueLabel.Text = _isTrueOrFalse ? "" : _options[_currentOptionIndex];
+        _optionValueLabel.Text = _isTrueOrFalse || _isVolume ? "" : _options[_currentOptionIndex];
         if (_isTrueOrFalse) {
             optionValueContainer.Hide();
             optionCheckbox.Show();
+            optionSlider.Hide();
+        }
+        else if (_isVolume) {
+            optionValueContainer.Hide();
+            optionCheckbox.Hide();
+            optionSlider.Show();
         }
         else {
             optionValueContainer.Show();
             optionCheckbox.Hide();
+            optionSlider.Hide();
         }
-
-        GD.Print("Item ready!");
     }
 
     /// <summary>

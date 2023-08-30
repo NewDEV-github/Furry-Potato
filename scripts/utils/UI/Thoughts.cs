@@ -9,6 +9,6 @@ namespace FurryPotato.Utils.UI;
 ///     Class for handling thoughts
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2023-09-27
+///     @date 2023-08-27
 /// </summary>
 public class Thoughts { }

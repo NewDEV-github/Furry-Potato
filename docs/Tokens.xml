@@ -227,6 +227,15 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FurryPotato::Main::NewGameCreator</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>cl</Type>
+      <Scope>FurryPotato.Main.NewGameCreator</Scope>
+    </TokenIdentifier>
+    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>FurryPotato::Utils::OptionItem</Name>
       <APILanguage>csharp</APILanguage>
       <Type>cl</Type>
@@ -494,6 +503,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_characterName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Main.NewGameCreator</Scope>
+    </TokenIdentifier>
+    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+    <Anchor>a4f66d01dc9a5cc326cf5a860a4ac6d3a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_characters</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -574,6 +593,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_dialogueCharacterName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.UI.Dialogue</Scope>
+    </TokenIdentifier>
+    <Path>d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html</Path>
+    <Anchor>a9cb74012bbbd55afe6c8cf6589c163a9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_dialogueText</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -601,6 +630,16 @@
     </TokenIdentifier>
     <Path>d9/d5d/classFurryPotato_1_1Services_1_1Email.html</Path>
     <Anchor>a84725077d8c0f559eed89ae4c1d86b4d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_errorLabel</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Main.NewGameCreator</Scope>
+    </TokenIdentifier>
+    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+    <Anchor>ad49906a61e5e81dc9e9a0efda34cf85f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -635,6 +674,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_isVolume</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a72daafed147fb620fa8c8e2a89f7cb1b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_language</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
@@ -642,6 +691,16 @@
     </TokenIdentifier>
     <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
     <Anchor>a3ae0c96d4d408fdb4169bf6a6b71fe33</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_newGameCreator</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+    <Anchor>ab54e9ff22ea5d44e7c108bcb1253e407</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -668,6 +727,16 @@
       <Name>_options</Name>
       <APILanguage>csharp</APILanguage>
       <Type>data</Type>
+      <Scope>FurryPotato.Main.MainMenu</Scope>
+    </TokenIdentifier>
+    <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
+    <Anchor>a2aaad7ff7b9a2fea924b1b940b23d224</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_options</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
       <Scope>FurryPotato.Utils.OptionItem</Scope>
     </TokenIdentifier>
     <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
@@ -682,17 +751,6 @@
     </TokenIdentifier>
     <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
     <Anchor>a22748ccc07f04f0bb0be9af9c3ff15b6</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_Process</Name>
-      <APILanguage>csharp</APILanguage>
-      <Type>instm</Type>
-      <Scope>FurryPotato.Game.Game</Scope>
-    </TokenIdentifier>
-    <Path>d3/d6a/classFurryPotato_1_1Game_1_1Game.html</Path>
-    <Anchor>a52f120c344774b68d24c1d8eb94101d8</Anchor>
-    <DeclaredIn>Game.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -715,6 +773,28 @@
     <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
     <Anchor>ac19ec7e6827fd407adb06fb00ff4c425</Anchor>
     <DeclaredIn>MainMenu.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Main.NewGameCreator</Scope>
+    </TokenIdentifier>
+    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+    <Anchor>a45ece187753af810b2af17559b27db7d</Anchor>
+    <DeclaredIn>NewGameCreator.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Ready</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Services.Options</Scope>
+    </TokenIdentifier>
+    <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
+    <Anchor>a092a7e21e6aa1162b910c4f0f57ff018</Anchor>
+    <DeclaredIn>Options.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -757,6 +837,16 @@
     </TokenIdentifier>
     <Path>de/d39/classFurryPotato_1_1Services_1_1Options.html</Path>
     <Anchor>a2dc8012dbce11ca9f849abc44b7e4c3a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_saveName</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>data</Type>
+      <Scope>FurryPotato.Main.NewGameCreator</Scope>
+    </TokenIdentifier>
+    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+    <Anchor>a7bde02001f221afdc29c38166f0e4922</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1629,6 +1719,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>IsTrueOrFalse</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a2fac125ebbd0c974ea689d9badcfa039</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>IsVolume</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instp</Type>
+      <Scope>FurryPotato.Utils.OptionItem</Scope>
+    </TokenIdentifier>
+    <Path>d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html</Path>
+    <Anchor>a983ae837b307851e9ab0e14c8b072bd0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>JsonToStringDict</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1783,6 +1893,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>OnCancelButtonPressed</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Main.NewGameCreator</Scope>
+    </TokenIdentifier>
+    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+    <Anchor>adaa206f78bea56a545fc6f68c1fba3f1</Anchor>
+    <DeclaredIn>NewGameCreator.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OnContinueGameButtonPressed</Name>
       <APILanguage>csharp</APILanguage>
       <Type>instm</Type>
@@ -1802,6 +1923,17 @@
     <Path>da/d20/classFurryPotato_1_1Main_1_1MainMenu.html</Path>
     <Anchor>af287c2d81d805737c07c4d6078baf5eb</Anchor>
     <DeclaredIn>MainMenu.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnGoButtonPressed</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>instm</Type>
+      <Scope>FurryPotato.Main.NewGameCreator</Scope>
+    </TokenIdentifier>
+    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+    <Anchor>aea39783f1396da4878abb0067f091e1c</Anchor>
+    <DeclaredIn>NewGameCreator.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2231,6 +2363,17 @@
     <Path>d9/d02/classNewDEVSharp_1_1Utils_1_1WAV_1_1DataTags.html</Path>
     <Anchor>a6337fdfc87dc209f30bddc9d418dac80</Anchor>
     <DeclaredIn>WAV/DataTags.cs</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ValidateInput</Name>
+      <APILanguage>csharp</APILanguage>
+      <Type>clm</Type>
+      <Scope>FurryPotato.Main.NewGameCreator</Scope>
+    </TokenIdentifier>
+    <Path>d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html</Path>
+    <Anchor>aa949ac5d9e0078a2bd3cda057ec92114</Anchor>
+    <DeclaredIn>NewGameCreator.cs</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

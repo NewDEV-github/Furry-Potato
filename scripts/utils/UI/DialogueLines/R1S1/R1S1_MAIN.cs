@@ -9,7 +9,7 @@ namespace FurryPotato.Utils.UI.DialogueLines.R1S1;
 /// <summary>
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2023-09-28
+///     @date 2023-08-28
 /// </summary>
 public class R1S1_MAIN : DialogueLine {
     /// <summary>

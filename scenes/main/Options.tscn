@@ -8,9 +8,21 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = -4.0
+offset_bottom = -4.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_bpdf2")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="List" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -37,9 +49,25 @@ _options = ["Value 1", "Value 2"]
 
 [node name="Option2" parent="List" instance=ExtResource("2_6e5n6")]
 layout_mode = 2
-_isTrueOrFalse = true
 _optionName = "SER"
 _options = ["Value 1", "Value 2"]
+
+[node name="Audio" type="Label" parent="List"]
+layout_mode = 2
+text = "Audio"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Option3" parent="List" instance=ExtResource("2_6e5n6")]
+layout_mode = 2
+_optionName = "Main Volume"
+IsVolume = true
+
+[node name="Option4" parent="List" instance=ExtResource("2_6e5n6")]
+layout_mode = 2
+_optionName = "Music Volume"
+_options = ["Value 1", "Value 2"]
+IsVolume = true
 
 [node name="Title" type="Label" parent="."]
 layout_mode = 1

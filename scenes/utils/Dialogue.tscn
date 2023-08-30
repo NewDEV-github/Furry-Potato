@@ -11,15 +11,35 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_h8y1r")
 
-[node name="Text" type="RichTextLabel" parent="."]
+[node name="Panel" type="Panel" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_top = 0.83
+anchor_top = 0.764
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = 0.159973
+offset_top = -0.072052
 grow_horizontal = 2
 grow_vertical = 0
+
+[node name="PanelContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = -5.0
+offset_bottom = -5.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CharacterName" type="Label" parent="Panel/PanelContainer"]
+layout_mode = 2
+
+[node name="Text" type="RichTextLabel" parent="Panel/PanelContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
 
 [node name="ChoicesPanel" type="PopupPanel" parent="."]
 size = Vector2i(300, 300)

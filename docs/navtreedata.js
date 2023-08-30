@@ -25,6 +25,19 @@
 var NAVTREE =
 [
   [ "Furry Potato", "index.html", [
+    [ "Introduction", "index.html#intro_sec", [
+      [ "About", "index.html#intro_about_sec", null ]
+    ] ],
+    [ "Installation", "index.html#install_sec", [
+      [ "Step 1: Cloning the repository", "index.html#install_step1", null ],
+      [ "Step 2: Installing Godot 4.0 Mono with .NET Framework 7.0", "index.html#install_step2", null ],
+      [ "Step 3: Opening the project", "index.html#install_step3", null ]
+    ] ],
+    [ "Troubleshooting", "index.html#troubleshooting_sec", null ],
+    [ "Credits", "index.html#credits_sec", [
+      [ "Developers", "index.html#credits_devs_sec", null ],
+      [ "Artists", "index.html#credits_artists_sec", null ]
+    ] ],
     [ "Todo List", "dd/da0/todo.html", null ],
     [ "Bug List", "de/da5/bug.html", null ],
     [ "Namespaces", "namespaces.html", [
@@ -55,8 +68,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#a98824da3fbd5f3fc656ba1eaf54a4849",
-"dir_a127b64610aae349fd914677a08df923.html"
+"d9/db0/classFurryPotato_1_1Utils_1_1UI_1_1DialogueLines_1_1R1S1_1_1R1S2__MAIN.html#aca364bbebfeb1197c7ae1554cef57aff",
+"de/d85/MP3_2DataTags_8cs_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

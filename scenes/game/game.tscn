@@ -14,3 +14,5 @@ script = ExtResource("1_6lf8a")
 
 [node name="Dialogue" parent="." instance=ExtResource("1_7eg3g")]
 layout_mode = 1
+
+[node name="UI" type="CanvasLayer" parent="."]

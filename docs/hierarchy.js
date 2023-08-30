@@ -42,6 +42,9 @@ var hierarchy =
     [ "Node", null, [
       [ "FurryPotato.Core", "d0/d9d/classFurryPotato_1_1Core.html", null ]
     ] ],
+    [ "PopupPanel", null, [
+      [ "FurryPotato.Main.NewGameCreator", "d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html", null ]
+    ] ],
     [ "FurryPotato.Utils.UI.Thoughts", "d1/d57/classFurryPotato_1_1Utils_1_1UI_1_1Thoughts.html", null ],
     [ "FurryPotato.Services.WebBrowser", "d6/d60/classFurryPotato_1_1Services_1_1WebBrowser.html", null ]
 ];

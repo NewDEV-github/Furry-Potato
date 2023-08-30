@@ -35,6 +35,10 @@ DoxygenAwesomeParagraphLink.init()
 <script type="text/javascript">
 DoxygenAwesomeInteractiveToc.init()
 </script>
+<script type="text/javascript" src="../../doxygen-awesome-tabs.js"></script>
+        <script type="text/javascript">
+            DoxygenAwesomeTabs.init()
+        </script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -110,6 +114,7 @@ $(document).ready(function(){initNavTree('d0/dd4/classFurryPotato_1_1Utils_1_1Op
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dc/df8/classFurryPotato_1_1Utils_1_1OptionItem-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">FurryPotato.Utils.OptionItem Class Reference</div></div>
@@ -161,13 +166,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aed54a1b8bd480a46acb02b0bd3891424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of this item.  <br /></td></tr>
 <tr class="separator:aed54a1b8bd480a46acb02b0bd3891424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a2fac125ebbd0c974ea689d9badcfa039"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a2fac125ebbd0c974ea689d9badcfa039">IsTrueOrFalse</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2fac125ebbd0c974ea689d9badcfa039"><td class="mdescLeft">&#160;</td><td class="mdescRight">If is only true/false, then treat values as booleans not strings.  <br /></td></tr>
+<tr class="separator:a2fac125ebbd0c974ea689d9badcfa039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a983ae837b307851e9ab0e14c8b072bd0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a983ae837b307851e9ab0e14c8b072bd0">IsVolume</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a983ae837b307851e9ab0e14c8b072bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If is volume, then treat values as volume not strings.  <br /></td></tr>
+<tr class="separator:a983ae837b307851e9ab0e14c8b072bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a74908ea0052d58447d44320ebb1020e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a74908ea0052d58447d44320ebb1020e5">_currentOptionIndex</a></td></tr>
 <tr class="separator:a74908ea0052d58447d44320ebb1020e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9cb7befa860f8558c7083b66993a534"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#ad9cb7befa860f8558c7083b66993a534">_isTrueOrFalse</a></td></tr>
-<tr class="memdesc:ad9cb7befa860f8558c7083b66993a534"><td class="mdescLeft">&#160;</td><td class="mdescRight">If is only true/false, then treat values as booleans not strings.  <br /></td></tr>
 <tr class="separator:ad9cb7befa860f8558c7083b66993a534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72daafed147fb620fa8c8e2a89f7cb1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a72daafed147fb620fa8c8e2a89f7cb1b">_isVolume</a></td></tr>
+<tr class="separator:a72daafed147fb620fa8c8e2a89f7cb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b55ddd0800923cbf5a9c7521d0105ee"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a2b55ddd0800923cbf5a9c7521d0105ee">_optionName</a> = &quot;&quot;</td></tr>
 <tr class="memdesc:a2b55ddd0800923cbf5a9c7521d0105ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Option name.  <br /></td></tr>
 <tr class="separator:a2b55ddd0800923cbf5a9c7521d0105ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,7 +199,7 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Class for handling option item's. </p>
 <dl class="section copyright"><dt>Copyright</dt><dd>New DEV </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>DoS </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2023-09-27 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2023-08-27 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00018">18</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -213,9 +228,9 @@ Private Attributes</h2></td></tr>
 
 <p>Set ups option item. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00048">48</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">70</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00026">FurryPotato.Utils.OptionItem._isTrueOrFalse</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00031">FurryPotato.Utils.OptionItem._optionName</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00033">FurryPotato.Utils.OptionItem._optionNameLabel</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00038">FurryPotato.Utils.OptionItem._options</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00043">FurryPotato.Utils.OptionItem._optionValueLabel</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00021">FurryPotato.Utils.OptionItem._isTrueOrFalse</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00023">FurryPotato.Utils.OptionItem._isVolume</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00028">FurryPotato.Utils.OptionItem._optionName</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00030">FurryPotato.Utils.OptionItem._optionNameLabel</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00035">FurryPotato.Utils.OptionItem._options</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00040">FurryPotato.Utils.OptionItem._optionValueLabel</a>.</p>
 
 </div>
 </div>
@@ -245,9 +260,9 @@ Private Attributes</h2></td></tr>
 <p>Gets value of this item. </p>
 <dl class="section return"><dt>Returns</dt><dd>Value</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00129">129</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00157">157</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00026">FurryPotato.Utils.OptionItem._isTrueOrFalse</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00038">FurryPotato.Utils.OptionItem._options</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00021">FurryPotato.Utils.OptionItem._isTrueOrFalse</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00035">FurryPotato.Utils.OptionItem._options</a>.</p>
 
 </div>
 </div>
@@ -276,9 +291,9 @@ Private Attributes</h2></td></tr>
 
 <p>Selects next option from option list. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00082">82</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00110">110</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00038">FurryPotato.Utils.OptionItem._options</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00035">FurryPotato.Utils.OptionItem._options</a>.</p>
 
 </div>
 </div>
@@ -307,9 +322,9 @@ Private Attributes</h2></td></tr>
 
 <p>Selects previous option from option list. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">70</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00098">98</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00038">FurryPotato.Utils.OptionItem._options</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00035">FurryPotato.Utils.OptionItem._options</a>.</p>
 
 </div>
 </div>
@@ -350,14 +365,14 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000015">Todo:</a></b></dt><dd><p class="startdd">Handle setting string values </p>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000012">Todo:</a></b></dt><dd><p class="startdd">Handle setting string values </p>
 <p class="enddd">Handle setting boolean values </p>
 </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>While saving, all values should be casted to string if needed, and vice-versa </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00099">99</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00127">127</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00026">FurryPotato.Utils.OptionItem._isTrueOrFalse</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00038">FurryPotato.Utils.OptionItem._options</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">FurryPotato.Utils.OptionItem._currentOptionIndex</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00021">FurryPotato.Utils.OptionItem._isTrueOrFalse</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00035">FurryPotato.Utils.OptionItem._options</a>.</p>
 
 </div>
 </div>
@@ -384,7 +399,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00019">19</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00048">FurryPotato.Utils.OptionItem._Ready()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00129">FurryPotato.Utils.OptionItem.GetValue()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00082">FurryPotato.Utils.OptionItem.SelectNextOption()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">FurryPotato.Utils.OptionItem.SelectPreviousOption()</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00099">FurryPotato.Utils.OptionItem.SetSpecificOption()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">FurryPotato.Utils.OptionItem._Ready()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00157">FurryPotato.Utils.OptionItem.GetValue()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00110">FurryPotato.Utils.OptionItem.SelectNextOption()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00098">FurryPotato.Utils.OptionItem.SelectPreviousOption()</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00127">FurryPotato.Utils.OptionItem.SetSpecificOption()</a>.</p>
 
 </div>
 </div>
@@ -408,14 +423,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>If is only true/false, then treat values as booleans not strings. </p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000014">Todo:</a></b></dt><dd><p class="startdd">Add option for volume types </p>
-<p class="enddd">Add slider handling </p>
-</dd></dl>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00021">21</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00026">26</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">FurryPotato.Utils.OptionItem._Ready()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00157">FurryPotato.Utils.OptionItem.GetValue()</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00127">FurryPotato.Utils.OptionItem.SetSpecificOption()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00048">FurryPotato.Utils.OptionItem._Ready()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00129">FurryPotato.Utils.OptionItem.GetValue()</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00099">FurryPotato.Utils.OptionItem.SetSpecificOption()</a>.</p>
+</div>
+</div>
+<a id="a72daafed147fb620fa8c8e2a89f7cb1b" name="a72daafed147fb620fa8c8e2a89f7cb1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72daafed147fb620fa8c8e2a89f7cb1b">&#9670;&#160;</a></span>_isVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FurryPotato.Utils.OptionItem._isVolume</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00023">23</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">FurryPotato.Utils.OptionItem._Ready()</a>.</p>
 
 </div>
 </div>
@@ -441,9 +477,9 @@ Private Attributes</h2></td></tr>
 
 <p>Option name. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00031">31</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00028">28</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00048">FurryPotato.Utils.OptionItem._Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">FurryPotato.Utils.OptionItem._Ready()</a>.</p>
 
 </div>
 </div>
@@ -467,9 +503,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00033">33</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00030">30</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00048">FurryPotato.Utils.OptionItem._Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">FurryPotato.Utils.OptionItem._Ready()</a>.</p>
 
 </div>
 </div>
@@ -495,9 +531,9 @@ Private Attributes</h2></td></tr>
 
 <p>Array of string options. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00038">38</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00035">35</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00048">FurryPotato.Utils.OptionItem._Ready()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00129">FurryPotato.Utils.OptionItem.GetValue()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00082">FurryPotato.Utils.OptionItem.SelectNextOption()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">FurryPotato.Utils.OptionItem.SelectPreviousOption()</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00099">FurryPotato.Utils.OptionItem.SetSpecificOption()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">FurryPotato.Utils.OptionItem._Ready()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00157">FurryPotato.Utils.OptionItem.GetValue()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00110">FurryPotato.Utils.OptionItem.SelectNextOption()</a>, <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00098">FurryPotato.Utils.OptionItem.SelectPreviousOption()</a>, and <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00127">FurryPotato.Utils.OptionItem.SetSpecificOption()</a>.</p>
 
 </div>
 </div>
@@ -523,9 +559,62 @@ Private Attributes</h2></td></tr>
 
 <p>Label used for displaying the value of option. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00043">43</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00040">40</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00048">FurryPotato.Utils.OptionItem._Ready()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00070">FurryPotato.Utils.OptionItem._Ready()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a2fac125ebbd0c974ea689d9badcfa039" name="a2fac125ebbd0c974ea689d9badcfa039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fac125ebbd0c974ea689d9badcfa039">&#9670;&#160;</a></span>IsTrueOrFalse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FurryPotato.Utils.OptionItem.IsTrueOrFalse</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If is only true/false, then treat values as booleans not strings. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00046">46</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
+
+</div>
+</div>
+<a id="a983ae837b307851e9ab0e14c8b072bd0" name="a983ae837b307851e9ab0e14c8b072bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983ae837b307851e9ab0e14c8b072bd0">&#9670;&#160;</a></span>IsVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FurryPotato.Utils.OptionItem.IsVolume</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If is volume, then treat values as volume not strings. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html#l00058">58</a> of file <a class="el" href="../../d4/d7e/OptionItem_8cs_source.html">OptionItem.cs</a>.</p>
 
 </div>
 </div>

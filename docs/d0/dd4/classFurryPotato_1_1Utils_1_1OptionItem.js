@@ -7,8 +7,11 @@ var classFurryPotato_1_1Utils_1_1OptionItem =
     [ "SetSpecificOption", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a252fe4dab167dbab75fcf9139e192565", null ],
     [ "_currentOptionIndex", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a74908ea0052d58447d44320ebb1020e5", null ],
     [ "_isTrueOrFalse", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#ad9cb7befa860f8558c7083b66993a534", null ],
+    [ "_isVolume", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a72daafed147fb620fa8c8e2a89f7cb1b", null ],
     [ "_optionName", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a2b55ddd0800923cbf5a9c7521d0105ee", null ],
     [ "_optionNameLabel", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a2603ef9016a7be5c970c1008cbe89eea", null ],
     [ "_options", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a362e46e90c655fd3a903f2fa832124c9", null ],
-    [ "_optionValueLabel", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a22748ccc07f04f0bb0be9af9c3ff15b6", null ]
+    [ "_optionValueLabel", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a22748ccc07f04f0bb0be9af9c3ff15b6", null ],
+    [ "IsTrueOrFalse", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a2fac125ebbd0c974ea689d9badcfa039", null ],
+    [ "IsVolume", "d0/dd4/classFurryPotato_1_1Utils_1_1OptionItem.html#a983ae837b307851e9ab0e14c8b072bd0", null ]
 ];

@@ -15,5 +15,6 @@ var classFurryPotato_1_1Utils_1_1UI_1_1Dialogue =
     [ "_choicesPanel", "d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#a3de9ca9876a76931b5b1e3569b5a8e2a", null ],
     [ "_currentDialogueLine", "d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#aae05c59d5e62c7739ffdba0702daf6e4", null ],
     [ "_currentLineIndex", "d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#a7e6fae573152bac96e80e66e48763ad4", null ],
+    [ "_dialogueCharacterName", "d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#a9cb74012bbbd55afe6c8cf6589c163a9", null ],
     [ "_dialogueText", "d9/dc5/classFurryPotato_1_1Utils_1_1UI_1_1Dialogue.html#adfbaaca7425b7cf1c51014c5517d0da0", null ]
 ];

@@ -5,7 +5,8 @@ var annotated_dup =
         [ "Game", "d3/d6a/classFurryPotato_1_1Game_1_1Game.html", "d3/d6a/classFurryPotato_1_1Game_1_1Game" ]
       ] ],
       [ "Main", "d3/dac/namespaceFurryPotato_1_1Main.html", [
-        [ "MainMenu", "da/d20/classFurryPotato_1_1Main_1_1MainMenu.html", "da/d20/classFurryPotato_1_1Main_1_1MainMenu" ]
+        [ "MainMenu", "da/d20/classFurryPotato_1_1Main_1_1MainMenu.html", "da/d20/classFurryPotato_1_1Main_1_1MainMenu" ],
+        [ "NewGameCreator", "d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator.html", "d5/d4a/classFurryPotato_1_1Main_1_1NewGameCreator" ]
       ] ],
       [ "Services", "d4/dca/namespaceFurryPotato_1_1Services.html", [
         [ "Email", "d9/d5d/classFurryPotato_1_1Services_1_1Email.html", "d9/d5d/classFurryPotato_1_1Services_1_1Email" ],

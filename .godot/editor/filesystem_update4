@@ -1,8 +1,9 @@
-res://default_bus_layout.tres
 res://default_env.tres
-res://scenes/game/game.tscn
-res://scenes/utils/Dialogue.tscn
 res://scenes/main/MainMenu.tscn
 res://scenes/Core.tscn
 res://scenes/main/Options.tscn
 res://scenes/utils/OptionItem.tscn
+res://scenes/game/game.tscn
+res://scenes/utils/Dialogue.tscn
+res://scenes/main/NewGameCreator.tscn
+res://assets/themes/new_gui/base_theme.tres

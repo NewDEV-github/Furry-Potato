@@ -3,6 +3,7 @@
 // //All rights reserved
 
 using System;
+using FurryPotato.Services;
 using Godot;
 
 namespace FurryPotato.Main;
@@ -11,15 +12,30 @@ namespace FurryPotato.Main;
 ///     Class of game's main menu
 ///     @copyright New DEV
 ///     @author DoS
-///     @date 2023-09-27
+///     @date 2023-08-27
 /// </summary>
 public partial class MainMenu : Control {
+    /// <summary>
+    ///     New game creator popup
+    /// </summary>
+    private NewGameCreator _newGameCreator;
+
+    /// <summary>
+    ///     Options panel
+    /// </summary>
+    /// <seealso cref="FurryPotato.Services.Options" />
+    private Options _options;
+
     /// <summary>
     ///     Loads data and prepares Main Menu
     /// </summary>
     /// <seealso cref="FurryPotato.Core" />
     /// <seealso cref="System.DateTime" />
     public override void _Ready() {
+        _newGameCreator = GetNode<NewGameCreator>("NewGameCreator");
+        _newGameCreator.Hide();
+        _options = GetNode<Options>("OptionsPopup");
+        _options.Hide();
         GD.Print("Ready!");
         GD.Print("Attempting to Test if Core works...");
         var core = GetNode<Core>("/root/Core");
@@ -32,11 +48,9 @@ public partial class MainMenu : Control {
 
     /// <summary>
     ///     Method called when "Start new game" button was pressed. Shows popup for new game name and starts a new game
-    ///     @todo Add popup for new game name
-    ///     @todo Add new game start
     /// </summary>
     public void OnStartNewGameButtonPressed() {
-        GD.Print("Starting new game...");
+        _newGameCreator.PopupCentered();
     }
 
     /// <summary>
@@ -59,9 +73,9 @@ public partial class MainMenu : Control {
     ///     Method called when "Options" button was pressed. Shows option menu
     /// </summary>
     /// <seealso cref="FurryPotato.Services.Options" />
-    /// @todo Add options menu
     public void OnOptionsButtonPressed() {
-        GD.Print("Showing options...");
+        _newGameCreator.Hide();
+        _options.Show();
     }
 
     /// <summary>
